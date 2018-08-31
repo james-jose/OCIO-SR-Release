@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2018-08-31 06:11:01">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</application>
+<application_name>OCIO SR User Favourite</application_name>
+<application_scope>x_215090_ocio_sr_u</application_scope>
+<application_version>1.0.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Application: OCIO SR User Favourite
+Created on: 2018-08-30
+Number of Update Sets Merged: 3</description>
+<inserted/>
+<name>OCIO SR 2018 08 30 b</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>6de827f8db90630022ce7a61399619dc</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-08-31 06:11:01</sys_created_on>
+<sys_id>49ee2bf8db90630022ce7a613996191f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-08-31 06:11:01</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_95756a614f0313006e76ff6f9310c7ea</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app"><sys_app action="INSERT_OR_UPDATE"><active>true</active><enforce_license>none</enforce_license><js_level>helsinki_es5</js_level><licensable>true</licensable><license_model>none</license_model><logo/><menu/><name>OCIO SR User Favourite</name><private>false</private><restrict_table_access>false</restrict_table_access><runtime_access_tracking>permissive</runtime_access_tracking><scope>x_215090_ocio_sr_u</scope><scoped_administration>false</scoped_administration><short_description/><source>x_215090_ocio_sr_u</source><store_correlation_id/><store_url/><sys_class_name>sys_app</sys_class_name><sys_code/><sys_created_by>admin</sys_created_by><sys_created_on>2018-07-02 05:27:09</sys_created_on><sys_id>95756a614f0313006e76ff6f9310c7ea</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-07-02 05:27:09</sys_updated_on><template/><trackable>true</trackable><user_role/><vendor/><vendor_prefix/><version>1.0.0</version></sys_app></record_update>]]></payload>
+<payload_hash>-1138543448</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 08 30 b">49ee2bf8db90630022ce7a613996191f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-08-31 06:11:01</sys_created_on>
+<sys_id>01ee2bf8db90630022ce7a6139961920</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1657ce3462d0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-08-31 06:11:01</sys_updated_on>
+<table/>
+<target_name>OCIO SR User Favourite</target_name>
+<type>Custom Application</type>
+<update_domain>global</update_domain>
+<update_guid>a5752e255c031300096d84e1c2e76801</update_guid>
+<update_guid_history>a5752e255c031300096d84e1c2e76801:-1138543448</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_215090_ocio_sr_u_favorite_item__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="Favorite Item" language="en" table="x_215090_ocio_sr_u_favorite_item"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>Favorite Item</label><language>en</language><name>x_215090_ocio_sr_u_favorite_item</name><plural>Favorite Items</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-07-20 21:28:29</sys_created_on><sys_id>471e2a234f9313006e76ff6f9310c7d6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Favorite Item</sys_name><sys_package display_value="OCIO SR User Favourite" source="x_215090_ocio_sr_u">95756a614f0313006e76ff6f9310c7ea</sys_package><sys_policy/><sys_scope display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</sys_scope><sys_update_name>sys_documentation_x_215090_ocio_sr_u_favorite_item__en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-07-20 21:28:29</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1288297884</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 08 30 b">49ee2bf8db90630022ce7a613996191f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-08-31 06:11:01</sys_created_on>
+<sys_id>01ee6fbcdb90630022ce7a61399619ea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1657ce346a00000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-08-31 06:11:01</sys_updated_on>
+<table>x_215090_ocio_sr_u_favorite_item</table>
+<target_name>Favorite Item</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>8f1e2a2322931300febcc05b538b57e3</update_guid>
+<update_guid_history>8f1e2a2322931300febcc05b538b57e3:1288297884,26ed2623869313004c59295d7262ac41:1658570548,c5f32a6b6c531300170d248d16c6a9d5:1288297884</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_761e2a234f9313006e76ff6f9310c7a8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-07-20 21:28:29</sys_created_on><sys_id>761e2a234f9313006e76ff6f9310c7a8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_215090_ocio_sr_u_favorite_item.x_215090_ocio_sr_u.favorite_item_user</sys_name><sys_package display_value="OCIO SR User Favourite" source="x_215090_ocio_sr_u">95756a614f0313006e76ff6f9310c7ea</sys_package><sys_policy/><sys_scope display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</sys_scope><sys_security_acl display_value="x_215090_ocio_sr_u_favorite_item">f21e2a234f9313006e76ff6f9310c7a5</sys_security_acl><sys_update_name>sys_security_acl_role_761e2a234f9313006e76ff6f9310c7a8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-07-20 21:28:29</sys_updated_on><sys_user_role display_value="x_215090_ocio_sr_u.favorite_item_user" name="x_215090_ocio_sr_u.favorite_item_user">a4f32a6b4f5313006e76ff6f9310c749</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1117602664</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 08 30 b">49ee2bf8db90630022ce7a613996191f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-08-31 06:11:01</sys_created_on>
+<sys_id>01ee6fbcdb90630022ce7a61399619ed</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1657ce346800000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-08-31 06:11:01</sys_updated_on>
+<table>x_215090_ocio_sr_u_favorite_item</table>
+<target_name>x_215090_ocio_sr_u_favorite_item.x_215090_ocio_sr_u.favorite_item_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>831e2a23d093130094117de4779194aa</update_guid>
+<update_guid_history>831e2a23d093130094117de4779194aa:-1117602664</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_031e2a234f9313006e76ff6f9310c7c1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-07-20 21:28:29</sys_created_on><sys_id>031e2a234f9313006e76ff6f9310c7c1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_215090_ocio_sr_u_favorite_item.x_215090_ocio_sr_u.favorite_item_user</sys_name><sys_package display_value="OCIO SR User Favourite" source="x_215090_ocio_sr_u">95756a614f0313006e76ff6f9310c7ea</sys_package><sys_policy/><sys_scope display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</sys_scope><sys_security_acl display_value="x_215090_ocio_sr_u_favorite_item">8f1e2a234f9313006e76ff6f9310c7bd</sys_security_acl><sys_update_name>sys_security_acl_role_031e2a234f9313006e76ff6f9310c7c1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-07-20 21:28:29</sys_updated_on><sys_user_role display_value="x_215090_ocio_sr_u.favorite_item_user" name="x_215090_ocio_sr_u.favorite_item_user">a4f32a6b4f5313006e76ff6f9310c749</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-592122872</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 08 30 b">49ee2bf8db90630022ce7a613996191f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-08-31 06:11:01</sys_created_on>
+<sys_id>05ee6fbcdb90630022ce7a61399619ec</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1657ce346920000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-08-31 06:11:01</sys_updated_on>
+<table>x_215090_ocio_sr_u_favorite_item</table>
+<target_name>x_215090_ocio_sr_u_favorite_item.x_215090_ocio_sr_u.favorite_item_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>4f1e2a230f93130098145e746e791ec2</update_guid>
+<update_guid_history>4f1e2a230f93130098145e746e791ec2:-592122872</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_8f1e2a234f9313006e76ff6f9310c7bd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_215090_ocio_sr_u_favorite_item</description><name>x_215090_ocio_sr_u_favorite_item</name><operation display_value="delete">delete</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-07-20 21:28:29</sys_created_on><sys_id>8f1e2a234f9313006e76ff6f9310c7bd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_215090_ocio_sr_u_favorite_item</sys_name><sys_package display_value="OCIO SR User Favourite" source="x_215090_ocio_sr_u">95756a614f0313006e76ff6f9310c7ea</sys_package><sys_policy/><sys_scope display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</sys_scope><sys_update_name>sys_security_acl_8f1e2a234f9313006e76ff6f9310c7bd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-07-20 21:28:29</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1993713143</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 08 30 b">49ee2bf8db90630022ce7a613996191f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-08-31 06:11:01</sys_created_on>
+<sys_id>09ee6fbcdb90630022ce7a61399619eb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1657ce3468e0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-08-31 06:11:01</sys_updated_on>
+<table>x_215090_ocio_sr_u_favorite_item</table>
+<target_name>x_215090_ocio_sr_u_favorite_item</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>4f1e2a239f931300463a46137774c3bf</update_guid>
+<update_guid_history>4f1e2a239f931300463a46137774c3bf:1993713143</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_215090_ocio_sr_u_favorite_item_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_215090_ocio_sr_u_favorite_item"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;x_215090_ocio_sr_u_favorite_item&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-07-20 21:28:29&lt;/sys_created_on&gt;&lt;sys_id&gt;8f1e2a234f9313006e76ff6f9310c7c3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_215090_ocio_sr_u_favorite_item&lt;/sys_name&gt;&lt;sys_package display_value="OCIO SR User Favourite" source="x_215090_ocio_sr_u"&gt;95756a614f0313006e76ff6f9310c7ea&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="OCIO SR User Favourite"&gt;95756a614f0313006e76ff6f9310c7ea&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_215090_ocio_sr_u_favorite_item_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-07-20 21:28:29&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-366273757</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 08 30 b">49ee2bf8db90630022ce7a613996191f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-08-31 06:11:01</sys_created_on>
+<sys_id>0dee2bf8db90630022ce7a6139961920</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1657ce3469b0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-08-31 06:11:01</sys_updated_on>
+<table>x_215090_ocio_sr_u_favorite_item</table>
+<target_name>Favorite Item</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>471e2a23f4931300b6815fd7b565d6e2</update_guid>
+<update_guid_history>471e2a23f4931300b6815fd7b565d6e2:-366273757,03ed2623ee931300d24cb4330f91ead2:545880815,8df32a6b395313007444e7e284ef56d3:-366273757</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_30f32a6b4f5313006e76ff6f9310c776</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="DELETE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_215090_ocio_sr_u_favorite_item</description><name>x_215090_ocio_sr_u_favorite_item</name><operation display_value="create">create</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-07-20 20:44:06</sys_created_on><sys_id>30f32a6b4f5313006e76ff6f9310c776</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_215090_ocio_sr_u_favorite_item</sys_name><sys_package display_value="OCIO SR User Favourite" source="x_215090_ocio_sr_u">95756a614f0313006e76ff6f9310c7ea</sys_package><sys_policy/><sys_scope display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</sys_scope><sys_update_name>sys_security_acl_30f32a6b4f5313006e76ff6f9310c776</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-07-20 20:44:06</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-1352721015</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 08 30 b">49ee2bf8db90630022ce7a613996191f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-08-31 06:11:01</sys_created_on>
+<sys_id>0dee6fbcdb90630022ce7a61399619ea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1657ce346430000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-08-31 06:11:01</sys_updated_on>
+<table>x_215090_ocio_sr_u_favorite_item</table>
+<target_name>x_215090_ocio_sr_u_favorite_item</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>e2ed2623aa931300a2aa3dc257b6bc4c</update_guid>
+<update_guid_history>e2ed2623aa931300a2aa3dc257b6bc4c:-1352721015,38f32a6bc55313005a43df7ed0978078:468656405</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_4f804f2f4f9313006e76ff6f9310c7cc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="4f804f2f4f9313006e76ff6f9310c7cc" sys_domain="global" table="x_215090_ocio_sr_u_favorite_item" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>group_name</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2018-07-20 22:49:03</sys_created_on><sys_id>cf808f2f4f9313006e76ff6f9310c7f3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_215090_ocio_sr_u_favorite_item" sys_domain="global" view="Default view">4f804f2f4f9313006e76ff6f9310c7cc</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-07-20 22:49:03</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>user</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2018-07-20 22:49:03</sys_created_on><sys_id>c7808f2f4f9313006e76ff6f9310c7f4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_215090_ocio_sr_u_favorite_item" sys_domain="global" view="Default view">4f804f2f4f9313006e76ff6f9310c7cc</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-07-20 22:49:03</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>item_sys_id</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2018-07-20 22:49:03</sys_created_on><sys_id>4b808f2f4f9313006e76ff6f9310c7f4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_215090_ocio_sr_u_favorite_item" sys_domain="global" view="Default view">4f804f2f4f9313006e76ff6f9310c7cc</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-07-20 22:49:03</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_215090_ocio_sr_u_favorite_item</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-07-20 22:49:02</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4f804f2f4f9313006e76ff6f9310c7cc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_215090_ocio_sr_u_favorite_item</sys_name><sys_overrides/><sys_package display_value="OCIO SR User Favourite" source="x_215090_ocio_sr_u">95756a614f0313006e76ff6f9310c7ea</sys_package><sys_policy/><sys_scope display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</sys_scope><sys_update_name>sys_ui_section_4f804f2f4f9313006e76ff6f9310c7cc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-07-20 22:49:02</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>-442803030</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 08 30 b">49ee2bf8db90630022ce7a613996191f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-08-31 06:11:01</sys_created_on>
+<sys_id>0dee6fbcdb90630022ce7a61399619ed</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1657ce4e82d0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-08-31 06:11:01</sys_updated_on>
+<table>x_215090_ocio_sr_u_favorite_item</table>
+<target_name>Favorite Item</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>cb808f2fa193130092bec3c9599cb4f5</update_guid>
+<update_guid_history>cb808f2fa193130092bec3c9599cb4f5:-442803030,0b804f2f7593130032f5b33b586c2bcf:1962766185</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_f21e2a234f9313006e76ff6f9310c7a5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_215090_ocio_sr_u_favorite_item</description><name>x_215090_ocio_sr_u_favorite_item</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-07-20 21:28:29</sys_created_on><sys_id>f21e2a234f9313006e76ff6f9310c7a5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_215090_ocio_sr_u_favorite_item</sys_name><sys_package display_value="OCIO SR User Favourite" source="x_215090_ocio_sr_u">95756a614f0313006e76ff6f9310c7ea</sys_package><sys_policy/><sys_scope display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</sys_scope><sys_update_name>sys_security_acl_f21e2a234f9313006e76ff6f9310c7a5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-07-20 21:28:29</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-1912670495</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 08 30 b">49ee2bf8db90630022ce7a613996191f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-08-31 06:11:01</sys_created_on>
+<sys_id>41ee6fbcdb90630022ce7a61399619ec</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1657ce3467b0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-08-31 06:11:01</sys_updated_on>
+<table>x_215090_ocio_sr_u_favorite_item</table>
+<target_name>x_215090_ocio_sr_u_favorite_item</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>b21e2a2349931300bae42d11a5cad5a7</update_guid>
+<update_guid_history>b21e2a2349931300bae42d11a5cad5a7:-1912670495</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_471e2a234f9313006e76ff6f9310c7ab</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_215090_ocio_sr_u_favorite_item</description><name>x_215090_ocio_sr_u_favorite_item</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-07-20 21:28:29</sys_created_on><sys_id>471e2a234f9313006e76ff6f9310c7ab</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_215090_ocio_sr_u_favorite_item</sys_name><sys_package display_value="OCIO SR User Favourite" source="x_215090_ocio_sr_u">95756a614f0313006e76ff6f9310c7ea</sys_package><sys_policy/><sys_scope display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</sys_scope><sys_update_name>sys_security_acl_471e2a234f9313006e76ff6f9310c7ab</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-07-20 21:28:29</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>866484005</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 08 30 b">49ee2bf8db90630022ce7a613996191f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-08-31 06:11:01</sys_created_on>
+<sys_id>45ee6fbcdb90630022ce7a61399619eb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1657ce346840000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-08-31 06:11:01</sys_updated_on>
+<table>x_215090_ocio_sr_u_favorite_item</table>
+<target_name>x_215090_ocio_sr_u_favorite_item</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>cb1e2a2306931300ebe05f7935a230b9</update_guid>
+<update_guid_history>cb1e2a2306931300ebe05f7935a230b9:866484005</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_215090_ocio_sr_u_favorite_item_item_sys_id</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="item_sys_id" table="x_215090_ocio_sr_u_favorite_item"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Item_Sys_Id&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;item_sys_id&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;254&lt;/max_length&gt;&lt;name&gt;x_215090_ocio_sr_u_favorite_item&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-07-20 21:36:45&lt;/sys_created_on&gt;&lt;sys_id&gt;2a6faa634f9313006e76ff6f9310c7ba&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Item_Sys_Id&lt;/sys_name&gt;&lt;sys_package display_value="OCIO SR User Favourite" source="x_215090_ocio_sr_u"&gt;95756a614f0313006e76ff6f9310c7ea&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="OCIO SR User Favourite"&gt;95756a614f0313006e76ff6f9310c7ea&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_215090_ocio_sr_u_favorite_item_item_sys_id&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-07-20 21:36:45&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1290851699</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 08 30 b">49ee2bf8db90630022ce7a613996191f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-08-31 06:11:01</sys_created_on>
+<sys_id>49ee2bf8db90630022ce7a6139961920</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1657ce346c50000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-08-31 06:11:01</sys_updated_on>
+<table>x_215090_ocio_sr_u_favorite_item</table>
+<target_name>Favorite Item.Item_Sys_Id</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>8c00f2a389931300e209f559eb97c01f</update_guid>
+<update_guid_history>8c00f2a389931300e209f559eb97c01f:-1290851699</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_9e60cb2f4f9313006e76ff6f9310c7d6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-07-20 22:48:27</sys_created_on><sys_id>9e60cb2f4f9313006e76ff6f9310c7d6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>GlideRecord.deleteRecord</sys_name><sys_package display_value="OCIO SR User Favourite" source="x_215090_ocio_sr_u">95756a614f0313006e76ff6f9310c7ea</sys_package><sys_policy/><sys_scope display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</sys_scope><sys_update_name>sys_scope_privilege_9e60cb2f4f9313006e76ff6f9310c7d6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-07-20 22:48:27</sys_updated_on><target_name>GlideRecord.deleteRecord</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
+<payload_hash>772189217</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 08 30 b">49ee2bf8db90630022ce7a613996191f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-08-31 06:11:01</sys_created_on>
+<sys_id>49ee6fbcdb90630022ce7a61399619ea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1657ce4e8280000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-08-31 06:11:01</sys_updated_on>
+<table/>
+<target_name>GlideRecord.deleteRecord</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_guid>da60cb2f7e9313001ae411768f06ead7</update_guid>
+<update_guid_history>da60cb2f7e9313001ae411768f06ead7:772189217</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_b4f32a6b4f5313006e76ff6f9310c780</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="DELETE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-07-20 20:44:06</sys_created_on><sys_id>b4f32a6b4f5313006e76ff6f9310c780</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_215090_ocio_sr_u_favorite_item.x_215090_ocio_sr_u.favorite_item_user</sys_name><sys_package display_value="OCIO SR User Favourite" source="x_215090_ocio_sr_u">95756a614f0313006e76ff6f9310c7ea</sys_package><sys_policy/><sys_scope display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</sys_scope><sys_security_acl display_value="">34f32a6b4f5313006e76ff6f9310c77d</sys_security_acl><sys_update_name>sys_security_acl_role_b4f32a6b4f5313006e76ff6f9310c780</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-07-20 20:44:06</sys_updated_on><sys_user_role display_value="x_215090_ocio_sr_u.favorite_item_user" name="x_215090_ocio_sr_u.favorite_item_user">a4f32a6b4f5313006e76ff6f9310c749</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>693023608</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 08 30 b">49ee2bf8db90630022ce7a613996191f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-08-31 06:11:01</sys_created_on>
+<sys_id>49ee6fbcdb90630022ce7a61399619ed</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1657ce346520000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-08-31 06:11:01</sys_updated_on>
+<table>34f32a6b4f5313006e76ff6f9310c77d</table>
+<target_name>x_215090_ocio_sr_u_favorite_item.x_215090_ocio_sr_u.favorite_item_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>e2ed2623419313002aea6792ddf8ff59</update_guid>
+<update_guid_history>e2ed2623419313002aea6792ddf8ff59:693023608,f0f32a6bf4531300fc25ebddd3a87b82:85242926</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</application>
+<category>customer</category>
+<comments/>
+<name>sp_widget_928d16674f5313006e76ff6f9310c749</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[/**
+ * Insert/Delete the Favourity record per user onto the custom table
+ * 
+ * History
+ * JIRA   Date         Developer       Description
+ * -----  -----------  --------------  ------------------------
+ * SB-202 23-July-2018  Munhwan Gim      Initial implementation 
+ * SB-521 22-Aug-2018   Munhwan Gim      Fix the Javascript error
+ *
+ * Copyright to BC Public Service - Service Request
+ **/
+function($scope, $rootScope) {
+
+	/* widget controller */
+	var c = this;
+	c.showRed = c.data.showRed;
+
+	var itemSysId = c.options.sysId;
+	var groupName = c.options.category;
+
+	c.data.itemSysId = itemSysId; 
+	c.data.groupName = groupName;
+
+	c.uiAction = function(action){
+
+		if (action == 'fillup') {
+			c.showRed = true;
+
+			c.data.action = "addFav";
+			c.server.update().then(function() {
+				c.data.action = undefined;
+				//c.data.itemSysId = undefined; 
+				//c.data.groupName = undefined;				
+			})
+		} else {
+			c.showRed = false;
+
+			c.data.action = "removeFav";
+			c.server.update().then(function() {
+				c.data.action = undefined;
+				//c.data.itemSysId = undefined; 
+				//c.data.groupName = undefined;					
+			})			
+		}
+	}
+}]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;.box-btn {
+  float: left;
+  background: transparent;
+  font-size: 25px;
+  color: #4D4E56;
+  font-weight: 300;
+  cursor: pointer;
+  border-radius: 2px;
+  line-height: 0.5;
+  border: none;
+  outline: none;
+}
+.glyphicon {
+  transition: color .3s linear;
+}  
+.box-btn .red {
+  color: red;
+}&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;ocio-user-favorite&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link/&gt;&lt;name&gt;OCIO User Favorite&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[/**
+ * Insert/Delete the Favourity record per user onto the custom table
+ * 
+ * History
+ * JIRA   Date         Developer       Description
+ * -----  -----------  --------------  ------------------------
+ * SB-202 26-July-2018  Munhwan Gim      Initial implementation 
+ *
+ * Copyright to BC Public Service - Service Request
+ **/
+(function() {
+	
+	var TABLE_NAME = 'x_215090_ocio_sr_u_favorite_item';
+	var loginId = gs.getUserID(); 
+		
+	var existingFav = existingFavorite(options.category, options.sysId, loginId);
+	data.showRed = existingFav;
+	
+	if (input) {
+	
+		var itemId = input.itemSysId;
+		var grpName = input.groupName;
+		var favID = getFavID(grpName, itemId, loginId);
+
+		// Validation and Stop to process.
+		if (itemId == undefined || grpName == undefined) {
+			gs.addErrorMessage('Both ID and category valid is required. itemId = ' + itemId + ' --- grpName: ' + grpName);
+			return;
+		} else {
+		
+			// Add a new Fav
+			if (input.action == 'addFav') {	
+				if (existingFav == false) {
+					if (grpName &amp;&amp; itemId &amp;&amp; loginId) {
+						var idInserted = insertRecord(grpName, itemId, loginId);
+						if (idInserted) {
+							gs.info('&gt;&gt;&gt;&gt; A user Favorite Inserted ID = ' + idInserted + ' for category, ' + grpName + ' -- item id = ' + itemId + ' --- for a user: ' + loginId);
+						}
+					}
+				} else {
+					gs.error('&gt;&gt;&gt;&gt; THIS SHOULD NOT HAPPEN to add twice !!!');
+				}
+			}
+
+			// Remove the existing Fav
+			if (input.action == 'removeFav') {
+				if (existingFav == false) {
+					var removed = removeRecordByAttributes(grpName, itemId, loginId);			
+					if (removed) {
+						gs.info('&gt;&gt;&gt;&gt; Deleted a favorite record for item ID: (' + itemId + ') -- Grp Name: (' + grpName + ') --- User ID: (' + loginId  + ')');
+					} else {
+						gs.error('&gt;&gt;&gt;&gt; Failed to delete favorite for item Id: ' + itemId + ' by login Id: ' + loginId);
+					}
+				} else {
+					gs.error('&gt;&gt;&gt;&gt; THIS SHOULD NOT HAPPEN to remove not-existing favorite whose id is ' + favID);
+				}
+			}	
+		}
+	} else {
+		gs.info('&gt;&gt;&gt;OCIO User Favorite: No INPUT to process!!!');
+	}
+
+	function insertRecord(grpName, itemId, userId) {
+		var gr = new GlideRecord(TABLE_NAME);
+		gr.initialize();
+		gr.group_name = grpName;
+		gr.item_sys_id = itemId;
+		gr.user = userId;
+		var idInserted = gr.insert();
+		
+		return idInserted;
+	}
+	
+	function removeRecordByAttributes(grpName, itemId, userId) {
+		var deleted = false;
+		var gr = new GlideRecord(TABLE_NAME);
+		gr.addQuery('group_name', grpName);
+		gr.addQuery('item_sys_id', itemId);
+		gr.addQuery('user', userId);
+		gr.query();
+		
+		if (gr.next()) {			
+			deleted = gr.deleteRecord();
+		} else {
+			gs.error('&gt;&gt;&gt;&gt; No Fav record found for item ID: (' + itemId + ') -- Grp Name: (' + grpName + ') --- User ID: (' + userId  + ')');
+		}
+		
+		return deleted;
+	}
+	
+	function removeRecordByID(favID) {
+		
+		var deleted = false;
+		var gr = new GlideRecord(TABLE_NAME);
+		gr.addQuery('sys_id', favID);
+				
+		if (gr.next()) {			
+			deleted = gr.deleteRecord();
+		} else {
+			gs.error('&gt;&gt;&gt;&gt; No Fav record found for favID = ' + favID);
+		}
+		
+		return deleted;
+	}
+	
+	function existingFavorite(grpName, itemId, userId) {
+		
+		var gaCount = new GlideAggregate(TABLE_NAME);
+		gaCount.addQuery('group_name', grpName);
+		gaCount.addQuery('item_sys_id', itemId);
+		gaCount.addQuery('user', userId);
+		gaCount.addAggregate('COUNT');
+		gaCount.query();
+		var favsCount = 0;
+		if(gaCount.next()) { 
+			favsCount = gaCount.getAggregate('COUNT');
+	  } 
+				
+		if (favsCount &gt; 0) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+	
+	function getFavID(grpName, itemId, userId) {
+		var gr = new GlideRecord(TABLE_NAME);
+		gr.addQuery('group_name', grpName);
+		gr.addQuery('item_sys_id', itemId);
+		gr.addQuery('user', userId);
+		gr.query();
+		
+		if (gr.next()) {
+			return gr.getValue('sys_id');
+		} else {
+			return undefined;
+		}
+	}
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-07-20 20:16:04&lt;/sys_created_on&gt;&lt;sys_id&gt;928d16674f5313006e76ff6f9310c749&lt;/sys_id&gt;&lt;sys_mod_count&gt;68&lt;/sys_mod_count&gt;&lt;sys_name&gt;OCIO User Favorite&lt;/sys_name&gt;&lt;sys_package display_value="OCIO SR User Favourite" source="x_215090_ocio_sr_u"&gt;95756a614f0313006e76ff6f9310c7ea&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="OCIO SR User Favourite"&gt;95756a614f0313006e76ff6f9310c7ea&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_928d16674f5313006e76ff6f9310c749&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;MUNGIM&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-08-22 22:42:00&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;button type="submit" class="box-btn" ng-hide="c.showRed" ng-click="c.uiAction('fillup')"&gt;&lt;span class="glyphicon glyphicon-heart-empty" aria-hidden="true"&gt;&lt;/span&gt;&lt;/button&gt;
+&lt;button type="submit" class="box-btn" ng-hide="!c.showRed" ng-click="c.uiAction('empty')"&gt;&lt;span class="glyphicon red glyphicon-heart" aria-hidden="true"&gt;&lt;/span&gt;&lt;/button&gt;
+]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+<payload_hash>66504034</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 08 30 b">49ee2bf8db90630022ce7a613996191f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-08-31 06:11:01</sys_created_on>
+<sys_id>4dee2bf8db90630022ce7a613996191f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1657d9aab190000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-08-31 06:11:01</sys_updated_on>
+<table/>
+<target_name>OCIO User Favorite</target_name>
+<type>Widget</type>
+<update_domain>global</update_domain>
+<update_guid>a96bfc16d2c02300aca4887713f691f6</update_guid>
+<update_guid_history>a96bfc16d2c02300aca4887713f691f6:66504034,d8a97816d9c02300d759ab00ca13990a:1838963450,5349bc92cbc0230052440a96613803b0:528876154,f029701615c023003350ba95b551950e:1900092619,19699d6dd8a3130010c0a8f4e4ef725e:-646448042,5bb85de97da313008d6dc580113fbe54:202823786,96a7d9e9cca31300fc4786fdba7529bd:-1117603225,f3b21569dea3130021787ef22a050535:1486330694,936e20edb22313004ba4a4eecbeaedf9:-2031154706,a7a4eb7cffe31300edb7376167e50115:967780128,f10ece6cdfe313008ea8dfcad0a57989:-1116843200,421b82a820e31300bc053dda32bc012f:861375422,40fa8ea854e31300a26120195b365747:-1469708178,8de80e6858e31300c394af877a274a34:1759487791,1235c6e461e31300646ad8a7b1ead835:-635220243,8d524a249ee3130080d7d96e33980238:332285470,b01206e050e31300c12deda769e2666b:1086293304,fed106a4eca31300b32813e8f6dd6d70:-1426533548,15d1c2e082e31300bcb4ce2e85a0af9c:261013888,5191c2e008e3130019ba7a25d0089995:2072508608,0e6142e042e3130089f106c4ce220341:-1651360397,58618a2404e31300ad00f14d5b97980f:-2107462224,d9510a246fe31300e90108256f67beb5:2080800131,3f01462423e31300efda845b06ddfc96:-1878787773,402042e02fa313007b9db4de4432e992:-389022028,afa8f9ac47a31300e87e62d290cf4fed:1202306055,c788bdacbea3130011854615bb12f558:2121479070,e078712888a31300d6a5a1b97206fa19:385640949,9a6839acf0a3130034e6a41637db60de:2121479070,722839aca1a3130008c5c575826fc1d9:-1724202146,bae735acb3a3130078f2306e4de18801:-1321779452,aeb7b56ceaa313008f55a7b49e6b7bc2:1773789156,9b87712806a3130030c2736abec2ab01:-1248912828,553735a449a31300e151ccee8ef1b6a1:-377183571,eda6b56c15a3130073bcdcb3161bdcb9:1389211599,f0dd61e043a3130000d56c892c95ae9a:-1701513215,dd3be9a01fa31300c81e2e51753a4404:541912792,4c0ba1a4e2a31300ed476343a93fcf48:2008578301,a21521a0fca31300fac10d0c19447715:1829642478,c764252013a313005b133b5b8e194ce1:844685882,ccb1edec18631300ff1e3af0a8db6b04:1376721614,695021ec8c6313002f669e704cd49019:-505007998,e36f916c4f631300800c1d5ab1d95fab:-781860025,8b6ad5a83063130011e8e35432370085:-716044447,9f3a55a84d631300f7e11b3591a11fa2:802197095,f6e9d568a26313000656e3988ae96021:-1457985827,91e8912860631300f8c7062585c593f4:-1244141900,8a679128736313009577f63fb2b62e36:1026726736,4886dda466631300162cce239e8e5e79:-1422686983,c9b51da4a26313002cec954dd96129e8:2019609778,d3508f6bcd931300217b5d00465be9ca:-1771630984,2b4f322f6d9313000ed74dd614f060f5:642944871,90defe6b2d9313000a24c9d3a15bda10:1360081854,8cbcb6ab1393130005daba7d419fe457:-2026946136,218c36ab66931300a6b2e525a4473cbd:1419869354,ea3c72ab879313001e666ca9b4003932:-1257716215,2f0cbe6b899313005d1a9c7ac589dbc1:865094473,28eb7a6b39931300c80a2878446877ec:2033822921,5eabfae7059313006a3d7bc1ca3bed22:2105134441,5537baa7bf93130008a3dbc33276cd9d:796122598,01e6baa79c931300e274432b44146796:-682134298,14d67aa78d931300c7948806d726c150:-1002395546,1a96b6a79d93130092677e89927e5740:1357011168,a656b6a3bc931300b77b42c0377602ea:-1316562991,cab1f6a3bc931300c70f90dfff9d904d:-1132546667,fe9ed2a7fc5313004d276ea0a999e272:1617765739,0fbd5e2703531300a76b47d0294a2e3a:-1132546667,e69d92674f531300f69e6f1f8654ff21:-1165345043,168d166758531300fced13486996204b:871626889</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_215090_ocio_sr_u_favorite_item_user_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="user" label="User" language="en" table="x_215090_ocio_sr_u_favorite_item"><sys_documentation action="INSERT_OR_UPDATE"><element>user</element><help/><hint/><label>User</label><language>en</language><name>x_215090_ocio_sr_u_favorite_item</name><plural>Users</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-07-20 21:33:41</sys_created_on><sys_id>074fee234f9313006e76ff6f9310c714</sys_id><sys_mod_count>0</sys_mod_count><sys_name>User</sys_name><sys_package display_value="OCIO SR User Favourite" source="x_215090_ocio_sr_u">95756a614f0313006e76ff6f9310c7ea</sys_package><sys_policy/><sys_scope display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</sys_scope><sys_update_name>sys_documentation_x_215090_ocio_sr_u_favorite_item_user_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-07-20 21:33:41</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1532540486</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 08 30 b">49ee2bf8db90630022ce7a613996191f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-08-31 06:11:01</sys_created_on>
+<sys_id>4dee6fbcdb90630022ce7a61399619e9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1657ce346c00000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-08-31 06:11:01</sys_updated_on>
+<table>x_215090_ocio_sr_u_favorite_item</table>
+<target_name>Favorite Item.User</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>df4faa637a931300d9ed23273a7beeb7</update_guid>
+<update_guid_history>df4faa637a931300d9ed23273a7beeb7:1532540486</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_3cf32a6b4f5313006e76ff6f9310c779</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="DELETE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-07-20 20:44:06</sys_created_on><sys_id>3cf32a6b4f5313006e76ff6f9310c779</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_215090_ocio_sr_u_favorite_item.x_215090_ocio_sr_u.favorite_item_user</sys_name><sys_package display_value="OCIO SR User Favourite" source="x_215090_ocio_sr_u">95756a614f0313006e76ff6f9310c7ea</sys_package><sys_policy/><sys_scope display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</sys_scope><sys_security_acl display_value="">30f32a6b4f5313006e76ff6f9310c776</sys_security_acl><sys_update_name>sys_security_acl_role_3cf32a6b4f5313006e76ff6f9310c779</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-07-20 20:44:06</sys_updated_on><sys_user_role display_value="x_215090_ocio_sr_u.favorite_item_user" name="x_215090_ocio_sr_u.favorite_item_user">a4f32a6b4f5313006e76ff6f9310c749</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1592423994</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 08 30 b">49ee2bf8db90630022ce7a613996191f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-08-31 06:11:01</sys_created_on>
+<sys_id>4dee6fbcdb90630022ce7a61399619ec</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1657ce3463e0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-08-31 06:11:01</sys_updated_on>
+<table>30f32a6b4f5313006e76ff6f9310c776</table>
+<target_name>x_215090_ocio_sr_u_favorite_item.x_215090_ocio_sr_u.favorite_item_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>eaed26231193130067f474043ffad848</update_guid>
+<update_guid_history>eaed26231193130067f474043ffad848:-1592423994,30f32a6b3f531300af3a8ddd61a8077c:2094762620</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_215090_ocio_sr_u_favorite_item_group_name_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="group_name" label="Group Name" language="en" table="x_215090_ocio_sr_u_favorite_item"><sys_documentation action="INSERT_OR_UPDATE"><element>group_name</element><help/><hint/><label>Group Name</label><language>en</language><name>x_215090_ocio_sr_u_favorite_item</name><plural>Group Names</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-07-20 21:29:54</sys_created_on><sys_id>7b6eae234f9313006e76ff6f9310c7c3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Group Name</sys_name><sys_package display_value="OCIO SR User Favourite" source="x_215090_ocio_sr_u">95756a614f0313006e76ff6f9310c7ea</sys_package><sys_policy/><sys_scope display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</sys_scope><sys_update_name>sys_documentation_x_215090_ocio_sr_u_favorite_item_group_name_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-07-20 21:29:54</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>573124034</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 08 30 b">49ee2bf8db90630022ce7a613996191f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-08-31 06:11:01</sys_created_on>
+<sys_id>81ee2bf8db90630022ce7a6139961921</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1657ce346b50000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-08-31 06:11:01</sys_updated_on>
+<table>x_215090_ocio_sr_u_favorite_item</table>
+<target_name>Favorite Item.Group Name</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>376eae235a931300a8a43d820149c8c9</update_guid>
+<update_guid_history>376eae235a931300a8a43d820149c8c9:573124034</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_38f32a6b4f5313006e76ff6f9310c789</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="DELETE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_215090_ocio_sr_u_favorite_item</description><name>x_215090_ocio_sr_u_favorite_item</name><operation display_value="delete">delete</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-07-20 20:44:06</sys_created_on><sys_id>38f32a6b4f5313006e76ff6f9310c789</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_215090_ocio_sr_u_favorite_item</sys_name><sys_package display_value="OCIO SR User Favourite" source="x_215090_ocio_sr_u">95756a614f0313006e76ff6f9310c7ea</sys_package><sys_policy/><sys_scope display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</sys_scope><sys_update_name>sys_security_acl_38f32a6b4f5313006e76ff6f9310c789</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-07-20 20:44:06</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>172335723</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 08 30 b">49ee2bf8db90630022ce7a613996191f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-08-31 06:11:01</sys_created_on>
+<sys_id>81ee6fbcdb90630022ce7a61399619eb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1657ce3464e0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-08-31 06:11:01</sys_updated_on>
+<table>x_215090_ocio_sr_u_favorite_item</table>
+<target_name>x_215090_ocio_sr_u_favorite_item</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>66ed2623cf9313002090e27c6e65a654</update_guid>
+<update_guid_history>66ed2623cf9313002090e27c6e65a654:172335723,74f32a6bf553130099bbbd568b6213a4:1993713143</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_215090_ocio_sr_u_favorite_item_group_name</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="group_name" table="x_215090_ocio_sr_u_favorite_item"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Group Name&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;group_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;127&lt;/max_length&gt;&lt;name&gt;x_215090_ocio_sr_u_favorite_item&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-07-20 21:29:54&lt;/sys_created_on&gt;&lt;sys_id&gt;8c2eaa234f9313006e76ff6f9310c7be&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Group Name&lt;/sys_name&gt;&lt;sys_package display_value="OCIO SR User Favourite" source="x_215090_ocio_sr_u"&gt;95756a614f0313006e76ff6f9310c7ea&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="OCIO SR User Favourite"&gt;95756a614f0313006e76ff6f9310c7ea&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_215090_ocio_sr_u_favorite_item_group_name&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-07-20 21:29:54&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1533121204</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 08 30 b">49ee2bf8db90630022ce7a613996191f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-08-31 06:11:01</sys_created_on>
+<sys_id>85ee2bf8db90630022ce7a6139961920</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1657ce346b00000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-08-31 06:11:01</sys_updated_on>
+<table>x_215090_ocio_sr_u_favorite_item</table>
+<target_name>Favorite Item.Group Name</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>bb6eae23fa93130034153a438d261bc7</update_guid>
+<update_guid_history>bb6eae23fa93130034153a438d261bc7:-1533121204</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_5f808f2f4f9313006e76ff6f9310c757</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-07-20 22:49:04</sys_created_on><sys_id>5f808f2f4f9313006e76ff6f9310c757</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SysRelatedList</sys_name><sys_package display_value="OCIO SR User Favourite" source="x_215090_ocio_sr_u">95756a614f0313006e76ff6f9310c7ea</sys_package><sys_policy/><sys_scope display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</sys_scope><sys_update_name>sys_scope_privilege_5f808f2f4f9313006e76ff6f9310c757</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-07-20 22:49:04</sys_updated_on><target_name>SysRelatedList</target_name><target_scope display_value="Global">global</target_scope><target_type>sys_script_include</target_type></sys_scope_privilege></record_update>]]></payload>
+<payload_hash>1620591138</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 08 30 b">49ee2bf8db90630022ce7a613996191f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-08-31 06:11:01</sys_created_on>
+<sys_id>85ee6fbcdb90630022ce7a61399619ea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1657ce4e8330000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-08-31 06:11:01</sys_updated_on>
+<table/>
+<target_name>SysRelatedList</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_guid>db808f2fae93130082bfbbe0107cc558</update_guid>
+<update_guid_history>db808f2fae93130082bfbbe0107cc558:1620591138</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_8f1e2a234f9313006e76ff6f9310c7ba</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-07-20 21:28:29</sys_created_on><sys_id>8f1e2a234f9313006e76ff6f9310c7ba</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_215090_ocio_sr_u_favorite_item.x_215090_ocio_sr_u.favorite_item_user</sys_name><sys_package display_value="OCIO SR User Favourite" source="x_215090_ocio_sr_u">95756a614f0313006e76ff6f9310c7ea</sys_package><sys_policy/><sys_scope display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</sys_scope><sys_security_acl display_value="x_215090_ocio_sr_u_favorite_item">471e2a234f9313006e76ff6f9310c7ab</sys_security_acl><sys_update_name>sys_security_acl_role_8f1e2a234f9313006e76ff6f9310c7ba</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-07-20 21:28:29</sys_updated_on><sys_user_role display_value="x_215090_ocio_sr_u.favorite_item_user" name="x_215090_ocio_sr_u.favorite_item_user">a4f32a6b4f5313006e76ff6f9310c749</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>2117508476</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 08 30 b">49ee2bf8db90630022ce7a613996191f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-08-31 06:11:01</sys_created_on>
+<sys_id>85ee6fbcdb90630022ce7a61399619ed</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1657ce346890000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-08-31 06:11:01</sys_updated_on>
+<table>x_215090_ocio_sr_u_favorite_item</table>
+<target_name>x_215090_ocio_sr_u_favorite_item.x_215090_ocio_sr_u.favorite_item_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>cb1e2a23a9931300aeef54e0bda627bc</update_guid>
+<update_guid_history>cb1e2a23a9931300aeef54e0bda627bc:2117508476</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_215090_ocio_sr_u_favorite_item_item_sys_id_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="item_sys_id" label="Item_Sys_Id" language="en" table="x_215090_ocio_sr_u_favorite_item"><sys_documentation action="INSERT_OR_UPDATE"><element>item_sys_id</element><help/><hint/><label>Item_Sys_Id</label><language>en</language><name>x_215090_ocio_sr_u_favorite_item</name><plural>Item_Sys_Ids</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-07-20 21:36:45</sys_created_on><sys_id>0000f2a34f9313006e76ff6f9310c71c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Item_Sys_Id</sys_name><sys_package display_value="OCIO SR User Favourite" source="x_215090_ocio_sr_u">95756a614f0313006e76ff6f9310c7ea</sys_package><sys_policy/><sys_scope display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</sys_scope><sys_update_name>sys_documentation_x_215090_ocio_sr_u_favorite_item_item_sys_id_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-07-20 21:36:45</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1831282512</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 08 30 b">49ee2bf8db90630022ce7a613996191f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-08-31 06:11:01</sys_created_on>
+<sys_id>89ee6fbcdb90630022ce7a61399619e9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1657ce346cb0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-08-31 06:11:01</sys_updated_on>
+<table>x_215090_ocio_sr_u_favorite_item</table>
+<target_name>Favorite Item.Item_Sys_Id</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>0800f2a31f931300026242fb86715c21</update_guid>
+<update_guid_history>0800f2a31f931300026242fb86715c21:1831282512</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_38f32a6b4f5313006e76ff6f9310c7a5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="DELETE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-07-20 20:44:06</sys_created_on><sys_id>38f32a6b4f5313006e76ff6f9310c7a5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_215090_ocio_sr_u_favorite_item.x_215090_ocio_sr_u.favorite_item_user</sys_name><sys_package display_value="OCIO SR User Favourite" source="x_215090_ocio_sr_u">95756a614f0313006e76ff6f9310c7ea</sys_package><sys_policy/><sys_scope display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</sys_scope><sys_security_acl display_value="">38f32a6b4f5313006e76ff6f9310c789</sys_security_acl><sys_update_name>sys_security_acl_role_38f32a6b4f5313006e76ff6f9310c7a5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-07-20 20:44:06</sys_updated_on><sys_user_role display_value="x_215090_ocio_sr_u.favorite_item_user" name="x_215090_ocio_sr_u.favorite_item_user">a4f32a6b4f5313006e76ff6f9310c749</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1341366896</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 08 30 b">49ee2bf8db90630022ce7a613996191f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-08-31 06:11:01</sys_created_on>
+<sys_id>89ee6fbcdb90630022ce7a61399619ec</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1657ce346490000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-08-31 06:11:01</sys_updated_on>
+<table>38f32a6b4f5313006e76ff6f9310c789</table>
+<target_name>x_215090_ocio_sr_u_favorite_item.x_215090_ocio_sr_u.favorite_item_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>a2ed26230a931300077662dc6b474a51</update_guid>
+<update_guid_history>a2ed26230a931300077662dc6b474a51:1341366896,74f32a6bad531300344fd13cfced0ea7:733586214</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_ba1e2eef4f5313006e76ff6f9310c778</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_215090_ocio_sr_u_favorite_item</description><name>x_215090_ocio_sr_u_favorite_item</name><operation display_value="create">create</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-07-20 21:28:29</sys_created_on><sys_id>ba1e2eef4f5313006e76ff6f9310c778</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_215090_ocio_sr_u_favorite_item</sys_name><sys_package display_value="OCIO SR User Favourite" source="x_215090_ocio_sr_u">95756a614f0313006e76ff6f9310c7ea</sys_package><sys_policy/><sys_scope display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</sys_scope><sys_update_name>sys_security_acl_ba1e2eef4f5313006e76ff6f9310c778</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-07-20 21:28:29</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>468656405</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 08 30 b">49ee2bf8db90630022ce7a613996191f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-08-31 06:11:01</sys_created_on>
+<sys_id>8dee6fbcdb90630022ce7a61399619eb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1657ce346700000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-08-31 06:11:01</sys_updated_on>
+<table>x_215090_ocio_sr_u_favorite_item</table>
+<target_name>x_215090_ocio_sr_u_favorite_item</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>361e2a23ce931300661ea5bd474f75a0</update_guid>
+<update_guid_history>361e2a23ce931300661ea5bd474f75a0:468656405</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_97fde6234f9313006e76ff6f9310c73b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>Favorite Item</label><live_feed_enabled>false</live_feed_enabled><name>x_215090_ocio_sr_u_favorite_item</name><number_ref/><provider_class/><read_access>true</read_access><super_class/><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>admin</sys_created_by><sys_created_on>2018-07-20 21:28:29</sys_created_on><sys_id>97fde6234f9313006e76ff6f9310c73b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Favorite Item</sys_name><sys_package display_value="OCIO SR User Favourite" source="x_215090_ocio_sr_u">95756a614f0313006e76ff6f9310c7ea</sys_package><sys_policy/><sys_scope display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</sys_scope><sys_update_name>sys_db_object_97fde6234f9313006e76ff6f9310c73b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-07-20 21:28:29</sys_updated_on><update_access>false</update_access><user_role display_value="x_215090_ocio_sr_u.favorite_item_user" name="x_215090_ocio_sr_u.favorite_item_user">a4f32a6b4f5313006e76ff6f9310c749</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>-670397258</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 08 30 b">49ee2bf8db90630022ce7a613996191f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-08-31 06:11:01</sys_created_on>
+<sys_id>c1ee2bf8db90630022ce7a6139961920</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1657ce346ab0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-08-31 06:11:01</sys_updated_on>
+<table>x_215090_ocio_sr_u_favorite_item</table>
+<target_name>Favorite Item</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>871e2a2312931300ba7f4174699540e5</update_guid>
+<update_guid_history>871e2a2312931300ba7f4174699540e5:-670397258</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_0560032f4f9313006e76ff6f9310c7fa</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-07-20 22:48:22</sys_created_on><sys_id>0560032f4f9313006e76ff6f9310c7fa</sys_id><sys_mod_count>0</sys_mod_count><sys_name>GlideRecord.insert</sys_name><sys_package display_value="OCIO SR User Favourite" source="x_215090_ocio_sr_u">95756a614f0313006e76ff6f9310c7ea</sys_package><sys_policy/><sys_scope display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</sys_scope><sys_update_name>sys_scope_privilege_0560032f4f9313006e76ff6f9310c7fa</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-07-20 22:48:22</sys_updated_on><target_name>GlideRecord.insert</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
+<payload_hash>-207801151</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 08 30 b">49ee2bf8db90630022ce7a613996191f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-08-31 06:11:01</sys_created_on>
+<sys_id>c1ee6fbcdb90630022ce7a61399619ea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1657ce4e8160000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-08-31 06:11:01</sys_updated_on>
+<table/>
+<target_name>GlideRecord.insert</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_guid>c560032f7d93130078244047ce597afb</update_guid>
+<update_guid_history>c560032f7d93130078244047ce597afb:-207801151</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_7e1e2a234f9313006e76ff6f9310c7a1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-07-20 21:28:29</sys_created_on><sys_id>7e1e2a234f9313006e76ff6f9310c7a1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_215090_ocio_sr_u_favorite_item.x_215090_ocio_sr_u.favorite_item_user</sys_name><sys_package display_value="OCIO SR User Favourite" source="x_215090_ocio_sr_u">95756a614f0313006e76ff6f9310c7ea</sys_package><sys_policy/><sys_scope display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</sys_scope><sys_security_acl display_value="x_215090_ocio_sr_u_favorite_item">ba1e2eef4f5313006e76ff6f9310c778</sys_security_acl><sys_update_name>sys_security_acl_role_7e1e2a234f9313006e76ff6f9310c7a1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-07-20 21:28:29</sys_updated_on><sys_user_role display_value="x_215090_ocio_sr_u.favorite_item_user" name="x_215090_ocio_sr_u.favorite_item_user">a4f32a6b4f5313006e76ff6f9310c749</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1058159840</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 08 30 b">49ee2bf8db90630022ce7a613996191f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-08-31 06:11:01</sys_created_on>
+<sys_id>c1ee6fbcdb90630022ce7a61399619ed</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1657ce346750000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-08-31 06:11:01</sys_updated_on>
+<table>x_215090_ocio_sr_u_favorite_item</table>
+<target_name>x_215090_ocio_sr_u_favorite_item.x_215090_ocio_sr_u.favorite_item_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>fe1e2a2359931300430ff4ee2de0eca3</update_guid>
+<update_guid_history>fe1e2a2359931300430ff4ee2de0eca3:1058159840</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_38f32a6b4f5313006e76ff6f9310c786</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="DELETE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-07-20 20:44:06</sys_created_on><sys_id>38f32a6b4f5313006e76ff6f9310c786</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_215090_ocio_sr_u_favorite_item.x_215090_ocio_sr_u.favorite_item_user</sys_name><sys_package display_value="OCIO SR User Favourite" source="x_215090_ocio_sr_u">95756a614f0313006e76ff6f9310c7ea</sys_package><sys_policy/><sys_scope display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</sys_scope><sys_security_acl display_value="">b4f32a6b4f5313006e76ff6f9310c783</sys_security_acl><sys_update_name>sys_security_acl_role_38f32a6b4f5313006e76ff6f9310c786</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-07-20 20:44:06</sys_updated_on><sys_user_role display_value="x_215090_ocio_sr_u.favorite_item_user" name="x_215090_ocio_sr_u.favorite_item_user">a4f32a6b4f5313006e76ff6f9310c749</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1534105367</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 08 30 b">49ee2bf8db90630022ce7a613996191f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-08-31 06:11:01</sys_created_on>
+<sys_id>c5ee6fbcdb90630022ce7a61399619ec</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1657ce3465c0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-08-31 06:11:01</sys_updated_on>
+<table>b4f32a6b4f5313006e76ff6f9310c783</table>
+<target_name>x_215090_ocio_sr_u_favorite_item.x_215090_ocio_sr_u.favorite_item_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>faed2623039313007df523be570e9f6d</update_guid>
+<update_guid_history>faed2623039313007df523be570e9f6d:1534105367,74f32a6bfb531300a8d588fce7998a88:926324685</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_b4f32a6b4f5313006e76ff6f9310c783</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="DELETE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_215090_ocio_sr_u_favorite_item</description><name>x_215090_ocio_sr_u_favorite_item</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-07-20 20:44:06</sys_created_on><sys_id>b4f32a6b4f5313006e76ff6f9310c783</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_215090_ocio_sr_u_favorite_item</sys_name><sys_package display_value="OCIO SR User Favourite" source="x_215090_ocio_sr_u">95756a614f0313006e76ff6f9310c7ea</sys_package><sys_policy/><sys_scope display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</sys_scope><sys_update_name>sys_security_acl_b4f32a6b4f5313006e76ff6f9310c783</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-07-20 20:44:06</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>806488217</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 08 30 b">49ee2bf8db90630022ce7a613996191f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-08-31 06:11:01</sys_created_on>
+<sys_id>c9ee6fbcdb90630022ce7a61399619eb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1657ce346600000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-08-31 06:11:01</sys_updated_on>
+<table>x_215090_ocio_sr_u_favorite_item</table>
+<target_name>x_215090_ocio_sr_u_favorite_item</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>beed26235e931300abb1204c7d0acb70</update_guid>
+<update_guid_history>beed26235e931300abb1204c7d0acb70:806488217,74f32a6b04531300971ef41b4175ea85:866484005</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_215090_ocio_sr_u_favorite_item_user</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="user" table="x_215090_ocio_sr_u_favorite_item"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;User&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;user&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;x_215090_ocio_sr_u_favorite_item&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sys_user"&gt;sys_user&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-07-20 21:33:41&lt;/sys_created_on&gt;&lt;sys_id&gt;fc7eee234f9313006e76ff6f9310c788&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;User&lt;/sys_name&gt;&lt;sys_package display_value="OCIO SR User Favourite" source="x_215090_ocio_sr_u"&gt;95756a614f0313006e76ff6f9310c7ea&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="OCIO SR User Favourite"&gt;95756a614f0313006e76ff6f9310c7ea&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_215090_ocio_sr_u_favorite_item_user&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-07-20 21:33:41&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1782260853</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 08 30 b">49ee2bf8db90630022ce7a613996191f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-08-31 06:11:01</sys_created_on>
+<sys_id>cdee2bf8db90630022ce7a6139961920</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1657ce346ba0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-08-31 06:11:01</sys_updated_on>
+<table>x_215090_ocio_sr_u_favorite_item</table>
+<target_name>Favorite Item.User</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>574faa6309931300551ecc11b228bdb6</update_guid>
+<update_guid_history>574faa6309931300551ecc11b228bdb6:1782260853</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_34f32a6b4f5313006e76ff6f9310c77d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="DELETE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_215090_ocio_sr_u_favorite_item</description><name>x_215090_ocio_sr_u_favorite_item</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-07-20 20:44:06</sys_created_on><sys_id>34f32a6b4f5313006e76ff6f9310c77d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_215090_ocio_sr_u_favorite_item</sys_name><sys_package display_value="OCIO SR User Favourite" source="x_215090_ocio_sr_u">95756a614f0313006e76ff6f9310c7ea</sys_package><sys_policy/><sys_scope display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</sys_scope><sys_update_name>sys_security_acl_34f32a6b4f5313006e76ff6f9310c77d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-07-20 20:44:06</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>858213717</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 08 30 b">49ee2bf8db90630022ce7a613996191f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-08-31 06:11:01</sys_created_on>
+<sys_id>cdee6fbcdb90630022ce7a61399619ea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1657ce346570000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-08-31 06:11:01</sys_updated_on>
+<table>x_215090_ocio_sr_u_favorite_item</table>
+<target_name>x_215090_ocio_sr_u_favorite_item</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>7eed2623ab9313000a231eb2145f1368</update_guid>
+<update_guid_history>7eed2623ab9313000a231eb2145f1368:858213717,f0f32a6ba7531300a7140d8bb34dd97f:-1912670495</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="OCIO SR User Favourite">95756a614f0313006e76ff6f9310c7ea</application>
+<category>customer</category>
+<comments/>
+<name>ua_table_licensing_config_8df32a6b4f5313006e76ff6f9310c7d0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>x_215090_ocio_sr_u_favorite_item</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-07-20 21:28:29</sys_created_on><sys_id>8df32a6b4f5313006e76ff6f9310c7d0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_215090_ocio_sr_u_favorite_item</sys_name><sys_package display_value="">95756a614f0313006e76ff6f9310c7ea</sys_package><sys_policy/><sys_scope display_value="">95756a614f0313006e76ff6f9310c7ea</sys_scope><sys_update_name>ua_table_licensing_config_8df32a6b4f5313006e76ff6f9310c7d0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-07-20 21:28:29</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+<payload_hash>1111372333</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 08 30 b">49ee2bf8db90630022ce7a613996191f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-08-31 06:11:01</sys_created_on>
+<sys_id>cdee6fbcdb90630022ce7a61399619ed</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1657ce346970000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-08-31 06:11:01</sys_updated_on>
+<table/>
+<target_name>x_215090_ocio_sr_u_favorite_item</target_name>
+<type>Table Subscription Configuration</type>
+<update_domain>global</update_domain>
+<update_guid>871e2a239f93130043e51a4bde5464e0</update_guid>
+<update_guid_history>871e2a239f93130043e51a4bde5464e0:1111372333</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
