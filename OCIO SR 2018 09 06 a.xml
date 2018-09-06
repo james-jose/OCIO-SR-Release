@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2018-09-06 19:09:42">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>This update set include: 
+ - The fix for the sys_id of the user group named Access Portal Full Catalog  (JIRA SB-729) and 
+ - The user group named Telus (JIRA SB-726)
+ -  Fix for the impersonate user  in ATF (JIRA SB-626)</description>
+<inserted/>
+<name>OCIO SR 2018 09 06 a</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>b2e8114bdb98a340fe199236db9619a0</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-09-06 19:09:41</sys_created_on>
+<sys_id>b1aa114bdb98a340fe199236db9619e5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-09-06 19:09:41</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_group_380b7101db1713003d1dd001cf96194d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_group"><sys_user_group action="INSERT_OR_UPDATE"><active>true</active><cost_center/><default_assignee/><description>Group to manage who has access, via the self service portal, to place service requests for all services in the catalog</description><email/><exclude_manager>false</exclude_manager><include_members>false</include_members><manager/><name>Access Portal Full Catalog</name><parent/><roles/><source/><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-07-12 23:22:54</sys_created_on><sys_id>380b7101db1713003d1dd001cf96194d</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM_A</sys_updated_by><sys_updated_on>2018-09-05 20:36:18</sys_updated_on><type>74af88c6c611227d0066386e74dc853d</type><u_contact_phone/><u_group_director/><u_signature/></sys_user_group></record_update>]]></payload>
+<payload_hash>-622638413</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 09 06 a">b1aa114bdb98a340fe199236db9619e5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-09-06 19:09:42</sys_created_on>
+<sys_id>35aa114bdb98a340fe199236db9619e6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>165ab73329e0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-09-06 19:09:42</sys_updated_on>
+<table/>
+<target_name>Access Portal Full Catalog</target_name>
+<type>Group</type>
+<update_domain>global</update_domain>
+<update_guid>f0e4e43aa05c6340ff8c1379c14e5422</update_guid>
+<update_guid_history>f0e4e43aa05c6340ff8c1379c14e5422:-622638413,2ccbf5cdffd3130030e9007c58e45dbc:-1274521037</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_f568b2f34fe71300c8030fbf9310c7e8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Property used to determine what tables users with snc_read_only role may write to</description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>glide.security.snc_read_only_role.tables.exempt_write</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-08-07 13:34:46</sys_created_on><sys_id>f568b2f34fe71300c8030fbf9310c7e8</sys_id><sys_mod_count>18</sys_mod_count><sys_name>glide.security.snc_read_only_role.tables.exempt_write</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_f568b2f34fe71300c8030fbf9310c7e8</sys_update_name><sys_updated_by>mkuriako</sys_updated_by><sys_updated_on>2018-09-05 21:48:28</sys_updated_on><type>string</type><value>sys_user_preference,sys_report,sys_ui_bookmark,sys_filter,sys_portal_page,sys_portal,sys_portal_preferences,sys_ui_bookmark_group,sc_request,sc_req_item,sc_task,kb_feedback,sc_item_option,sc_item_option_mtom,sc_cart_item,sc_cart,wf_context,wf_executing,wf_history,wf_transition_history,wf_log,x_215090_ocio_sr_u_favorite_item,sys_attachment,sys_update_version,sys_ui_list,sys_atf_test_result_step</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=f568b2f34fe71300c8030fbf9310c7e8"/></record_update>]]></payload>
+<payload_hash>-328491668</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 09 06 a">b1aa114bdb98a340fe199236db9619e5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-09-06 19:09:42</sys_created_on>
+<sys_id>71aa114bdb98a340fe199236db9619e6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>165ad2766be0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-09-06 19:09:42</sys_updated_on>
+<table/>
+<target_name>glide.security.snc_read_only_role.tables.exempt_write</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>8a65b8b66c1023009499b33126044228</update_guid>
+<update_guid_history>8a65b8b66c1023009499b33126044228:-328491668,c4458b15a2582300d58fd41a05e1ae51:-1767324129,3135cf150c5823008ae80410263d3119:298156448,91cd9e4132102300c96c842ef7f177b5:-1768403055,9497641ccb502300c39ad7cc5f51fc96:1207235600,09f3a01877502300c80395da042d05ad:-1135459736,42c22cd4aa5023000136bf1a37b9a0dc:-1273130222,6580e454ad502300b0c729b5361fa9c9:-609822484,534028d0d2502300e0cb7bf585600b6d:-1246368276,4f6204c44a942300d059161875a5e4b6:704708004,4cefbbf350842300bf58190d2a99c223:-54831181,42de3bb3cf842300df443a343992b8c8:972327498,fe7e7f73d38423002db999261d35bc97:704708004,a945fcbaf51cef00aa24295087851d17:79888661,2e25707acc1cef0016de49d7e983fbd6:1459445056,be6a1cfa8c182b008cc5e84959875872:-499839135,0d5a98fa50182b00d3140d4bbd5caec1:1529168841,626c55128e58e70044c7d855360f787d:685165547,73ad9795870cab00e18e203ee0b2c544:-2037913194,8bc45e6fb07f570049ffcb8e6c2c477e:-427512054,e5c4da6fba7f57003044c250c48009b3:-1900487111,786173d26a906340f7f965d0a555c0ef:-1768403055,4ad03f929c9063401dc18582a00767e7:1029198865,88f9e35a265063405f9f25d62fbe544f:-958474331,4ff8a71ab3506340e64aa9b0c047a4dd:-371478870,4ba8631ad1506340c0f331c9b9a7a230:-781031723,0b686fd689506340d7c4780ba287e73d:1026010423,8200d891f79c2f00c9890dbc51e79bec:-1768403055,94bf4891339c2f007e3798ee5aa12539:704708004,dd4f4451c79c2f00cc0c6ca2514445c3:280789093,3f26dfbe93002300613f70565bc87edf:704708004,863397fa80002300c742d68ffa42ee76:704708004,639053a315f3130063226878dccf2c63:-2067304522,1767f58215bf9300c0bd25a9223878a7:-427512054,f94d6ad25873130091c8b9df3c190b1a:1872794753,9b0da216b973130058d5b653e1c955e7:1872794753,2d4c6ad2727313002c3bfffa8d0dcd13:1350098622,2a9ae69208731300e781b37bf652eeb5:726359391,f3f98e528b331300aa58f678a25ed606:392253832,d87a336164ff53006800aee19b8b284f:1190112205,502ab72111ff5300ee2a8e465fd9c889:-1588840848,4f39376da7bf53001f5ec971c9c4b5c0:-1308257964,c3d8f36de1bf53001cd74e4f1603ff05:979390014,2f4ea91144ff1300dbf9dd37c54bb060:-448775440,00969a96e5ff170090453a4a30d07ae9:392253832,172ff14e37b31300e738ed2b9478cf12:-1590577900,891f318a7df313004cb7c777e891190a:-1590577900,163fa531523713009494ac4a8c5e6876:-2067304522,1f9ea53d8cf3130044013f06bff07dea:-2067304522,b2f36d3940f313007b365d633c9637bc:-648023680,08826db5bcf31300cb1dfbe02be9ac9b:1784840560,b9a165b52ff313009aee0241eca91a85:-1528537915,43f4d461e2771300e38e88b9c87db24f:576228091,d9e4942100b71300d28fcb2762e4d680:576228091,9c9358ed4b77130002b958d9a6426088:-671204162,18d250edd87713001f55ecc35725d5b6:-606827060,661398a5aebbd30008258de4340eaaff:-280382929,c3319425c9bbd30035b9f3380f2d08f5:-606827060,f9903b9dc53bd30057c132cd1646db77:-280382929,565197956ef31300aa074549e002d16a:1559735149,0b3153d953f31300fa739b36b9473868:1559735149,6fe253d5a7f7d300bba9506479b87a9a:-2079438938,eaa25f955ef7d300a00600dd5f825f25:-280382929,eab09b550af7d300426a637a5cd5a074:-2079438938,2e60935568f7d300b7f2328f0394f763:-1012080690,bebe3ad55abf9300160cc688ad2054a5:1559735149,d1440f7fb2e7130064efa3fc9e4630cd:-1012080690,0e68b2f3a5e71300360fc85b91a4e3eb:669491795</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_706a41a34f231300c8030fbf9310c7c3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Property used to determine what tables users with snc_read_only role may create records on </description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>glide.security.snc_read_only_role.tables.exempt_create</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-07-19 17:50:02</sys_created_on><sys_id>706a41a34f231300c8030fbf9310c7c3</sys_id><sys_mod_count>32</sys_mod_count><sys_name>glide.security.snc_read_only_role.tables.exempt_create</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_706a41a34f231300c8030fbf9310c7c3</sys_update_name><sys_updated_by>mkuriako</sys_updated_by><sys_updated_on>2018-09-05 21:44:07</sys_updated_on><type>string</type><value>sys_user_session, sysevent, syslog, syslog_transaction, sys_user_preference, sys_ui_list,sys_ui_list_element, sys_db_cache, user_multifactor_auth, sys_report, sys_ui_bookmark, sys_filter,sys_portal_page,incident,sys_portal,sys_portal_preferences,sys_ui_bookmark_group,sc_request, sc_req_item, sc_task, kb_feedback, sc_item_option, sc_item_option_mtom,sc_cart_item,sc_cart,wf_context,wf_executing,wf_history,wf_transition_history,wf_log,x_215090_ocio_sr_u_favorite_item,sys_attachment,sys_update_version</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=706a41a34f231300c8030fbf9310c7c3"/></record_update>]]></payload>
+<payload_hash>1413319260</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 09 06 a">b1aa114bdb98a340fe199236db9619e5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-09-06 19:09:41</sys_created_on>
+<sys_id>bdaa114bdb98a340fe199236db9619e5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>165ad2766b80000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-09-06 19:09:41</sys_updated_on>
+<table/>
+<target_name>glide.security.snc_read_only_role.tables.exempt_create</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>da643876ad1023006b2a24cc111758ff</update_guid>
+<update_guid_history>da643876ad1023006b2a24cc111758ff:1413319260,f8750355f25823009dc9da33881fcd02:1253009412,c7ddda4182102300915b90371af3bbaf:-1550560975,e587241c545023006c8087f3a0e12d09:712934832,4804a458c35023001bc58fafe160c6d1:1456237576,46b224d48b502300bf1f1469cf667ede:1641335986,25a0a8548e502300c2dac70757853611:-391980404,ae50a054f95023009a8075a7eaa4bbab:-1795456012,b35204c4459423004abd3a5158d7a837:1253009412,9dff3bf3c7842300adbf0a86c48105ab:881125907,7cceb7b319842300b1e239bbc686ffd1:1375790058,d8be37b3bc8423009611057068ab08ea:1253009412,ee2e3f73ff842300ad29609e5ca715ff:1829416638,df5ad4fab6182b00c88d117f569d8628:806206152,0d5a98fa61182b00e80e13d4117c49bc:-44699482,e36c15127258e7005947f053d4c0fa3d:-1466946427,6dad93952a0cab00bd6b98b0a31700ab:-911613648,e8d4de6f1a7f5700c6b90ff8d477fd1a:-507807312,49a41a6fc67f5700690569d523739c26:-1344939553,2570f392bc9063403e01bdfce486ea10:586251830,233f6bdecc50634028b21a70e10b82ec:995903292,dbfba3deb5506340ec75392b848a357c:1253009412,f86a2f1ed25063407108d6119eb68bee:-1796730555,36ff4c91169c2f0045a67e7c5cba13c4:1253009412,553f44518f9c2f00e19aa47b1a95fa90:-1550560975,1f26dfbe2c00230030ba9acfb7fcdd9e:1253009412,8584dbba560023000f79b6294d6f8234:1253009412,eb9053a3b3f31300764a6e3f4653545e:-160854184,a16739829cbf9300aeb5f3e0fd2310f4:-507807312,45cfe04ac97f5300af1d79a75a1cac60:635696883,f94d6ad2d0731300251dec5ccfd6361b:227226567,46fc621664731300a5604f105c9c801b:227226567,06dcaed2b5731300ef81ba45941c3f7c:193485880,aa9ae6929c73130031a55a65779680b7:759577535,a7f94e52b53313009e746244dd1308fc:-1687953114,ef6aff21daff53004b8f5bda5011eadd:1805743183,0c3afb211cff53001cdfc22ef5e7637b:-1341302738,dce8376dc7bf5300e4baaa2b301373d2:-1792206488,3e7d30bb24ef970005db474449a1d3d1:749336402,6b1d3c3b6bef97008ebc37f06bcd55aa:-1548767222,f5dd69e4f3e35b0084bbb35cd62d94f1:-2111128304,c85aa9245fe35b00bfed5fa056d1220c:-1041662220,9d86a1a022e35b008f550239d6a43534:-835745454,cabc5d53ca1b970007393e99d61e436f:1604574643,ff8cd553071b9700ebc93263df46e787:-1523227044,5639499760d7970023bf5f665e209434:1604574643,9e0989178fd797006dbde9e61bee3667:-1819159829,84fd3cdf3797970092949ef71265a53b:1604574643,49cd34df9097970003d0b853e5fb43b1:568238317,7ed2b09318979700717aa643bb23786f:1604574643,edd23857b297970059eb32f4417183f5:-622946311,ffc2f457bc979700052d578a7f446a20:-434382734,f58234537b9797000c43c47e0f6259fa:1676544830,f7869a96d8ff17003b69e56e36f158b9:-1687953114,5f2ff10e18f31300ef2318c25afe7253:-223768142,642fb10eb6f31300c4ac33b5b34e0902:-223768142,de3fa1714f371300e0a5d64ef4d57314:-160854184,09be217d05f313007289ff72560ea591:-160854184,7a04a17941f31300fdb7216eaff632cc:1933003550,8382e5f592f313002396996dd5097896:2145102098,4991e97592f31300c79c858f5f8c4d02:-1051220381,8ff418212db713004fa7b5d6a97a477c:-1178027363,2cf494ed88771300fb2be5afd13c78d3:-1178027363,9b93d8ed34771300f90b1a739e8b8819:-340397984,c6d2546570771300838fbf294e8d583e:-274150550,f60318a52ebbd300b95850fa8e7008f3:634154445,79419825c0bbd300a0084180675a7275:-274150550,9651979569f31300badc1f4c94e82d6c:634154445,a34193d912f3130097e7cce7bfcafd95:634154445,8709e2b7e4a713000c228d918cceed02:835526252,98f293d55af7d3006686a25eb4bf210a:-25653308,50a21b9568f7d300554bb8ecb544e681:634154445,a0b0575575f7d30017d40312928fb408:-25653308,cb50571570f7d3000f24d1b809387d9f:835526252,dfaeb2d52fbf93002553e9672d63cd78:-25653308,e75ea1b78b271300651e77bcc808c22b:-828689757,730d85671823130053b18c5f777ff368:-828689757,1f1b4da3fa231300ee3ee4c2999dba7f:799295967,bb7a81a313231300af0e68c6722d5ee4:-242113073</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_40aa2ef74fa71300c8030fbf9310c746</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Specifies which tables are exempt from the read-only role enforcement and allow the deletion of existing records. </description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>glide.security.snc_read_only_role.tables.exempt_delete</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-08-08 16:56:53</sys_created_on><sys_id>40aa2ef74fa71300c8030fbf9310c746</sys_id><sys_mod_count>20</sys_mod_count><sys_name>glide.security.snc_read_only_role.tables.exempt_delete</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_40aa2ef74fa71300c8030fbf9310c746</sys_update_name><sys_updated_by>mkuriako</sys_updated_by><sys_updated_on>2018-09-05 21:43:09</sys_updated_on><type>string</type><value>sys_report,sys_ui_bookmark,sys_filter,sys_portal_page,sys_portal,sys_portal_preferences,sys_ui_bookmark_group,sys_user_preference,sc_request, sc_req_item, sc_task,kb_feedback,sc_item_option,sc_item_option_mtom, sc_cart_item,sc_cart,wf_context,wf_executing,wf_history,wf_transition_history,wf_log,x_215090_ocio_sr_u_favorite_item,sys_attachment,sys_ui_list</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=40aa2ef74fa71300c8030fbf9310c746"/></record_update>]]></payload>
+<payload_hash>-1411774208</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 09 06 a">b1aa114bdb98a340fe199236db9619e5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-09-06 19:09:41</sys_created_on>
+<sys_id>f5aa114bdb98a340fe199236db9619e5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>165ad2766a00000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-09-06 19:09:41</sys_updated_on>
+<table/>
+<target_name>glide.security.snc_read_only_role.tables.exempt_delete</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>9434f832d110230017ef770fd85eef2c</update_guid>
+<update_guid_history>9434f832d110230017ef770fd85eef2c:-1411774208,b124387649102300bcd724bc5d152535:-1056535818,b6c3b432bf102300a19435d195e7d2c0:-1411774208,f4858f155f58230092534a5206095a62:-1655284181,978d9a41fb102300e86110b89ee2d310:-1784036118,9f97e41c8c502300c441a52397862349:-719264791,9de3a058665023004bf42c6722f0c19a:-1332329471,dad2acd443502300781b733cb1e086b4:163945259,e7602454d0502300caa2e4325b1f0b1d:-625455547,245200c43994230023126804143193ab:-1655284181,4e004cc020942300f9755c014617ccca:-1060598662,2bce3b730e8423001930084ac89e0439:-2101602461,b39ef3b3ed8423008ef438407e2e295a:-1655284181,a47a103e86182b00a2308a08abae314b:1174272020,356adcfaf4182b00e5191697b2b1824d:-1671992620,846a9cfacc182b007601b7cf34706b83:1174272020,455a98fa68182b009abd88959696e7bf:-1438348654,187cd512ab58e700a243f6a19cb2f2eb:-628856282,1a80b7926490634042de781f991625f0:-1390740707,d86fe752e1906340d3e9832ae287f66b:-1591732189,2b26dfbe850023002f2e8d70683214a6:-1655284181,4b53537e72002300775890bc88ef3ed8:-1655284181,8fa2d33a2b002300382c375280b66445:1771090731,6b9053a312f31300e29074ed9b834858:-1992019402,f3e596afbf7f57000742e0fb7beac062:1021102161,d5d59aeb48ff9f008aa3a7a7c66c23b0:-1522494174,2a9552eb11ff9f00b1e34986f661dae3:1021102161,d267798238bf930038dbcb2e788e30a2:-1522494174,794d6ad2c8731300c15d9bace6654319:-1868042433,f91de2162073130026badcbd1355d94e:-1868042433,205b2ad6f6331300618dd6eaff2edd84:833298368,669ae692df731300390dbdb08530cfb3:-1112993383,13f94e52da33130092293c5f82b945db:1735496200,897a7761c0ff53009bd5eb767213a589:-1982123035,1e1af3216eff530003b04b648d0c806d:1770121560,4509b36d43bf530074a90ede45539fb1:1604820606,05e8f36d93bf5300130bea12386e1d0d:-1986274066,0f36efeda47f53009aa3ffaa5d3e6e70:624252384,82266fed857f5300164cfcb2b565f533:1807108226,6b861696b8ff1700548ceede04cd5f2c:1735496200,5f2ff10e28f31300125dd8adb82b1a52:-1095286124,a71fb10ec3f313003825542fbaeedb43:-1095286124,de3fa171413713004bc2fbf3f6e89d13:-1992019402,94bea53116371300504c0e02384a836d:-1992019402,0e04ad39e6f31300e73366fa99b7a264:1420672768,0a8265f5b1f31300c8ce1df605efb6c5:512312304,b4a125b53df313004c1704a1f4c7282d:895363653,83f4d461c47713000c27a5f0a96ba250:-1373024901,6fe498edc77713005367001f64ca43f8:-1373024901,e69398edfa77130062343ad0cd3231ef:1050935102,c5d2dcad2d771300b6f56e6c79814401:1395612492,9651979576f31300c04bb8ed9a43026b:1862926255,5d4197952ef31300e7f8790b86965c2e:1862926255,75e293951af7d30048c255c973987c89:-142854874,9fa29395a2f7d30076cad1f6c45acc7f:1862926255,a1b09b554df7d30039bf965fa431e529:-142854874,31609bd1b2f7d30011240d1c662f81cf:1306848590,0ecefad526bf9300b070dc55b75a9188:1862926255,73240b7f10e713009979c3669e12e6f8:1306848590,bbaaa6f7d0a7130038bf78b1d63d65be:-1058951213</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_group_c672a25fdb3b130050479eb6db961908</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_group"><sys_user_group action="INSERT_OR_UPDATE"><active>true</active><cost_center/><default_assignee/><description>This assignment group is used by staff at Telus who fulfill service requests for voice services.</description><email>mysctr34@gov.bc.ca</email><exclude_manager>false</exclude_manager><include_members>false</include_members><manager/><name>Telus</name><parent/><roles/><source/><sys_created_by>CXVANSLY</sys_created_by><sys_created_on>2018-08-13 22:30:59</sys_created_on><sys_id>c672a25fdb3b130050479eb6db961908</sys_id><sys_mod_count>4</sys_mod_count><sys_updated_by>JAJOSE</sys_updated_by><sys_updated_on>2018-09-06 04:57:09</sys_updated_on><type>1cb8ab9bff500200158bffffffffff62</type><u_contact_phone/><u_group_director/><u_signature/></sys_user_group></record_update>]]></payload>
+<payload_hash>337813197</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 09 06 a">b1aa114bdb98a340fe199236db9619e5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-09-06 19:09:42</sys_created_on>
+<sys_id>f5aa114bdb98a340fe199236db9619e6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>165ad3dbd9d0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-09-06 19:09:42</sys_updated_on>
+<table/>
+<target_name>Telus</target_name>
+<type>Group</type>
+<update_domain>global</update_domain>
+<update_guid>21871a7e64dcef004e37483d9610c0bd</update_guid>
+<update_guid_history>21871a7e64dcef004e37483d9610c0bd:337813197</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
