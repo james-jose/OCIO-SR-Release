@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2018-09-19 03:11:42">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>This release relates to the following JIRA fixes and remaining items for the Sept 21st Service Request Release
+1. SB-740 CHANGE ACCOUNT - PLACE HOLD NOT DEFAULTING TO EFFECTIVE TODAY, NOT ALLOWING TODAY'S DATE
+2. SB-765 SERVICE MANAGER CLICK LINK TO RITM FROM NOTIFICATION, TO WRONG VIEW
+3. SB-756 ADD NEW CALL TYPE ‘SERVICE REQUEST PILOT’
+</description>
+<inserted/>
+<name>OCIO SR 2018 09 19 a</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>54eb748fdbe0eb40fe199236db961908</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-09-19 03:11:42</sys_created_on>
+<sys_id>ab0cb48fdbe0eb40fe199236db961975</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-09-19 03:11:42</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_c0cec8dedb4713003d1dd001cf96197b</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.OCIO_SR_HelperUtils&lt;/api_name&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description&gt;OCIO SR Helper Utilities&amp;#13;
+Copyright to BC Public Service, OCIO, Service Request Project&lt;/description&gt;&lt;name&gt;OCIO_SR_HelperUtils&lt;/name&gt;&lt;script&gt;&lt;![CDATA[/**
+ * Helper Functions for Service Request Project
+ *
+ * History
+ * JIRA   Date         Developer       Description
+ * -----  -----------  --------------  ------------------------
+ * SB-256 10-July-2018  Munhwan Gim      Initial implementation
+ * SB-287 01-Aug-2018   Munhwan Gim      Get city from the user location field
+ * SB-188 16-Aug-2018   Munhwan Gim      Implement a new function: ajaxFtn_formatPhoneByPattern)
+ * SB-687 07-Aug-2018   Mathew kuriakose Validate Street before passing to cleint
+ * SB-740 12-Sep-2018   Munhwan Gim      Use Local Date on the getDateComparison()
+ *
+ * Copyright to BC Public Service - Service Request
+ */
+var OCIO_SR_HelperUtils = Class.create();
+OCIO_SR_HelperUtils.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+	USER_TABLE_NAME: 'sys_user',
+	SC_CATE_ITEM_TABLE_NAME: 'sc_cat_item',
+	
+	initialize : function(request, responseXML, gc) {
+		AbstractAjaxProcessor.prototype.initialize.call(this, request, responseXML, gc);
+	},
+	
+	/**
+ 	* Compare the input Date with the current Date in Local
+ 	* param @sysparm_date_to_check: input local date to compare with the now.
+ 	* return false for future, true for past
+ 	**/
+	getDateComparison: function(){
+		var dateToCheck = this.getParameter("sysparm_date_to_check");
+		var gdt = new GlideDateTime();
+		var diff = gs.dateDiff(dateToCheck, gdt.getLocalDate(), true);
+		
+		
+		if (diff &lt;= 0)
+			return false;
+		else
+			return true;
+	},
+	
+	/**
+ 	* Return the formatted phone number to fit on Regular Expression Pattern
+ 	**/
+	formatPhoneNumber: function(phoneOrg, regExPattern, includeExtension){
+		
+		var includeExtensionStr = includeExtension + '';
+		
+		// Remove all non-digits, and format it
+		var phoneStripped = this._removeNonDigits(phoneOrg);
+		var lengthPhone = phoneStripped.length;
+		
+		// allow 10 to 14 digits to reformat to (###) ###-#### or (###) ###-#### ext # to ####
+		//var regExPhonePattern = /^[0-9]{10,14}$/;
+			var regExPhonePattern = new RegExp(regExPattern, 'jg');
+			var isValidPhoneLength = regExPhonePattern.test(phoneStripped);
+			
+			var phoneFormatted = '';
+			var invalidMsg = '';
+			
+			if (isValidPhoneLength)
+				{
+				var area = phoneStripped.substring(0, 3);
+				var prefix = phoneStripped.substring(3, 6);
+				var line = phoneStripped.substring(6, 10);
+				var extNumber = phoneStripped.substring(10, lengthPhone);
+				
+				if (lengthPhone == 10){
+					phoneFormatted = '(' + area + ') ' + prefix + '-' + line;
+				} else {
+					if (includeExtensionStr == 'true') {
+						phoneFormatted = '(' + area + ') ' + prefix + '-' + line + ' ext ' + extNumber;
+					} else {
+						//invalidMsg = phoneOrg + ' is not valid.';
+						invalidMsg = phoneOrg;
+					}
+				}
+			}
+			else
+				{
+				invalidMsg = phoneOrg;
+			}
+			
+			var phoneObj = {
+				"phoneFormatted": phoneFormatted,
+				"phoneOriginal": phoneOrg,
+				"invalidMsg": invalidMsg
+			};
+			
+			return phoneObj;
+		},
+		
+		/**
+ 		* Return the formatted phone number after stripping off all non-digits from the input, and applied the Reg Exp Pattern
+ 		**/
+		ajaxFtn_formatPhoneByPattern: function() {
+			var phoneOrg = this.getParameter('sysparm_phone');
+			var includeExtension = this.getParameter('sysparm_include_phone_extension');
+			var regExPattern = this.getParameter('sysparm_phone_number_regular_expression_pattern');
+			
+			// Conver to string to use string manupulation
+			var phoneOrgString = phoneOrg+'';
+			var phoneObj = this.formatPhoneNumber(phoneOrgString, regExPattern, includeExtension);
+			
+			return JSON.stringify(phoneObj);
+		},
+		
+		/**
+ 		* Return User by ID for Service Catalog Item - Update Contact Information
+ 		* param-1: user sys id
+ 		* param-2: sc item id
+ 		* return User object information
+ 		**/
+		ajaxFtn_getUserItemById: function() {
+			
+			var srcSysId = this.getParameter('sysparm_src_sysid');
+			var itemId = this.getParameter('sysparm_item_sysid');
+			
+			var companyId = '';
+			var companyName = '';
+			var sc_cat_item_name = '';
+			//change to fix street
+			var user_street ='';
+			var location_street='';
+			
+			var grItem = new GlideRecord(this.SC_CATE_ITEM_TABLE_NAME);
+			grItem.addQuery('sys_id', itemId);
+			grItem.setLimit(1);
+			grItem.query();
+			if (grItem.next()) {
+				sc_cat_item_name = grItem.getValue('name');
+			}
+			else {
+				gs.error('ajaxFtn_getUserItemById() - Invalid sc_cat_item sysid provided = ' + itemId);
+			}
+			
+			var grUser = new GlideRecord(this.USER_TABLE_NAME);
+			grUser.addQuery('sys_id', srcSysId);
+			grUser.setLimit(1);
+			grUser.query();
+			
+			if (grUser.next()) {
+				companyId = grUser.getValue('company');
+				
+				user_street =grUser.getValue('street');
+			}
+			else {
+				gs.error('Invalid source user sysid provided = ' + srcSysId);
+			}
+			
+			if (companyId != '') {
+				companyName = this._getCompanyNameById(companyId);
+			}
+			
+			if (user_street != '') {
+				location_street = this._getLocBystreet(user_street)+'';
+				
+			}
+			
+			
+			var cityLocation =  grUser.location.city+'';
+			var bizPhoneObj = this._getPhoneValidationOnUser(grUser, 'phone', '^[0-9]{10,14}$', 'true');
+				var mobilePhoneObj = this._getPhoneValidationOnUser(grUser, 'mobile_phone', '^[0-9]{10}$', 'false');
+					var faxObj = this._getPhoneValidationOnUser(grUser, 'u_fax_number', '^[0-9]{10}$', 'false');
+						var pagerObj = this._getPhoneValidationOnUser(grUser, 'u_pager_number', '^[0-9]{10}$', 'false');
+							
+							var obj = {
+								"sc_cat_item_name": sc_cat_item_name,
+								"username": this._getFieldValue(grUser, 'user_name'),
+								"company": companyName,
+								"title": this._getFieldValue(grUser, 'title'),
+								"city": cityLocation,
+								"street": location_street,
+								//"street": this._getFieldValue(grUser, 'street'),
+								"zip": this._getFieldValue(grUser, 'zip'),
+								"phone": bizPhoneObj.phoneFormatted,
+								"bizPhoneInvalid": bizPhoneObj.phoneInvalid,
+								"mobile_phone": mobilePhoneObj.phoneFormatted,
+								"mobilePhoneInvalid": mobilePhoneObj.phoneInvalid,
+								"u_ad_department": this._getFieldValue(grUser, 'u_ad_department'),
+								"u_delivery_office": this._getFieldValue(grUser, 'u_delivery_office'),
+								"u_assistant": this._getFieldValue(grUser, 'u_assistant'),
+								"u_fax_number": faxObj.phoneFormatted,
+								"faxNumberInvalid": faxObj.phoneInvalid,
+								"u_pager": pagerObj.phoneFormatted,
+								"pagerInvalid": pagerObj.phoneInvalid,
+							};
+							
+							return JSON.stringify(obj);
+						},
+						
+						/**
+ 						* Return User by ID for Service Catalog Item - Update Contact Information
+ 						* param: user sys id
+ 						* return User object information
+ 						**/
+						ajaxFtn_getUserById: function() {
+							var srcSysId = this.getParameter('sysparm_src_sysid');
+							var companyId = '';
+							var companyName = '';
+							//change to fix street
+							var user_street ='';
+							var location_street='';
+							
+							var grUser = new GlideRecord(this.USER_TABLE_NAME);
+							grUser.addQuery('sys_id', srcSysId);
+							grUser.setLimit(1);
+							grUser.query();
+							
+							if (grUser.next()) {
+								companyId = grUser.getValue('company');
+								user_street =grUser.getValue('street');
+							}
+							else {
+								gs.error('Invalid source user sysid provided = ' + srcSysId);
+							}
+							
+							if (companyId != '') {
+								companyName = this._getCompanyNameById(companyId);
+							}
+							
+							if (user_street != '') {
+								location_street = this._getLocBystreet(user_street)+'';
+							}
+							
+							//Get Now
+							var gdt = new GlideDateTime();
+							var gdtDateUserTimeZone =  gdt.getLocalDate();
+							var timeZone = gdt.getTZOffset()/3600000;
+							var todayDateNoTZ = gdtDateUserTimeZone.getYearNoTZ() + '-' + gdtDateUserTimeZone.getMonthNoTZ() + '-' +  gdtDateUserTimeZone.getDayOfMonthNoTZ();
+							
+							
+							var uObj = {
+								"username": this._getFieldValue(grUser, 'user_name'),
+								"company": companyName,
+								"title": this._getFieldValue(grUser, 'title'),
+								"city": this._getFieldValue(grUser, 'city'),
+								"street": location_street,
+								"zip": this._getFieldValue(grUser, 'zip'),
+								"phone": this._getFieldValue(grUser, 'phone'),
+								"mobile_phone": this._getFieldValue(grUser, 'mobile_phone'),
+								"u_ad_department": this._getFieldValue(grUser, 'u_ad_department'),
+								"u_delivery_office": this._getFieldValue(grUser, 'u_delivery_office'),
+								"u_assitant": this._getFieldValue(grUser, 'u_assitant'),
+								"u_fax_number": this._getFieldValue(grUser, 'u_fax_number'),
+								"u_pager": this._getFieldValue(grUser, 'u_pager_number'),
+								"todayDate": gdtDateUserTimeZone.getByFormat('MMM dd yyyy'),
+								"timeZone": timeZone
+							};
+							
+							return JSON.stringify(uObj);
+						},
+						
+						_getPhoneValidationOnUser: function(grUser, fieldName, regEx, includeExtension) {
+							var phoneOrg = this._getFieldValue(grUser, fieldName);
+							var phoneObj = this.formatPhoneNumber(phoneOrg, regEx, includeExtension);
+							var phoneStr = phoneObj.phoneFormatted;
+							if (phoneObj.invalidMsg != '') {
+								phoneStr = '';
+							}
+							return {
+								"phoneFormatted": phoneStr,
+								"phoneOrigin": phoneOrg,
+								"phoneInvalid": phoneObj.invalidMsg
+							};
+						},
+						
+						_removeNonDigits: function( inputStr ) {
+							var regExNumberOnly = new RegExp('[^0-9]', 'jg');
+							return inputStr.replace(regExNumberOnly, '');
+						},
+						
+						_getFieldValue: function( gr, valObj ) {
+							retVal = '';
+							if (gr.getValue(valObj)) {
+								retVal =  gr.getValue(valObj);
+							}
+							return retVal;
+						},
+						
+						_getCompanyNameById: function(id) {
+							var grCompany = new GlideRecord('core_company');
+							grCompany.get(id);
+							return grCompany.getDisplayValue();
+						},
+						
+						_getLocBystreet: function(loc) {
+							var grAdd= new GlideRecord('x_215090_ocio_madr_ocio_master_address_list_custom_table');
+							grAdd.addQuery('u_street', loc);
+							grAdd.setLimit(1);
+							grAdd.query();
+							if (grAdd.next()) {
+								
+								return grAdd.u_street;
+							}
+							else
+								return '';
+							
+						},
+						
+						
+						type: 'OCIO_SR_HelperUtils'
+					});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;James.Jose&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-07-04 02:26:48&lt;/sys_created_on&gt;&lt;sys_id&gt;c0cec8dedb4713003d1dd001cf96197b&lt;/sys_id&gt;&lt;sys_mod_count&gt;138&lt;/sys_mod_count&gt;&lt;sys_name&gt;OCIO_SR_HelperUtils&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_c0cec8dedb4713003d1dd001cf96197b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;JAJOSE&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-09-19 02:27:52&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-232597792</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 09 19 a">ab0cb48fdbe0eb40fe199236db961975</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-09-19 03:11:42</sys_created_on>
+<sys_id>2b0cb48fdbe0eb40fe199236db961976</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>165efa7be980000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-09-19 03:11:42</sys_updated_on>
+<table/>
+<target_name>OCIO_SR_HelperUtils</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>e502380b58e0eb40b5b0e696a7c79e46</update_guid>
+<update_guid_history>e502380b58e0eb40b5b0e696a7c79e46:-232597792,da0456914d2467400bd143bed1cb251c:20108319,5c931251f92467404889725586d7edcf:1271767729,163352919d246740d8bc45c1206bc17c:1659840619,65329651dc24674020ded59cf90f1fbf:-1581729279,00021a113f246740b02fa04c8c0afe8a:686588700,ddafc2dd7ee06740e65607ea44be14ba:190009024,790d4e1d03e0674042f6ea04af0ef308:-183277185,6cecca5dd6e06740495cb720e6b6799f:-1032332563,31cc8a5dd7e06740df05ee2e70366f5b:1205198573,bd8c425d98e067404e4021a042e2de72:664112076,db9b4e1d24e067408fcf75249f67eb00:-1408336028,53ddb8cdc260e74077f09ca091586b49:-2094063152,e59dbc8d0360e740c4cbe2bc08ae6343:292718165,478cb04d9160e74035dedd947475b864:-1104090560,146bb04d0760e740bd293f3462219caf:884775872,a0a8bc0d4860e7409f570a47e43c81b4:1408071840,c908380dde60e740a51dbe0ef60d8c63:619833338,3fc2f4496560e740151cab049a1dba54:-1156254341,18e39c8d4d642740762dd1d775d1bafb:-717137221,ca96b4387668a740595d65c55213fdb2:-1208591485,6da067a461e8e340ae95c8190977e0cc:-1750638264,560fdf247ce8e340cff3a099999f36d6:-835579387,4db5dbac59a8e34083de91043e73d60a:-144077733,99d4df6cc1a8e34028eaa08a50d973d7:-1679918427,a573572c65a8e34038a766432be08fd3:1524442549,1e035b6cfaa8e3402ab1f17499fca386:785091031,18ae83e8d3a8e340302d34f8d9caf5ef:-627755056,444ecfa8eea8e34060186458cd70cc27:315848831,63dd0ba8aea8e340a2d7c1e1e9df8681:-206652361,8cbd87a833a8e340530002fd19bbc1b7:-83871085,fe7d87a86ea8e340f5e43521c1493904:1814211821,6d6077878ad82340a6dab94a72bc9c30:-572695493,88003b47afd82340b07c08aa7b75f625:-140273211,ffafe747cbd82340f6ce17f47d753757:776017285,fb3fef0775d823401b39521f3b3eb56a:-140273211,b6ed670729d82340eb0476132c3b6852:-572695493,1aec6b8394d82340088043fb00a9deb3:-962305979,5be2fe60d9c023007269c29d37abfed2:-572695493,142ea2ec9f802300cb756bb17a7b031c:-1278237621,764d6aac2b802300c713f2c81eb9e37c:-480841137,41abe66c03802300fd759796ec238c67:1785569130,28eaee2cae802300bd6a0001ead9807c:1758754154,36e9262c8f802300a6f8fd0c27771b8f:1713145386,6058aee4f58023000379e9971511783b:-738359481,1ab2aee4b58023007feb178750f47e36:1952019352,3bc062e4d48023006ef1f70e2dd7acf1:-462977672,c620eea46e8023002672140c03af4bd4:1295286008,f60f9224198023001180d1edd723b7b9:-751243916,11dcda24358023002ec9b37e08597b39:148126506,dc0b922437802300b665a49fd3c179b0:-414797257,6db912e08b802300d9df4face4d31016:1679110679,55f5d6202380230039b9cba12925dc97:-464324186,1be3deec2240230073e67874715031e8:267333536,db621e6c5b4023003dab1c121ce07766:944749330,7f0e426c64402300a0a5b7ec6e40e188:1484427016,31f60228724023006b98feb3d188e7da:1504055524,34d646a44c402300b7f5c82333342a8d:618510710,d7b442648d402300f09b1b0842fbc0f0:-1546463603,5ca3ce249c4023008fd6ee35cb2fc44a:942253253,c87202240e402300b0e1c868c9a72a65:1506856519,85d14a24ad40230086932d3550b26b2a:1167874925,cb21cae048402300a25da10e8366a7f9:797138905,6de0c6e0224023006f1afa641c6a8a5c:-1407434306,42ef75e05340230069bbf4960b0da494:-1159611784,55ce7160fb402300194136be58329ef1:-1581772047,3a8e39a066402300ccea6be6ddd46947:1885719189,ba6d3920f6402300076ea1d536816017:-913415019,2c7a7decbd00230078d366a3c2888cf9:1580730042,31c74e14acc02300bb7d38793425fdcd:599964071,d4970a1455c0230094c79374e0fcfe6f:1328997807,a78ee910864023008e28b10b4f732bbb:599964071,d435cddc10002300eb1f166ec82cd353:711030516,1a82cd5cd8002300783ae281758769f8:-554292925,5222cd5c6b002300e2e6924b22ac0691:-509766186,91fefcd8ac0023004b65145d400df9dd:-554292925,700df498a8002300e799d8edc65b2616:-89504013,21aa705803002300452a97d2e157a3e7:906918710,ecb87054f6002300412be5d1ae0f35c3:-766324179,3556b45482002300575c45f88f44b512:-928786729,d2efbc08c6c02300f9e74b77f9885280:-923720914,371eb0c401c02300d7965efdd1ec9cb3:-1704572083,9feaf40450c023009f3d4878ca483338:914648938,77aafc04b7c02300edc594dc98d0d03a:-226249955,670ab80473c02300c756d67e02d3a912:-1446789925,d16974041fc02300225dc6161a6ca654:1732726996,580934044fc02300587c57a90835b76c:-1118500537,9668bcc0e0c023007c53b914ab3548f0:-708717250,0766308029c023005ccbfcb11b1deffc:1292928040,8406b84052c0230092a724381a472f55:752466453,612478409ac02300bcba8d3b9d98ef71:696808349,93f33840fbc023000681738ea1f41575:519024514,0542340075c0230005b5479f5e338d62:714793257,3e91f000a4c02300e98377af44720687:-280722182,fc81300088c02300e8068e0d80079e98:720742597,7a11784cb280230042652139eba556c6:-1831506097,a54038cc9d80230099308e3657e79e65:1462630539,f9fea48c8f802300369fc583f4d0a33c:-1393773696,14cda08c0e802300690fa1a0fae0a594:-1640949081,7d5da04cd98023007ec9af38fbb3fb57:1041526314,0efcecc83e80230024c6e77e3806db1a:1173176844,936ca00c9880230019b57cf2c821f997:188960080,229ae048428023005301cda904a31294:-1411167223,1f0a2c08298023002959113c3d57ddf4:1510832120,54d9a808e28023003b3c102eb174fd15:-710903578,f699e008be80230010139b450f0aa2b6:-142920584,8429a4c43f8023001e437d051cfc5a75:171162689,d0d8e4c47d80230000590f78d58f95aa:143745503,db48acc420802300f6e2de64ca44a20e:734924475,8d3760c4eb8023005cb2243f9ada3c20:-578358937,e0d620c470802300c1761a350e2da235:1461123753,63366084a580230008f0712dd1dc1d50:-120493695,80952c44068023008c4f3605b0ec22b6:21901716,817560843c80230095391a09ae134159:1493060708,02156c44ec802300b48e8662c30a6a3c:310417662,de132804b28023000f0882c3f973aa15:-451676528,9be2a4042c80230088cac9271def862e:-1161029622,30a26cc04b80230089157879f59e2786:-1425862541,ab62a4c08b802300d0b28640baafd00a:2042135795,0a422cc09f8023005627d5ac3265fe88:1145614730,b46f14803c802300145ad5f30e5fe8cf:7979501,29ce58000e8023006b891d6bae70170c:1746849911,4b6e540006802300381751a7aff5b5c7:815691619,07b8dcc846402300683cb2d3e60b5c58:1854542973,4b6b8004b040230065a9a0c784c4463f:-849903919,c37980044b40230007f5baa57288a58b:331375828,09b8c4c0334023006e6b89288406b1ff:678838829,af480004b84023000f2c376a166da3bf:-945500215,e1e7c0c02b402300e4492a6370945432:807507786,fa3780c0e4402300cf2741723dc9cfb9:1656197427,b7a600c08640230049a3584281abc596:-639777743,a3950400cb402300ca10d291b44df271:-1267498796,d8034888780023003a1d5a7c29b366cc:-1794168433,70c164a7ef231300f4a7418c7d11fffe:463390213,3856bfbafcd3d300077d06167c42c0b4:-1430609680,03f43b3a0ad3d300bb6cb28c81253d21:1478910624,44aa63763cd3d300ae770b1d10499f9c:-1430609680,e9d9e73681d3d30068ba1906550eadf4:817987940,e92acb9145d313000697bb9f9e6ee360:-1430609680,5bddb2ddfe9313000e6f9a8e16ef5de5:-14418166,cf5fc89eb647130078dfc21c3a7f4d29:833107445</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_email_85072697dbf3130066d656086896196b</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_email"&gt;&lt;sys_script_email action="INSERT_OR_UPDATE"&gt;&lt;name&gt;URI_REF_SP&lt;/name&gt;&lt;new_lines_to_html&gt;false&lt;/new_lines_to_html&gt;&lt;script&gt;&lt;![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+
+ /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+
+ /* Optional GlideRecord */ event) {
+
+ var table = current.getTableName();
+
+ var url = '';
+
+ var sys_id = current.sys_id;
+
+ var number = current.number;
+
+ //If running on approval, the link must point the task being approved
+
+ if (table == 'sysapproval_approver') {
+
+           table = current.sysapproval.sys_class_name;
+
+           sys_id = current.sysapproval;
+
+           number = current.sysapproval.number;
+
+ }
+
+ if (table == 'incident')
+
+           url = "/sp?id=ticket&amp;table=incident&amp;sys_id=" + sys_id;
+
+ else if (table == 'sc_req_item')
+
+           url = "/mysc?id=form&amp;table=sc_req_item&amp;sys_id=" + sys_id+"&amp;view=ess";
+
+ else if (table == 'sc_request')
+
+           url = "/sp?id=sc_request&amp;sys_id=" + sys_id;
+
+ else
+
+           url = "/sp?id=form&amp;table=" + table + "&amp;sys_id=" + sys_id;
+
+
+ template.print("&lt;a href='" + url + "'&gt;" + number + "&lt;/a&gt;");
+
+
+})(current, template, email, email_action, event);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_email&lt;/sys_class_name&gt;&lt;sys_created_by&gt;NKUMAR&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-08-13 22:50:39&lt;/sys_created_on&gt;&lt;sys_id&gt;85072697dbf3130066d656086896196b&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;URI_REF_SP&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_email_85072697dbf3130066d656086896196b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;MKURIAKOSE&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-09-18 21:38:23&lt;/sys_updated_on&gt;&lt;/sys_script_email&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1937850579</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 09 19 a">ab0cb48fdbe0eb40fe199236db961975</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-09-19 03:11:42</sys_created_on>
+<sys_id>670cb48fdbe0eb40fe199236db961976</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>165ee9eb5990000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-09-19 03:11:42</sys_updated_on>
+<table/>
+<target_name>URI_REF_SP</target_name>
+<type>Email Script</type>
+<update_domain>global</update_domain>
+<update_guid>34cfef3a1e60eb409abb59edfe5eb4ad</update_guid>
+<update_guid_history>34cfef3a1e60eb409abb59edfe5eb4ad:1937850579,c5deebf67a60eb409ab885760a585820:1937850579,333e23f6b260eb402927fd6330fe00c4:927487309,b61d6f765860eb4029a679951c25d4d1:284670831,e4176e977df31300d2041cf89466d3c1:423066029</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_choice_new_call_call_type</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="call_type" table="new_call" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>call_type</element><hint/><inactive>false</inactive><label>Incident</label><language>en</language><name>new_call</name><sequence>0</sequence><sys_created_by>system</sys_created_by><sys_created_on>2018-04-06 18:53:22</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4fab9179db591300d54b9c78db961951</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>NKUMAR</sys_updated_by><sys_updated_on>2018-07-27 17:36:33</sys_updated_on><value>incident</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>call_type</element><hint/><inactive>true</inactive><label>Problem</label><language>en</language><name>new_call</name><sequence>0</sequence><sys_created_by>system</sys_created_by><sys_created_on>2018-04-06 18:53:22</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8fab9179db591300d54b9c78db961951</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>NKUMAR</sys_updated_by><sys_updated_on>2018-07-27 17:36:33</sys_updated_on><value>problem</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>call_type</element><hint/><inactive>false</inactive><label>Hang Up</label><language>en</language><name>new_call</name><sequence>1</sequence><sys_created_by>system</sys_created_by><sys_created_on>2018-04-06 18:53:22</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>43ab9179db591300d54b9c78db961952</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>CXVANSLY</sys_updated_by><sys_updated_on>2018-09-09 20:11:31</sys_updated_on><value>hang_up</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>call_type</element><hint/><inactive>true</inactive><label>Service Request</label><language>en</language><name>new_call</name><sequence>1</sequence><sys_created_by>NKUMAR</sys_created_by><sys_created_on>2018-07-27 17:36:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e12c3579db635b0050479eb6db96197d</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>CXVANSLY</sys_updated_by><sys_updated_on>2018-09-06 20:29:11</sys_updated_on><value>Service Request</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>call_type</element><hint/><inactive>true</inactive><label>Request</label><language>en</language><name>new_call</name><sequence>2</sequence><sys_created_by>system</sys_created_by><sys_created_on>2018-04-06 18:53:22</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>cfab9179db591300d54b9c78db961951</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>CXVANSLY</sys_updated_by><sys_updated_on>2018-09-06 20:29:11</sys_updated_on><value>sc_request</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>call_type</element><hint/><inactive>false</inactive><label>Wrong Number</label><language>en</language><name>new_call</name><sequence>2</sequence><sys_created_by>system</sys_created_by><sys_created_on>2018-04-06 18:53:22</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>83ab9179db591300d54b9c78db961952</sys_id><sys_mod_count>8</sys_mod_count><sys_updated_by>JAJOSE</sys_updated_by><sys_updated_on>2018-09-18 23:09:46</sys_updated_on><value>wrong_number</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>call_type</element><hint/><inactive>true</inactive><label>Change</label><language>en</language><name>new_call</name><sequence>3</sequence><sys_created_by>system</sys_created_by><sys_created_on>2018-04-06 18:53:22</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>03ab9179db591300d54b9c78db961952</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>CXVANSLY</sys_updated_by><sys_updated_on>2018-09-06 20:29:11</sys_updated_on><value>change_request</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>call_type</element><hint/><inactive>false</inactive><label>Status Call</label><language>en</language><name>new_call</name><sequence>3</sequence><sys_created_by>system</sys_created_by><sys_created_on>2018-04-06 18:53:22</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c3ab9179db591300d54b9c78db961952</sys_id><sys_mod_count>5</sys_mod_count><sys_updated_by>JAJOSE</sys_updated_by><sys_updated_on>2018-09-18 23:09:46</sys_updated_on><value>status_call</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>call_type</element><hint/><inactive>true</inactive><label>General Inquiry</label><language>en</language><name>new_call</name><sequence>4</sequence><sys_created_by>system</sys_created_by><sys_created_on>2018-04-06 18:53:22</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>07ab9179db591300d54b9c78db961952</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>CXVANSLY</sys_updated_by><sys_updated_on>2018-09-06 20:29:11</sys_updated_on><value>general_inquiry</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>call_type</element><hint/><inactive>false</inactive><label>Transfer</label><language>en</language><name>new_call</name><sequence>4</sequence><sys_created_by>kmarri2</sys_created_by><sys_created_on>2018-05-08 21:08:55</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>217da2c8db429b80d54b9c78db961981</sys_id><sys_mod_count>6</sys_mod_count><sys_updated_by>JAJOSE</sys_updated_by><sys_updated_on>2018-09-18 23:09:46</sys_updated_on><value>Transfer</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>call_type</element><hint/><inactive>false</inactive><label>Existing Incident</label><language>en</language><name>new_call</name><sequence>5</sequence><sys_created_by>kmarri2</sys_created_by><sys_created_on>2018-05-08 21:09:43</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>acad6a88db429b80d54b9c78db9619fa</sys_id><sys_mod_count>5</sys_mod_count><sys_updated_by>JAJOSE</sys_updated_by><sys_updated_on>2018-09-18 23:09:47</sys_updated_on><value>existing_incident</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>call_type</element><hint/><inactive>true</inactive><label>Request</label><language>en</language><name>new_call</name><sequence>5</sequence><sys_created_by>NKUMAR</sys_created_by><sys_created_on>2018-07-27 20:12:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b0efd2bddba35b0050479eb6db961914</sys_id><sys_mod_count>4</sys_mod_count><sys_updated_by>JAJOSE</sys_updated_by><sys_updated_on>2018-09-18 23:09:47</sys_updated_on><value>Request</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>call_type</element><hint/><inactive>false</inactive><label>Service Request Pilot</label><language>en</language><name>new_call</name><sequence>6</sequence><sys_created_by>CXVANSLY</sys_created_by><sys_created_on>2018-09-09 20:11:31</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>64958900dbac2740fe199236db961999</sys_id><sys_mod_count>5</sys_mod_count><sys_updated_by>JAJOSE</sys_updated_by><sys_updated_on>2018-09-18 23:09:47</sys_updated_on><value>Service Request Pilot</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>call_type</element><name>new_call</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2018-04-06 18:53:22</sys_created_on><sys_id>db5f224cdb03dbc00f819274db9619f3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>call_type</sys_name><sys_package display_value="Service Desk Call" source="com.snc.service_desk_call">a461e979db1913000f819274db96193e</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_choice_new_call_call_type</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2018-04-06 18:53:22</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+<payload_hash>-1429229576</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 09 19 a">ab0cb48fdbe0eb40fe199236db961975</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-09-19 03:11:42</sys_created_on>
+<sys_id>a30cb48fdbe0eb40fe199236db961976</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>165eef262b20000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-09-19 03:11:42</sys_updated_on>
+<table>new_call</table>
+<target_name>Call.Call type</target_name>
+<type>Choice list</type>
+<update_domain>global</update_domain>
+<update_guid>fba484c733ec2b4052c65a90021a6512</update_guid>
+<update_guid_history>fba484c733ec2b4052c65a90021a6512:-1429229576,0038a8814c60e7407164f95fd9ee7006:-444741753,7108a8014e60e74015f795b10f710938:1340933182,18b701401cac2740c8119d37efff502f:1746907399,d116014093ac27404b3ff99feb100e39:-157457849,60958d00fdac2740eccff5e5169f2542:12151550,e922f94bfed8a3406ac0c9be91eabfb1:-171688130,10e1390b21d8a3400fc1156c1dd27839:-619487902,0afca587efd8a340572dfd36eabeab53:-171688130,16dca587a7d8a340e69caf0b51fa4e08:-619487902,30ef16bd1ca35b00d912c0cb6f8711a6:-1462891564,84dd39b906635b006eef546ffa327301:513362111,612c35796d635b005872e070adeca383:-1979922171,54a5b3bf7a3adfc03101183f94eb3708:427510496,c0e61dcd4d86d3c02225dea82fa170d0:-818778999,accd224819429b8029d1ebe3c5451c2d:2008876722,7b9d6ac85b429b80502a1aedce5d8544:-1129094664,749d6688f0429b800a9ac16743d8988f:-1762713570,fb5d2a4822429b8057ad3beace6198a2:428492393,795d6688d8429b80c2dc51afff66bb89:1307835714,355d6688cc429b80396af04f405b7387:-1881614633,e2387e84acc65740782a5a12eeb2712c:-1881614633</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_e801f2a5db1f13003d1dd001cf961935</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Change Account">d401be25db1f13003d1dd001cf9619a2</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value> javascript:new GlideDateTime().getLocalDate()</default_value><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>true</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_effective_date</name><order>1000</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Effective Date</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-07-14 16:33:18</sys_created_on><sys_id>e801f2a5db1f13003d1dd001cf961935</sys_id><sys_mod_count>9</sys_mod_count><sys_name>Effective Date</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_e801f2a5db1f13003d1dd001cf961935</sys_update_name><sys_updated_by>MUNGIM_A</sys_updated_by><sys_updated_on>2018-09-12 22:14:36</sys_updated_on><table/><tooltip/><type>9</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=e801f2a5db1f13003d1dd001cf961935"/><fx_price action="delete_multiple" query="id=e801f2a5db1f13003d1dd001cf961935"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>e801f2a5db1f13003d1dd001cf961935</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-07-14 16:33:18</sys_created_on><sys_id>e001f2a5db1f13003d1dd001cf961937</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-07-14 16:33:18</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>e801f2a5db1f13003d1dd001cf961935</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-07-14 16:33:18</sys_created_on><sys_id>a801f2a5db1f13003d1dd001cf961936</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-07-14 16:33:18</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>-1205823917</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 09 19 a">ab0cb48fdbe0eb40fe199236db961975</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-09-19 03:11:42</sys_created_on>
+<sys_id>ef0cb48fdbe0eb40fe199236db961975</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>165cfd9b6aa0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-09-19 03:11:42</sys_updated_on>
+<table/>
+<target_name>Effective Date</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>898e3001a7a0e74048734c32e66903a6</update_guid>
+<update_guid_history>898e3001a7a0e74048734c32e66903a6:-1205823917,9b09b04d4660e7403e506403c9bbab27:-1205823917,accf38bc3368a74029ef8a34947b1ab6:2007526415,2e8f74bc1968a740d7e6bb525e18baa0:1738700240,c27f74bc9d68a74099405e47312e0828:2007526415,894fb87c0868a740e765652a3ff93b28:1809176318,bacf5f2852e8e340179746023e7338f3:2007526415,75d188b9c75f130088bf74b1a133e079:-492083660,e401f2a5921f1300ba3b648b2cd1403a:834956777</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
