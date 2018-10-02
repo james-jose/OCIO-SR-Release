@@ -1,0 +1,2417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2018-10-02 06:24:49">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Merged following update sets to implement Org (Company and Sector) level security
+OCIO SR Create Sector in Company SB846
+OCIO SR SB-842 ReqOrg-v01
+OCIO SR SB-575 ReqForVariable-v01
+OCIO SR SB-575 ReqForVariable-v02
+OCIO SR SB-843 SM VIew-v01 </description>
+<inserted/>
+<name>OCIO SR 2018 10 02 b</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>9684209fdb7ca38050479eb6db9619e3</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>03e42c9fdb7ca38050479eb6db9619a1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_615ab121db611b00d54b9c78db961900</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Office of the Premier</name><notes/><num_employees/><parent display_value="Finance Sector">b750d306db38a3009d289236db9619dc</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:34</sys_created_on><sys_id>615ab121db611b00d54b9c78db961900</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:12:11</sys_updated_on><theme/><u_code>PREM</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>-198263426</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>03e42c9fdb7ca38050479eb6db9619a3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3af80000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table/>
+<target_name>Office of the Premier</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>966753ce8f38a300a86b8444c969d0bd</update_guid>
+<update_guid_history>966753ce8f38a300a86b8444c969d0bd:-198263426</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_ed5a7121db611b00d54b9c78db9619a0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Auditor General for Local Government</name><notes/><num_employees/><parent display_value="Economic Sector">4eef4b46db38a3009d289236db9619a1</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>ed5a7121db611b00d54b9c78db9619a0</sys_id><sys_mod_count>4</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:06:53</sys_updated_on><theme/><u_code>AGLG</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>659132659</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>03e42c9fdb7ca38050479eb6db9619a6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3ac00000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table/>
+<target_name>Auditor General for Local Government</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>f0361b4e4338a300a4cc4654a68070ef</update_guid>
+<update_guid_history>f0361b4e4338a300a4cc4654a68070ef:659132659</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_403f8b06db38a3009d289236db96195c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>MUNGIM</sys_created_by><sys_created_on>2018-09-28 21:36:19</sys_created_on><sys_id>403f8b06db38a3009d289236db96195c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_sector.u_sector_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_sector">803f8b06db38a3009d289236db961959</sys_security_acl><sys_update_name>sys_security_acl_role_403f8b06db38a3009d289236db96195c</sys_update_name><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 21:36:19</sys_updated_on><sys_user_role display_value="u_sector_user" name="u_sector_user">f32f8b06db38a3009d289236db96193f</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1228487313</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>03e4ac9fdb7ca38050479eb6db961944</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3a610000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table>u_sector</table>
+<target_name>u_sector.u_sector_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>8c3f8b06fd38a300afb84096a1aeb35d</update_guid>
+<update_guid_history>8c3f8b06fd38a300afb84096a1aeb35d:-1228487313,cc8ed8a69d74e3804720a884c1f14ef0:-444781197,8c3f8b06fd38a300afb84096a1aeb35d:-1228487313,abaadf0a5878a38021f7bd8aadf5a03b:-444781197,8c3f8b06fd38a300afb84096a1aeb35d:-1228487313</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_295a7121db611b00d54b9c78db9619d1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Ministry of Attorney General</name><notes/><num_employees/><parent display_value="Justice Sector">a4905b46db38a3009d289236db96194a</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>295a7121db611b00d54b9c78db9619d1</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:08:42</sys_updated_on><theme/><u_code>AG</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>1117245257</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>07e42c9fdb7ca38050479eb6db9619a2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3ad90000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table/>
+<target_name>Ministry of Attorney General</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>e7969f4ea238a3001700c2ad783476dc</update_guid>
+<update_guid_history>e7969f4ea238a3001700c2ad783476dc:1117245257</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_e15a7121db611b00d54b9c78db9619f8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Natural Resource Transformation Secretariat</name><notes/><num_employees/><parent display_value="Natural Resource Ministries Sector">33901786db38a3009d289236db961909</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>e15a7121db611b00d54b9c78db9619f8</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 21:58:30</sys_updated_on><theme/><u_code>NRTS</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>883890126</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>07e42c9fdb7ca38050479eb6db9619a5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3a920000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table/>
+<target_name>Natural Resource Transformation Secretariat</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>9744df8ab938a30076900be2868fa075</update_guid>
+<update_guid_history>9744df8ab938a30076900be2868fa075:883890126</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_083f8b06db38a3009d289236db961953</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_sector</description><name>u_sector</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>MUNGIM</sys_created_by><sys_created_on>2018-09-28 21:36:18</sys_created_on><sys_id>083f8b06db38a3009d289236db961953</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_sector</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_083f8b06db38a3009d289236db961953</sys_update_name><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 21:36:18</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-34409934</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>07e4ac9fdb7ca38050479eb6db961943</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3a530000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table>u_sector</table>
+<target_name>u_sector</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>483f8b06df38a3000d0ca2c2552f8f55</update_guid>
+<update_guid_history>483f8b06df38a3000d0ca2c2552f8f55:-34409934,c88ed8a6ce74e3809ba4e4786155c2d6:1862475942,483f8b06df38a3000d0ca2c2552f8f55:-34409934,6baadf0aa678a380020d8fec0338dd5a:1862475942,483f8b06df38a3000d0ca2c2552f8f55:-34409934</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_215a7121db611b00d54b9c78db9619ef</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Ministry of Mental Health and Addictions</name><notes/><num_employees/><parent display_value="Health Sector">f0801786db38a3009d289236db961992</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>215a7121db611b00d54b9c78db9619ef</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:10:02</sys_updated_on><theme/><u_code>MMHA</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>1367726550</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>0be42c9fdb7ca38050479eb6db9619a1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3aeb0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table/>
+<target_name>Ministry of Mental Health and Addictions</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>76e6d78eff38a300191deeac0acb5cda</update_guid>
+<update_guid_history>76e6d78eff38a300191deeac0acb5cda:1367726550</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_a55a7121db611b00d54b9c78db9619ec</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Ministry of Justice</name><notes/><num_employees/><parent display_value="Justice Sector">a4905b46db38a3009d289236db96194a</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>a55a7121db611b00d54b9c78db9619ec</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:09:19</sys_updated_on><theme/><u_code>JAG</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>-2053884150</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>0be42c9fdb7ca38050479eb6db9619a4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3ae20000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table/>
+<target_name>Ministry of Justice</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>10c6178e6838a300fce5c92e4291868f</update_guid>
+<update_guid_history>10c6178e6838a300fce5c92e4291868f:-2053884150</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_f7fe0706db38a3009d289236db96192d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>Sector</label><live_feed_enabled>false</live_feed_enabled><name>u_sector</name><number_ref/><provider_class/><read_access>true</read_access><super_class display_value="Company" name="core_company">10e8a833db310300ae0690f9db96190a</super_class><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>MUNGIM</sys_created_by><sys_created_on>2018-09-28 21:36:18</sys_created_on><sys_id>f7fe0706db38a3009d289236db96192d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Sector</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_f7fe0706db38a3009d289236db96192d</sys_update_name><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 21:36:18</sys_updated_on><update_access>false</update_access><user_role display_value="u_sector_user" name="u_sector_user">f32f8b06db38a3009d289236db96193f</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>1201095712</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>0be42c9fdb7ca38050479eb6db9619a7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3a750000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table>u_sector</table>
+<target_name>Sector</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>103f8b065138a300e794a3c81e880170</update_guid>
+<update_guid_history>103f8b065138a300e794a3c81e880170:1201095712,677e98a68574e38006a89fcfe4f838fc:-1067219052,103f8b065138a300e794a3c81e880170:1201095712,ffaadf0ac178a380e0ea674b48dd5de6:-1067219052,103f8b065138a300e794a3c81e880170:1201095712</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_530eb316db70638050479eb6db961994</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sc_task&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="sc_task"&gt;request_itemVALCHANGES^EQ&lt;item endquery="false" field="request_item" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;OCIO SR populate Org field&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+//set org from request item org
+current.company=current.request_item.company+'';
+	
+
+	
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;MKURIAKOSE&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-09-29 19:39:32&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;530eb316db70638050479eb6db961994&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;OCIO SR populate Org field&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_530eb316db70638050479eb6db961994&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;MKURIAKOSE&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-09-29 22:14:05&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=530eb316db70638050479eb6db961994"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1711943566</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>0be4ac9fdb7ca38050479eb6db961942</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16627655bc50000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table>sc_task</table>
+<target_name>OCIO SR populate Org field</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>1f61e4e67bb06380ff75efae3eb35259</update_guid>
+<update_guid_history>1f61e4e67bb06380ff75efae3eb35259:-1711943566,491160e65eb06380ca5c382cc75de5c5:1946421988,6b5e7716267063806e752e148f5b5dbf:-701345038,db0eb316ef7063806b8564fae23a5996:-1244060980</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_sector_a4905b46db38a3009d289236db96194a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="u_sector"><u_sector action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Justice Sector</name><notes/><num_employees/><parent/><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>u_sector</sys_class_name><sys_created_by>MUNGIM</sys_created_by><sys_created_on>2018-09-28 21:42:33</sys_created_on><sys_id>a4905b46db38a3009d289236db96194a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 21:42:33</sys_updated_on><theme/><u_code>SECT004</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></u_sector></record_update>]]></payload>
+<payload_hash>-1304532740</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>0be4ac9fdb7ca38050479eb6db961945</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3a850000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table/>
+<target_name>Justice Sector</target_name>
+<type>Sector</type>
+<update_domain>global</update_domain>
+<update_guid>90e05b863a38a300aed51380c085b10e</update_guid>
+<update_guid_history>90e05b863a38a300aed51380c085b10e:-1304532740</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_6d5a7121db611b00d54b9c78db9619e5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Ministry of Finance</name><notes/><num_employees/><parent display_value="Finance Sector">b750d306db38a3009d289236db9619dc</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>6d5a7121db611b00d54b9c78db9619e5</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:11:52</sys_updated_on><theme/><u_code>FIN</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>-2062495599</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>0fe42c9fdb7ca38050479eb6db9619a3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3af40000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table/>
+<target_name>Ministry of Finance</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>75579f4e0438a3004fd6e4476ee060e5</update_guid>
+<update_guid_history>75579f4e0438a3004fd6e4476ee060e5:-2062495599</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_7401f2a5db1f13003d1dd001cf961946</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Change Account">d401be25db1f13003d1dd001cf9619a2</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value>javascript:gs.getUserID()</default_value><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>true</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_requested_for</name><order>100</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Requested For</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference>sys_user</reference><reference_qual>javascript: new OCIO_SR_CatalogHelper().Sector_Finder();</reference_qual><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-07-14 16:33:19</sys_created_on><sys_id>7401f2a5db1f13003d1dd001cf961946</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Requested For</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_7401f2a5db1f13003d1dd001cf961946</sys_update_name><sys_updated_by>MKURIAKOSE</sys_updated_by><sys_updated_on>2018-09-29 02:01:27</sys_updated_on><table/><tooltip/><type>8</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>advanced</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=7401f2a5db1f13003d1dd001cf961946"/><fx_price action="delete_multiple" query="id=7401f2a5db1f13003d1dd001cf961946"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>7401f2a5db1f13003d1dd001cf961946</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-07-14 16:33:19</sys_created_on><sys_id>fc01f2a5db1f13003d1dd001cf961947</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-07-14 16:33:19</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>7401f2a5db1f13003d1dd001cf961946</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-07-14 16:33:19</sys_created_on><sys_id>b401f2a5db1f13003d1dd001cf961947</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-07-14 16:33:19</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>-133281780</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>0fe42c9fdb7ca38050479eb6db9619a6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166230f27450000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table/>
+<target_name>Requested For</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>40eb00928b782380ce2f3f0b6b382c50</update_guid>
+<update_guid_history>40eb00928b782380ce2f3f0b6b382c50:-133281780,6dd188b9695f1300ebd90b851a679318:-535538200,7401f2a5a21f130080be91249b85ac4b:-1184321331</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_f32f8b06db38a3009d289236db96193f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>u_sector_user</name><scoped_admin>false</scoped_admin><suffix/><sys_class_name>sys_user_role</sys_class_name><sys_created_by>MUNGIM</sys_created_by><sys_created_on>2018-09-28 21:36:18</sys_created_on><sys_id>f32f8b06db38a3009d289236db96193f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_sector_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_user_role_f32f8b06db38a3009d289236db96193f</sys_update_name><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 21:36:18</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>-1548285761</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>0fe4ac9fdb7ca38050479eb6db961944</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3a3a0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table/>
+<target_name>u_sector_user</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>372f8b06da38a3006d888c90c61e7442</update_guid>
+<update_guid_history>372f8b06da38a3006d888c90c61e7442:-1548285761,448e1ca69874e380135acdfb54e9fa00:324317491,372f8b06da38a3006d888c90c61e7442:-1548285761,4fba574a3a78a3804b283e386b353e2c:324317491,372f8b06da38a3006d888c90c61e7442:-1548285761</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_295a7121db611b00d54b9c78db9619bc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Gaming Policy and Enforcement Branch</name><notes/><num_employees/><parent display_value="Justice Sector">a4905b46db38a3009d289236db96194a</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>295a7121db611b00d54b9c78db9619bc</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:08:09</sys_updated_on><theme/><u_code>GPEB</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>-328284349</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>43e42c9fdb7ca38050479eb6db9619a2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3acf0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table/>
+<target_name>Gaming Policy and Enforcement Branch</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>17769f4e2b38a300ce88c631ad810eac</update_guid>
+<update_guid_history>17769f4e2b38a300ce88c631ad810eac:-328284349</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_e15a7121db611b00d54b9c78db9619e3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Ministry of Energy, Mines and Petroleum Resources</name><notes/><num_employees/><parent display_value="Natural Resource Ministries Sector">33901786db38a3009d289236db961909</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>e15a7121db611b00d54b9c78db9619e3</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:00:51</sys_updated_on><theme/><u_code>EMPR</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>548704973</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>43e42c9fdb7ca38050479eb6db9619a5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3aa20000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table/>
+<target_name>Ministry of Energy, Mines and Petroleum Resources</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>be75970ecf38a30043a840907e818121</update_guid>
+<update_guid_history>be75970ecf38a30043a840907e818121:548704973</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_e952a73e4f671300c8030fbf9310c737</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.OCIO_SR_CatalogHelper&lt;/api_name&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;OCIO_SR_CatalogHelper&lt;/name&gt;&lt;script&gt;&lt;![CDATA[/**
+ * Helper Functions for Service Request Project
+ * 
+ * History
+ * JIRA   Date         Developer       Description
+ * -----  -----------  --------------  ------------------------
+ * SB-43 16-August-2018 Mathew Kuriakose   Initial implementation 
+ * Copyright to BC Public Service - Service Request
+ */
+
+
+var OCIO_SR_CatalogHelper = Class.create();
+OCIO_SR_CatalogHelper.prototype = Object.extendsObject(AbstractAjaxProcessor,{
+	
+AssignGroup: function() {
+
+var response ='false';	
+var myUserObject = gs.getUser();
+	
+return(myUserObject.isMemberOf('Access Portal Full Catalog')||gs.hasRole('admin'));
+
+},
+	
+	
+Sector_Finder: function() {
+var parent_company ='';
+var user_has_company="no";
+var return_string ='sys_created_onISEMPTY';
+//var user_id =gs.getUserID();
+var company_id = gs.getUser().getCompanyID();
+	
+if(company_id!=''){
+	
+var grComp = new GlideRecord('core_company');
+	
+if (grComp.get(gs.getUser().getCompanyID())) {
+	 
+user_has_company="yes";
+parent_company = grComp.parent;
+} 
+	
+if(user_has_company=="yes"&amp;&amp; parent_company==''){
+	
+return_string = "company="+company_id;
+	
+}
+
+if(user_has_company=="yes"&amp;&amp; parent_company!=''){
+	
+return_string = "company.parent="+parent_company;
+	
+}
+	
+}
+//	gs.log("return_string "+return_string);
+
+return return_string;
+},
+
+type: 'OCIO_SR_CatalogHelper'
+
+
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-07-31 03:37:33&lt;/sys_created_on&gt;&lt;sys_id&gt;e952a73e4f671300c8030fbf9310c737&lt;/sys_id&gt;&lt;sys_mod_count&gt;26&lt;/sys_mod_count&gt;&lt;sys_name&gt;OCIO_SR_CatalogHelper&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_e952a73e4f671300c8030fbf9310c737&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;MKURIAKOSE&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-09-30 23:06:22&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-765368168</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>43e4ac9fdb7ca38050479eb6db961943</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1662cbb92340000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table/>
+<target_name>OCIO_SR_CatalogHelper</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>7af6f136e2bc638035f8b147ad6360aa</update_guid>
+<update_guid_history>7af6f136e2bc638035f8b147ad6360aa:-765368168,bcf635360bbc6380b00f5c927cfe44d3:-765368168,166671f281bc638049eadfd29c5a5b29:-1984316005,5f3a4c12ad782380cb6e1015af41a2c5:1436671662,33f90c121578238077c6ce1b23ce89e3:1379138888,58650c9a9738238049a4874ad031e3de:-1157225281,e915081ea2382380ac9bbb566bf880fb:1668257286,1ad2c41e9a382380abf80bb25177a5a7:-189246938,2000085afa382380ce4c6a501c307d11:582116051,db52fda0410023009b7eda555d4e4f44:281035526,ff21f9a060002300d84f0ab56bab3df8:281035526,4a10f1606300230085217935994a94d6:-1777269525,6a1043d868042300f7f66825b29cfdba:-1513436658,2e2efa5894042300992ee9c63b9c8a6f:-1513436658,4fad3a58b7042300a309b9ef7a5988aa:1274371874,bb7d3a58f1042300bf5ad6f035ef6212:-1676289845,af4d7e18c804230069e556bf1601f847:1444368452,5e8afad4d1042300469df57bd6a8eba8:-256550607,b45ab2d47b04230052b9a3b64c5ac9a6:-1216930113,ee89e29cc3c02300212edcd3a568c6ee:-1490032845,c0a8ea5cb7c023000c4d765d847a33f7:-719868780,6672273ed9671300cdc63aa4d864b676:-1264342554</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_sector_f0801786db38a3009d289236db961992</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="u_sector"><u_sector action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Health Sector</name><notes/><num_employees/><parent/><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>u_sector</sys_class_name><sys_created_by>MUNGIM</sys_created_by><sys_created_on>2018-09-28 21:42:19</sys_created_on><sys_id>f0801786db38a3009d289236db961992</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 21:42:19</sys_updated_on><theme/><u_code>SECT003</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></u_sector></record_update>]]></payload>
+<payload_hash>1324173900</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>43e4ac9fdb7ca38050479eb6db961946</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3a810000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table/>
+<target_name>Health Sector</target_name>
+<type>Sector</type>
+<update_domain>global</update_domain>
+<update_guid>52d05b869438a300221b2d05ccc140fa</update_guid>
+<update_guid_history>52d05b869438a300221b2d05ccc140fa:1324173900</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_215a7121db611b00d54b9c78db9619b2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Destination BC Corporation</name><notes/><num_employees/><parent display_value="Economic Sector">4eef4b46db38a3009d289236db9619a1</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>215a7121db611b00d54b9c78db9619b2</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:07:11</sys_updated_on><theme/><u_code>DBC</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>-1941027383</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>47e42c9fdb7ca38050479eb6db9619a1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3ac60000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table/>
+<target_name>Destination BC Corporation</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>2e469b4e0438a300d776920aa34a1695</update_guid>
+<update_guid_history>2e469b4e0438a300d776920aa34a1695:-1941027383,46469b4e1d38a30063330b5ae547bfa1:-1941027383</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_a15a7121db611b00d54b9c78db9619e7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Ministry of Forests, Lands, Natural Resource Operations and Rural Development</name><notes/><num_employees/><parent display_value="Natural Resource Ministries Sector">33901786db38a3009d289236db961909</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>a15a7121db611b00d54b9c78db9619e7</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:04:51</sys_updated_on><theme/><u_code>FLNR</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>-1161499711</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>47e42c9fdb7ca38050479eb6db9619a4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3aaa0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table/>
+<target_name>Ministry of Forests, Lands, Natural Resource Operations and Rural Development</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>f2b51f0e7738a30079f638f5546f8a5b</update_guid>
+<update_guid_history>f2b51f0e7738a30079f638f5546f8a5b:-1161499711</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_choice_core_company_sys_class_name</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="sys_class_name" table="core_company" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>sys_class_name</element><hint/><inactive>false</inactive><label>Company</label><language>en</language><name>core_company</name><sequence>0</sequence><sys_created_by>Janine.Breathet</sys_created_by><sys_created_on>2018-05-11 15:44:29</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a510418ddb86df400f819274db961992</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Janine.Breathet</sys_updated_by><sys_updated_on>2018-05-11 15:44:29</sys_updated_on><value>core_company</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>sys_class_name</element><hint/><inactive>false</inactive><label>Vendor</label><language>en</language><name>core_company</name><sequence>1</sequence><sys_created_by>Janine.Breathet</sys_created_by><sys_created_on>2018-05-11 15:44:29</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6910418ddb86df400f819274db961993</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Janine.Breathet</sys_updated_by><sys_updated_on>2018-05-11 15:44:29</sys_updated_on><value>u_vendor</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>sys_class_name</element><name>core_company</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>Janine.Breathet</sys_created_by><sys_created_on>2018-05-11 15:44:29</sys_created_on><sys_id>2510418ddb86df400f819274db961993</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package/><sys_policy/><sys_scope/><sys_update_name/><sys_updated_by>Janine.Breathet</sys_updated_by><sys_updated_on>2018-05-11 15:44:29</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+<payload_hash>522263637</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>47e42c9fdb7ca38050479eb6db9619a7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3a2c0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table>core_company</table>
+<target_name>Company.Class</target_name>
+<type>Choice list</type>
+<update_domain>global</update_domain>
+<update_guid>48ce03061538a3003c5bd5afc0ac0f42</update_guid>
+<update_guid_history>48ce03061538a3003c5bd5afc0ac0f42:522263637,cc6ffa8228f4a3002f5569c9d1c4b040:1535931998,b53f3682ddf4a300b899308f87c1561f:-305316559,91ae7a426df4a300e9f385aa457b7dc8:-1739169265,39ad368e32b4a30070dcbf25838585a5:2107161341,a7b9c2b5963c63809583266bb74fc6b2:522263637,ec698631ab3c6380bcb4d531527a71e1:1535931998,a510418dcf86df4088e82b9604756e95:522263637</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_sector__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="Sector" language="en" table="u_sector"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>Sector</label><language>en</language><name>u_sector</name><plural>Sectors</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>MUNGIM</sys_created_by><sys_created_on>2018-09-28 21:36:19</sys_created_on><sys_id>443f8b06db38a3009d289236db961966</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Sector</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_sector__en</sys_update_name><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 21:36:19</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1506082115</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>47e4ac9fdb7ca38050479eb6db961942</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3a700000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table>u_sector</table>
+<target_name>Sector</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>1c3f8b06d938a300bf53861ca032e06e</update_guid>
+<update_guid_history>1c3f8b06d938a300bf53861ca032e06e:-1506082115,9f7e98a62174e38006fdfc0d059ffed5:-666042451,1c3f8b06d938a300bf53861ca032e06e:-1506082115,5faa9f0aad78a380f9a232ba9c1670ec:-666042451,1c3f8b06d938a300bf53861ca032e06e:-1506082115</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_sector_4eef4b46db38a3009d289236db9619a1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="u_sector"><u_sector action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Economic Sector</name><notes/><num_employees/><parent/><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>u_sector</sys_class_name><sys_created_by>MUNGIM</sys_created_by><sys_created_on>2018-09-28 21:40:16</sys_created_on><sys_id>4eef4b46db38a3009d289236db9619a1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 21:40:16</sys_updated_on><theme/><u_code>SECT001</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></u_sector></record_update>]]></payload>
+<payload_hash>-712689643</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>47e4ac9fdb7ca38050479eb6db961945</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3a790000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table/>
+<target_name>Economic Sector</target_name>
+<type>Sector</type>
+<update_domain>global</update_domain>
+<update_guid>43401746dd38a30040ad1349203e3da5</update_guid>
+<update_guid_history>43401746dd38a30040ad1349203e3da5:-712689643</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_6d5a7121db611b00d54b9c78db9619d2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Ministry of Children and Family Development</name><notes/><num_employees/><parent display_value="Social Sector">dea01746db38a3009d289236db9619ab</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>6d5a7121db611b00d54b9c78db9619d2</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:12:48</sys_updated_on><theme/><u_code>MCF</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>-1267105919</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>4be42c9fdb7ca38050479eb6db9619a3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3b000000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table/>
+<target_name>Ministry of Children and Family Development</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>af8717cea438a300434adf904e55fdf7</update_guid>
+<update_guid_history>af8717cea438a300434adf904e55fdf7:-1267105919</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_33ec31bbdb961300f72fe04a489619bc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Reset Voice Mail Password">fa2cbd7bdb961300f72fe04a4896197a</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value>javascript:gs.getUserID()</default_value><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>true</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_requested_for</name><order>200</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Requested For</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference>sys_user</reference><reference_qual>javascript: new OCIO_SR_CatalogHelper().Sector_Finder();</reference_qual><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-01 19:31:28</sys_created_on><sys_id>33ec31bbdb961300f72fe04a489619bc</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Requested For</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_33ec31bbdb961300f72fe04a489619bc</sys_update_name><sys_updated_by>MKURIAKOSE</sys_updated_by><sys_updated_on>2018-09-29 02:02:05</sys_updated_on><table/><tooltip/><type>8</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>advanced</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=33ec31bbdb961300f72fe04a489619bc"/><fx_price action="delete_multiple" query="id=33ec31bbdb961300f72fe04a489619bc"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>33ec31bbdb961300f72fe04a489619bc</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-01 19:31:28</sys_created_on><sys_id>436df5bbdb961300f72fe04a489619e2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-01 19:31:28</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>33ec31bbdb961300f72fe04a489619bc</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-06-01 19:31:28</sys_created_on><sys_id>0b6df5bbdb961300f72fe04a489619e1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-06-01 19:31:28</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>1876702139</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>4be42c9fdb7ca38050479eb6db9619a6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166230fbc040000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table/>
+<target_name>Requested For</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>9d0c0092fe782380bcfcfc5bd62a39e1</update_guid>
+<update_guid_history>9d0c0092fe782380bcfcfc5bd62a39e1:1876702139,06eeb729c75f1300de8530e98e7adbed:-491411369,436d3dbb309613003b1895945f273538:1074419606</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_c43f8b06db38a3009d289236db961956</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>MUNGIM</sys_created_by><sys_created_on>2018-09-28 21:36:18</sys_created_on><sys_id>c43f8b06db38a3009d289236db961956</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_sector.u_sector_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_sector">083f8b06db38a3009d289236db961953</sys_security_acl><sys_update_name>sys_security_acl_role_c43f8b06db38a3009d289236db961956</sys_update_name><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 21:36:18</sys_updated_on><sys_user_role display_value="u_sector_user" name="u_sector_user">f32f8b06db38a3009d289236db96193f</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1172329209</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>4be4ac9fdb7ca38050479eb6db961944</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3a580000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table>u_sector</table>
+<target_name>u_sector.u_sector_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>043f8b06c538a300501457f35c007558</update_guid>
+<update_guid_history>043f8b06c538a300501457f35c007558:1172329209,088ed8a68774e3803dc8181746b8d8fc:1956035325,043f8b06c538a300501457f35c007558:1172329209,e7aadf0ac178a3805c0e2fc8f18dc957:1956035325,043f8b06c538a300501457f35c007558:1172329209</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_615a7121db611b00d54b9c78db9619eb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Ministry of Jobs, Trade and Technology</name><notes/><num_employees/><parent display_value="Economic Sector">4eef4b46db38a3009d289236db9619a1</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>615a7121db611b00d54b9c78db9619eb</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:05:46</sys_updated_on><theme/><u_code>JTT</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>-760480532</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>4fe42c9fdb7ca38050479eb6db9619a2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3ab30000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table/>
+<target_name>Ministry of Jobs, Trade and Technology</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>58f55b0ee438a300fd6c5b16c4b1d88f</update_guid>
+<update_guid_history>58f55b0ee438a300fd6c5b16c4b1d88f:-760480532</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_e95a7121db611b00d54b9c78db9619ed</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Ministry of Labour</name><notes/><num_employees/><parent display_value="Economic Sector">4eef4b46db38a3009d289236db9619a1</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>e95a7121db611b00d54b9c78db9619ed</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:06:09</sys_updated_on><theme/><u_code>LBR</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>1026576574</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>4fe42c9fdb7ca38050479eb6db9619a5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3ab70000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table/>
+<target_name>Ministry of Labour</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>4e065b0e6938a300c2806dbbbcf72b91</update_guid>
+<update_guid_history>4e065b0e6938a300c2806dbbbcf72b91:1026576574</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_c83f8b06db38a3009d289236db961946</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_sector</description><name>u_sector</name><operation display_value="create">create</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>MUNGIM</sys_created_by><sys_created_on>2018-09-28 21:36:18</sys_created_on><sys_id>c83f8b06db38a3009d289236db961946</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_sector</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_c83f8b06db38a3009d289236db961946</sys_update_name><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 21:36:18</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-995893982</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>4fe4ac9fdb7ca38050479eb6db961943</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3a3f0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table>u_sector</table>
+<target_name>u_sector</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>c83f8b061938a30084809cfc185a1d49</update_guid>
+<update_guid_history>c83f8b061938a30084809cfc185a1d49:-995893982,8c8ed8a61174e380f20c2409d4678aea:845299350,c83f8b061938a30084809cfc185a1d49:-995893982,6baadf0ae378a3808f4636a9063fd72a:845299350,c83f8b061938a30084809cfc185a1d49:-995893982</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_a15a7121db611b00d54b9c78db9619bf</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>HealthLink BC</name><notes/><num_employees/><parent display_value="Health Sector">f0801786db38a3009d289236db961992</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>a15a7121db611b00d54b9c78db9619bf</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:31:47</sys_updated_on><theme/><u_code>HLBC</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>-2145633195</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>83e42c9fdb7ca38050479eb6db9619a4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3b090000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table/>
+<target_name>HealthLink BC</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>fdebdb062178a3006586654679fc0c3c</update_guid>
+<update_guid_history>fdebdb062178a3006586654679fc0c3c:-2145633195,8217978e8838a300824a5a51cd368268:-1608609965</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_widget_13db46ed4f802300c8030fbf9310c713</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;standard&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function ($scope, $location, spUtil, amb, $http, spAriaUtil, $timeout, spNavStateManager, $anchorScroll) {
+	var c = this;
+	
+
+	if(localStorage.getItem('rowID')) {
+	var idClicked =  localStorage.getItem('rowID');//'3831b225c3111200a125dbfd81d3ae9b'; 		
+	gotoAnchor(idClicked);
+		
+	}
+	function gotoAnchor(x) {	
+	 $timeout(function() {
+		  $anchorScroll(x);
+		//  $location.hash(old);		
+	localStorage.clear();
+            },500);	
+		 
+    };
+	//	alert(document.getElementById('clickedElement').value);
+	
+	/*
+	 * options:
+	 * hide_footer (bool) = true to remove the data table footer contents
+	 * hide_header (bool) = true to remove the data table header contents
+	 * show_new (bool) = true to show the "New" record button
+	 * show_keywords (bool) = true to show the keyword search field
+	 * table (string) = the table name to query
+	 * filter (string) = the encoded query
+	 * o (string) = the order by column
+	 * d (string) = The order by direction: asc or desc
+	 * p (int) = the page to jump to
+	 * fields (string) = comma seperated list of fields that become the list columns
+	 * view (string) = the default view to load for columns, overrides fields
+	*/
+	$scope.exportTypes = [{label:'PDF', value: 'PDF'}, {label:'Excel', value:'EXCEL'}, {label:'CSV', value:'CSV'}];
+	var keys = ['table', 'filter', 'p', 'o', 'd'];
+
+	var eventNames = {
+		click: 'data_table.click',
+		setFilter: 'data_table.setFilter',
+		setKeywords: 'data_table.setKeywords'
+	};
+
+	$scope.go = function(table, item) {
+		spNavStateManager.onRecordChange(table).then(function() {
+		var parms = {};
+		parms.table = table;
+		parms.sys_id = item.sys_id;
+		parms.record = item;
+		$scope.ignoreLocationChange = true;
+		for (var x in c.data.list) {
+			c.data.list[x].selected = false;
+		}
+		item.selected = true;
+			//wsib custom code
+			localStorage.setItem('rowID',item.sys_id);
+			//gotoAnchor(item.sys_id);
+		//	document.getElementById('clickedElement').value = item.sys_id;
+			//alert(document.getElementById('clickedElement').value);
+			
+		$scope.$emit(eventNames.click, parms);
+		}, function() {
+			// do nothing in case of closing the modal by clicking on x
+		});	
+	};
+
+	
+	
+	$scope.newRecord = function(){
+		var parms = {
+			id: 'form',
+			table: $scope.data.table,
+			view: $scope.data.view,
+			sys_id: '-1'
+		};
+		if ($scope.data.filter != '')
+			parms.query = $scope.data.filter;
+
+		$location.search(parms);
+	};
+
+	function recoverStateFromUrl() {
+		$scope.data.fields = [];
+		var s = $location.search();
+		for (var x in keys) {
+			if (s[keys[x]]) {
+				$scope.data[keys[x]] = s[keys[x]];
+			}
+		}
+		$scope.server.update().then(function(data) {
+			if (s.sys_id) {
+				for (var x in data.list) {
+					if (data.list[x].sys_id == s.sys_id) {
+						$scope.go(s.table, data.list[x]);
+					}
+				}
+			}
+		});
+	}
+
+	if ($scope.options.fromUrl) {
+		var origSearch = $location.search();
+		$scope.$on('$locationChangeSuccess', function(e) {
+			var s = $location.search();
+			if (origSearch.id !== s.id)
+				return;
+
+			if ($scope.ignoreLocationChange){
+				$scope.ignoreLocationChange = false;
+				return;
+			}
+
+			// Helps to recover state when using the browser's back button
+			recoverStateFromUrl();
+		});
+	}
+
+
+	$scope.getNumber = function(num) {
+		return new Array(num);
+	}
+
+	$scope.mathMin = function(v1,v2) {
+		return Math.min(v1,v2);
+	}
+
+	function getData(updateUrl) {
+		var f = $scope.data;
+		spUtil.update($scope).then(function(data) {
+			f.view = data.view;
+			if ($scope.options.fromUrl &amp;&amp; updateUrl)
+				setPermalink(f.table, f.filter, f.o, f.d, f.p);
+
+			if ($scope.options.show_breadcrumbs &amp;&amp; data.filterBreadcrumbs)
+				$scope.$broadcast('widget-filter-breadcrumbs.setBreadcrumbs', data.filterBreadcrumbs.data, data.filter);
+
+			initRecordWatcher(f.table, f.filter);
+		});
+	}
+
+	function setPermalink(table, filter, orderBy, orderDirection, page){
+		$scope.ignoreLocationChange = true;
+		var search = $location.search();
+		angular.extend(search, {
+			spa: 1,
+			table: table,
+			filter: filter,
+			p: page,
+			o: orderBy,
+			d: orderDirection
+		});
+		$location.search(search);
+	}
+
+	var watcher;
+	function initRecordWatcher(table, filter){
+		if (watcher)
+			watcher.unsubscribe();
+
+		if (table &amp;&amp; filter) {
+			var watcherChannel = amb.getChannelRW(table, filter);
+			amb.connect();
+			watcher = watcherChannel.subscribe(function(message) {
+				if (!message.data)
+					return;
+				switch(message.data.action) {
+					case "change":
+						updateRowFromRW(message);
+						break;
+					case "exit":
+						// A record was removed
+					case "enter":
+						// A record was added
+					default:
+						spUtil.update($scope);
+						break;
+				}
+			});
+		}
+	}
+
+	function updateRowFromRW(message) {
+		if (message.data &amp;&amp; message.data.sys_id &amp;&amp; $scope.data.list) {
+			var row, field;
+			for(var i=0;i&lt;$scope.data.list.length; i++) {
+				row = $scope.data.list[i];
+				if (row.sys_id == message.data.sys_id) {
+					var fields = Object.getOwnPropertyNames(message.data.record);
+					for(var f in fields) {
+						field = fields[f];
+						if(typeof row[field] !== 'undefined') {
+						    row[field].display_value = message.data.record[field].display_value;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	$scope.$on('$destroy', function() {
+		if (watcher)
+			watcher.unsubscribe();
+	});
+
+	$scope.setPageNum = function(num) {
+		$scope.data.p = num;
+		getData(true);
+		$timeout(function() {
+			$scope.focusOnTableHeader();
+		});
+	}
+
+	$scope.setOrderBy = function(field) {
+		var d = "asc";
+		if ($scope.data.o == field) {
+			if ($scope.data.d == "asc")
+				d = "desc";
+			else
+				d = "asc";
+		}
+
+		if (d === "asc") {
+			spAriaUtil.sendLiveMessage($scope.data.msg.sortingByAsc);
+		} else if (d === "desc") {
+			spAriaUtil.sendLiveMessage($scope.data.msg.sortingByDesc);
+		}
+
+		$scope.data.o = field;
+		$scope.data.d = d;
+		$scope.setSearch(true);
+	}
+
+	$scope.setSearch = function(updateUrl) {
+		$scope.data.p = 1;
+		getData(updateUrl);
+	}
+
+	$scope.$on(eventNames.setFilter, function(e, newFilter){
+		$scope.data.filter = newFilter;
+		$scope.setSearch(false);
+	});
+
+	$scope.$on(eventNames.setKeywords, function(e, keywords){
+		$scope.data.keywords = keywords;
+		$scope.setSearch(false);
+	});
+
+	$scope.$on('widget-filter-breadcrumbs.queryModified', function(e, newFilter){
+		$scope.data.filter = newFilter;
+		$scope.setSearch(true);
+	});
+
+	$scope.rowsWerePruned = function() {
+		if (!$scope.data.list)
+			return;
+
+		$scope.rowsPruned = $scope.mathMin($scope.data.window_end,$scope.data.row_count) - $scope.data.window_start - $scope.data.list.length;
+		return $scope.rowsPruned &gt; 0;
+	}
+
+	$scope.showFilter = function() {
+		return !$scope.data.list.length &amp;&amp; !$scope.data.num_pages &amp;&amp; !$scope.data.invalid_table &amp;&amp; !$scope.loadingData;
+	}
+
+	c.appendQuery = function(query){
+		if ($scope.data.filter.length &gt; 1)
+			$scope.data.filter += '^';
+		$scope.data.filter += query;
+			$scope.setSearch();
+
+	}
+
+	// Makes Widget Async
+	var title = $scope.options.title;
+	if ($scope.options.use_instance_title === 'false')
+		title = $scope.title;
+	$scope.data = $scope.options;
+	$scope.loadingData = true;
+	$scope.server.update().then(function() {
+		if ($scope.data.newButtonUnsupported)
+			console.log("Service Portal: New button not supported for sys_attachment list");
+		$scope.data.title = title;
+		$scope.loadingData = false;
+		initRecordWatcher($scope.data.table, $scope.data.filter);
+	});
+
+	function parseQuery(table, queryString){
+		return $http.post('/api/now/sp/parsequery/' + table, queryString).then(function(response){
+				return response.data.result;
+		});
+	}
+
+	c.createQueryTerm = function(table, field, sys_id, operator){
+		return $http.get('/api/now/sp/getInOutQueryTerm', {
+			params: {
+				table: table,
+				sys_id: sys_id,
+				field: field,
+				operator: operator
+			}
+		}).then(function(response){
+			if (response &amp;&amp; response.data &amp;&amp; response.data.result)
+				return response.data.result.parts;
+		});
+	}
+
+	c.showMatching = function(field, newTerm) {
+		var queryString = $scope.data.filter;
+		var eq = "";
+		parseQuery($scope.data.table, queryString).then(function(oldTerms) {
+			for(var i=0; i&lt;oldTerms.length; i++){
+				var term = oldTerms[i];
+				if (isSameField(newTerm, term))
+					continue;
+
+				if (eq.length)
+					eq += '^';
+
+				eq += getEncodedTerm(term);
+			}
+			if (eq.length)
+					eq += '^';
+			eq += getEncodedTerm(newTerm);
+
+			$scope.data.filter = eq;
+			$scope.setSearch();
+		});
+	};
+
+	c.filterOut = function(field, newTerm) {
+		var eq = $scope.data.filter;
+		if (eq.length)
+					eq += '^';
+
+		eq += getEncodedTerm(newTerm);
+		$scope.data.filter = eq;
+		$scope.setSearch();
+	};
+
+	function isSameField(t1, t2) {
+		if ('left' in t1 &amp;&amp; 'left' in t2)
+			return t1.left.field === t2.left.field;
+		else if ('left' in t1)
+			return t1.left.field === t2.field;
+		else if ('left' in t2)
+			return t1.field === t2.left.field;
+		return t1.field === t2.field;
+	}
+
+	function getEncodedTerm(term) {
+		var eq;
+		if (term.left) {
+			eq = getEncodedTerm(term.left);
+			eq += '^OR';
+			eq += getEncodedTerm(term.right);
+		} else {
+			eq = term.field;
+			eq += term.operator;
+			eq += term.value;
+		}
+		return eq;
+	}
+}]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;.panel-heading {
+  padding-left: 8px;
+}
+
+thead {
+  border-bottom: 1px solid #ddd;
+}
+
+table {
+  margin-bottom: 0;
+}
+
+.table &amp;gt; thead &amp;gt; tr &amp;gt; th {
+  border: 1px solid #ddd;
+  cursor: pointer;
+  vertical-align: middle;
+
+  &amp;amp;:nth-child(2) {
+    border-left: none;
+  }
+
+
+
+  &amp;amp;:last-child {
+    border-right: none;
+  }
+}
+
+th i {
+  display: inline-block;
+  margin-left: 5px;
+  color: #A0A0A0;
+}
+
+th .disabled{
+  color:#ddd;
+}
+
+.th-title {
+  display: inline-block;
+  color: $primary;
+}
+
+.panel-body {
+  overflow: auto;
+  padding: 0px;
+}
+
+
+.selected {
+  color: #fff;
+  background-color: #909090;
+  border-color: 1px solid #fff;
+}
+
+tbody tr:last-child {
+  border-bottom: none;
+}
+
+.pruned-msg {
+  padding-bottom: 10px;
+  padding-left: 4px;
+  text-align: center;
+}
+
+.pruned-msg-filter-pad {
+  padding-top:8px;
+}
+
+.filter-breadcrumbs {
+  border-bottom: 1px solid #ddd;
+  padding-top: 3px;
+}
+
+.dropdown-toggle {
+  background: none;
+  padding: 0 0 4px 0;
+}&lt;/css&gt;&lt;data_table&gt;sp_instance_table&lt;/data_table&gt;&lt;demo_data&gt;{"data":
+	{
+		"table": "incident",
+		"view": "default",
+		"o": "opened_at",
+		"d": "desc",
+		"filter": "activeEQtrue",
+		"p": 1,
+		"fields": "number,short_description"
+	}
+}&lt;/demo_data&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list&gt;table,filter,field_list,maximum_entries,order,order_by,order_direction,title,color,glyph,sp_page&lt;/field_list&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;ocio-widget-data-table&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function(scope, element, attrs, ctrl){
+	var $ul, $contextMenu;
+
+	scope.focusOnTableHeader = function() {
+		element.find(".data-table-title").attr("tabindex", "-1").focus();
+	}
+
+	element.on('contextmenu', function(e){
+		if (e.ctrlKey)
+			return; // ctrlKey is for the debug menu, not this menu
+
+		var rowScope = angular.element(e.target).scope();
+		var field, item, fieldVal;
+
+		// Context Menu for tbody
+		if (angular.isDefined(rowScope.field) &amp;&amp; angular.isDefined(rowScope.item)){
+			e.preventDefault();
+			field = rowScope.field;
+			item = rowScope.item;
+			fieldVal = item[field].value;
+
+			var items = [
+				['${Show Matching}', function(){
+					ctrl.createQueryTerm(scope.data.table, field, item.sys_id, '=').then(function(term){
+						ctrl.showMatching(field, term);
+					});
+				}],
+				['${Filter Out}', function(){
+					ctrl.createQueryTerm(scope.data.table, field, item.sys_id, '!=').then(function(term){
+						ctrl.filterOut(field, term);
+					});
+				}]
+			];
+
+			renderContextMenu(items);
+			setContextMenuPosition(e);
+		}
+	});
+
+	function renderContextMenu(items){
+		var scrollHeight = $('body').get(0).scrollHeight;
+		$contextMenu = angular.element('&lt;div&gt;', {'class': 'dropdown clearfix context-dropdown open'});
+
+		$contextMenu.on('click', function (e) {
+			if ($(e.target).hasClass('dropdown')) {
+				_clearContextMenus(event);
+			}
+		});
+		$contextMenu.on('contextmenu', function (event) {
+			event.preventDefault();
+			_clearContextMenus(event);
+		});
+
+		$contextMenu.css({
+			position: 'absolute',
+			top: 0,
+			height: scrollHeight,
+			left: 0,
+			right: 0,
+			zIndex: 9999
+		});
+
+		$('body').append($contextMenu);
+
+		$ul = angular.element('&lt;ul&gt;', {
+			'class': 'dropdown-menu',
+			'role': 'menu'
+		});
+		renderItems();
+		$contextMenu.append($ul);
+
+		function renderItems(){
+			angular.forEach(items, function (item) {
+				var $li = angular.element('&lt;li&gt;');
+
+				if (item === null) {
+					$li.addClass('divider');
+				} else {
+					var $a = angular.element('&lt;a&gt;');
+					$a.attr({tabindex: '-1', href:'#'});
+					$a.text(item[0]);
+					$li.append($a);
+					$li.on('click', function (e) {
+						e.preventDefault();
+						scope.$apply(function () {
+							_clearContextMenus(e);
+							item[1].call(item, item);
+						});
+					});
+				}
+
+				$ul.append($li);
+			});
+		}
+	}
+
+	function _clearContextMenus(event){
+		if (!event){
+			return;
+		}
+
+		angular.element(event.currentTarget).removeClass('context');
+
+		var els = angular.element(".context-dropdown");
+		angular.forEach(els, function(el){
+			angular.element(el).remove();
+		});
+	}
+
+	var contextMenuItemHeight = 0;
+	function setContextMenuPosition(event){
+		if (contextMenuItemHeight === 0)
+			contextMenuItemHeight = $ul.children(0).height();
+
+		// Why not just call .width() and .height() on the container? Because those calculations cause browsers to reflow
+		// that can cause IE10 to take 200ms to render a context menu.
+		var cmWidth = 150;
+		var cmHeight = contextMenuItemHeight * $ul.children().length;
+		var startX = event.pageX + cmWidth &gt;= window.innerWidth ? event.pageX - cmWidth : event.pageX;
+		var startY = event.pageY + cmHeight &gt;= window.innerHeight ? event.pageY - cmHeight : event.pageY;
+
+		$ul.css({
+			display: 'block',
+			position: 'absolute',
+			left: startX,
+			top: startY,
+			'min-width': cmWidth
+		});
+	}
+}]]&gt;&lt;/link&gt;&lt;name&gt;OCIO Data Table&lt;/name&gt;&lt;option_schema&gt;[{"hint":"If enabled, show the list filter in the breadcrumbs of the data table","name":"enable_filter","default_value":"false","section":"Behavior","label":"Enable Filter","type":"boolean"}]&lt;/option_schema&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles&gt;snc_external,snc_internal&lt;/roles&gt;&lt;script&gt;&lt;![CDATA[(function() {
+	if (!input) // asynch load list
+		return;
+
+	data.msg = {};
+	data.msg.sortingByAsc = gs.getMessage("Sorting by ascending");
+	data.msg.sortingByDesc = gs.getMessage("Sorting by descending");
+
+	data.title = options.title || input.title;
+
+	/*
+	 * data.table = the table
+	 * data.p = the current page starting at 1
+	 * data.o = the order by column
+	 * data.d = the order by direction
+	 * data.keywords = the keyword search term
+	 * data.list = the table data as an array
+	 * data.invalid_table = true if table is invalid or if data was not succesfully fetched
+	 * data.table_label = the table's display name. e.g. Incident
+	 * data.table_plural = the table's plural display name. e.g. Incidents
+	 * data.fields = a comma delimited list of field names to show in the data table
+	 * data.column_labels = a map of field name -&gt; display name
+	 * data.window_size = the number of rows to show
+	 * data.filter = the encoded query
+	 */
+	// copy to data[name] from input[name] || option[name]
+
+	optCopy(['table', 'p', 'o', 'd', 'filter', 'filterACLs', 'fields', 'keywords', 'view']);
+	optCopy(['relationship_id', 'apply_to', 'apply_to_sys_id', 'window_size']);
+	if (!data.table) {
+		data.invalid_table = true;
+		data.table_label = "";
+		return;
+	}
+
+	if (!data.fields) {
+		if (data.view)
+			data.fields = $sp.getListColumns(data.table, data.view);
+		else
+			data.fields = $sp.getListColumns(data.table);
+	}
+//	data.view = data.view || 'mobile';
+	data.fields = "number,cat_item,state,u_item_requested_for,u_item_requested_for.user_name,company,request,opened_at,closed_at,u_item_requested_by";
+   // data.table = "sc_req_item";
+	data.table = data.table ||$sp.getValue('table');
+	data.filter = data.filter || $sp.getValue('filter');
+	data.keywords = data.keywords || $sp.getValue('keywords');
+	data.p = data.p || $sp.getValue('p') || 1;
+	data.p = parseInt(data.p);
+	data.o = data.o || $sp.getValue('o') || $sp.getValue('order_by');
+	data.d = data.d || $sp.getValue('d') || $sp.getValue('order_direction');
+	data.page_index = data.p - 1;
+	data.show_new = data.show_new || options.show_new;
+	var windowSize = data.window_size || $sp.getValue('maximum_entries') || 20;
+	windowSize = parseInt(windowSize);
+	if (isNaN(windowSize) || windowSize &lt; 1)
+		windowSize = 20;
+	data.window_size = windowSize;
+
+	var gr;
+	if (gs.getProperty("glide.security.ui.filter") == "true" || GlideTableDescriptor.get(data.table).getED().hasAttribute("glide.security.ui.filter")) {
+		gr = new FilteredGlideRecord(data.table);
+		gr.applyRowSecurity();
+	} else
+		gr = new GlideRecordSecure(data.table);
+	if (!gr.isValid()) {
+		data.invalid_table = true;
+		data.table_label = data.table;
+		return;
+	}
+
+  data.canCreate = gr.canCreate();
+	data.newButtonUnsupported = data.table == "sys_attachment";
+	data.table_label = gr.getLabel();
+	data.table_plural = gr.getPlural();
+	if (data.filter) {
+		if (data.filterACLs)
+			gr = $sp.addQueryString(gr, data.filter);
+		else
+			gr.addEncodedQuery(data.filter);
+	}
+
+	if (data.keywords){
+		gr.addQuery('123TEXTQUERY321', data.keywords);
+		data.keywords = null;
+	}
+
+	data.filter = gr.getEncodedQuery();
+
+	if (data.relationship_id) {
+		var rel = GlideRelationship.get(data.relationship_id);
+		var target = new GlideRecord(data.table);
+		var applyTo = new GlideRecord(data.apply_to);
+		applyTo.get("sys_id", data.apply_to_sys_id);
+		rel.queryWith(applyTo, target); // put the relationship query into target
+		gr.addEncodedQuery(target.getEncodedQuery()); // get the query the relationship made for us
+	}
+
+	if (data.o){
+		if (data.d == "asc")
+			gr.orderBy(data.o);
+		else
+			gr.orderByDesc(data.o);
+	}
+
+	data.window_start = data.page_index * data.window_size;
+	data.window_end = (data.page_index + 1) * data.window_size;
+	gr.chooseWindow(data.window_start, data.window_end);
+	gr._query();
+
+	data.row_count = gr.getRowCount();
+	data.num_pages = Math.ceil(data.row_count / data.window_size);
+	data.column_labels = {};
+	data.fields_array = data.fields.split(',');
+
+	// use GlideRecord to get field labels vs. GlideRecordSecure
+	var grForLabels = new GlideRecord(data.table);
+	for (var i in data.fields_array) {
+		var field = data.fields_array[i];
+		var ge = grForLabels.getElement(field);
+		if (ge == null)
+			continue;
+
+		data.column_labels[field] =  ge.getLabel();
+		
+		var custom_label=ge.getLabel();
+		if( custom_label=="User ID"){
+			
+			data.column_labels[field] =  "Item requested for ID";
+			
+		}
+			if( custom_label=="Organization"){
+			
+			data.column_labels[field] =  "Item requested for Org";
+			
+		}
+	}
+
+	data.list = [];
+	while (gr._next()) {
+		var record = {};
+		$sp.getRecordElements(record, gr, data.fields);
+		if (gr instanceof FilteredGlideRecord) {
+			// FilteredGlideRecord doesn't do field-level
+			// security, so take care of that here
+			for (var f in data.fields_array) {
+				var fld = data.fields_array[f];
+				if (!gr.isValidField(fld))
+					continue;
+
+				if (!gr[fld].canRead()) {
+					record[fld].value = null;
+					record[fld].display_value = null;
+				}
+			}
+		}
+		record.sys_id = gr.getValue('sys_id');
+		data.list.push(record);
+	}
+
+	data.enable_filter = (input.enable_filter == true || input.enable_filter == "true" ||
+		options.enable_filter == true || options.enable_filter == "true");
+	var breadcrumbWidgetParams = {
+		table: data.table,
+		query: data.filter,
+		enable_filter: data.enable_filter
+	};
+	data.filterBreadcrumbs = $sp.getWidget('widget-filter-breadcrumbs', breadcrumbWidgetParams);
+
+	// copy to data from input or options
+	function optCopy(names) {
+		names.forEach(function(name) {
+			data[name] = input[name] || options[name];
+		})
+	}
+
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mkuriako&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-08-20 20:38:06&lt;/sys_created_on&gt;&lt;sys_id&gt;13db46ed4f802300c8030fbf9310c713&lt;/sys_id&gt;&lt;sys_mod_count&gt;68&lt;/sys_mod_count&gt;&lt;sys_name&gt;OCIO Data Table&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_13db46ed4f802300c8030fbf9310c713&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;MKURIAKOSE&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-10-01 22:40:48&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class="panel panel-{{options.color}} b"&gt;
+    &lt;div class="panel-heading form-inline" ng-hide="options.hide_header"&gt;
+      &lt;span class="dropdown m-r-xs"&gt;
+        &lt;button aria-label="${Table menu}" class="btn dropdown-toggle glyphicon glyphicon-menu-hamburger" style="line-height: 1.4em" id="optionsMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"&gt;&lt;/button&gt;
+        &lt;ul class="dropdown-menu" aria-labelledby="optionsMenu"&gt;
+          &lt;li ng-repeat="t in ::exportTypes"&gt;
+            &lt;a ng-href="/{{data.table}}_list.do?{{::t.value}}&amp;sysparm_query={{data.filter}}&amp;sysparm_view={{data.view}}&amp;sysparm_fields={{data.fields}}" target="_new"&gt;${Export as} {{::t.label}}&lt;/a&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/span&gt;
+      &lt;span class="panel-title"&gt;&lt;i ng-if="options.glyph" class="fa fa-{{options.glyph}} m-r"&gt;&lt;/i&gt;{{data.title || data.table_plural}}&lt;/span&gt;
+      &lt;button name="new" role="link" class="btn btn-primary btn-sm m-l-xs" ng-click="newRecord()" ng-if="options.show_new &amp;&amp; data.canCreate &amp;&amp; !data.newButtonUnsupported" aria-label="${Create new record}"&gt;${New}&lt;/button&gt;
+      &lt;div class="pull-right" ng-if="options.show_keywords"&gt;
+		&lt;form ng-submit="setSearch(true)"&gt;
+        &lt;div class="input-group"&gt;
+          &lt;input type="text" name="datatable-search" ng-model="data.keywords" ng-model-options="{debounce:250}" class="form-control" placeholder="${Keyword Search}"&gt;
+          &lt;span class="input-group-btn"&gt;
+            &lt;button name="search" class="btn btn-default" type="submit" aria-label="${Search}"&gt;&lt;span class="glyphicon glyphicon-search"&gt;&lt;/span&gt;&lt;/button&gt;
+          &lt;/span&gt;
+        &lt;/div&gt;
+        &lt;/form&gt;
+      &lt;/div&gt;
+      &lt;div class="clearfix"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!-- body --&gt;
+    &lt;div class="panel-body"&gt;
+      &lt;h2 class="sr-only data-table-title"&gt;{{title || data.table_plural}} ${table} - ${page} {{data.p}}&lt;/h2&gt;
+      &lt;div ng-if="options.show_breadcrumbs &amp;&amp; (data.filter || data.enable_filter)" class="filter-breadcrumbs"&gt;
+	    		&lt;sp-widget widget="data.filterBreadcrumbs"&gt;&lt;/sp-widget&gt;
+      &lt;/div&gt;
+      &lt;div class="alert alert-info" ng-if="!data.list.length &amp;&amp; !data.num_pages &amp;&amp; !data.invalid_table &amp;&amp; !loadingData"&gt;
+        ${No records in {{data.table_label}} &lt;span ng-if="data.filter"&gt;using that filter&lt;/span&gt;}
+      &lt;/div&gt;
+      &lt;div class="alert alert-info" ng-if="loadingData"&gt;
+          &lt;fa name="spinner" spin="true"&gt;&lt;/fa&gt; ${Loading data}...
+       &lt;/div&gt;
+      &lt;table class="table table-striped table-responsive" ng-if="data.list.length"&gt;
+        &lt;thead&gt;
+          &lt;tr&gt;
+            &lt;th class="sr-only"&gt;&lt;/th&gt;
+            &lt;th ng-repeat="field in data.fields_array track by $index" ng-click="setOrderBy(field)" tabindex="0"&gt;
+              &lt;div class="th-title" aria-label="${Sort by } {{data.column_labels[field]}}"&gt;{{data.column_labels[field]}}&lt;/div&gt;
+              &lt;i class="fa" ng-if="field == data.o" ng-class="{'asc': 'fa-chevron-up', 'desc': 'fa-chevron-down'}[data.d]" aria-label="${Sorted by } {{data.column_labels[field]}} {{data.d == 'asc' ?  '${Ascending}': '${Descending}' }}"&gt;&lt;/i&gt;
+            &lt;/th&gt;
+          &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+          &lt;tr ng-repeat="item in data.list track by item.sys_id"&gt;
+            &lt;td class="sr-only" tabindex="0" role="link" id="{{item.sys_id}}" ng-click="go(data.table, item)" aria-label="${Open record}"&gt;&lt;/td&gt;
+            &lt;td role="text" aria-label="{{item[field].display_value}}" class="pointer" ng-class="{selected: item.selected}" ng-click="go(data.table, item)" ng-repeat="field in ::data.fields_array" data-field="{{::field}}" data-th="{{::data.column_labels[field]}}"&gt;{{::item[field].display_value}}&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/tbody&gt;
+      &lt;/table&gt;
+      &lt;div ng-class="{'pruned-msg-filter-pad': (!options.show_breadcrumbs || !data.filter) &amp;&amp; !data.list.length}" class="pruned-msg" ng-if="rowsWerePruned()"&gt;
+        &lt;span ng-if="rowsPruned == 1"&gt;${{{rowsPruned}} row removed by security constraints}&lt;/span&gt;
+        &lt;span ng-if="rowsPruned &gt; 1"&gt;${{{rowsPruned}} rows removed by security constraints}&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!-- footer --&gt;
+    &lt;div class="panel-footer" ng-hide="options.hide_footer" ng-if="data.row_count"&gt;
+      &lt;div class="btn-toolbar m-r pull-left"&gt;
+        &lt;div class="btn-group"&gt;
+          &lt;a ng-disabled="data.p == 1" href="javascript:void(0)" ng-click="setPageNum(data.p - 1)" class="btn btn-default"  aria-label="${Previous page}"&gt;&lt;i class="fa fa-chevron-left"&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div ng-if="data.num_pages &gt; 1 &amp;&amp; data.num_pages &lt; 20" class="btn-group"&gt;
+          &lt;a ng-repeat="i in getNumber(data.num_pages) track by $index" ng-click="setPageNum($index + 1)" href="javascript:void(0)" ng-class="{active: ($index + 1) == data.p}" type="button" class="btn btn-default" aria-label="${Page} {{$index + 1}}"&gt;{{$index + 1}}&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="btn-group"&gt;
+          &lt;a ng-disabled="data.p == data.num_pages" href="javascript:void(0)" ng-click="setPageNum(data.p + 1)" class="btn btn-default" aria-label="${Next page}"&gt;&lt;i class="fa fa-chevron-right"&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="m-t-xs panel-title"&gt;${Rows {{data.window_start + 1}} - {{ mathMin(data.window_end,data.row_count) }} of {{data.row_count}}}&lt;/div&gt;
+
+      &lt;span class="clearfix"&gt;&lt;/span&gt;
+      
+    &lt;/div&gt;
+  &lt;/div&gt;
+]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2069627181</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>83e42c9fdb7ca38050479eb6db9619a7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16631ca884b0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table/>
+<target_name>OCIO Data Table</target_name>
+<type>Widget</type>
+<update_domain>global</update_domain>
+<update_guid>cebaf6c32cb8a380956eadb49edebc64</update_guid>
+<update_guid_history>cebaf6c32cb8a380956eadb49edebc64:2069627181,336a76073ab8a3803655879b7cf330dc:2069627181,a5b736838cb8a380dda3b68f23c94b12:-315717395,6390d283b638a38046a034500d40ca5b:89356568,b45463d0791023004d1671c9e436e74c:571869601,eb4423146f102300364961047c0ea4e9:96236038,e3726b90221023001a8c0c1ba7328337:571869601,7281af109a1023008fea8f924eb37ef5:1411356560,976c8858bd1023002515e0e4bd595b09:275418437,036b88d0a11023008a3163d4ab23bbae:1906209263,0057499622802300a36f7fa0b423a512:275418437,12e3c992ff8023009c5bb76734e02fc8:275418437,ba72c9923c802300438d3d0e5d5d8e7a:1769915010,a92201d20b802300369152bf24003453:1969923130,8ec1c9920c8023009f32cc4f7d5fdc76:2146008483,77610592b7802300d64f20774fa256ea:-1812480304,1201c952908023000b2ab54ae6b2646d:-397709092,80a08d52c080230077374515b1bc9505:2146008483,fc604552d78023002186d5623d9a41ae:-1812480304,b50005527880230095cfcfe3a946434c:2146008483,4cdff8123b802300cf28268a1eb2bf08:627330202,d1feb4126d8023009d8b3e604426ed80:-407773367,80ee381282802300192fa5a5c840676f:227044841,6d853cda644023004218ee819a000fe3:142605110,5522ac124b4023009fc45fc51012edd6:-404527130,d9e1e452ad402300d5c4e4215d69bb91:1795275375,2791a4de8f0023003e5e9334b299e513:142605110,c29e50dec50023006c93f87d15b6fe24:-438082057,7d5d90de2700230081b44de4a3e9e764:-1951236351,cb03081232002300a5947988d5a9db0d:211247508,1e920c521b0023008fd53b198a0afd49:1564668213,2e4fec8a39442300b4f6684b647ee257:-519084820,93870b3597c0230022919a8727b70e53:-250938785,d66743317ac02300c36d36cf92fcaece:-250938785,ed31e2fd4c4023001f750abfdb58737f:-519084820,39fb3eb541402300e94689ddcc13d69e:-739602547,ed31e2fd4c4023001f750abfdb58737f:-519084820,a858def500402300b6258b07d63af121:-739602547,fab39fa96c4423000e31beb87164a97b:-739602547,12735ba905442300c7dee445d8aeb3b0:1530055737,dbf21ba9e044230082d105d38cd2c261:782305902,94e2d7a9a1442300fec104d558624dad:1911483542,38b213a9eb442300380f662aaab2cb35:-2063289054,82a1976933442300dee7f7d0702f864e:-1251892991,0f60df29884423005af53cff2ff392b5:1238505200,61dfc72908442300484e436c7a5a81be:-1047084707,b33f07e5c044230069db1c6fdf1159d1:1333624355,6e9d4fa5eb4423002d497626942789d7:-1480896831,7a6c0f6589442300a46b4ec5e42c4f71:-1805293072,3f1c0b251444230051c85a1cdebf06f0:1188718280,55b3fea5460423006ab57b1f1a0a7318:60298582,7e333629f004230041836d02c6546584:899264127,81a2b229e3042300f75bb7e45da6e811:444830724,31c1b6a544042300247cccfc99ecf64d:-168228892,354ee6659e042300959971345b5f18c1:454672121,73eb6ee1e2042300578d5e572c1d9930:-1525125624,5e6b6ae1a8042300892e1482ce3503e2:-220216754,9e0b2ae110042300ea6f9ae9293efd06:-1536701441,150a22edfec0230097f3b4b2fdceba4f:1725870862,967f1ee9d6c023008dbbb2fdf0e834cc:454672121,ca3fdae901c0230024669d2e50534ec3:1385577922,8ee992e5c7c02300e75f8bf23af4f4d9:-561638967,e09956e522c02300ae293d12e1e0c569:1824561390,b1ed462183c023007d9a07668b3981b2:-561638967,fb2dceedb8802300bc6812f1a33897cf:-1212755401,14ac46211cc0230055add8039e71d69c:1334160284,b3eb02ed0c8023003dfdcb484e49c9c0:-544810232,d3db46ed7580230033f0d441db61ec15:1507417086</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_sector_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" extends="core_company" table="u_sector"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_sector&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;MUNGIM&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-09-28 21:36:19&lt;/sys_created_on&gt;&lt;sys_id&gt;883f8b06db38a3009d289236db96195e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_sector&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_sector_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;MUNGIM&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-09-28 21:36:19&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-417491511</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>83e4ac9fdb7ca38050479eb6db961942</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3a6b0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table>u_sector</table>
+<target_name>Sector</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>183f8b062838a300826bf5ec0569e46d</update_guid>
+<update_guid_history>183f8b062838a300826bf5ec0569e46d:-417491511,977e98a64a74e3809f74cc5de709eae8:656582013,183f8b062838a300826bf5ec0569e46d:-417491511,67aadf0a0478a38036d98ef54d67460e:656582013,183f8b062838a300826bf5ec0569e46d:-417491511</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_sector_33901786db38a3009d289236db961909</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="u_sector"><u_sector action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Natural Resource Ministries Sector</name><notes/><num_employees/><parent/><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>u_sector</sys_class_name><sys_created_by>MUNGIM</sys_created_by><sys_created_on>2018-09-28 21:42:43</sys_created_on><sys_id>33901786db38a3009d289236db961909</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 21:45:44</sys_updated_on><theme/><u_code>SECT005</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></u_sector></record_update>]]></payload>
+<payload_hash>-1707315358</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>83e4ac9fdb7ca38050479eb6db961945</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3a8a0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table/>
+<target_name>Natural Resource Ministries Sector</target_name>
+<type>Sector</type>
+<update_domain>global</update_domain>
+<update_guid>b0815bc6e138a3009087c522bd9cc7ec</update_guid>
+<update_guid_history>b0815bc6e138a3009087c522bd9cc7ec:-1707315358</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_695a7121db611b00d54b9c78db9619f5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Ministry of Tourism, Arts and Culture</name><notes/><num_employees/><parent display_value="Economic Sector">4eef4b46db38a3009d289236db9619a1</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>695a7121db611b00d54b9c78db9619f5</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:06:33</sys_updated_on><theme/><u_code>TAC</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>-412173355</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>87e42c9fdb7ca38050479eb6db9619a3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3abc0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table/>
+<target_name>Ministry of Tourism, Arts and Culture</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>7f16d34e0f38a300c2dee086b4d339ce</update_guid>
+<update_guid_history>7f16d34e0f38a300c2dee086b4d339ce:-412173355</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_fd819ebadbe71700cbfb9c78db96192a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Information, Innovation and Technology </name><notes>This company is part of the Natural Resource Sector Ministries.   People that were associated to NTRS and CSNR were moved to this code. </notes><num_employees/><parent display_value="Natural Resource Ministries Sector">33901786db38a3009d289236db961909</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>JBREATHE</sys_created_by><sys_created_on>2018-07-30 21:46:03</sys_created_on><sys_id>fd819ebadbe71700cbfb9c78db96192a</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:17:44</sys_updated_on><theme/><u_code>IIT</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>373618447</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>87e42c9fdb7ca38050479eb6db9619a6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3b050000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table/>
+<target_name>Information, Innovation and Technology </target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>37a85bce6738a30049d323c8a351e7f0</update_guid>
+<update_guid_history>37a85bce6738a30049d323c8a351e7f0:373618447</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_883f8b06db38a3009d289236db96194a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>MUNGIM</sys_created_by><sys_created_on>2018-09-28 21:36:18</sys_created_on><sys_id>883f8b06db38a3009d289236db96194a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_sector.u_sector_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_sector">c83f8b06db38a3009d289236db961946</sys_security_acl><sys_update_name>sys_security_acl_role_883f8b06db38a3009d289236db96194a</sys_update_name><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 21:36:18</sys_updated_on><sys_user_role display_value="u_sector_user" name="u_sector_user">f32f8b06db38a3009d289236db96193f</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1989022858</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>87e4ac9fdb7ca38050479eb6db961944</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3a430000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table>u_sector</table>
+<target_name>u_sector.u_sector_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>cc3f8b068a38a3000b37c36d2b0fef4c</update_guid>
+<update_guid_history>cc3f8b068a38a3000b37c36d2b0fef4c:1989022858,c88ed8a6ea74e3803a5c48c1ed5406f8:-1522238322,cc3f8b068a38a3000b37c36d2b0fef4c:1989022858,67aadf0adb78a380e3e972dc0c99c127:-1522238322,cc3f8b068a38a3000b37c36d2b0fef4c:1989022858</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_2d5a7121db611b00d54b9c78db9619e9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Ministry of Indigenous Relations and Reconciliation</name><notes/><num_employees/><parent display_value="Natural Resource Ministries Sector">33901786db38a3009d289236db961909</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>2d5a7121db611b00d54b9c78db9619e9</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:00:04</sys_updated_on><theme/><u_code>IRR</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>-380873379</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>8be42c9fdb7ca38050479eb6db9619a2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3a9a0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table/>
+<target_name>Ministry of Indigenous Relations and Reconciliation</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>b8a413ca9b38a300e7b30f7e27dd307d</update_guid>
+<update_guid_history>b8a413ca9b38a300e7b30f7e27dd307d:-380873379</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_e95a7121db611b00d54b9c78db9619b0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Corporate Services for Natural Resources</name><notes/><num_employees/><parent display_value="Natural Resource Ministries Sector">33901786db38a3009d289236db961909</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>e95a7121db611b00d54b9c78db9619b0</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 21:59:15</sys_updated_on><theme/><u_code>CSNR</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>-1428728062</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>8be42c9fdb7ca38050479eb6db9619a5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3a960000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table/>
+<target_name>Corporate Services for Natural Resources</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>b8745f8ab338a300f3d09ba2eb30bd61</update_guid>
+<update_guid_history>b8745f8ab338a300f3d09ba2eb30bd61:-1428728062</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_8c3f8b06db38a3009d289236db96194d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_sector</description><name>u_sector</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>MUNGIM</sys_created_by><sys_created_on>2018-09-28 21:36:18</sys_created_on><sys_id>8c3f8b06db38a3009d289236db96194d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_sector</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_8c3f8b06db38a3009d289236db96194d</sys_update_name><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 21:36:18</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1129561070</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>8be4ac9fdb7ca38050479eb6db961943</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3a480000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table>u_sector</table>
+<target_name>u_sector</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>cc3f8b06cb38a300667ecbb5cd5e154f</update_guid>
+<update_guid_history>cc3f8b06cb38a300667ecbb5cd5e154f:1129561070,4c8ed8a6d574e38091d7efd3c6e1ffe4:197457762,cc3f8b06cb38a300667ecbb5cd5e154f:1129561070,afaadf0a8378a380206a16fcb6cb8c52:197457762,cc3f8b06cb38a300667ecbb5cd5e154f:1129561070</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_255a7121db611b00d54b9c78db9619f4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Ministry of Social Development and Poverty Reduction</name><notes/><num_employees/><parent display_value="Social Sector">dea01746db38a3009d289236db9619ab</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>255a7121db611b00d54b9c78db9619f4</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:12:32</sys_updated_on><theme/><u_code>SDPR</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>1967349060</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>8fe42c9fdb7ca38050479eb6db9619a1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3afc0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table/>
+<target_name>Ministry of Social Development and Poverty Reduction</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>df77d78ef338a300b8969bc39fa05d31</update_guid>
+<update_guid_history>df77d78ef338a300b8969bc39fa05d31:1967349060</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_e15a7121db611b00d54b9c78db9619d0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Ministry of Agriculture</name><notes/><num_employees/><parent display_value="Natural Resource Ministries Sector">33901786db38a3009d289236db961909</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>e15a7121db611b00d54b9c78db9619d0</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:01:20</sys_updated_on><theme/><u_code>AGRI</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>-1034342082</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>8fe42c9fdb7ca38050479eb6db9619a4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3a9e0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table/>
+<target_name>Ministry of Agriculture</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>5a65130e6138a300dc1043709a5c5041</update_guid>
+<update_guid_history>5a65130e6138a300dc1043709a5c5041:-1034342082,6fe49fcac438a3000af1fe42ec88959c:-1034342082</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_f68e17dedbfc238050479eb6db9619c8</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sc_req_item&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;OCIO SR populate Org field&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+//set org as the requested for org
+
+current.company=current.variables.u_requested_for.company+'';
+	
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;MKURIAKOSE&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-09-29 17:22:31&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f68e17dedbfc238050479eb6db9619c8&lt;/sys_id&gt;&lt;sys_mod_count&gt;18&lt;/sys_mod_count&gt;&lt;sys_name&gt;OCIO SR populate Org field&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_f68e17dedbfc238050479eb6db9619c8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;MKURIAKOSE&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-09-29 22:13:33&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=f68e17dedbfc238050479eb6db9619c8"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1793541968</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>8fe4ac9fdb7ca38050479eb6db961942</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1662764dd780000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table>sc_req_item</table>
+<target_name>OCIO SR populate Org field</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>634164e65eb063802925ee13863d7892</update_guid>
+<update_guid_history>634164e65eb063802925ee13863d7892:1793541968,c14164e6e6b06380fa122ab32031f08c:826795824,a3057b9e9a306380eecb381a8f931b38:1314540968,e27eeb9ab9306380d6b83f0ee8909d35:-1118394250,629deb5a93306380ec56a072dd61708a:-2070634827,349d239a8d30638035e06169f4f02ae5:389226740,7f1deb5a183063805efc8650171df14d:-2105412597,6dece75abd306380a6d69e77830d06f9:585401300,19bc2b1a363063806c509a687a9db4c8:1125697228,8b0c2b1a9f30638060a3bb6ddcc27121:585401300,666bafd638306380fe9d47e88159016d:1022197868,bb2ba3d6a6306380bc8694070d831700:142648085,07daef969c3063808878b967ad60d360:-1991502975,5dba2bd64c306380b6e37caec160bb87:-876770873,720a6b962e30638056d297eaf959a87d:-996599330,2f49e3966b3063804b3a9046bea92ad6:-1266554669,00292b92f530638089282cfe4fb5b5c4:1401468305,7819e71298306380d3bbd883d16dd48e:-255156014,94bed3deb1fc23809a5d1846647e2aa2:343975814</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_sector_dea01746db38a3009d289236db9619ab</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="u_sector"><u_sector action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Social Sector</name><notes/><num_employees/><parent/><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>u_sector</sys_class_name><sys_created_by>MUNGIM</sys_created_by><sys_created_on>2018-09-28 21:42:54</sys_created_on><sys_id>dea01746db38a3009d289236db9619ab</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 21:45:39</sys_updated_on><theme/><u_code>SECT006</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></u_sector></record_update>]]></payload>
+<payload_hash>-1680653640</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>8fe4ac9fdb7ca38050479eb6db961945</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3a8e0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table/>
+<target_name>Social Sector</target_name>
+<type>Sector</type>
+<update_domain>global</update_domain>
+<update_guid>8e8197c6d538a300076ad5cb65cb80d8</update_guid>
+<update_guid_history>8e8197c6d538a300076ad5cb65cb80d8:-1680653640</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_655a7121db611b00d54b9c78db9619f0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Ministry of Municipal Affairs and Housing</name><notes/><num_employees/><parent display_value="Economic Sector">4eef4b46db38a3009d289236db9619a1</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>655a7121db611b00d54b9c78db9619f0</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:05:26</sys_updated_on><theme/><u_code>MAH</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>-1491999213</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>c3e42c9fdb7ca38050479eb6db9619a3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3aae0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table/>
+<target_name>Ministry of Municipal Affairs and Housing</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>5fd59b0e2238a300cce70e6559630b63</update_guid>
+<update_guid_history>5fd59b0e2238a300cce70e6559630b63:-1491999213</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_ed5a7121db611b00d54b9c78db9619f2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Ministry of Public Safety and Solicitor General</name><notes/><num_employees/><parent display_value="Justice Sector">a4905b46db38a3009d289236db96194a</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>ed5a7121db611b00d54b9c78db9619f2</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:08:59</sys_updated_on><theme/><u_code>PSSG</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>583181838</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>c3e42c9fdb7ca38050479eb6db9619a6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3ade0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table/>
+<target_name>Ministry of Public Safety and Solicitor General</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>73a6538e4438a3009ffcce56c1d89ff0</update_guid>
+<update_guid_history>73a6538e4438a3009ffcce56c1d89ff0:583181838</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_4c3f8b06db38a3009d289236db961950</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>MUNGIM</sys_created_by><sys_created_on>2018-09-28 21:36:18</sys_created_on><sys_id>4c3f8b06db38a3009d289236db961950</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_sector.u_sector_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_sector">8c3f8b06db38a3009d289236db96194d</sys_security_acl><sys_update_name>sys_security_acl_role_4c3f8b06db38a3009d289236db961950</sys_update_name><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 21:36:18</sys_updated_on><sys_user_role display_value="u_sector_user" name="u_sector_user">f32f8b06db38a3009d289236db96193f</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1410954798</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>c3e4ac9fdb7ca38050479eb6db961944</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3a4d0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table>u_sector</table>
+<target_name>u_sector.u_sector_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>883f8b067238a3004388256424b34352</update_guid>
+<update_guid_history>883f8b067238a3004388256424b34352:1410954798,8c8ed8a63a74e3806bdd203d62d8d0f4:-2100306382,883f8b067238a3004388256424b34352:1410954798,67aadf0a1c78a38071a76a4709f4e643:-2100306382,883f8b067238a3004388256424b34352:1410954798</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_295a7121db611b00d54b9c78db9619e4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Ministry of Environment and Climate Change Strategy</name><notes/><num_employees/><parent display_value="Natural Resource Ministries Sector">33901786db38a3009d289236db961909</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>295a7121db611b00d54b9c78db9619e4</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:04:22</sys_updated_on><theme/><u_code>ENV</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>-2075073579</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>c7e42c9fdb7ca38050479eb6db9619a2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3aa60000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table/>
+<target_name>Ministry of Environment and Climate Change Strategy</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>c8a59fcaa838a3003e133d6756495600</update_guid>
+<update_guid_history>c8a59fcaa838a3003e133d6756495600:-2075073579</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_e55a7121db611b00d54b9c78db9619e8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Ministry of Health</name><notes/><num_employees/><parent display_value="Health Sector">f0801786db38a3009d289236db961992</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>e55a7121db611b00d54b9c78db9619e8</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:09:47</sys_updated_on><theme/><u_code>HLTH</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>1015279189</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>c7e42c9fdb7ca38050479eb6db9619a5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3ae70000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table/>
+<target_name>Ministry of Health</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>83d6d78ef538a30092eb5192f75dde1d</update_guid>
+<update_guid_history>83d6d78ef538a30092eb5192f75dde1d:1015279189</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_803f8b06db38a3009d289236db961959</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_sector</description><name>u_sector</name><operation display_value="delete">delete</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>MUNGIM</sys_created_by><sys_created_on>2018-09-28 21:36:18</sys_created_on><sys_id>803f8b06db38a3009d289236db961959</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_sector</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_803f8b06db38a3009d289236db961959</sys_update_name><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 21:36:18</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>304497284</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>c7e4ac9fdb7ca38050479eb6db961943</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3a5d0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table>u_sector</table>
+<target_name>u_sector</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>c03f8b066338a3005f2872c8e9484d5b</update_guid>
+<update_guid_history>c03f8b066338a3005f2872c8e9484d5b:304497284,0c8ed8a67574e380d513440c974123de:2145690616,c03f8b066338a3005f2872c8e9484d5b:304497284,2faadf0a1f78a380dcac8191baf76c3e:2145690616,c03f8b066338a3005f2872c8e9484d5b:304497284</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_255a7121db611b00d54b9c78db9619cc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Liquor Control and Licensing Branch</name><notes/><num_employees/><parent display_value="Justice Sector">a4905b46db38a3009d289236db96194a</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>255a7121db611b00d54b9c78db9619cc</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:08:25</sys_updated_on><theme/><u_code>LCLB</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>-554766260</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>cbe42c9fdb7ca38050479eb6db9619a1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3ad40000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table/>
+<target_name>Liquor Control and Licensing Branch</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>4386138ed138a300b5fe1af6d667d00c</update_guid>
+<update_guid_history>4386138ed138a300b5fe1af6d667d00c:-554766260</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_a95a7121db611b00d54b9c78db9619b4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Emergency Management BC</name><notes/><num_employees/><parent display_value="Justice Sector">a4905b46db38a3009d289236db96194a</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>a95a7121db611b00d54b9c78db9619b4</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:07:52</sys_updated_on><theme/><u_code>EMBC</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>-975642285</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>cbe42c9fdb7ca38050479eb6db9619a4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3acb0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table/>
+<target_name>Emergency Management BC</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>0b66574e1438a300ce26cf0ed728fe97</update_guid>
+<update_guid_history>0b66574e1438a300ce26cf0ed728fe97:-975642285</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_b965f79edb30638050479eb6db9619fa</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sc_request&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="sc_request"&gt;opened_byVALCHANGES^opened_byISNOTEMPTY^EQ&lt;item endquery="false" field="opened_by" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item endquery="false" field="opened_by" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;OCIO SR Set Company&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+//set org as the requested by sector
+	
+if(current.opened_by.company.parent==''){
+current.company=current.opened_by.company+'';}
+	
+	else
+		
+		{
+		current.company=current.opened_by.company.parent+'';	
+			
+		}
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;MKURIAKOSE&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-09-29 19:01:58&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;b965f79edb30638050479eb6db9619fa&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;OCIO SR Set Company&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_b965f79edb30638050479eb6db9619fa&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;MKURIAKOSE&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-09-29 22:14:26&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=b965f79edb30638050479eb6db9619fa"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1444772818</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>cbe4ac9fdb7ca38050479eb6db961942</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1662765adb10000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table>sc_request</table>
+<target_name>OCIO SR Set Company</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>e481e4e694b0638047de62bc2c39c9f0</update_guid>
+<update_guid_history>e481e4e694b0638047de62bc2c39c9f0:1444772818,5de0e866dfb06380a6ba4d6bf261d249:-1591181953,fd3024667db06380d4fd7a21dd17cc3c:1942482938,f03d7bd20a706380eb93114c30af1bca:726139290,949cf3de1c3063805426911d480f9486:370806005,a385b7de60306380a3d517b1b8379a75:-1460784111,c17573de3a3063807c804f61b7362e38:926360910</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_sector_b750d306db38a3009d289236db9619dc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="u_sector"><u_sector action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Finance Sector</name><notes/><num_employees/><parent/><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>u_sector</sys_class_name><sys_created_by>MUNGIM</sys_created_by><sys_created_on>2018-09-28 21:41:41</sys_created_on><sys_id>b750d306db38a3009d289236db9619dc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 21:41:41</sys_updated_on><theme/><u_code>SECT002</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></u_sector></record_update>]]></payload>
+<payload_hash>516815971</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>cbe4ac9fdb7ca38050479eb6db961945</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3a7d0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table/>
+<target_name>Finance Sector</target_name>
+<type>Sector</type>
+<update_domain>global</update_domain>
+<update_guid>97c017866c38a30011ae0c5cf494b613</update_guid>
+<update_guid_history>97c017866c38a30011ae0c5cf494b613:516815971</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_7d5ab121db611b00d54b9c78db96190f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Vital Statistics Agency</name><notes/><num_employees/><parent display_value="Health Sector">f0801786db38a3009d289236db961992</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:34</sys_created_on><sys_id>7d5ab121db611b00d54b9c78db96190f</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:11:15</sys_updated_on><theme/><u_code>VSA</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>1330003587</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>cfe42c9fdb7ca38050479eb6db9619a3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3aef0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table/>
+<target_name>Vital Statistics Agency</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>7037978ede38a3008014d7b961a6d45f</update_guid>
+<update_guid_history>7037978ede38a3008014d7b961a6d45f:1330003587</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_d896f0f6db0f1300f72fe04a48961921</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Update Contact Information (GAL)">ff863cb6db0f1300f72fe04a489619b0</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>true</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_requested_for</name><order>200</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Requested For</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference>sys_user</reference><reference_qual>javascript: new OCIO_SR_CatalogHelper().Sector_Finder();</reference_qual><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-07-05 18:35:04</sys_created_on><sys_id>d896f0f6db0f1300f72fe04a48961921</sys_id><sys_mod_count>7</sys_mod_count><sys_name>Requested For</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_d896f0f6db0f1300f72fe04a48961921</sys_update_name><sys_updated_by>MKURIAKOSE</sys_updated_by><sys_updated_on>2018-09-29 02:01:06</sys_updated_on><table/><tooltip/><type>8</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>advanced</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=d896f0f6db0f1300f72fe04a48961921"/><fx_price action="delete_multiple" query="id=d896f0f6db0f1300f72fe04a48961921"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>d896f0f6db0f1300f72fe04a48961921</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-07-05 18:35:04</sys_created_on><sys_id>d096f0f6db0f1300f72fe04a48961923</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-07-05 18:35:04</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>d896f0f6db0f1300f72fe04a48961921</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-07-05 18:35:04</sys_created_on><sys_id>9896f0f6db0f1300f72fe04a48961922</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-07-05 18:35:04</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>22544167</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>cfe42c9fdb7ca38050479eb6db9619a6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166230ed4ff0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table/>
+<target_name>Requested For</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>03cb4852d87823805e3c36ad4ea6598d</update_guid>
+<update_guid_history>03cb4852d87823805e3c36ad4ea6598d:22544167,6620085a1a382380d4baee7397e43521:22544167,42396e745a902300302940757b4bd259:-1199588669,c0396e740a902300ae1be6b4b2891851:-1919347342,a431da7817502300811bd8aab89c9a1e:-1199588669,8c011a78ba5023009f30c28d146d593b:-1389024074,bedc0eb412502300947b1ddcf82311a8:-1199588669,1896f0f6630f13007876c143212bf326:-1861734247,4df8c73a3fafdb006e688bd1a7590eb0:24842428,1896f0f6630f13007876c143212bf326:-1861734247</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>ua_table_licensing_config_f2d9130adb78a380fe199236db9619b0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>u_sector</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>MUNGIM</sys_created_by><sys_created_on>2018-09-28 21:36:19</sys_created_on><sys_id>f2d9130adb78a380fe199236db9619b0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_sector</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>ua_table_licensing_config_f2d9130adb78a380fe199236db9619b0</sys_update_name><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 21:36:19</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+<payload_hash>-1720557870</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 02 b">03e42c9fdb7ca38050479eb6db9619a1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-02 06:24:49</sys_created_on>
+<sys_id>cfe4ac9fdb7ca38050479eb6db961944</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166275e3a660000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-02 06:24:49</sys_updated_on>
+<table/>
+<target_name>u_sector</target_name>
+<type>Table Subscription Configuration</type>
+<update_domain>global</update_domain>
+<update_guid>403f8b060c38a30043a401485b9c166c</update_guid>
+<update_guid_history>403f8b060c38a30043a401485b9c166c:-1720557870,cc8e1ca65d74e3809c4888658fac420d:1325812678,403f8b060c38a30043a401485b9c166c:-1720557870,f7aadf0aeb78a3804d0906fe7239c6a7:1325812678,c3d9530a6078a380f1554648a89f510a:-1720557870</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
