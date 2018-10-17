@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2018-10-17 05:27:28">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Merged following update sets:
+1) OCIO SR SB-868 Phone Number-v01
+        Modified script action (OCIO SR Generate Task Attachment) in catalog item (Update Contact Information (GAL) to change the format of the phone numbers in JSON file attached with sc_task 
+
+2) OCIO SR SB-913 Reqfor read-v01, OCIO SR SB-913 Reqfor read-v02
+Updated order of on load client script and created new Catalog Client Scripts to make read only consistant for  self serve users for three catalog items
+
+3) OCIO SR SB-916 Reqfor read-v01
+Created Business Rule (OCIO SR populate Org field_REQ)  to populate the Organization field in Request table with the Organization of the “Requested FOR” User for new requests.
+Created script (to run as background script) to update organization field in request table.
+</description>
+<inserted/>
+<name>OCIO SR 2018 10 17 a</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>bb772184db99270050479eb6db961995</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-17 05:27:28</sys_created_on>
+<sys_id>19a7e544db99270050479eb6db961908</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-17 05:27:28</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_script_client_6acdceb44f502300dc6922788310c7c2</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Update Contact Information (GAL)"&gt;ff863cb6db0f1300f72fe04a489619b0&lt;/cat_item&gt;&lt;cat_variable/&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;messages/&gt;&lt;name&gt;Set Requested For/Read only&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[/**
+ * Set Requested For on Load
+ * 
+ * History
+ * JIRA   Date         Developer       Description
+ * -----  -----------  --------------  ------------------------
+ * SB-155 07-July-2018  Mathew Kuriakose     Initial implementation  
+
+ * Copyright to BC Public Service, OCIO, Service Request Project  
+ **/
+function onLoad() {
+
+var CheckIsMemberOfObj_2 = new GlideAjax('OCIO_SR_CatalogHelper');
+CheckIsMemberOfObj_2.addParam('sysparm_name', 'AssignGroup');
+CheckIsMemberOfObj_2.getXML(script_response_2);
+ 
+function script_response_2(response_2) {
+	
+var script_answer_2 = response_2.responseXML.documentElement.getAttribute("answer");
+
+   
+	var userID = g_user.userID;
+	var is_SR= g_user.hasRole('bcgov_sr_service_manager');
+	//var is_admin =g_user.hasRole('admin');
+	if(g_form.getValue('u_requested_for') ==''&amp;&amp; is_SR==false &amp;&amp;script_answer_2!='true'){
+		
+		g_form.setValue('u_requested_for',userID);
+		
+	}
+//set field read only
+	
+if(script_answer_2 == 'true')
+{
+
+    g_form.setReadOnly('u_requested_for', false);
+	g_form.setReadOnly('u_department', false);
+	g_form.setReadOnly('u_office', false);
+}
+
+else
+
+{
+
+    g_form.setReadOnly('u_requested_for', true);
+	g_form.setReadOnly('u_department', true);
+	g_form.setReadOnly('u_office', true);
+}
+	
+}
+
+}			
+			
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mkuriako&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-08-30 23:06:47&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;6acdceb44f502300dc6922788310c7c2&lt;/sys_id&gt;&lt;sys_mod_count&gt;17&lt;/sys_mod_count&gt;&lt;sys_name&gt;Set Requested For/Read only&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_6acdceb44f502300dc6922788310c7c2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;MKURIAKO&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-10-15 19:28:16&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-295850508</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 17 a">19a7e544db99270050479eb6db961908</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-17 05:27:28</sys_created_on>
+<sys_id>11a7e544db99270050479eb6db961909</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16679334c800000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-17 05:27:28</sys_updated_on>
+<table/>
+<target_name>Set Requested For/Read only</target_name>
+<type>Catalog Client Scripts</type>
+<update_domain>global</update_domain>
+<update_guid>12e49e2f8f85e3007de3a5a4df467983</update_guid>
+<update_guid_history>12e49e2f8f85e3007de3a5a4df467983:-295850508,3ed49e2ff685e30087862d4bab06b293:345227348,0eb45aeb9585e300e71cf802c81ca12c:-1320784355,dbf12ec226812f80bf73b314d388b42c:-1443499892,6e2d12cee7412f80e889e9129fec87dd:1926229119,c66161c632cdeb80bb961dcdf47b3a38:-673997877,0c316d8687cdeb8072bf25620444136c:-1908558474,67b0218671cdeb809666d3851c48d4e6:1199522666,cf10a1461bcdeb80479f275a67ea3d70:-460941273,63af9dc297cdeb8099da27ddfb6e3321:-1554967449,576f5d067fcdeb80f67ed9d47ddcf775:-133069244,efe01a78d950230098bcb79636393033:-537383462,37d0d2786c502300fbc4c61a1e412881:-1232138019,9ebec23898502300bc640e2ac3080d13:-537383462,397e4af4d65023007e21aae6837173a9:1364113452,60dd82f435502300d45fc15d2ccfad16:-111772180,a2cdceb45d502300975dda7a06225cc5:1390939081</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_script_action_86b18dc8dbb8eb4050479eb6db9619dd</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_script_action"&gt;&lt;sysevent_script_action action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;condition_script/&gt;&lt;description/&gt;&lt;event_name&gt;catalog.attachmentCreator&lt;/event_name&gt;&lt;name&gt;OCIO SR Generate Task Attachment&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[/**
+ * Add attachment to the service catalog task for the specific service catalog items fulfillment
+ *
+ *
+ * Pre-requisites:
+ * 1. Service Catalog Item needs to configure a variable names as 'hidden_sc_item_name_for_attachment'  for this business rule - (see Switch staement)
+ *
+ * History
+ * JIRA   Date         Developer               Description
+ * -----  -----------  --------------          ------------------------
+ * SB-814  21-Sept-2018  Mathew Kuriakose      Initial implementation (Production Emergency Fix)
+                                               Replaced business rule OCIO SR Add Attachment                                                                    as the business rule was not executed correctly for users with                                                    Service Manager role 
+ *
+ * Copyright to BC Public Service, OCIO, Service Request
+ **/
+//gs.log("Event_fired "+event.parm1);
+
+
+        var task_reference = new GlideRecord('sc_task');
+		task_reference.addQuery('sys_id',event.parm1);
+		task_reference.query();
+		if (task_reference.next()) {
+	
+	var request_itemRef = task_reference.request_item.getRefRecord();
+	var cat_itemRef = request_itemRef.cat_item.getRefRecord();
+	
+	var sc_item_number = request_itemRef.getValue('number');
+	var userNameRequestedFor = getUserNameById(request_itemRef.variables.u_requested_for);
+	
+	//format phone number 
+	
+	var formatted_b_phone =formatphone(request_itemRef.variables.u_business_phone);	
+	var formatted_m_phone =formatphone(request_itemRef.variables.u_mobile_phone);	
+	var formatted_p_phone =formatphone(request_itemRef.variables.u_pager);	
+	var formatted_f_phone =formatphone(request_itemRef.variables.u_fax_number);	
+
+	
+	// Need single-quote for make SWITCH statment work. Otherwise use toString() with double-quote on SWITCH - CASE
+	var sc_item_name = cat_itemRef.name+'';
+	
+	var scTaskId = task_reference.getValue("sys_id");
+	var scItemVars = request_itemRef.variables;
+	var dataToAttach = '';
+	
+	var HIDDEN_SC_ITEM_NAME = scItemVars.hidden_sc_item_name_for_attachment+'';
+	var fileName = '';
+	
+	// Cases must be matched with sc_cat_item name to be handled specifically. This block might be refactored as more service is implemented.
+	switch (HIDDEN_SC_ITEM_NAME) {
+		case 'Update Contact Information':
+		fileName = 'GALData_'+sc_item_number+'.json';
+		
+		dataToAttach = getGALData(userNameRequestedFor, task_reference.short_description, task_reference.description, scItemVars,formatted_b_phone,formatted_m_phone,formatted_p_phone,formatted_f_phone);
+		addAttachmentToServiceCatalogTask(task_reference, dataToAttach, scTaskId, fileName, 'application/json');
+		break;
+		case 'Change Account':
+		fileName = 'ChangeAccountData_'+sc_item_number+'.json';
+		var iWantToSelected = request_itemRef.variables.u_i_want_to;
+		
+		dataToAttach = getChangeAccountData(iWantToSelected, userNameRequestedFor, scItemVars);
+		addAttachmentToServiceCatalogTask(task_reference, dataToAttach, scTaskId, fileName, 'application/json');
+		break;
+		default:
+		gs.info('&gt;&gt;&gt;DEBUG:: OCIO SC TASK Add Attachment: Do not need to add attachment when a new sc task is inserted. The Service Catalog Item = (' + HIDDEN_SC_ITEM_NAME + ')');
+		break;
+	}
+		}
+	/**
+ 	* Add attachment for the table, sc_task, with the attachment data
+ 	* @param: task_reference: service catalog task (object)
+ 	* @param: attachmentData: attachment data
+ 	* @param: scTaskId: attachment table_sys_id value to be assigned
+ 	* @param: fileName: attachment file name
+ 	* @param: contentType: attachment content type, which should be matached with the content of 'attachmentData'
+ 	* @return: none
+ 	*/
+	function addAttachmentToServiceCatalogTask(task_reference, attachmentData, scTaskId, fileName, contentType) {
+		// Set Attachment Inputs
+		var gsAttach = new GlideSysAttachment();
+		var idAttached = gsAttach.write(task_reference, fileName, contentType, attachmentData);
+		
+		// Set table_sys_id on the attachment
+		var att = new GlideRecord('sys_attachment');
+		att.addQuery('sys_id', idAttached);
+		att.query();
+		if (att.next()) {
+			att.table_sys_id = scTaskId;
+			att.update();
+		}
+		
+	}
+	
+	/**
+ 	* Generate JSON for GAL Update Request mapped with JSON Schema from the IBM
+ 	* @param: userID: sys_id of the user table
+ 	* @return: user name
+ 	*/
+	function getUserNameById( userID ) {
+		var grUser = new GlideRecord('sys_user');
+		grUser.addQuery('sys_id', userID);
+		grUser.query();
+		
+		var userName = '';
+		
+		if (grUser.next()) {
+			userName = grUser.user_name;
+		} else {
+			gs.warn('&gt;&gt;&gt; DEBUG: No user name found for a ' + userID);
+		}
+		
+		return userName;
+	}
+	
+	function formatphone(c_phone) {
+	
+	var current_phone = c_phone+'';
+	var formattedphone=c_phone+'';
+	if(current_phone.toString().indexOf("ext") &lt;0&amp;&amp; current_phone.toString().indexOf("(") &gt;-1){
+	
+	formattedphone= current_phone.replaceAll("(",'').replaceAll(")",'');
+	
+	}
+	
+	if(current_phone.toString().indexOf("ext") &gt;-1&amp;&amp; current_phone.toString().indexOf("(") &gt;-1){
+	
+     formattedphone= current_phone.replaceAll("(",'').replaceAll(")",'').replaceAll(" ext ",', Ext. ');
+	
+	}
+		return formattedphone;
+	}
+	
+	/**
+ 	* Generate JSON for GAL Update Request mapped with JSON Schema from the IBM
+ 	* @param: reqFor: IDIR user name (string)
+ 	* @param: shortDesc: service catalog Item short description (string)
+ 	* @param: desc: service catalog Item description (string)
+ 	* @param: scItem: service catalog Item variables object
+ 	* @return: json string
+ 	*/
+	function getGALData(reqFor, shortDesc, desc, scItem,formatted_b_phone,formatted_m_phone,formatted_p_phone,formatted_f_phone) {
+		return '{'
+			+		'"GALUpdateRequest": {'
+				+			'"IDIR": "' +  reqFor + '",'
+				+			'"GALOrganizationInfo": {'
+					+				'"adminNote": "' + desc + '",'
+					+				'"assistant": "' + scItem.u_assistant + '",'
+					+				'"BCGovInfo": "' + "" + '",'
+					+				'"company": "' +  scItem.u_organization.name + '",'
+					+				'"department": "' + scItem.u_department + '",'
+					+				'"description": "' + shortDesc + '",'
+					+				'"jobTitle": "' + scItem.u_title + '",'
+					+				'"manager": "' +  "" + '",'
+					+				'"office": "' + scItem.u_office + '"'
+					+			'},'
+					+			'"GALContactInfo": {'
+						+				'"city": "' + scItem.u_city + '",'
+						+				'"country": "Canada",'
+						+				'"fax": "' + formatted_f_phone + '",'
+						+				'"mobile": "' + formatted_m_phone + '",'
+						+				'"pager": "' + formatted_p_phone + '",'
+						+				'"postalCode": "' + scItem.u_postal_code + '",'
+						+				'"province": "BC",'
+						+				'"street": "' + scItem.u_address + '",'
+						+				'"telephoneNotes": "' + "" + '",'
+						+				'"telephoneNumber": "' + formatted_b_phone + '"'
+						+			'}'
+						+		'}'
+						+'}';
+					}
+					
+					/**
+ 					* Generate JSON for Change Account Request mapped with JSON Schema from the IBM
+ 					* @param: optionSelected: IDIR user name (string)
+ 					* @param: reqFor: IDIR user name (string)
+ 					* @param: scItem: service catalog Item variables object
+ 					* @return: json string
+ 					*/
+					function getChangeAccountData(optionSelected, reqFor, scItem) {
+						
+						var TIME_PORTION_APPENDED = 'T17:00:00-00:00';
+						var OPTION = optionSelected+'';
+						var json = '';
+						
+						switch (OPTION) {
+							case 'u_change_account_expiry_date':
+							json = '{'
+								+ '"userExpiryDateChange": {'
+									+        '"IDIR": "' +  reqFor + '",'
+									+        '"expiryDate": "' + scItem.u_account_expiry_date + TIME_PORTION_APPENDED + '"'
+									+	'}'
+									+'}';
+									break;
+									case 'u_remove_account_expiry_date':
+									json = '{'
+										+ '"userExpiryDateChange": {'
+											+        '"IDIR": "' +  reqFor + '",'
+											+        '"expiryDate": "1601-01-01T00:00:00-00:00"'
+											+	'}'
+											+'}';
+											break;
+											case 'u_place_hold':
+											json = '{'
+												+ '"removeUserAccountHold": {'
+													+        '"IDIR": "' +  reqFor + '",'
+													+        '"effectiveDate": "' + scItem.u_effective_date + TIME_PORTION_APPENDED + '"'
+													+	'}'
+													+'}';
+													break;
+													case 'u_remove_hold':
+													json = '{'
+														+ '"userAccountHold": {'
+															+        '"IDIR": "' +  reqFor + '",'
+															+        '"effectiveDate": "' + scItem.u_effective_date + TIME_PORTION_APPENDED + '"'
+															+	'}'
+															+'}';
+															break;
+															default:
+															gs.info('&gt;&gt;&gt;DEBUG:: OCIO SC TASK Add Attachment: Change Account: The selected IWantTo Option = (' + optionSelected + ')');
+															break;
+														}
+														
+														return json;
+													}
+]]&gt;&lt;/script&gt;&lt;synchronous&gt;false&lt;/synchronous&gt;&lt;sys_class_name&gt;sysevent_script_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;MKURIAKOSE&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-09-22 06:10:39&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;86b18dc8dbb8eb4050479eb6db9619dd&lt;/sys_id&gt;&lt;sys_mod_count&gt;29&lt;/sys_mod_count&gt;&lt;sys_name&gt;OCIO SR Generate Task Attachment&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_script_action_86b18dc8dbb8eb4050479eb6db9619dd&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;MKURIAKO&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-10-17 01:33:42&lt;/sys_updated_on&gt;&lt;/sysevent_script_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1220554406</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 17 a">19a7e544db99270050479eb6db961908</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-17 05:27:28</sys_created_on>
+<sys_id>1da7e544db99270050479eb6db961909</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1667fa8379d0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-17 05:27:28</sys_updated_on>
+<table>catalog.attachmentCreator</table>
+<target_name>OCIO SR Generate Task Attachment</target_name>
+<type>Script Action</type>
+<update_domain>global</update_domain>
+<update_guid>c122b4c0e61927005f08358128fd8f39</update_guid>
+<update_guid_history>c122b4c0e61927005f08358128fd8f39:1220554406,c422b4c06a192700dccf34d0682d8b83:1962866167,ef40f008c2d5270071434604f128f46f:1220554406,d10ee377b8452700de3680d162db37bd:1079707411,ffc3afbf99052700ac3092da0c66ceec:1483530636,4a259b77ea0527005a32ac447c01447e:472623628,74768c73990de3002a74a012d41b8d4d:-1616700144,90c5c4736f0de3001c2d47ca3e56b558:-1552609208,d6254433630de300757af81ed36f8056:2026806634,52144433bb0de3003befad067f72bc51:1400140655,8cc308ff0ac9e30006c5d284d41943ab:1457478398,ffe240ff83c9e3009f5de2f08e38f748:1306868510,3fa28cbf74c9e300f60d24db9e9b5744:-503099853,7a328cbf51c9e3002cb027344ebda23f:1919355635,1eb188bf5ac9e300d41b36d9e307e97f:-470420630,62908c7f66c9e300b4e81351c61b9164:-1422286073,7a20887f8ac9e3005e7bf718ad2a1839:-44164123,a7ceeb80d981678099c5843eb8b7d2f8:1837954384,7e4c85d0bb342f4033398a1aeba914b4:-454194729,407b41d009342f407b0b75fe908554c1:-716159426,24f88110f6342f40eed00b3ff019f1c9:-454194729,8ce9928c0f7ceb40df439b5a32061f2a:1327593928,47f8568c747ceb40b955e1189e0bf195:1440198954,a0d3414ceeb8eb40532a820e6a15e5c6:-1661170774,e023c90cd9b8eb406c0cdd2a0cae3a9a:-1724535606,f962810c51b8eb4055d6613ebc886d1b:-1661170774,2b02c10c19b8eb4005cf069d808c3554:1008317863,73d1410cd4b8eb40c6266528f2b86f16:2112409631,4ac1410c3bb8eb409a5f1024e5dbe007:1769496410</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_ff863cb6db0f1300f72fe04a489619b0</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item"&gt;&lt;sc_cat_item action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;availability&gt;on_both&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;category display_value="Changes to Existing Accounts"&gt;1ef67db7db961300f72fe04a489619ce&lt;/category&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan/&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description&gt;&lt;![CDATA[&lt;p&gt;To request an update to contact information in the Global Address List (GAL) displayed in Outlook and Lync, complete the Information fields below. If your address is not listed or is incomplete, please call the Service Desk.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Bulk GAL changes are not yet enabled. This item is only for individual requests.&lt;/p&gt;]]&gt;&lt;/description&gt;&lt;entitlement_script/&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon/&gt;&lt;ignore_price&gt;true&lt;/ignore_price&gt;&lt;image/&gt;&lt;list_price&gt;0&lt;/list_price&gt;&lt;location/&gt;&lt;meta&gt;Suggested&lt;/meta&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;Update Contact Information (GAL)&lt;/name&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;true&lt;/no_quantity&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;omit_price&gt;true&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;picture/&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=ff863cb6db0f1300f72fe04a489619b0&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;recurring_frequency/&gt;&lt;recurring_price&gt;0&lt;/recurring_price&gt;&lt;roles/&gt;&lt;sc_catalogs&gt;4deda47edb1113003d1dd001cf9619b2&lt;/sc_catalogs&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;short_description&gt;Update contact information in the Global Address List (GAL) displayed in Outlook and Lync&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;sys_class_name&gt;sc_cat_item&lt;/sys_class_name&gt;&lt;sys_created_by&gt;James.Jose&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-07-05 18:35:02&lt;/sys_created_on&gt;&lt;sys_id&gt;ff863cb6db0f1300f72fe04a489619b0&lt;/sys_id&gt;&lt;sys_mod_count&gt;17&lt;/sys_mod_count&gt;&lt;sys_name&gt;Update Contact Information (GAL)&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_ff863cb6db0f1300f72fe04a489619b0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;MKURIAKO&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-10-16 03:18:27&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;false&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow display_value=" OCIO Service Request Item"&gt;77a0da0bdb5113003d1dd001cf9619af&lt;/workflow&gt;&lt;/sc_cat_item&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=ff863cb6db0f1300f72fe04a489619b0"/&gt;&lt;fx_price action="delete_multiple" query="id=ff863cb6db0f1300f72fe04a489619b0"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;ff863cb6db0f1300f72fe04a489619b0&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;James.Jose&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-07-05 18:35:02&lt;/sys_created_on&gt;&lt;sys_id&gt;bf863cb6db0f1300f72fe04a489619b1&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;James.Jose&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-07-05 18:35:05&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;recurring_price&lt;/field&gt;&lt;id&gt;ff863cb6db0f1300f72fe04a489619b0&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;James.Jose&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-07-05 18:35:02&lt;/sys_created_on&gt;&lt;sys_id&gt;7b86b0f6db0f1300f72fe04a48961987&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;James.Jose&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-07-05 18:35:05&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-2089025645</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 17 a">19a7e544db99270050479eb6db961908</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-17 05:27:28</sys_created_on>
+<sys_id>59a7e544db99270050479eb6db961909</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1667ae1c4880000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-17 05:27:28</sys_updated_on>
+<table/>
+<target_name>Update Contact Information (GAL)</target_name>
+<type>Catalog Item</type>
+<update_domain>global</update_domain>
+<update_guid>b58040fbd9c9e3006af13798decfee0f</update_guid>
+<update_guid_history>b58040fbd9c9e3006af13798decfee0f:-2089025645,2a6e01a67d402300d3fa53d5dea2de5c:-2089025645,206ec5a64e402300ff18369e82468c2c:-857253148,b1e8eb46800023002dae314017e9dbf9:-2089025645,41e8eb46d20023002c531dff05ef95e1:-965083488,cce8e346750023000073f185a8c63efc:1568503087,5dc8ef061d0023007608d5b627a31307:-190955810,18c82746cb002300c9efbb912bfa76d2:434095893,53b8ab46f8002300c9554ceab9bc4d3e:446482754,9db7eb06a50023004a128256bff40c32:-2089025645,2537ab067a002300cac8583cd2129499:-965083488,7927ab06880023006e7b6e4e13bbde40:1568503087,30315c97c0031300c30e43c5a3da8389:-190955810,432c8cd3f90313005fa25aa7029f071b:68755638,d2b670f6de0f1300f9bb900e44004964:376325556,7f86b0f65b0f13003b258296091a0390:-989320050</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_script_client_2882e24cdb8d278050479eb6db9619d1</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Reset Voice Mail Password"&gt;fa2cbd7bdb961300f72fe04a4896197a&lt;/cat_item&gt;&lt;cat_variable/&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;messages/&gt;&lt;name&gt;Set Requested For/Read only&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[/**
+ * Set Requested For on Load
+ * 
+ * History
+ * JIRA   Date         Developer       Description
+ * -----  -----------  --------------  ------------------------
+ * SB-155 07-July-2018  Mathew Kuriakose     Initial implementation  
+
+ * Copyright to BC Public Service, OCIO, Service Request Project  
+ **/
+function onLoad() {
+
+var CheckIsMemberOfObj_2 = new GlideAjax('OCIO_SR_CatalogHelper');
+CheckIsMemberOfObj_2.addParam('sysparm_name', 'AssignGroup');
+CheckIsMemberOfObj_2.getXML(script_response_2);
+ 
+function script_response_2(response_2) {
+	
+var script_answer_2 = response_2.responseXML.documentElement.getAttribute("answer");
+	var userID = g_user.userID;
+	var is_SR= g_user.hasRole('bcgov_sr_service_manager');
+	//var is_admin =g_user.hasRole('admin');
+	if(g_form.getValue('u_requested_for') ==''&amp;&amp; is_SR==false &amp;&amp;script_answer_2!='true'){
+		
+		g_form.setValue('u_requested_for',userID);
+		
+	}
+//make field read only
+if(script_answer_2 == 'true')
+{
+    g_form.setReadOnly('u_requested_for', false);
+
+}
+
+else{
+
+    g_form.setReadOnly('u_requested_for', true);
+	
+
+}	
+}
+
+}			
+			
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;MKURIAKOSE&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-10-04 23:28:57&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;2882e24cdb8d278050479eb6db9619d1&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;Set Requested For/Read only&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_2882e24cdb8d278050479eb6db9619d1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;MKURIAKO&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-10-15 19:34:42&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1084104769</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 17 a">19a7e544db99270050479eb6db961908</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-17 05:27:28</sys_created_on>
+<sys_id>5da7e544db99270050479eb6db961908</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16679392e230000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-17 05:27:28</sys_updated_on>
+<table/>
+<target_name>Set Requested For/Read only</target_name>
+<type>Catalog Client Scripts</type>
+<update_domain>global</update_domain>
+<update_guid>a46616efdf85e300c04b3d9454b3ab1b</update_guid>
+<update_guid_history>a46616efdf85e300c04b3d9454b3ab1b:-1084104769,9b46d6efa685e300dbc75e8534919394:-2147428834,125556af6885e300362a2f14a3459d8d:-1680791280,a5d22a064d812f80205cfa5c5834733e:-402428327,2133e54abdcdeb806225471092190002:1202122718,6482e24c3d8d278080658771fc7042d4:1240673261</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_script_client_d9a26b3e4f671300c8030fbf9310c7da</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Update Contact Information (GAL)"&gt;ff863cb6db0f1300f72fe04a489619b0&lt;/cat_item&gt;&lt;cat_variable/&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;messages/&gt;&lt;name&gt;Make Fields Read Only&lt;/name&gt;&lt;order&gt;500&lt;/order&gt;&lt;script&gt;&lt;![CDATA[/**
+ * Helper Functions for Service Request Project
+ * 
+ * History
+ * JIRA   Date         Developer       Description
+ * -----  -----------  --------------  ------------------------
+ * SB-43 16-August-2018 Mathew Kuriakose   Initial implementation 
+ * Copyright to BC Public Service - Service Request
+ */
+
+
+
+function onLoad() {
+	
+var CheckIsMemberOfObj = new GlideAjax('OCIO_SR_CatalogHelper');
+CheckIsMemberOfObj.addParam('sysparm_name', 'AssignGroup');
+CheckIsMemberOfObj.getXML(script_response);
+ 
+function script_response(response) {
+	
+var script_answer = response.responseXML.documentElement.getAttribute("answer");
+
+if(script_answer == 'true')
+{
+
+    g_form.setReadOnly('u_requested_for', false);
+	g_form.setReadOnly('u_department', false);
+	g_form.setReadOnly('u_office', false);
+
+
+
+}
+
+else
+
+{
+
+    g_form.setReadOnly('u_requested_for', true);
+	g_form.setReadOnly('u_department', true);
+	g_form.setReadOnly('u_office', true);
+
+}
+
+}
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-07-31 03:39:36&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d9a26b3e4f671300c8030fbf9310c7da&lt;/sys_id&gt;&lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;&lt;sys_name&gt;Make Fields Read Only&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_d9a26b3e4f671300c8030fbf9310c7da&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;MKURIAKO&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-10-15 19:28:24&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1221208473</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 17 a">19a7e544db99270050479eb6db961908</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-17 05:27:28</sys_created_on>
+<sys_id>95a7e544db99270050479eb6db961909</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166793367ed0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-17 05:27:28</sys_updated_on>
+<table/>
+<target_name>Make Fields Read Only</target_name>
+<type>Catalog Client Scripts</type>
+<update_domain>global</update_domain>
+<update_guid>48f4de2fa885e30015eabb95b26f7013</update_guid>
+<update_guid_history>48f4de2fa885e30015eabb95b26f7013:1221208473,8a95ba1e790d2f80c1f30232221343b5:-558387588,1825721ee70d2f80cac9def6079023a9:-558387588,f921a6824a812f800e2ed80b790fe58a:-2052115456,f86fd642bb812f80551dafce8ff9307d:1542541983,714ea2aabb04e700470ef13b7c00e88f:-941803647,230eaa6a2604e7006756920bc0a7bd9a:-433557113,d0ee26ee544023008be36af6d430c9c5:-433557113,8e9087d8e004230064f79b675cfd10c8:-941803647,e0400f98cc04230047cf46a790634b3b:1822587876,6a3b26dcb0c02300e7f7fbc676e6398c:-261848414,401a2a9c13c023006f107201f3835ed7:270897376,e8f2633e7767130052e5be69917c83aa:1391998728</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_script_client_ce9672544f042300c8030fbf9310c77b</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Reset Voice Mail Password"&gt;fa2cbd7bdb961300f72fe04a4896197a&lt;/cat_item&gt;&lt;cat_variable/&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;messages/&gt;&lt;name&gt;Make Requested for Read Only&lt;/name&gt;&lt;order&gt;200&lt;/order&gt;&lt;script&gt;&lt;![CDATA[/**
+ * Helper Functions for Service Request Project
+ * 
+ * History
+ * JIRA   Date         Developer       Description
+ * -----  -----------  --------------  ------------------------
+ * SB-366 16-August-2018 Mathew Kuriakose   Initial implementation 
+ * Copyright to BC Public Service - Service Request
+ */
+
+function onLoad() {
+	
+var CheckIsMemberOfObj = new GlideAjax('OCIO_SR_CatalogHelper');
+CheckIsMemberOfObj.addParam('sysparm_name', 'AssignGroup');
+CheckIsMemberOfObj.getXML(script_response);
+ 
+function script_response(response) {
+	
+var script_answer = response.responseXML.documentElement.getAttribute("answer");
+	
+if(script_answer == 'true')
+{
+    g_form.setReadOnly('u_requested_for', false);
+	//g_form.setReadOnly('u_department', false);
+	//g_form.setReadOnly('u_office', false);
+}
+
+else{
+
+    g_form.setReadOnly('u_requested_for', true);
+	//g_form.setReadOnly('u_department', true);
+	//g_form.setReadOnly('u_office', true);
+
+}
+}
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mkuriako&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-08-17 02:32:24&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ce9672544f042300c8030fbf9310c77b&lt;/sys_id&gt;&lt;sys_mod_count&gt;27&lt;/sys_mod_count&gt;&lt;sys_name&gt;Make Requested for Read Only&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_ce9672544f042300c8030fbf9310c77b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;MKURIAKO&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-10-15 19:34:11&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>302856852</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 17 a">19a7e544db99270050479eb6db961908</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-17 05:27:28</sys_created_on>
+<sys_id>d1a7e544db99270050479eb6db961909</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1667938b7160000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-17 05:27:28</sys_updated_on>
+<table/>
+<target_name>Make Requested for Read Only</target_name>
+<type>Catalog Client Scripts</type>
+<update_domain>global</update_domain>
+<update_guid>c146d2ef6a85e3000dc99687f53312f4</update_guid>
+<update_guid_history>c146d2ef6a85e3000dc99687f53312f4:302856852,a536e54e5bcdeb80486def726115797a:753216631,661d14d0fe502300505a445cf0da96f5:-642130273,1be446a2aec0e7005f4973bcd338c009:1001261721,d9c3ca62b6c0e700330e23942b626cb4:1624022070,54dc477af700230039b06357954e1190:-642130273,bb8ffa98f704230019d04d1fae5519b3:1001261721,d28f3a98fc0423006b8a39b0eaa8b739:1001261721,097fba98e9042300a22b297e25fc1601:829295331,a33f769808042300c3aedcef177fe0b3:-429445234,e00f769845042300102d5155109c4b7d:-30246141,39cef298e5042300094535395e34024e:929575787,1c1dfad49d0423005890ad0064a52fb0:1047549380,438c3a185a042300bcd794a41d81f329:-1961468381,435c3e181d042300c10ea1f97e10e7b6:1207226700,313c3a184b0423008be9e16eb2f9d81b:951836255,fedb3ed44c042300a48ba140ee92bd29:1990729418,52abb618ac0423007c921e5f3068e701:-514001870,b39b3ed4c304230094ebfec984d4044e:-1918066031,ead9b2d4760423001501d78027af69a2:-165251965,df6932d4340423002f7a2528a9c0b692:-1811792383,43f8ba94c10423009131e0a8f55cd7d8:67455692,e8a872943304230085b1aa53a9a73a70:-1696854089,4d98769408042300cd2d15289f8a04a6:-2050861612,cad6be1440042300c81ec696f6b6ec2a:-1696854089,44c6be14ef042300f2eac419350aa931:-2013533257,829672540c0423001ced2c3a7765e17f:-409988613</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_889924e4db052b80fe199236db96190f</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sc_req_item&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;OCIO SR populate Org field_REQ&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+//set REQ org as the RITM requested for org
+
+var ritm_sys_id=current.sys_id;
+gs.eventQueue('SC_Request.ORG',current, ritm_sys_id,'');
+	
+	
+	
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;MKURIAKOSE&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-10-06 03:57:30&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;889924e4db052b80fe199236db96190f&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_name&gt;OCIO SR populate Org field_REQ&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_889924e4db052b80fe199236db96190f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;MKURIAKO&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-10-15 23:38:39&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=889924e4db052b80fe199236db96190f"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1808561884</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 10 17 a">19a7e544db99270050479eb6db961908</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-17 05:27:28</sys_created_on>
+<sys_id>dda7e544db99270050479eb6db961909</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1667a18857b0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-17 05:27:28</sys_updated_on>
+<table>sc_req_item</table>
+<target_name>OCIO SR populate Org field_REQ</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>3d3e07af9249e300df2a52a88a8bafa9</update_guid>
+<update_guid_history>3d3e07af9249e300df2a52a88a8bafa9:1808561884,61bd594296cdeb805e2e90ab98ecf7ef:1605388715,11a0283d1981eb800a2c0ad0d3281468:1808561884,e6be10b9d081eb80ac832a07a23d662d:174629756,1c8d9c794581eb8057389d197e17a5c7:-485870,52c937ed1601eb80895b8bdd96894376:-1103122197,00697f6d0701eb8039a2cca140dfb2a8:-72214534,d1206b68bc892b808a63262868004fd9:-1103122197,c3cf5768f8892b800f6d347b81b44ebc:868611614,aeaba06859052b8024be3db354a2c587:530809931,87cae4287c052b807be97d17fea4fc61:-2114498547,bf9964e4a2052b806ce27a7c9263cba9:1351351833,049924e4f2052b80dc6927c1959d6212:1985439280</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
