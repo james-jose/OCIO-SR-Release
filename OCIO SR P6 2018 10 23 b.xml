@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2018-10-23 06:06:31">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Merged following update sets:
+OCIO SR Suppress NOTIF01 for P6 Solution SB901
+OCIO SR Suppress NOTIF02 for P6 Solution SB902
+OCIO SR Suppress NOTIF04 for P6 Solution SB903
+OCIO SR New email notification for CSC SR Closed complete SB 905
+OCIO SR New email notification for CSC SR Opened SB 904
+OCIO SR SB 895 Call_Attach-v01
+OCIO SR SB-931 Call_company_v01</description>
+<inserted/>
+<name>OCIO SR P6 2018 10 23 b</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>2068e486db952b00fe199236db961950</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-23 06:06:31</sys_created_on>
+<sys_id>331a2086db952b00fe199236db9619a3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-23 06:06:31</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_register_2604c6a4db116700fe199236db961922</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register"><sysevent_register action="INSERT_OR_UPDATE"><description>To Trigger Notification if a request is inserted. </description><event_name>SC_request.inserted.notify_CSC</event_name><fired_by>Business rule</fired_by><queue/><suffix/><sys_class_name>sysevent_register</sys_class_name><sys_created_by>NKUMAR</sys_created_by><sys_created_on>2018-10-18 20:49:33</sys_created_on><sys_id>2604c6a4db116700fe199236db961922</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SC_request.inserted.notify_CSC</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sysevent_register_2604c6a4db116700fe199236db961922</sys_update_name><sys_updated_by>NKUMAR</sys_updated_by><sys_updated_on>2018-10-18 20:49:33</sys_updated_on><table>sc_req_item</table></sysevent_register></record_update>]]></payload>
+<payload_hash>893807797</payload_hash>
+<remote_update_set display_value="OCIO SR P6 2018 10 23 b">331a2086db952b00fe199236db9619a3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-23 06:06:31</sys_created_on>
+<sys_id>331a2086db952b00fe199236db9619a5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16688f0cabc0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-23 06:06:31</sys_updated_on>
+<table>sc_req_item</table>
+<target_name>SC_request.inserted.notify_CSC</target_name>
+<type>Event Registration</type>
+<update_domain>global</update_domain>
+<update_guid>064406e49011670041cbd82ae76f7368</update_guid>
+<update_guid_history>064406e49011670041cbd82ae76f7368:893807797</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_email_action_beba922cdb516700fe199236db9619fa</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition&gt;&lt;![CDATA[// 06/14/18: This default condition evaluates if the person making the update/triggering this notification is has the bcgov_data_corrector role (granted by group: Access_Data_Correction)
+answer = new bcHelperUtil().isDataCorrector(current.sys_updated_by);]]&gt;&lt;/advanced_condition&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="IT Service Management" name="IT Service Management"&gt;b69d02137f232200ee2e108c3ffa9142&lt;/category&gt;&lt;collection&gt;sc_req_item&lt;/collection&gt;&lt;condition table="sc_req_item"&gt;state=3^cat_item.sc_catalogsLIKEbfbcbddcdb686740fe199236db9619d8^EQ&lt;item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/&gt;&lt;item endquery="false" field="cat_item.sc_catalogs" goto="false" newquery="false" operator="LIKE" or="false" value="bfbcbddcdb686740fe199236db9619d8"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description&gt;Email notification generated when a P6 (Catalog item from  OCIO Internal Catalog) request is closed with 'Closed Complete' status&lt;/description&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;event_name&gt;SC_request.inserted.notify_CSC&lt;/event_name&gt;&lt;event_parm_1&gt;true&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;event&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;${event.parm2}, Service Request Item ${number} has been Closed Complete:&amp;nbsp; ${mail_script:callrecord.short_description}&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt; Close notes: ${close_notes}&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;Request Number: ${request.number}&lt;/span&gt;&lt;/span&gt;&lt;br /&gt; &lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;Request Item Number: ${number}&lt;/span&gt;&lt;/span&gt;&lt;br /&gt; &lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;Requested For: ${u_item_requested_for.first_name} ${u_item_requested_for.last_name}&lt;/span&gt;&lt;/span&gt;&lt;br /&gt; &lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;Requested By: ${u_item_requested_by.first_name}&amp;nbsp; ${u_item_requested_by.last_name}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin-right: 0in; margin-left: 0in; font-size: 12pt; font-family: 'Times New Roman', serif; text-align: left;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;For updates on your Service Request please contact the Customer Service Centre at (250)387-7000 option 3 or via email at &lt;a style="color: blue; text-decoration: underline;" href="mailto:cschelp@gov.bc.ca"&gt;cschelp@gov.bc.ca&lt;/a&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin-right: 0in; margin-left: 0in; font-size: 12pt; font-family: 'Times New Roman', serif; text-align: left;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;Please do not reply, this is an auto-generated message.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;BCGOV-SR-NOTIF08 CSC SR Closed complete&lt;/name&gt;&lt;omit_watermark&gt;true&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields/&gt;&lt;recipient_groups/&gt;&lt;recipient_users/&gt;&lt;reply_to/&gt;&lt;send_self&gt;false&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;Service Request Item ${number} Has Been Closed Complete&lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;NKUMAR&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-10-18 22:29:12&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;beba922cdb516700fe199236db9619fa&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;BCGOV-SR-NOTIF08 CSC SR Closed complete&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_beba922cdb516700fe199236db9619fa&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;JAJOSE&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-10-19 22:37:35&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template/&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1478390434</payload_hash>
+<remote_update_set display_value="OCIO SR P6 2018 10 23 b">331a2086db952b00fe199236db9619a3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-23 06:06:31</sys_created_on>
+<sys_id>371a2086db952b00fe199236db9619a4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1668e7a0ea70000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-23 06:06:31</sys_updated_on>
+<table>sc_req_item</table>
+<target_name>BCGOV-SR-NOTIF08 CSC SR Closed complete</target_name>
+<type>Notification</type>
+<update_domain>global</update_domain>
+<update_guid>ee96e3307d5da7007ef993a5fb438543</update_guid>
+<update_guid_history>ee96e3307d5da7007ef993a5fb438543:1478390434,f02f1ff8be1da700ca71c62173d867a3:-1247692077,35c597349d1da700ffb5951d62d985fd:-1275665710,874b122cdb51670069a793043c1bba69:-1247692077,f51bdae873516700a7585eb33a4fce50:-1765775178</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_email_action_09513339dbc0230066d65608689619fe</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition&gt;&lt;![CDATA[answer = new bcHelperUtil().isDataCorrector(current.sys_updated_by);]]&gt;&lt;/advanced_condition&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="IT Service Management" name="IT Service Management"&gt;b69d02137f232200ee2e108c3ffa9142&lt;/category&gt;&lt;collection&gt;sc_req_item&lt;/collection&gt;&lt;condition table="sc_req_item"&gt;state=3^u_item_notify_requested_for=true^cat_item.sc_catalogsLIKE4deda47edb1113003d1dd001cf9619b2^cat_item.sc_catalogsNOT LIKEbfbcbddcdb686740fe199236db9619d8^EQ&lt;item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/&gt;&lt;item endquery="false" field="u_item_notify_requested_for" goto="false" newquery="false" operator="=" or="false" value="true"/&gt;&lt;item endquery="false" field="cat_item.sc_catalogs" goto="false" newquery="false" operator="LIKE" or="false" value="4deda47edb1113003d1dd001cf9619b2"/&gt;&lt;item endquery="false" field="cat_item.sc_catalogs" goto="false" newquery="false" operator="NOT LIKE" or="false" value="bfbcbddcdb686740fe199236db9619d8"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description&gt;BCGOV-SR-NOTIF02 SR Closed Complete – Requested for&lt;/description&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;event_name&gt;approval.cancelled&lt;/event_name&gt;&lt;event_parm_1&gt;false&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;engine&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;${u_item_requested_for.first_name}, Service Request Item &lt;span style="line-height: 107%; color: black;"&gt;&lt;span style="color: black;"&gt;${mail_script:URI_REF_SP}&lt;/span&gt;&lt;/span&gt; has been closed complete.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;${cat_item.short_description}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;Request Number: ${request.number}&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;Request Item Number: &lt;span style="line-height: 107%; color: black;"&gt;&lt;span style="color: black;"&gt;${mail_script:URI_REF_SP}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;Requested For: ${u_item_requested_for.first_name} ${u_item_requested_for.last_name}&lt;br /&gt; Requested By: ${u_item_requested_by.first_name}&amp;nbsp; ${u_item_requested_by.last_name}&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;To view updates on this service request please visit the &lt;span style="font-size: 10.0pt; line-height: 107%; font-family: 'Arial',sans-serif; color: blue;"&gt;&lt;span style="color: blue;"&gt;&lt;a style="color: blue; text-decoration: underline;" title="Self-Serve Portal" href="/mysc" target="_blank"&gt;Self-Serve Portal&lt;/a&gt;&lt;/span&gt;&lt;/span&gt; . Alternatively, you can contact the Customer Service Centre at (250)387-7000 option 3 or via email at &lt;a style="color: blue; text-decoration: underline;" href="mailto:cschelp@gov.bc.ca"&gt;cschelp@gov.bc.ca&lt;/a&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 6pt 0in; font-size: 11pt; font-family: 'Calibri', sans-serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;Please do not reply, this is an auto-generated message.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;BCGOV-SR-NOTIF02 SR Closed Complete – Re&lt;/name&gt;&lt;omit_watermark&gt;true&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields&gt;u_item_requested_for&lt;/recipient_fields&gt;&lt;recipient_groups/&gt;&lt;recipient_users/&gt;&lt;reply_to/&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;Service Request Item ${number} Has Been Closed Complete&lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;NKUMAR&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-08-21 22:41:15&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;09513339dbc0230066d65608689619fe&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;BCGOV-SR-NOTIF02 SR Closed Complete – Re&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_09513339dbc0230066d65608689619fe&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;NKUMAR&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-10-14 22:35:05&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template/&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1527276106</payload_hash>
+<remote_update_set display_value="OCIO SR P6 2018 10 23 b">331a2086db952b00fe199236db9619a3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-23 06:06:31</sys_created_on>
+<sys_id>3b1a2086db952b00fe199236db9619a3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16674b7f6110000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-23 06:06:31</sys_updated_on>
+<table>sc_req_item</table>
+<target_name>BCGOV-SR-NOTIF02 SR Closed Complete – Re</target_name>
+<type>Notification</type>
+<update_domain>global</update_domain>
+<update_guid>7816bddf9349a300979830c26eb6655c</update_guid>
+<update_guid_history>7816bddf9349a300979830c26eb6655c:1527276106,644a1c68df1423003ed167ed4238ee51:-2082507254,0a32b3791cc023006b6540dfb286723a:-1186581654,4df17f39bdc02300038332403f8e7c8f:-329963382,3ca17379c6c0230011efd6e8fec13e32:1345676149</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_a4a051c4db59270050479eb6db9619e5</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sc_task&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="sc_task"&gt;request_item.cat_item.category=083d7910dba86740fe199236db96190c^EQ&lt;item display_table="sc_category" display_value="OCIO Internal Request" endquery="false" field="request_item.cat_item.category" goto="false" newquery="false" operator="=" or="false" value="083d7910dba86740fe199236db96190c"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;OCIO SR Call CI-SCTASK&lt;/name&gt;&lt;order&gt;1000&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+//copy attachment from RITM record to sc task
+//copy Description from RITM record to sc task
+//copy CI field from Call record to sc task
+var CallRec = new GlideRecord('new_call');
+CallRec.addQuery('transferred_to',current.request_item.request);					
+CallRec.query();
+if(CallRec.next()) {
+current.cmdb_ci= CallRec.u_cmdb_ci;
+			  }
+	
+var RITM_Rec = new GlideRecord('sc_req_item');
+RITM_Rec.addQuery('sys_id',current.request_item);					
+RITM_Rec.query();
+if(RITM_Rec.next()) {
+current.description=RITM_Rec.variables.Description;
+}			  
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;MKURIAKO&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-10-17 03:46:56&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;a4a051c4db59270050479eb6db9619e5&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;OCIO SR Call CI-SCTASK&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_a4a051c4db59270050479eb6db9619e5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;MKURIAKO&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-10-17 03:56:17&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=a4a051c4db59270050479eb6db9619e5"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-893062805</payload_hash>
+<remote_update_set display_value="OCIO SR P6 2018 10 23 b">331a2086db952b00fe199236db9619a3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-23 06:06:31</sys_created_on>
+<sys_id>3b1a2086db952b00fe199236db9619a6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166802abf340000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-23 06:06:31</sys_updated_on>
+<table>sc_task</table>
+<target_name>OCIO SR Call CI-SCTASK</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>edc2dd08ee59270099294330e8662ae9</update_guid>
+<update_guid_history>edc2dd08ee59270099294330e8662ae9:-893062805,6b125108905927007e3a64dd189a3a87:-923513128,66e059c450592700819f42ff9331801f:-149055160,3fa095c4a5592700fb4570695bf6b6e1:1017342529,a0a019c44d592700dc2eff29767f73e7:-342445080</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_script_action_e9bb8104db59270050479eb6db9619c2</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_script_action"&gt;&lt;sysevent_script_action action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;condition_script/&gt;&lt;description/&gt;&lt;event_name&gt;SC_request_item.inserted.call_rec&lt;/event_name&gt;&lt;name&gt;Copy Call record attachment-RITM&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[var gr_RITM= new GlideRecord("sc_req_item");
+gr_RITM.addQuery('sys_id',event.parm1);
+gr_RITM.query();
+if(gr_RITM.next()){
+	 
+var callRec = new GlideRecord('new_call');
+callRec.addQuery('transferred_to',gr_RITM.request);					
+callRec.query();
+if(callRec.next()) {
+var sourceSysID =callRec.sys_id+'';
+var targetSysID = gr_RITM.sys_id+'';
+			
+var copyAtt = new GlideSysAttachment();			
+copyAtt.copy('new_call',sourceSysID,'sc_req_item',targetSysID);
+	
+			  }	
+	
+}
+]]&gt;&lt;/script&gt;&lt;synchronous&gt;false&lt;/synchronous&gt;&lt;sys_class_name&gt;sysevent_script_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;MKURIAKO&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-10-17 03:26:31&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path/&gt;&lt;sys_id&gt;e9bb8104db59270050479eb6db9619c2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Copy Call record attachment-RITM&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_script_action_e9bb8104db59270050479eb6db9619c2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;MKURIAKO&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-10-17 03:26:31&lt;/sys_updated_on&gt;&lt;/sysevent_script_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1592102355</payload_hash>
+<remote_update_set display_value="OCIO SR P6 2018 10 23 b">331a2086db952b00fe199236db9619a3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-23 06:06:31</sys_created_on>
+<sys_id>3f1a2086db952b00fe199236db9619a5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166800f80cc0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-23 06:06:31</sys_updated_on>
+<table>SC_request_item.inserted.call_rec</table>
+<target_name>Copy Call record attachment-RITM</target_name>
+<type>Script Action</type>
+<update_domain>global</update_domain>
+<update_guid>21fb81c09d5927000495497aa3826ed6</update_guid>
+<update_guid_history>21fb81c09d5927000495497aa3826ed6:-1592102355</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_email_action_95facc9edb40230066d65608689619df</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition&gt;&lt;![CDATA[answer = new bcHelperUtil().isDataCorrector(current.sys_updated_by);]]&gt;&lt;/advanced_condition&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="IT Service Management" name="IT Service Management"&gt;b69d02137f232200ee2e108c3ffa9142&lt;/category&gt;&lt;collection&gt;sc_req_item&lt;/collection&gt;&lt;condition table="sc_req_item"&gt;u_item_notify_requested_for=true^state=1^cat_item.sc_catalogsNOT LIKEbfbcbddcdb686740fe199236db9619d8^cat_item.sc_catalogsLIKE4deda47edb1113003d1dd001cf9619b2^EQ&lt;item endquery="false" field="u_item_notify_requested_for" goto="false" newquery="false" operator="=" or="false" value="true"/&gt;&lt;item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/&gt;&lt;item endquery="false" field="cat_item.sc_catalogs" goto="false" newquery="false" operator="NOT LIKE" or="false" value="bfbcbddcdb686740fe199236db9619d8"/&gt;&lt;item endquery="false" field="cat_item.sc_catalogs" goto="false" newquery="false" operator="LIKE" or="false" value="4deda47edb1113003d1dd001cf9619b2"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description&gt;OCIO SR BCGOV-SR-NOTIF01 SR Opened - Requested for&lt;/description&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;event_name&gt;sc_req_item.inserted&lt;/event_name&gt;&lt;event_parm_1&gt;false&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;event&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p style="margin: 0in 0in 12pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;${u_item_requested_for.first_name}, Service Request Item &lt;span style="color: #000000;"&gt;&lt;span style="color: black;"&gt;${mail_script:URI_REF_SP}&lt;/span&gt;&lt;/span&gt; has been opened : ${cat_item}&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;${cat_item.short_description}&lt;br /&gt; &amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;Request Number: ${request.number}&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: 'Arial Unicode MS', sans-serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;Request Item Number: &lt;span style="color: #000000;"&gt;&lt;span style="color: black;"&gt;${mail_script:URI_REF_SP}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: 'Arial Unicode MS', sans-serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;Requested For: ${u_item_requested_for.first_name} ${u_item_requested_for.last_name}&lt;br /&gt; Requested By: ${u_item_requested_by.first_name}&amp;nbsp; ${u_item_requested_by.last_name}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: 'Arial Unicode MS', sans-serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;&lt;br /&gt; To view updates on this service request please visit the &lt;span style="line-height: 107%; color: blue;"&gt;&lt;span style="color: blue;"&gt;&lt;a style="color: blue; text-decoration: underline;" title="Self-Serve Portal" href="/mysc" target="_blank"&gt;Self-Serve Portal&lt;/a&gt;&lt;/span&gt;&lt;/span&gt; . Alternatively, you can contact the Customer Service Centre at (250)387-7000 option 3 or via email at &lt;a style="color: blue; text-decoration: underline;" href="mailto:cschelp@gov.bc.ca"&gt;cschelp@gov.bc.ca&lt;/a&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: 'Arial Unicode MS', sans-serif;"&gt;&lt;span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 8pt; line-height: 107%; font-size: 11pt; font-family: 'Calibri', sans-serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&lt;span style="line-height: 106%;"&gt;&lt;span style="font-size: 10.0pt; line-height: 106%; font-family: 'Arial',sans-serif;"&gt;Please do not reply, this is an auto-generated message.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;BCGOV-SR-NOTIF01 SR Opened&lt;/name&gt;&lt;omit_watermark&gt;true&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields&gt;u_item_requested_for&lt;/recipient_fields&gt;&lt;recipient_groups/&gt;&lt;recipient_users/&gt;&lt;reply_to/&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;Service Request Item ${number} Has Been Opened&lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;NKUMAR&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-08-22 19:10:56&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;95facc9edb40230066d65608689619df&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_name&gt;BCGOV-SR-NOTIF01 SR Opened&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_95facc9edb40230066d65608689619df&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;NKUMAR&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-10-14 22:24:57&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template/&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1947994756</payload_hash>
+<remote_update_set display_value="OCIO SR P6 2018 10 23 b">331a2086db952b00fe199236db9619a3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-23 06:06:31</sys_created_on>
+<sys_id>731a2086db952b00fe199236db9619a4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16674aeb2090000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-23 06:06:31</sys_updated_on>
+<table>sc_req_item</table>
+<target_name>BCGOV-SR-NOTIF01 SR Opened</target_name>
+<type>Notification</type>
+<update_domain>global</update_domain>
+<update_guid>acc33d9fe649a300ddcc27912adaae64</update_guid>
+<update_guid_history>acc33d9fe649a300ddcc27912adaae64:1947994756,eda1f95fe949a3007cee8bf59aa1a1b9:-136424764,5d1f611f5249a300ce3a40a752c22181:1947994756,281a1b7a05c963009f33b1c0a5606a32:-824587299,b779537a98c96300cf83c167831ab00d:-136424764,05f693f664c9630043d6a5ac52f3728a:610851370,68774326594163009ab3eab94ed0d82b:-68971609,88558ba26941630006047f02165cba21:610851370,d8a952e629cd2300b5a9089604302f52:-136424764,884816a684cd230004387928d54871bf:-1138139725,26de934548302380eb38841e94161348:-136424764,a884ed44d4c9eb80af6e9707dede5720:369881294,26de934548302380eb38841e94161348:-136424764,fc899468c8142300c2fbbf1cbe8b0088:369881294,23bb88de4b402300922e302bb03641f1:-1328745324,7d1b00ded540230068b51c6ee8b3e707:-504649644</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_acb78223db68ab4050479eb6db9619b5</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.OCIO_SR_Call_Record_Details&lt;/api_name&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;OCIO_SR_Call_Record_Details&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var OCIO_SR_Call_Record_Details = Class.create();
+OCIO_SR_Call_Record_Details.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+	
+//Populate Call record details to the catalog for New calls. Its called by Client scripts from 
+	
+	    call_info: function() {
+		var CallRecord = this.getParameter('sysparam_CallRecord');
+		var cart_item = this.getParameter('sysparam_cart_item');	
+		var result = this.newItem("result");
+		var call_details = new GlideRecord('new_call');
+		call_details.addQuery('sys_id',CallRecord);
+		call_details.query();
+		if(call_details.next())
+			{
+var copyAtt = new GlideSysAttachment();			
+copyAtt.copy('new_call',call_details.sys_id,'sc_cart_item',cart_item);
+				result.setAttribute("call_short_desc",call_details.short_description);
+			    result.setAttribute("call_req_for", call_details.u_requested_for);
+				result.setAttribute("call_req_by", call_details.caller);
+				result.setAttribute("call_im_req_for", call_details.company);
+				result.setAttribute("call_description", call_details.description);
+
+
+				
+			}
+	},
+
+	
+    type: 'OCIO_SR_Call_Record_Details'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;MKURIAKOSE&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-09-20 22:00:34&lt;/sys_created_on&gt;&lt;sys_id&gt;acb78223db68ab4050479eb6db9619b5&lt;/sys_id&gt;&lt;sys_mod_count&gt;24&lt;/sys_mod_count&gt;&lt;sys_name&gt;OCIO_SR_Call_Record_Details&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_acb78223db68ab4050479eb6db9619b5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;MKURIAKO&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-10-18 04:19:50&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>784110982</payload_hash>
+<remote_update_set display_value="OCIO SR P6 2018 10 23 b">331a2086db952b00fe199236db9619a3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-23 06:06:31</sys_created_on>
+<sys_id>731a2086db952b00fe199236db9619a7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1668566acf10000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-23 06:06:31</sys_updated_on>
+<table/>
+<target_name>OCIO_SR_Call_Record_Details</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>d0c16ed0bfd567000f67ef42dd2d11b7</update_guid>
+<update_guid_history>d0c16ed0bfd567000f67ef42dd2d11b7:784110982,cbb12ed03ad56700a72d629429094009:130205724,2030aa90f5d56700d2099a6488b1df8b:784110982,87cf969011d56700e581659c89f8212d:104901894,805f9e1040d5670029f9692469c29727:784110982,932c0c2443c12b80b20e5d68b8ad135b:8958993,a4f90ca007c12b80bff5a0ef8d763da4:-2048215599,137908a01bc12b8016d7c9baf8684701:-357918342,ad98846cfd0d6780381691477bf7f8fe:-1515964054,3b38886cf50d6780d9c9feff92c633d0:8958993,2eb346baf7bc638097083ee7dcd5f54d:1129374268,1ce461c438c9eb8034d55b1db432ec03:1182848176,2eb346baf7bc638097083ee7dcd5f54d:1129374268,8df1c2f6f3bc63804dcd9a2a18b875bc:-323963809,2934727c7234ef40aefb8d37d39b5979:-51157910,8038466858fc2f40b751da866d526b52:-1217122861,a8818a24f5fc2f40a5e7af9abf3d2284:835561361,bd93aaef9168ab40ae8d1532c3d697a0:-2118483815,49b226ef0568ab40ab476cd8694a9305:1656444363,41a1aeaf9768ab40bcac21733aec3e2b:-1743505770,95502a6f8368ab406b37a196dab7b26c:1916828995,f8ef12e7d668ab403bf5c41e05b1b9b3:1379954232,d0af126b0068ab401b32818f95a71913:-712033416,5f0982237768ab401fd8683482fef69c:-1547058706,17d846ef8d28ab4073ead4395557c6ca:709721208,54684eefda28ab4022f1c400ba3aa977:32307788,2d0802236e68ab408565baaf6f10200a:1749962651</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_script_client_f44b75e7db28ab4050479eb6db96193a</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="General Service Request"&gt;be15a52bdbe4ab4050479eb6db961928&lt;/cat_item&gt;&lt;cat_variable/&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;messages/&gt;&lt;name&gt;Get Call record data on load&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+
+
+var call_record = getParmVal('sysparm_call_record');
+var cart_item =g_form.getParameter("sysparm_item_guid");
+var ga = new GlideAjax("OCIO_SR_Call_Record_Details");
+ga.addParam("sysparm_name","call_info");
+ga.addParam("sysparam_CallRecord",call_record);
+ga.addParam("sysparam_cart_item",cart_item);
+
+ga.getXML(ajaxResponse);	
+  
+}
+
+function getParmVal(name){
+    var url = document.URL.parseQuery();
+    if(url[name]){
+        return decodeURI(url[name]);
+    }
+    else{
+        return;
+    }
+}	
+
+	function ajaxResponse(serverResponse) {
+	var result = serverResponse.responseXML.getElementsByTagName("result");
+	var call_req_for = result[0].getAttribute("call_req_for");
+	var call_req_by = result[0].getAttribute("call_req_by");
+	var call_short_desc=result[0].getAttribute("call_short_desc");
+	var call_im_req_for= result[0].getAttribute("call_im_req_for");
+	var call_description= result[0].getAttribute("call_description");
+		
+		
+	g_form.setValue('u_requested_for',call_req_for);
+	g_form.setValue('Short_Description',call_short_desc);
+	g_form.setValue('u_requested_by',call_req_by);
+	g_form.setValue('u_organization',call_im_req_for);
+	g_form.setValue('Description',call_description);	
+			
+
+	}
+	
+   
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;MKURIAKOSE&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-09-20 21:05:24&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f44b75e7db28ab4050479eb6db96193a&lt;/sys_id&gt;&lt;sys_mod_count&gt;29&lt;/sys_mod_count&gt;&lt;sys_name&gt;Get Call record data on load&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_f44b75e7db28ab4050479eb6db96193a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;MKURIAKO&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-10-18 04:19:31&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-966934148</payload_hash>
+<remote_update_set display_value="OCIO SR P6 2018 10 23 b">331a2086db952b00fe199236db9619a3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-23 06:06:31</sys_created_on>
+<sys_id>771a2086db952b00fe199236db9619a3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166856662690000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-23 06:06:31</sys_updated_on>
+<table/>
+<target_name>Get Call record data on load</target_name>
+<type>Catalog Client Scripts</type>
+<update_domain>global</update_domain>
+<update_guid>fba1eed0bad567003765ecd9613f936c</update_guid>
+<update_guid_history>fba1eed0bad567003765ecd9613f936c:-966934148,3ea1aed0bdd5670041a05ef0cad0d5ab:-1598069063,d9ce5650f0d56700bea4b94dd0157868:-966934148,19cb842467c12b807cc38cb71c359659:388414513,887b04e0c5c12b805e92213320d449ac:1505713346,272bc0e0a2c12b80fd4272df0b0f2b68:2011430306,46e98ca0dac12b808678c69bf6530481:1505713346,a31984a05ac12b8010042ee6a9eb6860:-1465457131,fbe3fef8f434ef40c4ffffcdaa410f11:1505713346,a9684268c3fc2f40c78b7c6191de1d5c:-11736252,56d4ad848ac9eb80a221d3b9f6388119:572817979,a9684268c3fc2f40c78b7c6191de1d5c:-11736252,b1d7ce28c1fc2f40607998de941d4429:1176103375,d012ce24b5fc2f409115d382924315de:-123534390,8ca14a247afc2f40288572e94f4af7cd:-116086838,2983e2236da8ab40393fdaab9d29dbb1:759279452,a0136eefca68ab40a4acecabda9132dd:-1844010312,0e6262ef0f68ab40697ad4c61ea375d5:765834382,2ee162ef9768ab40be071045b52d9853:300951815,2951a2af2f68ab4051dda613b9e08848:207119212,aae026afb368ab40a442438f5ddbb4e4:-1174529504,f947caefc928ab406f66fc89393fe034:1581259814,b837caeff528ab408e5b3cd944e366ed:-1015603582,6b27caef2a28ab40bf003166cf0bf9a2:-1605199947,7f1746afe228ab4057a1da18a8b5d969:-101338572,9a2eb96b6428ab409f93b4249fecc445:1007396981,42fdf56b5728ab409391b9ccb89c5b67:-1997984402,664d3de7ab28ab40316912e23b982f2a:814323999,0f2db12b8728ab40c98f9b3843420deb:-230878144,93ab39e73a28ab4026ca1b102dafed60:-1288179258,9d6bbde3a928ab408026deade6b76430:-1587005829</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_152deee7dba8ab4050479eb6db9619ef</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sc_req_item&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="sc_req_item"&gt;cat_item.category=083d7910dba86740fe199236db96190c^EQ&lt;item display_table="sc_category" display_value="OCIO Internal Request" endquery="false" field="cat_item.category" goto="false" newquery="false" operator="=" or="false" value="083d7910dba86740fe199236db96190c"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;OCIO SR copy attachment-RITM&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+
+var task_sys_id=current.sys_id;
+gs.eventQueue('SC_request_item.inserted.call_rec',current, task_sys_id,'');	
+	
+
+	
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;MKURIAKOSE&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-09-21 00:44:25&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;152deee7dba8ab4050479eb6db9619ef&lt;/sys_id&gt;&lt;sys_mod_count&gt;51&lt;/sys_mod_count&gt;&lt;sys_name&gt;OCIO SR copy attachment-RITM&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_152deee7dba8ab4050479eb6db9619ef&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;MKURIAKO&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-10-18 04:20:19&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=152deee7dba8ab4050479eb6db9619ef"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>944806932</payload_hash>
+<remote_update_set display_value="OCIO SR P6 2018 10 23 b">331a2086db952b00fe199236db9619a3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-23 06:06:31</sys_created_on>
+<sys_id>771a2086db952b00fe199236db9619a6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16685671eda0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-23 06:06:31</sys_updated_on>
+<table>sc_req_item</table>
+<target_name>OCIO SR copy attachment-RITM</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>23d1a21461d5670042ce60635713a65d</update_guid>
+<update_guid_history>23d1a21461d5670042ce60635713a65d:944806932,8ad1a21450d5670032fa50f48514bb57:1291524933,fff026d026d567004ddd8e5a0c4107bd:944806932,ffba05c0df592700c1d7dc7216cd9630:1291524933,ce99c980a6592700dcbc4abda73eef9a:-249491350,c53d30c84019270012e353b1ed33dad3:-1883423478,6acc3c88c11927000b9c02178a468c73:-283520293,7fbcf0882419270083d797294de90b01:732090766,545bbc482f19270034bcf1f59bb297c2:-396059137,ccea9af6f2fc6380ebef1b3b9f7189c2:-1883423478,9ce421c4afc9eb802ee9baa1a4a379cc:133588778,ccea9af6f2fc6380ebef1b3b9f7189c2:-1883423478,d4d8563201fc6380c8631b72fe3420e0:792106225,17aab5b696bc63801f87b210cf3fc8b4:1368530262,5f4dd767082cab40d2583e6229d3d389:2118292393,ff1c5f27ca2cab40871813b82cb89c39:-281127959,2fcb9b273b2cab40a6657096d2dcaa1b:1352804169,24ab5327ba2cab407e9a37b90e0781af:-1331882625,8e3b9327b52cab400a87fb107b9a640d:2030461696,581b1327402cab40f067541c6e64142e:-826098750,23ea93e3162cab4008ffbd4510295e00:-1965601704,9d4a93e3d42cab404f074495e3fae7bf:-633543726,5fe95fa3e02cab40111a3b360672a551:-1506528770,70a993e3502cab40714e25daf1ec35af:-1434739217,0d8957a3ff2cab40beff321132b8ed37:1034983902,1e181f634d2cab402ae6c66f893f7266:1597855074,6c379fef89e8ab4020f4a1352c89bc4d:1420800969,44e65323fc2cab40104905b0312fa70f:-848385805,72461f23072cab402e3b30c0ae7d89dc:-1250615590,88549befefe8ab408cd654e4b6c15030:-386074893,0b04d7ef3ce8ab40e0a0b8f021ee311b:1659479850,a1e397ef4be8ab40f27c804319947f3f:1445668293,e7b217affbe8ab401432b2378cdc9eca:189275523,3c325f6f88e8ab40a22d3c4823d75329:1616243802,22919f6f85e8ab40d8c5f7ee1f6a7899:693741814,f7511f6fc5e8ab40bbf4c1d7595ca65c:-1992775216,3c7f472ffae8ab408febbda266528819:2127335957,c70f832f20e8ab40577d44a13f88717b:29815418,8bde83eb6fe8ab408b420d4f9a25221c:586182937,e47d47eb5be8ab40de27a3c277496741:-760155977,8d1dc7ab90e8ab40bdb6dfefa67ba15d:-1063591012,4bbc8fab55e8ab403d822493fdbbdfc7:2115381164,c4fb87ab00e8ab40ef87d0ba6f05e160:1274389336,b5db4be37ee8ab40f109b851d81b92df:1485975674,afab8f6b89e8ab406fe1dcd457502348:-855815280,372bcba7b0e8ab40cfdcd95f9635b721:-1829446790,7930c7e3c5e8ab40368da7f61aa16083:-1877475888,99e336eb2aa8ab4021993cd94b6f9d78:49033300,ae93feebe9a8ab40272717312c3b8a5d:900412516,1a737eeb9aa8ab40a34c0c7e104979e7:804834258,7563b6ebb2a8ab40330e96413f226f6a:-2034869391,6932beabb9a8ab404a37dbcefdb1cfd6:-854047185,5fde226b95a8ab40290d6630e45b6061:-1969274876,f98deee7aaa8ab408f51147ad50f705d:-1690237466</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_script_action_158e4d44db59270050479eb6db961946</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_script_action"&gt;&lt;sysevent_script_action action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;condition_script/&gt;&lt;description/&gt;&lt;event_name&gt;SC_task.inserted.call_rec&lt;/event_name&gt;&lt;name&gt;Copy Call record attachment-SC_Task&lt;/name&gt;&lt;order&gt;200&lt;/order&gt;&lt;script&gt;&lt;![CDATA[var gr_SCTASK =new GlideRecord("sc_task");
+gr_SCTASK.addQuery('sys_id',event.parm1);
+gr_SCTASK.query();
+if(gr_SCTASK.next()){
+	 
+var RitmRec = new GlideRecord('sc_req_item');
+RitmRec.addQuery('sys_id',gr_SCTASK.request_item);					
+RitmRec.query();
+if(RitmRec.next()) {
+var sourceSysID =RitmRec.sys_id+'';
+var targetSysID = gr_SCTASK.sys_id+'';
+	
+var copyAtt = new GlideSysAttachment();			
+copyAtt.copy('sc_req_item',sourceSysID,'sc_task',targetSysID);
+			  }	
+	
+}
+]]&gt;&lt;/script&gt;&lt;synchronous&gt;false&lt;/synchronous&gt;&lt;sys_class_name&gt;sysevent_script_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;MKURIAKO&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-10-17 03:37:42&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;158e4d44db59270050479eb6db961946&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Copy Call record attachment-SC_Task&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_script_action_158e4d44db59270050479eb6db961946&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;MKURIAKO&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-10-17 03:46:12&lt;/sys_updated_on&gt;&lt;/sysevent_script_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-901550193</payload_hash>
+<remote_update_set display_value="OCIO SR P6 2018 10 23 b">331a2086db952b00fe199236db9619a3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-23 06:06:31</sys_created_on>
+<sys_id>7b1a2086db952b00fe199236db9619a5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166802187430000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-23 06:06:31</sys_updated_on>
+<table>SC_task.inserted.call_rec</table>
+<target_name>Copy Call record attachment-SC_Task</target_name>
+<type>Script Action</type>
+<update_domain>global</update_domain>
+<update_guid>4a70d1c498592700d80248578b6e0956</update_guid>
+<update_guid_history>4a70d1c498592700d80248578b6e0956:-901550193,f23f8d44fa5927006017ec515352f607:-1035427269,958e4d4447592700d75883b10db5ae47:376692170</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_email_action_ee53bb79dbc0230066d656086896193c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition&gt;&lt;![CDATA[answer = new bcHelperUtil().isDataCorrector(current.sys_updated_by);]]&gt;&lt;/advanced_condition&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="IT Service Management" name="IT Service Management"&gt;b69d02137f232200ee2e108c3ffa9142&lt;/category&gt;&lt;collection&gt;sc_req_item&lt;/collection&gt;&lt;condition table="sc_req_item"&gt;state=3^u_item_notify_requested_by=true^cat_item.sc_catalogsNOT LIKEbfbcbddcdb686740fe199236db9619d8^cat_item.sc_catalogsLIKE4deda47edb1113003d1dd001cf9619b2^EQ&lt;item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/&gt;&lt;item endquery="false" field="u_item_notify_requested_by" goto="false" newquery="false" operator="=" or="false" value="true"/&gt;&lt;item endquery="false" field="cat_item.sc_catalogs" goto="false" newquery="false" operator="NOT LIKE" or="false" value="bfbcbddcdb686740fe199236db9619d8"/&gt;&lt;item endquery="false" field="cat_item.sc_catalogs" goto="false" newquery="false" operator="LIKE" or="false" value="4deda47edb1113003d1dd001cf9619b2"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description&gt;BCGOV-SR-NOTIF02 SR Closed Complete - Requested by&lt;/description&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;event_name&gt;approval.cancelled&lt;/event_name&gt;&lt;event_parm_1&gt;false&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;engine&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;${u_item_requested_by.first_name}, Service Request Item &lt;span style="line-height: 107%; color: black;"&gt;&lt;span style="color: black;"&gt;${mail_script:URI_REF_SP}&lt;/span&gt;&lt;/span&gt; has been closed complete.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;${cat_item.short_description}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;Request Number: ${request.number}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;Request Item Number: &lt;span style="line-height: 107%; color: black;"&gt;&lt;span style="color: black;"&gt;${mail_script:URI_REF_SP}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;Requested For: ${u_item_requested_for.first_name} ${u_item_requested_for.last_name}&lt;br /&gt; Requested By: ${u_item_requested_by.first_name}&amp;nbsp; ${u_item_requested_by.last_name}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;To view updates on this service request please visit the &lt;span style="font-size: 10.0pt; line-height: 107%; font-family: 'Arial',sans-serif; color: blue;"&gt;&lt;span style="color: blue;"&gt;&lt;a style="color: blue; text-decoration: underline;" title="Self-Serve Portal" href="/mysc" target="_blank"&gt;Self-Serve Portal&lt;/a&gt;&lt;/span&gt;&lt;/span&gt; . Alternatively, you can contact the Customer Service Centre at (250)387-7000 option 3 or via email at &lt;a style="color: blue; text-decoration: underline;" href="mailto:cschelp@gov.bc.ca"&gt;cschelp@gov.bc.ca&lt;/a&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 6pt 0in; font-size: 11pt; font-family: 'Calibri', sans-serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;Please do not reply, this is an auto-generated message.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt; BCGOV-SR-NOTIF02 SR Closed Complete - R&lt;/name&gt;&lt;omit_watermark&gt;true&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields&gt;u_item_requested_by&lt;/recipient_fields&gt;&lt;recipient_groups/&gt;&lt;recipient_users/&gt;&lt;reply_to/&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;Service Request Item ${number} Has Been Closed Complete&lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;NKUMAR&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-08-21 22:49:24&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ee53bb79dbc0230066d656086896193c&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt; BCGOV-SR-NOTIF02 SR Closed Complete - R&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_ee53bb79dbc0230066d656086896193c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;NKUMAR&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-10-14 22:30:49&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template/&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2094148203</payload_hash>
+<remote_update_set display_value="OCIO SR P6 2018 10 23 b">331a2086db952b00fe199236db9619a3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-23 06:06:31</sys_created_on>
+<sys_id>7f1a2086db952b00fe199236db9619a4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16674b4109c0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-23 06:06:31</sys_updated_on>
+<table>sc_req_item</table>
+<target_name> BCGOV-SR-NOTIF02 SR Closed Complete - R</target_name>
+<type>Notification</type>
+<update_domain>global</update_domain>
+<update_guid>62153d536089a3002a3c340f07bd4668</update_guid>
+<update_guid_history>62153d536089a3002a3c340f07bd4668:2094148203,c80a5c6803142300130cc7d4429a8a61:1749565357,4c04bbb91fc023005469793b488a5e7f:1991922848,75e3bb7966c0230071607f043f6eb741:1795353920,fcc37f79c5c02300e3beef19c747bc5a:132303670,dc8377b9d4c02300aff94f627cdd8dc8:1033244903</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_127d9767db2cab4050479eb6db9619b2</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sc_task&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="sc_task"&gt;request_item.cat_item.category=083d7910dba86740fe199236db96190c^EQ&lt;item display_table="sc_category" display_value="OCIO Internal Request" endquery="false" field="request_item.cat_item.category" goto="false" newquery="false" operator="=" or="false" value="083d7910dba86740fe199236db96190c"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;OCIO SR Call Attachment-SCTASK&lt;/name&gt;&lt;order&gt;1000&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+//copy attachment from RITM record to sc task
+//copy Description from RITM record to sc task
+//copy CI field from Call record to sc task
+var task_sys_id=current.sys_id;
+gs.eventQueue('SC_task.inserted.call_rec',current, task_sys_id,'');
+
+	
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;MKURIAKOSE&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-09-21 04:13:55&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;127d9767db2cab4050479eb6db9619b2&lt;/sys_id&gt;&lt;sys_mod_count&gt;32&lt;/sys_mod_count&gt;&lt;sys_name&gt;OCIO SR Call Attachment-SCTASK&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_127d9767db2cab4050479eb6db9619b2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;MKURIAKO&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-10-17 03:36:20&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=127d9767db2cab4050479eb6db9619b2"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-376917586</payload_hash>
+<remote_update_set display_value="OCIO SR P6 2018 10 23 b">331a2086db952b00fe199236db9619a3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-23 06:06:31</sys_created_on>
+<sys_id>b31a2086db952b00fe199236db9619a6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16680187c8d0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-23 06:06:31</sys_updated_on>
+<table>sc_task</table>
+<target_name>OCIO SR Call Attachment-SCTASK</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>993e4d44b2592700b5d7591ab10462f2</update_guid>
+<update_guid_history>993e4d44b2592700b5d7591ab10462f2:-376917586,f78c4904ef5927006c23d63b272258f1:-1431470197,41784d40eb5927009d91121552de096c:1644056714,921e38c82a192700d9a2d1e00c619c88:-1431470197,fb0e3cc8c01927008c6bffbbd7e1df02:1885180982,96cd30c8de1927001192df73efad63f9:-1241609707,92da7448e8192700208a077d3b7247c1:1381357942,cbd9b808c2192700db74102032b21020:274086839,ebb9b408be192700a507ab213de44d7e:-1188095773,d9f8fcc48f192700c111407d1759acde:-80824670,ecd878c4a4192700124a29a738126991:1633008764,62d7fc847d19270093bdaa33b0f60812:1381357942,a437b084711927006457f379bdb60dc0:606713730,147678448a19270093dde1b02e54b768:-1728708956,6702e82720f4e3801b39e8dd88681e07:-1784021529,c0e421c47dc9eb80dca49fc9c1c2a8b5:1488187679,6702e82720f4e3801b39e8dd88681e07:-1784021529,0e022c273ff4e3805e0d7748f5cfeefe:-1784021529,cb01a8e3e7f4e3808e437f55bb204e90:-967705455,76f0ece3c7f4e38007b2c675bf3441d4:1749049615,389da2f26f30a3806a75fd0b4497fada:52746616,c08deeb2c230a380de6a70767a196fc0:981787783,666de2f21c30a380c2ab0ba9fd7cc8e6:1492155804,d50daeb2ad30a3807d651043ec546980:300213592,7d9c66b22c30a3802894274fd2b34997:-1434490308,4d6ce6b23a30a3809f764abb660d3098:123611625,5f0ae6326f30a38070129b94d853995b:795740803,1129e6fe32fc6380b5e075d9a424bb49:-1789788959,c06666fa8ffc63802d6db166b2bd04b1:795740803,cf4b523a49fc6380ed3aa819b953b5c3:-1660655627,1f8a9eb697fc6380de9fcf82bf0df257:399278407,b3da3db616bc6380ee0d3f5d2b02e95d:-1184427950,e0de1ba7b42cab401f0972e5b80c08a8:-833044864,f52e9b67052cab406116844d86012eb5:1596665745,9a7d9767ac2cab40224687ade1a22bb4:297787003</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_register_89ed0144db59270050479eb6db961938</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register"><sysevent_register action="INSERT_OR_UPDATE"><description>To Trigger Notification if a request is inserted. </description><event_name>SC_task.inserted.call_rec</event_name><fired_by>Business rule</fired_by><queue/><suffix/><sys_class_name>sysevent_register</sys_class_name><sys_created_by>MKURIAKO</sys_created_by><sys_created_on>2018-10-17 03:34:57</sys_created_on><sys_id>89ed0144db59270050479eb6db961938</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SC_task.inserted.call_rec</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sysevent_register_89ed0144db59270050479eb6db961938</sys_update_name><sys_updated_by>MKURIAKO</sys_updated_by><sys_updated_on>2018-10-17 03:34:57</sys_updated_on><table>sc_task</table></sysevent_register></record_update>]]></payload>
+<payload_hash>1634869818</payload_hash>
+<remote_update_set display_value="OCIO SR P6 2018 10 23 b">331a2086db952b00fe199236db9619a3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-23 06:06:31</sys_created_on>
+<sys_id>b71a2086db952b00fe199236db9619a5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1668017392c0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-23 06:06:31</sys_updated_on>
+<table>sc_task</table>
+<target_name>SC_task.inserted.call_rec</target_name>
+<type>Event Registration</type>
+<update_domain>global</update_domain>
+<update_guid>c9ed01440c592700729f6bf375eb7539</update_guid>
+<update_guid_history>c9ed01440c592700729f6bf375eb7539:1634869818</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_email_action_e0f6c62adbc0230066d65608689619fb</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition/&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="IT Service Management" name="IT Service Management"&gt;b69d02137f232200ee2e108c3ffa9142&lt;/category&gt;&lt;collection&gt;sc_req_item&lt;/collection&gt;&lt;condition table="sc_req_item"&gt;state=4^stateVALCHANGES^cat_item.sc_catalogsLIKE4deda47edb1113003d1dd001cf9619b2^cat_item.sc_catalogsNOT LIKEbfbcbddcdb686740fe199236db9619d8^EQ&lt;item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="4"/&gt;&lt;item endquery="false" field="state" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item endquery="false" field="cat_item.sc_catalogs" goto="false" newquery="false" operator="LIKE" or="false" value="4deda47edb1113003d1dd001cf9619b2"/&gt;&lt;item endquery="false" field="cat_item.sc_catalogs" goto="false" newquery="false" operator="NOT LIKE" or="false" value="bfbcbddcdb686740fe199236db9619d8"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description&gt;BCGOV-SR-NOTIF04 SR Closed Incomplete- Requested by&lt;/description&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;event_name&gt;approval.cancelled&lt;/event_name&gt;&lt;event_parm_1&gt;false&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;engine&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;${u_item_requested_by.first_name}, Service Request Item &lt;span style="line-height: 107%; color: black;"&gt;&lt;span style="color: black;"&gt;${mail_script:URI_REF_SP}&lt;/span&gt;&lt;/span&gt; has been closed Incomplete.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;Close notes: ${close_notes}&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;${cat_item.short_description}&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;Request Number: ${request.number}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;Request Item Number: &lt;span style="line-height: 107%; color: black;"&gt;&lt;span style="color: black;"&gt;${mail_script:URI_REF_SP}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;Requested For: ${u_item_requested_for.first_name} ${u_item_requested_for.last_name}&lt;br /&gt; Requested By: ${u_item_requested_by.first_name}&amp;nbsp; ${u_item_requested_by.last_name}&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;To view updates on this service request please visit the &lt;span style="line-height: 107%; color: blue;"&gt;&lt;span style="color: blue;"&gt;&lt;a style="color: blue; text-decoration: underline;" title="Self-Serve Portal" href="/mysc" target="_blank"&gt;Self-Serve Portal&lt;/a&gt;&lt;/span&gt;&lt;/span&gt; . Alternatively, you can contact the Customer Service Centre at (250)387-7000 option 3 or via email at &lt;a style="color: blue; text-decoration: underline;" href="mailto:cschelp@gov.bc.ca"&gt;cschelp@gov.bc.ca&lt;/a&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 6pt 0in; font-size: 11pt; font-family: 'Calibri', sans-serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;Please do not reply, this is an auto-generated message.&lt;/span&gt;&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;BCGOV-SR-NOTIF04 SR Closed Incomplete&lt;/name&gt;&lt;omit_watermark&gt;true&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields&gt;u_item_requested_by&lt;/recipient_fields&gt;&lt;recipient_groups/&gt;&lt;recipient_users/&gt;&lt;reply_to/&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;Service Request Item ${number} Has Been Closed Incomplete&lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;NKUMAR&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-08-23 22:50:57&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e0f6c62adbc0230066d65608689619fb&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;BCGOV-SR-NOTIF04 SR Closed Incomplete&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_e0f6c62adbc0230066d65608689619fb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;NKUMAR&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-10-14 22:47:19&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template/&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-187384488</payload_hash>
+<remote_update_set display_value="OCIO SR P6 2018 10 23 b">331a2086db952b00fe199236db9619a3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-23 06:06:31</sys_created_on>
+<sys_id>bb1a2086db952b00fe199236db9619a4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16674c329c20000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-23 06:06:31</sys_updated_on>
+<table>sc_req_item</table>
+<target_name>BCGOV-SR-NOTIF04 SR Closed Incomplete</target_name>
+<type>Notification</type>
+<update_domain>global</update_domain>
+<update_guid>04e835174b89a300715b70f7b23dd3ad</update_guid>
+<update_guid_history>04e835174b89a300715b70f7b23dd3ad:-187384488,8d7a90a8d81423002c4375d4ec61f4aa:-302806054,33530af3d30c6b0055d5a0091e578b14:-512864341,0da206f3270c6b003b8bb1d39bba9c6a:-1727346120,d78eb533170c6b0080c2ece7169aa756:-2105820955,965bd5b331886b005c9fddffc4799433:1112672546,787a51b304886b005de7e02f4898180e:1060279922,b9a7022a17c02300a8f0875c4c7db6e4:1933323316,92070e2a21c0230094fbe4a7a7fd5b74:1917037619</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_email_action_95d4b3f9dbc0230066d656086896192c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition&gt;&lt;![CDATA[answer = new bcHelperUtil().isDataCorrector(current.sys_updated_by);]]&gt;&lt;/advanced_condition&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="IT Service Management" name="IT Service Management"&gt;b69d02137f232200ee2e108c3ffa9142&lt;/category&gt;&lt;collection&gt;sc_req_item&lt;/collection&gt;&lt;condition table="sc_req_item"&gt;state=4^u_item_notify_requested_for=true^cat_item.sc_catalogsNOT LIKEbfbcbddcdb686740fe199236db9619d8^cat_item.sc_catalogsLIKE4deda47edb1113003d1dd001cf9619b2^EQ&lt;item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="4"/&gt;&lt;item endquery="false" field="u_item_notify_requested_for" goto="false" newquery="false" operator="=" or="false" value="true"/&gt;&lt;item endquery="false" field="cat_item.sc_catalogs" goto="false" newquery="false" operator="NOT LIKE" or="false" value="bfbcbddcdb686740fe199236db9619d8"/&gt;&lt;item endquery="false" field="cat_item.sc_catalogs" goto="false" newquery="false" operator="LIKE" or="false" value="4deda47edb1113003d1dd001cf9619b2"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description&gt;BCGOV-SR-NOTIF04 SR Closed Incomplete - Requested for&lt;/description&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;event_name&gt;approval.cancelled&lt;/event_name&gt;&lt;event_parm_1&gt;false&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;engine&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;${u_item_requested_for.first_name}, Service Request Item &lt;span style="line-height: 107%; color: black;"&gt;&lt;span style="color: black;"&gt;${mail_script:URI_REF_SP}&lt;/span&gt;&lt;/span&gt; has been closed Incomplete.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;Close notes: ${close_notes}&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;${cat_item.short_description}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;Request Number: ${request.number}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;Request Item Number: &lt;span style="line-height: 107%; color: black;"&gt;&lt;span style="color: black;"&gt;${mail_script:URI_REF_SP}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;Requested For: ${u_item_requested_for.first_name} ${u_item_requested_for.last_name}&lt;br /&gt; Requested By: ${u_item_requested_by.first_name}&amp;nbsp; ${u_item_requested_by.last_name}&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;To view updates on this service request please visit the &lt;span style="font-size: 10.0pt; line-height: 107%; font-family: 'Arial',sans-serif; color: blue;"&gt;&lt;span style="color: blue;"&gt;&lt;a style="color: blue; text-decoration: underline;" title="Self-Serve Portal" href="/mysc" target="_blank"&gt;Self-Serve Portal&lt;/a&gt;&lt;/span&gt;&lt;/span&gt; . Alternatively, you can contact the Customer Service Centre at (250)387-7000 option 3 or via email at &lt;a style="color: blue; text-decoration: underline;" href="mailto:cschelp@gov.bc.ca"&gt;cschelp@gov.bc.ca&lt;/a&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 6pt 0in; font-size: 11pt; font-family: 'Calibri', sans-serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;Please do not reply, this is an auto-generated message.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;BCGOV-SR-NOTIF04 SR Closed Incomplete&lt;/name&gt;&lt;omit_watermark&gt;true&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields&gt;u_item_requested_for&lt;/recipient_fields&gt;&lt;recipient_groups/&gt;&lt;recipient_users/&gt;&lt;reply_to/&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;Service Request Item ${number} Has Been Closed Incomplete&lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;NKUMAR&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-08-21 22:55:22&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;95d4b3f9dbc0230066d656086896192c&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;BCGOV-SR-NOTIF04 SR Closed Incomplete&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_95d4b3f9dbc0230066d656086896192c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;NKUMAR&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-10-14 22:40:26&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template/&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1108661941</payload_hash>
+<remote_update_set display_value="OCIO SR P6 2018 10 23 b">331a2086db952b00fe199236db9619a3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-23 06:06:31</sys_created_on>
+<sys_id>bf1a2086db952b00fe199236db9619a3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16674bcdc400000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-23 06:06:31</sys_updated_on>
+<table>sc_req_item</table>
+<target_name>BCGOV-SR-NOTIF04 SR Closed Incomplete</target_name>
+<type>Notification</type>
+<update_domain>global</update_domain>
+<update_guid>1347b9934289a300361f5eeaafda538f</update_guid>
+<update_guid_history>1347b9934289a300361f5eeaafda538f:1108661941,68ba5c68e8142300ebfd20899a7f9e69:1961912629,0f730ef3600c6b0044206a08787c820e:1905387933,bfc246f3f80c6b005d382f7eaf0acbdf:-978143413,2e457bb933c02300f9358559afe002a4:1905387933,afd4b3f9bac02300d9f4eb5867dba116:-829694718</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_email_0ad402e4db116700fe199236db96195a</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_email"&gt;&lt;sys_script_email action="INSERT_OR_UPDATE"&gt;&lt;name&gt;callrecord.short_description&lt;/name&gt;&lt;new_lines_to_html&gt;false&lt;/new_lines_to_html&gt;&lt;script&gt;&lt;![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+          // Add your code here
+	
+	template.print(current.variables.Short_Description);
+
+
+})(current, template, email, email_action, event);
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_email&lt;/sys_class_name&gt;&lt;sys_created_by&gt;NKUMAR&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-10-18 20:52:31&lt;/sys_created_on&gt;&lt;sys_id&gt;0ad402e4db116700fe199236db96195a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;callrecord.short_description&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_email_0ad402e4db116700fe199236db96195a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;NKUMAR&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-10-18 20:52:31&lt;/sys_updated_on&gt;&lt;/sys_script_email&gt;&lt;/record_update&gt;</payload>
+<payload_hash>673022535</payload_hash>
+<remote_update_set display_value="OCIO SR P6 2018 10 23 b">331a2086db952b00fe199236db9619a3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-23 06:06:31</sys_created_on>
+<sys_id>bf1a2086db952b00fe199236db9619a6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16688f382350000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-23 06:06:31</sys_updated_on>
+<table/>
+<target_name>callrecord.short_description</target_name>
+<type>Email Script</type>
+<update_domain>global</update_domain>
+<update_guid>e9f406e4c8116700a496b90a9ce62d6e</update_guid>
+<update_guid_history>e9f406e4c8116700a496b90a9ce62d6e:673022535</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_register_77f9cd80db59270050479eb6db9619ed</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register"><sysevent_register action="INSERT_OR_UPDATE"><description>To Trigger Notification if a request is inserted. </description><event_name>SC_request_item.inserted.call_rec</event_name><fired_by>Business rule</fired_by><queue/><suffix/><sys_class_name>sysevent_register</sys_class_name><sys_created_by>MKURIAKO</sys_created_by><sys_created_on>2018-10-17 03:17:56</sys_created_on><sys_id>77f9cd80db59270050479eb6db9619ed</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SC_request_item.inserted.call_rec</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sysevent_register_77f9cd80db59270050479eb6db9619ed</sys_update_name><sys_updated_by>MKURIAKO</sys_updated_by><sys_updated_on>2018-10-17 03:17:56</sys_updated_on><table>sc_req_item</table></sysevent_register></record_update>]]></payload>
+<payload_hash>-3429111</payload_hash>
+<remote_update_set display_value="OCIO SR P6 2018 10 23 b">331a2086db952b00fe199236db9619a3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-23 06:06:31</sys_created_on>
+<sys_id>f31a2086db952b00fe199236db9619a5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1668007a4510000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-23 06:06:31</sys_updated_on>
+<table>sc_req_item</table>
+<target_name>SC_request_item.inserted.call_rec</target_name>
+<type>Event Registration</type>
+<update_domain>global</update_domain>
+<update_guid>7ff901c027592700dcfd33c66c02cb83</update_guid>
+<update_guid_history>7ff901c027592700dcfd33c66c02cb83:-3429111</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_email_action_c9058ae4db116700fe199236db961904</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition&gt;&lt;![CDATA[// 06/14/18: This default condition evaluates if the person making the update/triggering this notification is has the bcgov_data_corrector role (granted by group: Access_Data_Correction)
+answer = new bcHelperUtil().isDataCorrector(current.sys_updated_by);]]&gt;&lt;/advanced_condition&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="IT Service Management" name="IT Service Management"&gt;b69d02137f232200ee2e108c3ffa9142&lt;/category&gt;&lt;collection&gt;sc_req_item&lt;/collection&gt;&lt;condition table="sc_req_item"&gt;state=1^cat_item.sc_catalogsLIKEbfbcbddcdb686740fe199236db9619d8^EQ&lt;item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/&gt;&lt;item endquery="false" field="cat_item.sc_catalogs" goto="false" newquery="false" operator="LIKE" or="false" value="bfbcbddcdb686740fe199236db9619d8"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description&gt;Email notification generated when a P6 (Catalog item from  OCIO Internal Catalog) request is closed with 'Closed Incomplete' status&lt;/description&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;event_name&gt;SC_request.inserted.notify_CSC&lt;/event_name&gt;&lt;event_parm_1&gt;true&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;event&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;${event.parm2}, Service Request Item ${number} has been opened:&amp;nbsp; ${mail_script:callrecord.short_description}&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;Request Number: ${request.number}&lt;/span&gt;&lt;/span&gt;&lt;br /&gt; &lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;Request Item Number: ${number}&lt;/span&gt;&lt;/span&gt;&lt;br /&gt; &lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;Requested For: ${u_item_requested_for.first_name} ${u_item_requested_for.last_name}&lt;/span&gt;&lt;/span&gt;&lt;br /&gt; &lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;Requested By: ${u_item_requested_by.first_name}&amp;nbsp; ${u_item_requested_by.last_name}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin-right: 0in; margin-left: 0in; font-size: 12pt; font-family: 'Times New Roman', serif; text-align: left;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;For updates on your Service Request please contact the Customer Service Centre at (250)387-7000 option 3 or via email at &lt;a style="color: blue; text-decoration: underline;" href="mailto:cschelp@gov.bc.ca"&gt;cschelp@gov.bc.ca&lt;/a&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin-right: 0in; margin-left: 0in; font-size: 12pt; font-family: 'Times New Roman', serif; text-align: left;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;Please do not reply, this is an auto-generated message.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;BCGOV-SR-NOTIF07 CSC SR Opened&lt;/name&gt;&lt;omit_watermark&gt;true&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields/&gt;&lt;recipient_groups/&gt;&lt;recipient_users/&gt;&lt;reply_to/&gt;&lt;send_self&gt;false&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;Service Request Item ${number} Has Been Opened&lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;NKUMAR&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-10-18 20:55:01&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c9058ae4db116700fe199236db961904&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;BCGOV-SR-NOTIF07 CSC SR Opened&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_c9058ae4db116700fe199236db961904&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;JAJOSE&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-10-19 23:22:51&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template/&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1516597535</payload_hash>
+<remote_update_set display_value="OCIO SR P6 2018 10 23 b">331a2086db952b00fe199236db9619a3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-23 06:06:31</sys_created_on>
+<sys_id>f71a2086db952b00fe199236db9619a4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1668ea380840000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-23 06:06:31</sys_updated_on>
+<table>sc_req_item</table>
+<target_name>BCGOV-SR-NOTIF07 CSC SR Opened</target_name>
+<type>Notification</type>
+<update_domain>global</update_domain>
+<update_guid>a9f0ff74575da700f5c06f6b3eda159d</update_guid>
+<update_guid_history>a9f0ff74575da700f5c06f6b3eda159d:-1516597535,f98f23b4425da700c5f714f7804ae2fd:1786743571,d8d50ee4d91167002ea43889454670f1:-324779871,8a854ee45a1167000ce4bb56c0afcbc6:903330904</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_email_action_6698337ddbc0230066d656086896192b</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition&gt;&lt;![CDATA[answer = new bcHelperUtil().isDataCorrector(current.sys_updated_by);]]&gt;&lt;/advanced_condition&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="IT Service Management" name="IT Service Management"&gt;b69d02137f232200ee2e108c3ffa9142&lt;/category&gt;&lt;collection&gt;sc_req_item&lt;/collection&gt;&lt;condition table="sc_req_item"&gt;u_item_notify_requested_by=true^state=1^cat_item.sc_catalogsLIKE4deda47edb1113003d1dd001cf9619b2^cat_item.sc_catalogsNOT LIKEbfbcbddcdb686740fe199236db9619d8^EQ&lt;item endquery="false" field="u_item_notify_requested_by" goto="false" newquery="false" operator="=" or="false" value="true"/&gt;&lt;item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/&gt;&lt;item endquery="false" field="cat_item.sc_catalogs" goto="false" newquery="false" operator="LIKE" or="false" value="4deda47edb1113003d1dd001cf9619b2"/&gt;&lt;item endquery="false" field="cat_item.sc_catalogs" goto="false" newquery="false" operator="NOT LIKE" or="false" value="bfbcbddcdb686740fe199236db9619d8"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description&gt;BCGOV-SR-NOTIF01 SR Opened - Requested by&lt;/description&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;event_name&gt;sc_req_item.inserted&lt;/event_name&gt;&lt;event_parm_1&gt;false&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;event&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p style="margin: 0in 0in 12pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;${u_item_requested_by.first_name}, Service Request Item &lt;span style="color: #000000;"&gt;&lt;span style="color: black;"&gt;${mail_script:URI_REF_SP}&lt;/span&gt;&lt;/span&gt; has been opened : ${cat_item}&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;${cat_item.short_description}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;Request Number: ${request.number}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: 'Arial Unicode MS', sans-serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;Request Item Number: &lt;span style="color: #000000;"&gt;&lt;span style="color: black;"&gt;${mail_script:URI_REF_SP}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: 'Arial Unicode MS', sans-serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;Requested For: ${u_item_requested_for.first_name} ${u_item_requested_for.last_name}&lt;br /&gt; Requested By: ${u_item_requested_by.first_name}&amp;nbsp; ${u_item_requested_by.last_name}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: 'Arial Unicode MS', sans-serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;&lt;br /&gt; To view updates on this service request please visit the &lt;span style="font-size: 10.0pt; line-height: 107%; font-family: 'Arial',sans-serif; color: blue;"&gt;&lt;span style="color: blue;"&gt;&lt;a style="color: blue; text-decoration: underline;" title="Self-Serve Portal" href="/mysc" target="_blank"&gt;Self-Serve Portal&lt;/a&gt;&lt;/span&gt;&lt;/span&gt; . Alternatively, you can contact the Customer Service Centre at (250)387-7000 option 3 or via email at &lt;a style="color: blue; text-decoration: underline;" href="mailto:cschelp@gov.bc.ca"&gt;cschelp@gov.bc.ca&lt;/a&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: 'Arial Unicode MS', sans-serif;"&gt;&lt;span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"&gt;&lt;span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 8pt; line-height: 107%; font-size: 11pt; font-family: 'Calibri', sans-serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&lt;span style="line-height: 106%;"&gt;&lt;span style="font-size: 10.0pt; line-height: 106%; font-family: 'Arial',sans-serif;"&gt;Please do not reply, this is an auto-generated message.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;BCGOV-SR-NOTIF01 SR Opened - Requested b&lt;/name&gt;&lt;omit_watermark&gt;true&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields&gt;u_item_requested_by&lt;/recipient_fields&gt;&lt;recipient_groups/&gt;&lt;recipient_users/&gt;&lt;reply_to/&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;Service Request Item ${number} Has Been Opened&lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;NKUMAR&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-08-21 23:13:49&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;6698337ddbc0230066d656086896192b&lt;/sys_id&gt;&lt;sys_mod_count&gt;21&lt;/sys_mod_count&gt;&lt;sys_name&gt;BCGOV-SR-NOTIF01 SR Opened - Requested b&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_6698337ddbc0230066d656086896192b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;NKUMAR&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-10-14 22:20:59&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template/&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1420968185</payload_hash>
+<remote_update_set display_value="OCIO SR P6 2018 10 23 b">331a2086db952b00fe199236db9619a3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-23 06:06:31</sys_created_on>
+<sys_id>fb1a2086db952b00fe199236db9619a3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16674ab0fde0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-23 06:06:31</sys_updated_on>
+<table>sc_req_item</table>
+<target_name>BCGOV-SR-NOTIF01 SR Opened - Requested b</target_name>
+<type>Notification</type>
+<update_domain>global</update_domain>
+<update_guid>aad27ddf5f49a300b610d65d77d9250a</update_guid>
+<update_guid_history>aad27ddf5f49a300b610d65d77d9250a:1420968185,4ed1f9df5449a30097d795c132a3ca0d:1071069431,937f651fb249a30054390f787f782389:-256154955,1e5adf7abfc963001b1642dd8ad5ef09:210817274,fb07133a38c963001c1fd085cc353057:1071069431,f0670326f4416300ea11c5882e75aaae:1906732688,a4f87a786ad02300038db8c3aa367dbc:1071069431,81a7697008102f00da6a2561979aeb3a:-525170827,be372170ba102f0053ac3a22daa7864d:937937634,79f32c34501ceb00a708d23ef9efd17a:-525170827,fc9368340e1ceb00db5008ca201a14ec:937937634,f110286cad14230042fab19e700bf2f5:413118041,9cdf906ca5142300ae01b39b0da48f35:-958713403,6e5e1c2c871423001f50fd0d26697565:-1691741570,8cd95068011423006365c9c655157337:-525170827,7d5da71c6d50eb00164bf89a870a781e:-722423858,773d6f5c1450eb007b9ff23526eaf5e8:-1971833911,1b012354bc50eb00baf5ad63cbb0ed1c:-1766000608,64806f14a550eb00158cc4c00a908f42:111169913,c14027149450eb0024018aa1df85b703:-1766000608,e2ff97904750eb00fd3d85a13271430f:111169913,e6ba5f105e50eb000367bb6fce8166ae:-1766000608,de1a1710a750eb001b6f15aa30118c9d:111169913,7e493f7dfec02300dd3a934ff1c0d658:-1766000608,35193f3d1ec023002548d5f88102dda4:-174281765</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_aa64c6a4db116700fe199236db961948</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sc_req_item&lt;/collection&gt;&lt;condition/&gt;&lt;description&gt;&amp;#13;
+This Business rule is to trigger system email notification when a request is created(Opened), closed complete and closed incomple. &lt;/description&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;OCIO SR SC_request.inserted.notify&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+		if((current.u_item_notify_requested_for == true) &amp;&amp; (current.u_item_requested_for != current.caller_id)){
+			gs.eventQueue("SC_request.inserted.notify_CSC", current, current.u_item_requested_for, current.u_item_requested_for.first_name);}
+			
+		if((current.u_item_notify_requested_by == true) &amp;&amp; (current.u_item_requested_by != current.caller_id)){
+			gs.eventQueue("SC_request.inserted.notify_CSC", current, current.u_item_requested_by, current.u_item_requested_by.first_name);	
+		
+	
+}
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;NKUMAR&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-10-18 20:50:59&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;aa64c6a4db116700fe199236db961948&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;OCIO SR SC_request.inserted.notify&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_aa64c6a4db116700fe199236db961948&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;NKUMAR&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-10-22 17:02:07&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=aa64c6a4db116700fe199236db961948"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1120386928</payload_hash>
+<remote_update_set display_value="OCIO SR P6 2018 10 23 b">331a2086db952b00fe199236db9619a3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-23 06:06:31</sys_created_on>
+<sys_id>fb1a2086db952b00fe199236db9619a6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1669cba01f00000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-23 06:06:31</sys_updated_on>
+<table>sc_req_item</table>
+<target_name>OCIO SR SC_request.inserted.notify</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>e196bd71849d2b00228f5f3b86e30176</update_guid>
+<update_guid_history>e196bd71849d2b00228f5f3b86e30176:-1120386928,fb56f971b99d2b00b0a32568555e8c35:1903080236,6ea53171e19d2b0049c3915e7400cc52:-2078220692,a84ce179c75d2b008409d11fcd7240cd:1284332666,3e3b953db41d2b000da12ddafb6482b4:-101563170,079406e40c116700b2f0d1f233d1c4ba:1551075601</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_new_call_company</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="company" table="new_call"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes/><audit>false</audit><calculation/><choice/><choice_field/><choice_table/><column_label>Organization</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>company</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="Reference">reference</internal_type><mandatory>false</mandatory><max_length>32</max_length><name>new_call</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="" name="core_company">core_company</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual>sys_class_name=core_company^EQ</reference_qual><reference_qual_condition table="core_company">sys_class_name=core_company^EQ<item endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="false" value="core_company"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></reference_qual_condition><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2018-04-06 18:53:22</sys_created_on><sys_id>f061e979db1913000f819274db96195d</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Organization</sys_name><sys_package display_value="Service Desk Call" source="com.snc.service_desk_call">a461e979db1913000f819274db96193e</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_new_call_company</sys_update_name><sys_updated_by>MKURIAKO</sys_updated_by><sys_updated_on>2018-10-22 18:07:04</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>1996553162</payload_hash>
+<remote_update_set display_value="OCIO SR P6 2018 10 23 b">331a2086db952b00fe199236db9619a3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-23 06:06:31</sys_created_on>
+<sys_id>ff1a2086db952b00fe199236db9619a5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1669cf576340000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-23 06:06:31</sys_updated_on>
+<table>new_call</table>
+<target_name>Call.Organization</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>4575c6f9229d2b00ec5c168c06aa6883</update_guid>
+<update_guid_history>4575c6f9229d2b00ec5c168c06aa6883:1996553162,4a6039af649117008fab61c7e84f5211:1953211579,026039af4e9117006b99918aad9dcd0d:295415221,f2b909d96eed9700622226a5886da632:295415221</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
