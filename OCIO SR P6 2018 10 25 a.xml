@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2018-10-25 18:30:53">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Renamed update set OCIO SR SB-955 P6 Choice-v01 to OCIO SR P6 2018 10 25 a:
+Updated Question Choice  of the variable (Request Category) to modify Request Category in catalog item (General Service Request)</description>
+<inserted/>
+<name>OCIO SR P6 2018 10 25 a</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>715951b2db95ab00fe199236db961980</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-25 18:30:52</sys_created_on>
+<sys_id>baa7e5bedb95ab00fe199236db961923</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-25 18:30:52</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>question_choice_84e0b091db342380fe199236db961931</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><misc>0</misc><order>100</order><question display_value="Request Category">1890f851db342380fe199236db9619eb</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>MKURIAKOSE</sys_created_by><sys_created_on>2018-09-26 02:09:22</sys_created_on><sys_id>84e0b091db342380fe199236db961931</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Access Request / Revoke</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_84e0b091db342380fe199236db961931</sys_update_name><sys_updated_by>MKURIAKO</sys_updated_by><sys_updated_on>2018-10-25 17:29:57</sys_updated_on><text>Access Request / Revoke</text><value>Access Request / Revoke</value></question_choice><fx_price action="delete_multiple" query="id=84e0b091db342380fe199236db961931"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>misc</field><id>84e0b091db342380fe199236db961931</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>MKURIAKOSE</sys_created_by><sys_created_on>2018-09-26 02:09:22</sys_created_on><sys_id>fee03c51db342380fe199236db961966</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>MKURIAKOSE</sys_updated_by><sys_updated_on>2018-09-26 02:09:22</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_misc</field><id>84e0b091db342380fe199236db961931</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>MKURIAKOSE</sys_created_by><sys_created_on>2018-09-26 02:09:22</sys_created_on><sys_id>b6e03c51db342380fe199236db961966</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>MKURIAKOSE</sys_updated_by><sys_updated_on>2018-09-26 02:09:22</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>-1819307316</payload_hash>
+<remote_update_set display_value="OCIO SR P6 2018 10 25 a">baa7e5bedb95ab00fe199236db961923</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-25 18:30:52</sys_created_on>
+<sys_id>3aa7e5bedb95ab00fe199236db961924</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166ac4690b90000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-25 18:30:52</sys_updated_on>
+<table/>
+<target_name>Access Request / Revoke</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>a6b91db22895ab00983a79cbf458f80a</update_guid>
+<update_guid_history>a6b91db22895ab00983a79cbf458f80a:-1819307316,29b959b23b95ab002b54b953ed601e1c:-718478028,a7d7921451096780d9fd1a913de2b1ce:-125135564,4bd7de9485096780a040e56bfa22ae76:1207207623,b2e03c516b342380ef2f400ebf8b2568:287802929,36d4ad8482c9eb8075a85426e3e140bc:1673663709,b2e03c516b342380ef2f400ebf8b2568:287802929</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>question_choice_770a91f2db95ab00fe199236db96195b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><misc>0</misc><order>450</order><question display_value="Request Category">1890f851db342380fe199236db9619eb</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>MKURIAKO</sys_created_by><sys_created_on>2018-10-25 17:31:25</sys_created_on><sys_id>770a91f2db95ab00fe199236db96195b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Security</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_770a91f2db95ab00fe199236db96195b</sys_update_name><sys_updated_by>MKURIAKO</sys_updated_by><sys_updated_on>2018-10-25 17:31:25</sys_updated_on><text>Security</text><value>Security</value></question_choice><fx_price action="delete_multiple" query="id=770a91f2db95ab00fe199236db96195b"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>misc</field><id>770a91f2db95ab00fe199236db96195b</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>MKURIAKO</sys_created_by><sys_created_on>2018-10-25 17:31:25</sys_created_on><sys_id>7b0a91f2db95ab00fe199236db96195c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>MKURIAKO</sys_updated_by><sys_updated_on>2018-10-25 17:31:25</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_misc</field><id>770a91f2db95ab00fe199236db96195b</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>MKURIAKO</sys_created_by><sys_created_on>2018-10-25 17:31:25</sys_created_on><sys_id>330a91f2db95ab00fe199236db96195c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>MKURIAKO</sys_updated_by><sys_updated_on>2018-10-25 17:31:25</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>1950853474</payload_hash>
+<remote_update_set display_value="OCIO SR P6 2018 10 25 a">baa7e5bedb95ab00fe199236db961923</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-25 18:30:52</sys_created_on>
+<sys_id>76a7e5bedb95ab00fe199236db961924</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166ac47e6e70000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-25 18:30:52</sys_updated_on>
+<table/>
+<target_name>Security</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>bf0a91f2ea95ab0065fc03df72af125d</update_guid>
+<update_guid_history>bf0a91f2ea95ab0065fc03df72af125d:1950853474</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>question_choice_686892d4db09678050479eb6db961914</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><misc>0</misc><order>700</order><question display_value="Request Category">1890f851db342380fe199236db9619eb</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>MKURIAKOSE</sys_created_by><sys_created_on>2018-10-05 17:23:12</sys_created_on><sys_id>686892d4db09678050479eb6db961914</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Other</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_686892d4db09678050479eb6db961914</sys_update_name><sys_updated_by>MKURIAKO</sys_updated_by><sys_updated_on>2018-10-25 17:33:32</sys_updated_on><text>Other</text><value>Other</value></question_choice><fx_price action="delete_multiple" query="id=686892d4db09678050479eb6db961914"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>misc</field><id>686892d4db09678050479eb6db961914</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>MKURIAKOSE</sys_created_by><sys_created_on>2018-10-05 17:23:12</sys_created_on><sys_id>e86892d4db09678050479eb6db961915</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>MKURIAKOSE</sys_updated_by><sys_updated_on>2018-10-05 17:23:12</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_misc</field><id>686892d4db09678050479eb6db961914</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>MKURIAKOSE</sys_created_by><sys_created_on>2018-10-05 17:23:12</sys_created_on><sys_id>a06892d4db09678050479eb6db961915</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>MKURIAKOSE</sys_updated_by><sys_updated_on>2018-10-05 17:23:12</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>95477522</payload_hash>
+<remote_update_set display_value="OCIO SR P6 2018 10 25 a">baa7e5bedb95ab00fe199236db961923</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-25 18:30:52</sys_created_on>
+<sys_id>b2a7e5bedb95ab00fe199236db961924</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166ac49d8780000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-25 18:30:52</sys_updated_on>
+<table/>
+<target_name>Other</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>438ad9365b95ab0028304b06bc526626</update_guid>
+<update_guid_history>438ad9365b95ab0028304b06bc526626:95477522,c63a5db2de95ab0043dd7ac4ab390f09:-401851048,ec6892d4e8096780f07b29b984599216:-413088360</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>question_choice_d1381ad4db09678050479eb6db9619f4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><misc>0</misc><order>400</order><question display_value="Request Category">1890f851db342380fe199236db9619eb</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>MKURIAKOSE</sys_created_by><sys_created_on>2018-10-05 17:22:25</sys_created_on><sys_id>d1381ad4db09678050479eb6db9619f4</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Privacy</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_d1381ad4db09678050479eb6db9619f4</sys_update_name><sys_updated_by>MKURIAKO</sys_updated_by><sys_updated_on>2018-10-25 17:30:44</sys_updated_on><text>Privacy</text><value>Privacy</value></question_choice><fx_price action="delete_multiple" query="id=d1381ad4db09678050479eb6db9619f4"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>misc</field><id>d1381ad4db09678050479eb6db9619f4</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>MKURIAKOSE</sys_created_by><sys_created_on>2018-10-05 17:22:25</sys_created_on><sys_id>55381ad4db09678050479eb6db9619f5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>MKURIAKOSE</sys_updated_by><sys_updated_on>2018-10-05 17:22:25</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_misc</field><id>d1381ad4db09678050479eb6db9619f4</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>MKURIAKOSE</sys_created_by><sys_created_on>2018-10-05 17:22:25</sys_created_on><sys_id>1d381ad4db09678050479eb6db9619f4</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>MKURIAKOSE</sys_updated_by><sys_updated_on>2018-10-05 17:22:25</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>-1613429715</payload_hash>
+<remote_update_set display_value="OCIO SR P6 2018 10 25 a">baa7e5bedb95ab00fe199236db961923</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-25 18:30:52</sys_created_on>
+<sys_id>faa7e5bedb95ab00fe199236db961924</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166ac4748410000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-25 18:30:52</sys_updated_on>
+<table/>
+<target_name>Privacy</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>c2e995b26995ab006f4233d066678b0c</update_guid>
+<update_guid_history>c2e995b26995ab006f4233d066678b0c:-1613429715,b4e91d721095ab00b9f2b5116e29b3c8:-560699004,59381ad4a80967808a45fd0603b83bf6:-438047070</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>question_choice_24f03c11db342380fe199236db9619c4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><misc>0</misc><order>200</order><question display_value="Request Category">1890f851db342380fe199236db9619eb</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>MKURIAKOSE</sys_created_by><sys_created_on>2018-09-26 02:09:30</sys_created_on><sys_id>24f03c11db342380fe199236db9619c4</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Data Update</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_24f03c11db342380fe199236db9619c4</sys_update_name><sys_updated_by>MKURIAKO</sys_updated_by><sys_updated_on>2018-10-25 17:30:14</sys_updated_on><text>Data Update</text><value>Data Update</value></question_choice><fx_price action="delete_multiple" query="id=24f03c11db342380fe199236db9619c4"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>misc</field><id>24f03c11db342380fe199236db9619c4</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>MKURIAKOSE</sys_created_by><sys_created_on>2018-09-26 02:09:30</sys_created_on><sys_id>a4f03c11db342380fe199236db9619c5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>MKURIAKOSE</sys_updated_by><sys_updated_on>2018-09-26 02:09:30</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_misc</field><id>24f03c11db342380fe199236db9619c4</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>MKURIAKOSE</sys_created_by><sys_created_on>2018-09-26 02:09:30</sys_created_on><sys_id>6cf03c11db342380fe199236db9619c4</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>MKURIAKOSE</sys_updated_by><sys_updated_on>2018-09-26 02:09:30</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>399171558</payload_hash>
+<remote_update_set display_value="OCIO SR P6 2018 10 25 a">baa7e5bedb95ab00fe199236db961923</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-10-25 18:30:52</sys_created_on>
+<sys_id>fea7e5bedb95ab00fe199236db961923</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166ac46d2280000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-10-25 18:30:52</sys_updated_on>
+<table/>
+<target_name>Data Update</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_guid>26c999727695ab00a72697714bd15b98</update_guid>
+<update_guid_history>26c999727695ab00a72697714bd15b98:399171558,69c995b20095ab00dcb9cf9bbb32092e:1567681867,1ff7ded4c209678008d2602ecebd7a6c:1025226667,eef7ded44f096780ca38960c1ed827e4:-541943671,a8f03c1175342380d06ac07c540bf9c6:864926517,bed4ad84b0c9eb807c0a111e07cf18b7:-1655538015,a8f03c1175342380d06ac07c540bf9c6:864926517</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
