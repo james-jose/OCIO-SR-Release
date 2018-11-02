@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2018-11-02 04:10:44">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Merged  following update sets:
+OCIO SR SB 963 Call Group-v01
+OCIO SR SB 988 Call ORG-v01
+OCIO SR SB 817 RITM_Comments-v01
+OCIO SR SB 797 External Ref-v01</description>
+<inserted/>
+<name>OCIO SR 2018 11 02 a</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>cc2faf0ddb61634050479eb6db96192b</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 04:10:42</sys_created_on>
+<sys_id>b88fef89db61634050479eb6db9619e9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 04:10:42</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_b11a7106c0a8016613c6fa98d7e266a4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition table="sc_req_item">request.requested_for=javascript:gs.getUserID()^ORu_item_requested_for=javascript:gs.getUserID()^ORu_item_requested_by=javascript:gs.getUserID()^EQ<item endquery="false" field="request.requested_for" goto="false" newquery="false" operator="=" or="false" value="javascript:gs.getUserID()"/><item endquery="false" field="u_item_requested_for" goto="false" newquery="false" operator="=" or="true" value="javascript:gs.getUserID()"/><item endquery="false" field="u_item_requested_by" goto="false" newquery="false" operator="=" or="true" value="javascript:gs.getUserID()"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><description>end user can update their own sc_req_item records</description><name>sc_req_item</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>myla.jordan</sys_created_by><sys_created_on>2011-05-02 14:26:30</sys_created_on><sys_id>b11a7106c0a8016613c6fa98d7e266a4</sys_id><sys_mod_count>2</sys_mod_count><sys_name>sc_req_item</sys_name><sys_package display_value="High Security Settings" source="com.glide.high_security">119be83fdb710300ae0690f9db96194d</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_b11a7106c0a8016613c6fa98d7e266a4</sys_update_name><sys_updated_by>MKURIAKO</sys_updated_by><sys_updated_on>2018-11-02 00:23:58</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1606996440</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 a">b88fef89db61634050479eb6db9619e9</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 04:10:42</sys_created_on>
+<sys_id>348fef89db61634050479eb6db9619eb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d1ce1f4a0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 04:10:42</sys_updated_on>
+<table>sc_req_item</table>
+<target_name>sc_req_item</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>679b724d49ed2340d6dd0e9378e1a7d9</update_guid>
+<update_guid_history>679b724d49ed2340d6dd0e9378e1a7d9:1606996440,239b724d9ced234008386f2cdedfd4d7:1183206942</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_bdbd92c9db896b80fe199236db961969</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Reset Voice Mail Password">fa2cbd7bdb961300f72fe04a4896197a</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_min_tic_id</name><order>1250</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Ministry Ticket ID</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>MKURIAKOSE</sys_created_by><sys_created_on>2018-10-08 01:42:33</sys_created_on><sys_id>bdbd92c9db896b80fe199236db961969</sys_id><sys_mod_count>5</sys_mod_count><sys_name>Ministry Ticket ID</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_bdbd92c9db896b80fe199236db961969</sys_update_name><sys_updated_by>MKURIAKO</sys_updated_by><sys_updated_on>2018-11-01 23:44:00</sys_updated_on><table/><tooltip/><type>6</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=bdbd92c9db896b80fe199236db961969"/><fx_price action="delete_multiple" query="id=bdbd92c9db896b80fe199236db961969"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>bdbd92c9db896b80fe199236db961969</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>MKURIAKOSE</sys_created_by><sys_created_on>2018-10-08 01:42:33</sys_created_on><sys_id>36dd96c9db896b80fe199236db9619fc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>MKURIAKOSE</sys_updated_by><sys_updated_on>2018-10-08 01:42:33</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>bdbd92c9db896b80fe199236db961969</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>MKURIAKOSE</sys_created_by><sys_created_on>2018-10-08 01:42:33</sys_created_on><sys_id>fadd96c9db896b80fe199236db9619fb</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>MKURIAKOSE</sys_updated_by><sys_updated_on>2018-10-08 01:42:33</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>927539358</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 a">b88fef89db61634050479eb6db9619e9</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 04:10:42</sys_created_on>
+<sys_id>388fef89db61634050479eb6db9619ea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d1a988540000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 04:10:42</sys_updated_on>
+<table/>
+<target_name>Ministry Ticket ID</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>0672f6c19e65a300a09d08693e3cc3e4</update_guid>
+<update_guid_history>0672f6c19e65a300a09d08693e3cc3e4:927539358,f76b72bd57116b0002ea3cf674dcf5df:153171471,ef42432d118dab80503bf2788b981829:927539358,d1bed28d91896b803970237d4dd94d40:-49647747,f4fd9a4d9f896b803c08df53c5c89875:-280316089,b6dd5a4d28896b801de46db7a50a7027:-2063509469</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_15cb3a4ddbed234050479eb6db961906</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition table="sc_req_item.comments">u_item_requested_by=javascript:gs.getUserID()^ORu_item_requested_for=javascript:gs.getUserID()^active=true^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><description>Allow write for comments in sc_req_item, if the ACL condition (u_item_requested_by=javascript:gs.getUserID()^ORu_item_requested_for=javascript:gs.getUserID()^active=true^EQ) evaluates to true.</description><name>sc_req_item.comments</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>MKURIAKO</sys_created_by><sys_created_on>2018-11-02 00:25:53</sys_created_on><sys_id>15cb3a4ddbed234050479eb6db961906</sys_id><sys_mod_count>1</sys_mod_count><sys_name>sc_req_item.comments</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_15cb3a4ddbed234050479eb6db961906</sys_update_name><sys_updated_by>MKURIAKO</sys_updated_by><sys_updated_on>2018-11-02 00:29:00</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-1559114895</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 a">b88fef89db61634050479eb6db9619e9</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 04:10:42</sys_created_on>
+<sys_id>708fef89db61634050479eb6db9619eb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d1d2babd0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 04:10:42</sys_updated_on>
+<table>sc_req_item.comments</table>
+<target_name>sc_req_item.comments</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>d1cc768d95ed23408241454d9b0c9e26</update_guid>
+<update_guid_history>d1cc768d95ed23408241454d9b0c9e26:-1559114895,b30cfa4d9fed23409473f6c188ac5d71:958508798</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_8496b0f6db0f1300f72fe04a489619c8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Update Contact Information (GAL)">ff863cb6db0f1300f72fe04a489619b0</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>true</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>true</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_additional_Information</name><order>2300</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Additional Information</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-07-05 18:35:03</sys_created_on><sys_id>8496b0f6db0f1300f72fe04a489619c8</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Additional Information</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_8496b0f6db0f1300f72fe04a489619c8</sys_update_name><sys_updated_by>MKURIAKO</sys_updated_by><sys_updated_on>2018-11-01 23:40:41</sys_updated_on><table/><tooltip/><type>19</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=8496b0f6db0f1300f72fe04a489619c8"/><fx_price action="delete_multiple" query="id=8496b0f6db0f1300f72fe04a489619c8"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>8496b0f6db0f1300f72fe04a489619c8</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-07-05 18:35:03</sys_created_on><sys_id>8c96b0f6db0f1300f72fe04a489619c9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-07-05 18:35:03</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>8496b0f6db0f1300f72fe04a489619c8</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>James.Jose</sys_created_by><sys_created_on>2018-07-05 18:35:03</sys_created_on><sys_id>4496b0f6db0f1300f72fe04a489619c9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>James.Jose</sys_updated_by><sys_updated_on>2018-07-05 18:35:03</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>1877955905</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 a">b88fef89db61634050479eb6db9619e9</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 04:10:42</sys_created_on>
+<sys_id>748fef89db61634050479eb6db9619ea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d1a67f5f0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 04:10:42</sys_updated_on>
+<table/>
+<target_name>Additional Information</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>a5b1f6c14b65a300fdf736f9a7a3dc10</update_guid>
+<update_guid_history>a5b1f6c14b65a300fdf736f9a7a3dc10:1877955905,863cbebd79116b006c3fdeee32567cee:384798578,3668ed8e02cdeb800b56affebfae7342:1877955905,ca805de65640230055977e9aa8311bcd:384798578,cc96b0f6010f1300c8c97d729a1ca7cc:856554756</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_17886d8edbcdeb80fe199236db961928</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Update Contact Information (GAL)">ff863cb6db0f1300f72fe04a489619b0</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_min_tic_id</name><order>2350</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Ministry Ticket ID</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>MKURIAKOSE</sys_created_by><sys_created_on>2018-10-11 00:23:58</sys_created_on><sys_id>17886d8edbcdeb80fe199236db961928</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Ministry Ticket ID</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_17886d8edbcdeb80fe199236db961928</sys_update_name><sys_updated_by>MKURIAKO</sys_updated_by><sys_updated_on>2018-11-01 23:40:44</sys_updated_on><table/><tooltip/><type>6</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=17886d8edbcdeb80fe199236db961928"/><fx_price action="delete_multiple" query="id=17886d8edbcdeb80fe199236db961928"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>17886d8edbcdeb80fe199236db961928</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>MKURIAKOSE</sys_created_by><sys_created_on>2018-10-11 00:23:58</sys_created_on><sys_id>b8a829cedbcdeb80fe199236db9619f2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>MKURIAKOSE</sys_updated_by><sys_updated_on>2018-10-11 00:23:58</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>17886d8edbcdeb80fe199236db961928</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>MKURIAKOSE</sys_created_by><sys_created_on>2018-10-11 00:23:58</sys_created_on><sys_id>30a8ad8edbcdeb80fe199236db9619fc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>MKURIAKOSE</sys_updated_by><sys_updated_on>2018-10-11 00:23:58</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>1987010979</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 a">b88fef89db61634050479eb6db9619e9</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 04:10:42</sys_created_on>
+<sys_id>b08fef89db61634050479eb6db9619ea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d1a68b8e0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 04:10:42</sys_updated_on>
+<table/>
+<target_name>Ministry Ticket ID</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>dab1b2056965a3005f3ffefa084b3d11</update_guid>
+<update_guid_history>dab1b2056965a3005f3ffefa084b3d11:1987010979,163cbebda2116b004c2f65696419e6f5:-1263895790,f0a829cedfcdeb8058dc7c4a732f21f6:1987010979</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_acb78223db68ab4050479eb6db9619b5</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.OCIO_SR_Call_Record_Details&lt;/api_name&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;OCIO_SR_Call_Record_Details&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var OCIO_SR_Call_Record_Details = Class.create();
+OCIO_SR_Call_Record_Details.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+	
+/**
+ *
+ * History
+ * JIRA   Date         Developer       Description
+ * -----  -----------  --------------  ------------------------
+ * Populate Call record details to the catalog for New calls. Its called by client script in General Service Request 
+ * SB-988 31-OCT-218 Mathew Kuriakose -Updated Org to Requested for company
+ * Copyright to BC Public Service - Service Request
+ */
+	
+	    call_info: function() {
+		var CallRecord = this.getParameter('sysparam_CallRecord');
+		var cart_item = this.getParameter('sysparam_cart_item');	
+		var result = this.newItem("result");
+		var call_details = new GlideRecord('new_call');
+		call_details.addQuery('sys_id',CallRecord);
+		call_details.query();
+		if(call_details.next())
+			{
+var copyAtt = new GlideSysAttachment();			
+copyAtt.copy('new_call',call_details.sys_id,'sc_cart_item',cart_item);
+				result.setAttribute("call_short_desc",call_details.short_description);
+			    result.setAttribute("call_req_for", call_details.u_requested_for);
+				result.setAttribute("call_req_by", call_details.caller);
+				result.setAttribute("call_im_req_for", call_details.u_requested_for.company);
+				result.setAttribute("call_description", call_details.description);
+
+
+				
+			}
+	},
+
+	
+    type: 'OCIO_SR_Call_Record_Details'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;MKURIAKOSE&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-09-20 22:00:34&lt;/sys_created_on&gt;&lt;sys_id&gt;acb78223db68ab4050479eb6db9619b5&lt;/sys_id&gt;&lt;sys_mod_count&gt;26&lt;/sys_mod_count&gt;&lt;sys_name&gt;OCIO_SR_Call_Record_Details&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_acb78223db68ab4050479eb6db9619b5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;MKURIAKO&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-10-31 23:16:21&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2103804179</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 a">b88fef89db61634050479eb6db9619e9</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 04:10:42</sys_created_on>
+<sys_id>bc8fef89db61634050479eb6db9619ea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166cc69dd880000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 04:10:42</sys_updated_on>
+<table/>
+<target_name>OCIO_SR_Call_Record_Details</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>9b82e97824e563000f880eebbf1117d0</update_guid>
+<update_guid_history>9b82e97824e563000f880eebbf1117d0:2103804179,08e958f0df256300e0b0b21acf2e123e:400493894,d0c16ed0bfd567000f67ef42dd2d11b7:784110982,cbb12ed03ad56700a72d629429094009:130205724,2030aa90f5d56700d2099a6488b1df8b:784110982,87cf969011d56700e581659c89f8212d:104901894,805f9e1040d5670029f9692469c29727:784110982,932c0c2443c12b80b20e5d68b8ad135b:8958993,a4f90ca007c12b80bff5a0ef8d763da4:-2048215599,137908a01bc12b8016d7c9baf8684701:-357918342,ad98846cfd0d6780381691477bf7f8fe:-1515964054,3b38886cf50d6780d9c9feff92c633d0:8958993,2eb346baf7bc638097083ee7dcd5f54d:1129374268,1ce461c438c9eb8034d55b1db432ec03:1182848176,2eb346baf7bc638097083ee7dcd5f54d:1129374268,8df1c2f6f3bc63804dcd9a2a18b875bc:-323963809,2934727c7234ef40aefb8d37d39b5979:-51157910,8038466858fc2f40b751da866d526b52:-1217122861,a8818a24f5fc2f40a5e7af9abf3d2284:835561361,bd93aaef9168ab40ae8d1532c3d697a0:-2118483815,49b226ef0568ab40ab476cd8694a9305:1656444363,41a1aeaf9768ab40bcac21733aec3e2b:-1743505770,95502a6f8368ab406b37a196dab7b26c:1916828995,f8ef12e7d668ab403bf5c41e05b1b9b3:1379954232,d0af126b0068ab401b32818f95a71913:-712033416,5f0982237768ab401fd8683482fef69c:-1547058706,17d846ef8d28ab4073ead4395557c6ca:709721208,54684eefda28ab4022f1c400ba3aa977:32307788,2d0802236e68ab408565baaf6f10200a:1749962651</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_f9de56c9db896b80fe199236db9619f6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Change Account">d401be25db1f13003d1dd001cf9619a2</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_min_tic_id</name><order>1250</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Ministry Ticket ID</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>MKURIAKOSE</sys_created_by><sys_created_on>2018-10-08 01:47:09</sys_created_on><sys_id>f9de56c9db896b80fe199236db9619f6</sys_id><sys_mod_count>5</sys_mod_count><sys_name>Ministry Ticket ID</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_f9de56c9db896b80fe199236db9619f6</sys_update_name><sys_updated_by>MKURIAKO</sys_updated_by><sys_updated_on>2018-11-01 23:46:28</sys_updated_on><table/><tooltip/><type>6</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=f9de56c9db896b80fe199236db9619f6"/><fx_price action="delete_multiple" query="id=f9de56c9db896b80fe199236db9619f6"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>f9de56c9db896b80fe199236db9619f6</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>MKURIAKOSE</sys_created_by><sys_created_on>2018-10-08 01:47:09</sys_created_on><sys_id>86ee568ddb896b80fe199236db96197b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>MKURIAKOSE</sys_updated_by><sys_updated_on>2018-10-08 01:47:09</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>f9de56c9db896b80fe199236db9619f6</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>MKURIAKOSE</sys_created_by><sys_created_on>2018-10-08 01:47:09</sys_created_on><sys_id>caee924ddb896b80fe199236db961924</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>MKURIAKOSE</sys_updated_by><sys_updated_on>2018-10-08 01:47:09</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>-840118192</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 a">b88fef89db61634050479eb6db9619e9</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 04:10:42</sys_created_on>
+<sys_id>f88fef89db61634050479eb6db9619ea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d1abc9a80000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 04:10:42</sys_updated_on>
+<table/>
+<target_name>Ministry Ticket ID</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>46037e055a65a300206d4e5255e50c75</update_guid>
+<update_guid_history>46037e055a65a300206d4e5255e50c75:-840118192,405d3efd4b116b007a727f20e648216c:522958719,372d3afd8d116b00201a11b7b62cbd76:-840118192,c46aba7db4116b009d8c2f12f03be650:522958719,72020be9668dab80c37ad077ba6845ff:-840118192,82ee568d22896b801bbdedd03dffe97f:1680711343</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_script_client_e0ded4f4db256300fe199236db9619f5</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="General Service Request"&gt;be15a52bdbe4ab4050479eb6db961928&lt;/cat_item&gt;&lt;cat_variable/&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;messages/&gt;&lt;name&gt;Set Default Group Blank&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[//set the default grop from variable set blank-JIRA
+
+/***
+ *
+ * History
+ * JIRA    Date         Developer               Description
+ * -----  -----------  --------------          ------------------------
+ * SB-963   10/31/2018  Mathew Kuriakose        Set the default group from variable set blank
+ * 
+ * Copyright to BC Public Service - Service Request
+ */
+
+function onLoad() {
+g_form.setValue('sc_task_assignmentGroupName','');   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;MKURIAKO&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-10-31 18:21:08&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e0ded4f4db256300fe199236db9619f5&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;Set Default Group Blank&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_e0ded4f4db256300fe199236db9619f5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;MKURIAKO&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-10-31 23:49:17&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1766713021</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 a">b88fef89db61634050479eb6db9619e9</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 04:10:42</sys_created_on>
+<sys_id>fc8fef89db61634050479eb6db9619e9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166cc8803d90000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 04:10:42</sys_updated_on>
+<table/>
+<target_name>Set Default Group Blank</target_name>
+<type>Catalog Client Scripts</type>
+<update_domain>global</update_domain>
+<update_guid>f91aa5bc0ae56300f74d4a56c7d36d91</update_guid>
+<update_guid_history>f91aa5bc0ae56300f74d4a56c7d36d91:1766713021,1a0aa5300c296300cc224888bfc52086:1237093266,14c92530502963009d6575baf0ee2c50:-228339203,27b96dbca1e56300b74300ee89c2ff33:16194682,1327e9bc35e563006f5d3e7f78d73e12:-228339203,78a665bccae563006fc8f572a119991a:-1065607851,5786e97c7ae56300d7faafc7d3c55a20:217345047,3afed8f416256300cbbd0bd8c4282b34:1527914010</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
