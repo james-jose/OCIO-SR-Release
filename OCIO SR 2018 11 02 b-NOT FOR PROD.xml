@@ -1,0 +1,1290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2018-11-02 21:36:55">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>OCIO SR 2018 11 02 b-NOT FOR PROD
+Reapplied the update set "OCIO SR Create Sector in Company SB846" to resolve SB-930
+- Created 6 Sectors: Finance Sector, Health Sector, Economic Sector, Justice Sector, Natural Resource Ministries Sector, Social Sector
+- Associated 6 sectors with Companies (Ministries)
+</description>
+<inserted/>
+<name>OCIO SR 2018 11 02 b-NOT FOR PROD</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>cebae219db29634050479eb6db96190c</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:54</sys_created_on>
+<sys_id>02fe5719dba9634050479eb6db961986</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:54</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_215a7121db611b00d54b9c78db9619ef</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Ministry of Mental Health and Addictions</name><notes/><num_employees/><parent display_value="Health Sector">f0801786db38a3009d289236db961992</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>215a7121db611b00d54b9c78db9619ef</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:10:02</sys_updated_on><theme/><u_code>MMHA</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>1367726550</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>02fe5719dba9634050479eb6db961987</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a879a0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table/>
+<target_name>Ministry of Mental Health and Addictions</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>76e6d78eff38a300191deeac0acb5cda</update_guid>
+<update_guid_history>76e6d78eff38a300191deeac0acb5cda:1367726550,76e6d78eff38a300191deeac0acb5cda:1367726550</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_a55a7121db611b00d54b9c78db9619ec</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Ministry of Justice</name><notes/><num_employees/><parent display_value="Justice Sector">a4905b46db38a3009d289236db96194a</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>a55a7121db611b00d54b9c78db9619ec</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:09:19</sys_updated_on><theme/><u_code>JAG</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>-2053884150</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>02fe5719dba9634050479eb6db96198a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a878f0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table/>
+<target_name>Ministry of Justice</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>10c6178e6838a300fce5c92e4291868f</update_guid>
+<update_guid_history>10c6178e6838a300fce5c92e4291868f:-2053884150,10c6178e6838a300fce5c92e4291868f:-2053884150</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_803f8b06db38a3009d289236db961959</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_sector</description><name>u_sector</name><operation display_value="delete">delete</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>MUNGIM</sys_created_by><sys_created_on>2018-09-28 21:36:18</sys_created_on><sys_id>803f8b06db38a3009d289236db961959</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_sector</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_803f8b06db38a3009d289236db961959</sys_update_name><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 21:36:18</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>304497284</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>02fe5719dba9634050479eb6db96198d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a86e60000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table>u_sector</table>
+<target_name>u_sector</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>c03f8b066338a3005f2872c8e9484d5b</update_guid>
+<update_guid_history>c03f8b066338a3005f2872c8e9484d5b:304497284,c03f8b066338a3005f2872c8e9484d5b:304497284,41a4e1843ec9eb8078310cf6d54e8959:2145690616,c03f8b066338a3005f2872c8e9484d5b:304497284,0c8ed8a67574e380d513440c974123de:2145690616,c03f8b066338a3005f2872c8e9484d5b:304497284,2faadf0a1f78a380dcac8191baf76c3e:2145690616,c03f8b066338a3005f2872c8e9484d5b:304497284</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_6d5a7121db611b00d54b9c78db9619e5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Ministry of Finance</name><notes/><num_employees/><parent display_value="Finance Sector">b750d306db38a3009d289236db9619dc</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>6d5a7121db611b00d54b9c78db9619e5</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:11:52</sys_updated_on><theme/><u_code>FIN</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>-2062495599</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>06fe5719dba9634050479eb6db961989</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a87a60000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table/>
+<target_name>Ministry of Finance</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>75579f4e0438a3004fd6e4476ee060e5</update_guid>
+<update_guid_history>75579f4e0438a3004fd6e4476ee060e5:-2062495599,75579f4e0438a3004fd6e4476ee060e5:-2062495599</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_f7fe0706db38a3009d289236db96192d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>Sector</label><live_feed_enabled>false</live_feed_enabled><name>u_sector</name><number_ref/><provider_class/><read_access>true</read_access><super_class display_value="Company" name="core_company">10e8a833db310300ae0690f9db96190a</super_class><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>MUNGIM</sys_created_by><sys_created_on>2018-09-28 21:36:18</sys_created_on><sys_id>f7fe0706db38a3009d289236db96192d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Sector</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_f7fe0706db38a3009d289236db96192d</sys_update_name><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 21:36:18</sys_updated_on><update_access>false</update_access><user_role display_value="u_sector_user" name="u_sector_user">f32f8b06db38a3009d289236db96193f</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>1201095712</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>06fe5719dba9634050479eb6db96198c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a87000000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table>u_sector</table>
+<target_name>Sector</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>103f8b065138a300e794a3c81e880170</update_guid>
+<update_guid_history>103f8b065138a300e794a3c81e880170:1201095712,103f8b065138a300e794a3c81e880170:1201095712,65a4258458c9eb803c6e9e1c33c7011a:-1067219052,103f8b065138a300e794a3c81e880170:1201095712,677e98a68574e38006a89fcfe4f838fc:-1067219052,103f8b065138a300e794a3c81e880170:1201095712,ffaadf0ac178a380e0ea674b48dd5de6:-1067219052,103f8b065138a300e794a3c81e880170:1201095712</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_sector_b750d306db38a3009d289236db9619dc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="u_sector"><u_sector action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Finance Sector</name><notes/><num_employees/><parent/><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>u_sector</sys_class_name><sys_created_by>MUNGIM</sys_created_by><sys_created_on>2018-09-28 21:41:41</sys_created_on><sys_id>b750d306db38a3009d289236db9619dc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 21:41:41</sys_updated_on><theme/><u_code>SECT002</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></u_sector></record_update>]]></payload>
+<payload_hash>516815971</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>06fe5719dba9634050479eb6db96198f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a870c0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table/>
+<target_name>Finance Sector</target_name>
+<type>Sector</type>
+<update_domain>global</update_domain>
+<update_guid>97c017866c38a30011ae0c5cf494b613</update_guid>
+<update_guid_history>97c017866c38a30011ae0c5cf494b613:516815971,be8766780ea96300cccd4abdaeea25e7:516815971,fc6522f09b212300469978a8c9866f3b:907754607,97c017866c38a30011ae0c5cf494b613:516815971</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_615ab121db611b00d54b9c78db961900</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Office of the Premier</name><notes/><num_employees/><parent display_value="Finance Sector">b750d306db38a3009d289236db9619dc</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:34</sys_created_on><sys_id>615ab121db611b00d54b9c78db961900</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:12:11</sys_updated_on><theme/><u_code>PREM</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>-198263426</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>0afe5719dba9634050479eb6db961988</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a87ab0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table/>
+<target_name>Office of the Premier</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>966753ce8f38a300a86b8444c969d0bd</update_guid>
+<update_guid_history>966753ce8f38a300a86b8444c969d0bd:-198263426,966753ce8f38a300a86b8444c969d0bd:-198263426</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_ed5a7121db611b00d54b9c78db9619a0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Auditor General for Local Government</name><notes/><num_employees/><parent display_value="Economic Sector">4eef4b46db38a3009d289236db9619a1</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>ed5a7121db611b00d54b9c78db9619a0</sys_id><sys_mod_count>4</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:06:53</sys_updated_on><theme/><u_code>AGLG</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>659132659</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>0afe5719dba9634050479eb6db96198b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a87660000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table/>
+<target_name>Auditor General for Local Government</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>f0361b4e4338a300a4cc4654a68070ef</update_guid>
+<update_guid_history>f0361b4e4338a300a4cc4654a68070ef:659132659,f0361b4e4338a300a4cc4654a68070ef:659132659</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>ua_table_licensing_config_f3f379c8db0deb8016bd9c78db9619e3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>u_sector</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>MUNGIM</sys_created_by><sys_created_on>2018-09-28 21:36:19</sys_created_on><sys_id>f3f379c8db0deb8016bd9c78db9619e3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_sector</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>ua_table_licensing_config_f3f379c8db0deb8016bd9c78db9619e3</sys_update_name><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 21:36:19</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+<payload_hash>-1720557870</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>0afe5719dba9634050479eb6db96198e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a86f00000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table/>
+<target_name>u_sector</target_name>
+<type>Table Subscription Configuration</type>
+<update_domain>global</update_domain>
+<update_guid>403f8b060c38a30043a401485b9c166c</update_guid>
+<update_guid_history>403f8b060c38a30043a401485b9c166c:-1720557870,cc8e1ca65d74e3809c4888658fac420d:1325812678,403f8b060c38a30043a401485b9c166c:-1720557870,f7aadf0aeb78a3804d0906fe7239c6a7:1325812678,c3d9530a6078a380f1554648a89f510a:-1720557870</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_295a7121db611b00d54b9c78db9619d1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Ministry of Attorney General</name><notes/><num_employees/><parent display_value="Justice Sector">a4905b46db38a3009d289236db96194a</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>295a7121db611b00d54b9c78db9619d1</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:08:42</sys_updated_on><theme/><u_code>AG</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>1117245257</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>0efe5719dba9634050479eb6db961987</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a87820000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table/>
+<target_name>Ministry of Attorney General</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>e7969f4ea238a3001700c2ad783476dc</update_guid>
+<update_guid_history>e7969f4ea238a3001700c2ad783476dc:1117245257,e7969f4ea238a3001700c2ad783476dc:1117245257</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_e15a7121db611b00d54b9c78db9619f8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Natural Resource Transformation Secretariat</name><notes/><num_employees/><parent display_value="Natural Resource Ministries Sector">33901786db38a3009d289236db961909</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>e15a7121db611b00d54b9c78db9619f8</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 21:58:30</sys_updated_on><theme/><u_code>NRTS</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>883890126</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>0efe5719dba9634050479eb6db96198a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a87280000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table/>
+<target_name>Natural Resource Transformation Secretariat</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>9744df8ab938a30076900be2868fa075</update_guid>
+<update_guid_history>9744df8ab938a30076900be2868fa075:883890126,9744df8ab938a30076900be2868fa075:883890126</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_4c3f8b06db38a3009d289236db961950</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>MUNGIM</sys_created_by><sys_created_on>2018-09-28 21:36:18</sys_created_on><sys_id>4c3f8b06db38a3009d289236db961950</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_sector.u_sector_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_sector">8c3f8b06db38a3009d289236db96194d</sys_security_acl><sys_update_name>sys_security_acl_role_4c3f8b06db38a3009d289236db961950</sys_update_name><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 21:36:18</sys_updated_on><sys_user_role display_value="u_sector_user" name="u_sector_user">f32f8b06db38a3009d289236db96193f</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1410954798</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>0efe5719dba9634050479eb6db96198d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a86d40000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table>u_sector</table>
+<target_name>u_sector.u_sector_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>883f8b067238a3004388256424b34352</update_guid>
+<update_guid_history>883f8b067238a3004388256424b34352:1410954798,883f8b067238a3004388256424b34352:1410954798,41a4e18458c9eb806829a852d5a9636a:-2100306382,883f8b067238a3004388256424b34352:1410954798,8c8ed8a63a74e3806bdd203d62d8d0f4:-2100306382,883f8b067238a3004388256424b34352:1410954798,67aadf0a1c78a38071a76a4709f4e643:-2100306382,883f8b067238a3004388256424b34352:1410954798</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_6d5a7121db611b00d54b9c78db9619d2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Ministry of Children and Family Development</name><notes/><num_employees/><parent display_value="Social Sector">dea01746db38a3009d289236db9619ab</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>6d5a7121db611b00d54b9c78db9619d2</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:12:48</sys_updated_on><theme/><u_code>MCF</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>-1267105919</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>42fe5719dba9634050479eb6db961989</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a87b70000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table/>
+<target_name>Ministry of Children and Family Development</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>af8717cea438a300434adf904e55fdf7</update_guid>
+<update_guid_history>af8717cea438a300434adf904e55fdf7:-1267105919,af8717cea438a300434adf904e55fdf7:-1267105919</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_choice_core_company_sys_class_name</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="sys_class_name" table="core_company" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>sys_class_name</element><hint/><inactive>false</inactive><label>Company</label><language>en</language><name>core_company</name><sequence>0</sequence><sys_created_by>Janine.Breathet</sys_created_by><sys_created_on>2018-05-11 15:44:29</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a510418ddb86df400f819274db961992</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Janine.Breathet</sys_updated_by><sys_updated_on>2018-05-11 15:44:29</sys_updated_on><value>core_company</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>sys_class_name</element><hint/><inactive>false</inactive><label>Vendor</label><language>en</language><name>core_company</name><sequence>1</sequence><sys_created_by>Janine.Breathet</sys_created_by><sys_created_on>2018-05-11 15:44:29</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6910418ddb86df400f819274db961993</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>Janine.Breathet</sys_updated_by><sys_updated_on>2018-05-11 15:44:29</sys_updated_on><value>u_vendor</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>sys_class_name</element><name>core_company</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>Janine.Breathet</sys_created_by><sys_created_on>2018-05-11 15:44:29</sys_created_on><sys_id>2510418ddb86df400f819274db961993</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package/><sys_policy/><sys_scope/><sys_update_name/><sys_updated_by>Janine.Breathet</sys_updated_by><sys_updated_on>2018-05-11 15:44:29</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+<payload_hash>522263637</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>42fe5719dba9634050479eb6db96198c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a86a60000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table>core_company</table>
+<target_name>Company.Class</target_name>
+<type>Choice list</type>
+<update_domain>global</update_domain>
+<update_guid>48ce03061538a3003c5bd5afc0ac0f42</update_guid>
+<update_guid_history>48ce03061538a3003c5bd5afc0ac0f42:522263637,cc6ffa8228f4a3002f5569c9d1c4b040:1535931998,b53f3682ddf4a300b899308f87c1561f:-305316559,91ae7a426df4a300e9f385aa457b7dc8:-1739169265,39ad368e32b4a30070dcbf25838585a5:2107161341,a7b9c2b5963c63809583266bb74fc6b2:522263637,ec698631ab3c6380bcb4d531527a71e1:1535931998,a510418dcf86df4088e82b9604756e95:522263637</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_sector_a4905b46db38a3009d289236db96194a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="u_sector"><u_sector action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Justice Sector</name><notes/><num_employees/><parent/><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>u_sector</sys_class_name><sys_created_by>MUNGIM</sys_created_by><sys_created_on>2018-09-28 21:42:33</sys_created_on><sys_id>a4905b46db38a3009d289236db96194a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 21:42:33</sys_updated_on><theme/><u_code>SECT004</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></u_sector></record_update>]]></payload>
+<payload_hash>-1304532740</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>42fe5719dba9634050479eb6db96198f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a87170000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table/>
+<target_name>Justice Sector</target_name>
+<type>Sector</type>
+<update_domain>global</update_domain>
+<update_guid>90e05b863a38a300aed51380c085b10e</update_guid>
+<update_guid_history>90e05b863a38a300aed51380c085b10e:-1304532740,ba8766787aa963006856cf708efb27e4:-1304532740,d875a27057212300a9efe1dcbd0d7604:727452786,90e05b863a38a300aed51380c085b10e:-1304532740</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_615a7121db611b00d54b9c78db9619eb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Ministry of Jobs, Trade and Technology</name><notes/><num_employees/><parent display_value="Economic Sector">4eef4b46db38a3009d289236db9619a1</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>615a7121db611b00d54b9c78db9619eb</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:05:46</sys_updated_on><theme/><u_code>JTT</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>-760480532</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>46fe5719dba9634050479eb6db961988</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a87560000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table/>
+<target_name>Ministry of Jobs, Trade and Technology</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>58f55b0ee438a300fd6c5b16c4b1d88f</update_guid>
+<update_guid_history>58f55b0ee438a300fd6c5b16c4b1d88f:-760480532,58f55b0ee438a300fd6c5b16c4b1d88f:-760480532</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_e95a7121db611b00d54b9c78db9619ed</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Ministry of Labour</name><notes/><num_employees/><parent display_value="Economic Sector">4eef4b46db38a3009d289236db9619a1</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>e95a7121db611b00d54b9c78db9619ed</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:06:09</sys_updated_on><theme/><u_code>LBR</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>1026576574</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>46fe5719dba9634050479eb6db96198b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a875b0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table/>
+<target_name>Ministry of Labour</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>4e065b0e6938a300c2806dbbbcf72b91</update_guid>
+<update_guid_history>4e065b0e6938a300c2806dbbbcf72b91:1026576574,4e065b0e6938a300c2806dbbbcf72b91:1026576574</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_f32f8b06db38a3009d289236db96193f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>u_sector_user</name><scoped_admin>false</scoped_admin><suffix/><sys_class_name>sys_user_role</sys_class_name><sys_created_by>MUNGIM</sys_created_by><sys_created_on>2018-09-28 21:36:18</sys_created_on><sys_id>f32f8b06db38a3009d289236db96193f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_sector_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_user_role_f32f8b06db38a3009d289236db96193f</sys_update_name><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 21:36:18</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>-1548285761</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>46fe5719dba9634050479eb6db96198e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a86ba0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table/>
+<target_name>u_sector_user</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>372f8b06da38a3006d888c90c61e7442</update_guid>
+<update_guid_history>372f8b06da38a3006d888c90c61e7442:-1548285761,372f8b06da38a3006d888c90c61e7442:-1548285761,79b42984fdc9eb8041950d16cad0cd25:324317491,372f8b06da38a3006d888c90c61e7442:-1548285761,448e1ca69874e380135acdfb54e9fa00:324317491,372f8b06da38a3006d888c90c61e7442:-1548285761,4fba574a3a78a3804b283e386b353e2c:324317491,372f8b06da38a3006d888c90c61e7442:-1548285761</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_295a7121db611b00d54b9c78db9619bc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Gaming Policy and Enforcement Branch</name><notes/><num_employees/><parent display_value="Justice Sector">a4905b46db38a3009d289236db96194a</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>295a7121db611b00d54b9c78db9619bc</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:08:09</sys_updated_on><theme/><u_code>GPEB</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>-328284349</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>4afe5719dba9634050479eb6db961987</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a87760000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table/>
+<target_name>Gaming Policy and Enforcement Branch</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>17769f4e2b38a300ce88c631ad810eac</update_guid>
+<update_guid_history>17769f4e2b38a300ce88c631ad810eac:-328284349,17769f4e2b38a300ce88c631ad810eac:-328284349</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_e15a7121db611b00d54b9c78db9619e3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Ministry of Energy, Mines and Petroleum Resources</name><notes/><num_employees/><parent display_value="Natural Resource Ministries Sector">33901786db38a3009d289236db961909</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>e15a7121db611b00d54b9c78db9619e3</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:00:51</sys_updated_on><theme/><u_code>EMPR</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>548704973</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>4afe5719dba9634050479eb6db96198a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a87400000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table/>
+<target_name>Ministry of Energy, Mines and Petroleum Resources</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>be75970ecf38a30043a840907e818121</update_guid>
+<update_guid_history>be75970ecf38a30043a840907e818121:548704973,be75970ecf38a30043a840907e818121:548704973</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_403f8b06db38a3009d289236db96195c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>MUNGIM</sys_created_by><sys_created_on>2018-09-28 21:36:19</sys_created_on><sys_id>403f8b06db38a3009d289236db96195c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_sector.u_sector_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_sector">803f8b06db38a3009d289236db961959</sys_security_acl><sys_update_name>sys_security_acl_role_403f8b06db38a3009d289236db96195c</sys_update_name><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 21:36:19</sys_updated_on><sys_user_role display_value="u_sector_user" name="u_sector_user">f32f8b06db38a3009d289236db96193f</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1228487313</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>4afe5719dba9634050479eb6db96198d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a86eb0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table>u_sector</table>
+<target_name>u_sector.u_sector_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>8c3f8b06fd38a300afb84096a1aeb35d</update_guid>
+<update_guid_history>8c3f8b06fd38a300afb84096a1aeb35d:-1228487313,8c3f8b06fd38a300afb84096a1aeb35d:-1228487313,cda4e1847bc9eb80e634e03b8f9e6a55:-444781197,8c3f8b06fd38a300afb84096a1aeb35d:-1228487313,cc8ed8a69d74e3804720a884c1f14ef0:-444781197,8c3f8b06fd38a300afb84096a1aeb35d:-1228487313,abaadf0a5878a38021f7bd8aadf5a03b:-444781197,8c3f8b06fd38a300afb84096a1aeb35d:-1228487313</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_a15a7121db611b00d54b9c78db9619e7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Ministry of Forests, Lands, Natural Resource Operations and Rural Development</name><notes/><num_employees/><parent display_value="Natural Resource Ministries Sector">33901786db38a3009d289236db961909</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>a15a7121db611b00d54b9c78db9619e7</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:04:51</sys_updated_on><theme/><u_code>FLNR</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>-1161499711</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>4efe5719dba9634050479eb6db961989</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a874b0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table/>
+<target_name>Ministry of Forests, Lands, Natural Resource Operations and Rural Development</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>f2b51f0e7738a30079f638f5546f8a5b</update_guid>
+<update_guid_history>f2b51f0e7738a30079f638f5546f8a5b:-1161499711,f2b51f0e7738a30079f638f5546f8a5b:-1161499711</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_083f8b06db38a3009d289236db961953</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_sector</description><name>u_sector</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>MUNGIM</sys_created_by><sys_created_on>2018-09-28 21:36:18</sys_created_on><sys_id>083f8b06db38a3009d289236db961953</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_sector</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_083f8b06db38a3009d289236db961953</sys_update_name><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 21:36:18</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-34409934</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>4efe5719dba9634050479eb6db96198c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a86da0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table>u_sector</table>
+<target_name>u_sector</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>483f8b06df38a3000d0ca2c2552f8f55</update_guid>
+<update_guid_history>483f8b06df38a3000d0ca2c2552f8f55:-34409934,483f8b06df38a3000d0ca2c2552f8f55:-34409934,45a4e18436c9eb80da4a821186ef0081:1862475942,483f8b06df38a3000d0ca2c2552f8f55:-34409934,c88ed8a6ce74e3809ba4e4786155c2d6:1862475942,483f8b06df38a3000d0ca2c2552f8f55:-34409934,6baadf0aa678a380020d8fec0338dd5a:1862475942,483f8b06df38a3000d0ca2c2552f8f55:-34409934</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_2d5a7121db611b00d54b9c78db9619e9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Ministry of Indigenous Relations and Reconciliation</name><notes/><num_employees/><parent display_value="Natural Resource Ministries Sector">33901786db38a3009d289236db961909</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>2d5a7121db611b00d54b9c78db9619e9</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:00:04</sys_updated_on><theme/><u_code>IRR</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>-380873379</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>82fe5719dba9634050479eb6db961988</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a87340000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table/>
+<target_name>Ministry of Indigenous Relations and Reconciliation</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>b8a413ca9b38a300e7b30f7e27dd307d</update_guid>
+<update_guid_history>b8a413ca9b38a300e7b30f7e27dd307d:-380873379,b8a413ca9b38a300e7b30f7e27dd307d:-380873379</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_e95a7121db611b00d54b9c78db9619b0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Corporate Services for Natural Resources</name><notes/><num_employees/><parent display_value="Natural Resource Ministries Sector">33901786db38a3009d289236db961909</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>e95a7121db611b00d54b9c78db9619b0</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 21:59:15</sys_updated_on><theme/><u_code>CSNR</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>-1428728062</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>82fe5719dba9634050479eb6db96198b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a872e0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table/>
+<target_name>Corporate Services for Natural Resources</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>b8745f8ab338a300f3d09ba2eb30bd61</update_guid>
+<update_guid_history>b8745f8ab338a300f3d09ba2eb30bd61:-1428728062,b8745f8ab338a300f3d09ba2eb30bd61:-1428728062</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_c43f8b06db38a3009d289236db961956</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>MUNGIM</sys_created_by><sys_created_on>2018-09-28 21:36:18</sys_created_on><sys_id>c43f8b06db38a3009d289236db961956</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_sector.u_sector_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_sector">083f8b06db38a3009d289236db961953</sys_security_acl><sys_update_name>sys_security_acl_role_c43f8b06db38a3009d289236db961956</sys_update_name><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 21:36:18</sys_updated_on><sys_user_role display_value="u_sector_user" name="u_sector_user">f32f8b06db38a3009d289236db96193f</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1172329209</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>82fe5719dba9634050479eb6db96198e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a86e00000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table>u_sector</table>
+<target_name>u_sector.u_sector_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>043f8b06c538a300501457f35c007558</update_guid>
+<update_guid_history>043f8b06c538a300501457f35c007558:1172329209,043f8b06c538a300501457f35c007558:1172329209,0da4e18405c9eb80052d3a3d029d7271:1956035325,043f8b06c538a300501457f35c007558:1172329209,088ed8a68774e3803dc8181746b8d8fc:1956035325,043f8b06c538a300501457f35c007558:1172329209,e7aadf0ac178a3805c0e2fc8f18dc957:1956035325,043f8b06c538a300501457f35c007558:1172329209</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_255a7121db611b00d54b9c78db9619f4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Ministry of Social Development and Poverty Reduction</name><notes/><num_employees/><parent display_value="Social Sector">dea01746db38a3009d289236db9619ab</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>255a7121db611b00d54b9c78db9619f4</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:12:32</sys_updated_on><theme/><u_code>SDPR</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>1967349060</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>86fe5719dba9634050479eb6db961987</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a87b10000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table/>
+<target_name>Ministry of Social Development and Poverty Reduction</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>df77d78ef338a300b8969bc39fa05d31</update_guid>
+<update_guid_history>df77d78ef338a300b8969bc39fa05d31:1967349060,df77d78ef338a300b8969bc39fa05d31:1967349060</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_e15a7121db611b00d54b9c78db9619d0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Ministry of Agriculture</name><notes/><num_employees/><parent display_value="Natural Resource Ministries Sector">33901786db38a3009d289236db961909</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>e15a7121db611b00d54b9c78db9619d0</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:01:20</sys_updated_on><theme/><u_code>AGRI</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>-1034342082</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>86fe5719dba9634050479eb6db96198a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a873a0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table/>
+<target_name>Ministry of Agriculture</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>5a65130e6138a300dc1043709a5c5041</update_guid>
+<update_guid_history>5a65130e6138a300dc1043709a5c5041:-1034342082,5a65130e6138a300dc1043709a5c5041:-1034342082,6fe49fcac438a3000af1fe42ec88959c:-1034342082</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_c83f8b06db38a3009d289236db961946</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_sector</description><name>u_sector</name><operation display_value="create">create</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>MUNGIM</sys_created_by><sys_created_on>2018-09-28 21:36:18</sys_created_on><sys_id>c83f8b06db38a3009d289236db961946</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_sector</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_c83f8b06db38a3009d289236db961946</sys_update_name><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 21:36:18</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-995893982</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>86fe5719dba9634050479eb6db96198d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a86c00000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table>u_sector</table>
+<target_name>u_sector</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>c83f8b061938a30084809cfc185a1d49</update_guid>
+<update_guid_history>c83f8b061938a30084809cfc185a1d49:-995893982,c83f8b061938a30084809cfc185a1d49:-995893982,45a4e184abc9eb80791e20aa3134f451:845299350,c83f8b061938a30084809cfc185a1d49:-995893982,8c8ed8a61174e380f20c2409d4678aea:845299350,c83f8b061938a30084809cfc185a1d49:-995893982,6baadf0ae378a3808f4636a9063fd72a:845299350,c83f8b061938a30084809cfc185a1d49:-995893982</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_a15a7121db611b00d54b9c78db9619bf</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>HealthLink BC</name><notes/><num_employees/><parent display_value="Health Sector">f0801786db38a3009d289236db961992</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>a15a7121db611b00d54b9c78db9619bf</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:31:47</sys_updated_on><theme/><u_code>HLBC</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>-2145633195</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>8afe5719dba9634050479eb6db961989</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a87c10000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table/>
+<target_name>HealthLink BC</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>fdebdb062178a3006586654679fc0c3c</update_guid>
+<update_guid_history>fdebdb062178a3006586654679fc0c3c:-2145633195,fdebdb062178a3006586654679fc0c3c:-2145633195,8217978e8838a300824a5a51cd368268:-1608609965</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_sector__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="Sector" language="en" table="u_sector"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>Sector</label><language>en</language><name>u_sector</name><plural>Sectors</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>MUNGIM</sys_created_by><sys_created_on>2018-09-28 21:36:19</sys_created_on><sys_id>443f8b06db38a3009d289236db961966</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Sector</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_sector__en</sys_update_name><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 21:36:19</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1506082115</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>8afe5719dba9634050479eb6db96198c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a86fb0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table>u_sector</table>
+<target_name>Sector</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>1c3f8b06d938a300bf53861ca032e06e</update_guid>
+<update_guid_history>1c3f8b06d938a300bf53861ca032e06e:-1506082115,1c3f8b06d938a300bf53861ca032e06e:-1506082115,fca4e18489c9eb80208216ce888cda1e:-666042451,1c3f8b06d938a300bf53861ca032e06e:-1506082115,9f7e98a62174e38006fdfc0d059ffed5:-666042451,1c3f8b06d938a300bf53861ca032e06e:-1506082115,5faa9f0aad78a380f9a232ba9c1670ec:-666042451,1c3f8b06d938a300bf53861ca032e06e:-1506082115</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_sector_f0801786db38a3009d289236db961992</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="u_sector"><u_sector action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Health Sector</name><notes/><num_employees/><parent/><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>u_sector</sys_class_name><sys_created_by>MUNGIM</sys_created_by><sys_created_on>2018-09-28 21:42:19</sys_created_on><sys_id>f0801786db38a3009d289236db961992</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 21:42:19</sys_updated_on><theme/><u_code>SECT003</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></u_sector></record_update>]]></payload>
+<payload_hash>1324173900</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>8afe5719dba9634050479eb6db96198f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a87110000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table/>
+<target_name>Health Sector</target_name>
+<type>Sector</type>
+<update_domain>global</update_domain>
+<update_guid>52d05b869438a300221b2d05ccc140fa</update_guid>
+<update_guid_history>52d05b869438a300221b2d05ccc140fa:1324173900,b68766781ca9630061f8f4e3b26b71ee:1324173900,12652eb0b5212300ba63151caf8e5aea:-1144526716,52d05b869438a300221b2d05ccc140fa:1324173900</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_695a7121db611b00d54b9c78db9619f5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Ministry of Tourism, Arts and Culture</name><notes/><num_employees/><parent display_value="Economic Sector">4eef4b46db38a3009d289236db9619a1</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>695a7121db611b00d54b9c78db9619f5</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:06:33</sys_updated_on><theme/><u_code>TAC</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>-412173355</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>8efe5719dba9634050479eb6db961988</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a87600000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table/>
+<target_name>Ministry of Tourism, Arts and Culture</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>7f16d34e0f38a300c2dee086b4d339ce</update_guid>
+<update_guid_history>7f16d34e0f38a300c2dee086b4d339ce:-412173355,7f16d34e0f38a300c2dee086b4d339ce:-412173355</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_fd819ebadbe71700cbfb9c78db96192a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Information, Innovation and Technology </name><notes>This company is part of the Natural Resource Sector Ministries.   People that were associated to NTRS and CSNR were moved to this code. </notes><num_employees/><parent display_value="Natural Resource Ministries Sector">33901786db38a3009d289236db961909</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>JBREATHE</sys_created_by><sys_created_on>2018-07-30 21:46:03</sys_created_on><sys_id>fd819ebadbe71700cbfb9c78db96192a</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:17:44</sys_updated_on><theme/><u_code>IIT</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>373618447</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>8efe5719dba9634050479eb6db96198b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a87bc0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table/>
+<target_name>Information, Innovation and Technology </target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>37a85bce6738a30049d323c8a351e7f0</update_guid>
+<update_guid_history>37a85bce6738a30049d323c8a351e7f0:373618447,37a85bce6738a30049d323c8a351e7f0:373618447</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_sector_4eef4b46db38a3009d289236db9619a1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="u_sector"><u_sector action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Economic Sector</name><notes/><num_employees/><parent/><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>u_sector</sys_class_name><sys_created_by>MUNGIM</sys_created_by><sys_created_on>2018-09-28 21:40:16</sys_created_on><sys_id>4eef4b46db38a3009d289236db9619a1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 21:40:16</sys_updated_on><theme/><u_code>SECT001</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></u_sector></record_update>]]></payload>
+<payload_hash>-712689643</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>8efe5719dba9634050479eb6db96198e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a87060000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table/>
+<target_name>Economic Sector</target_name>
+<type>Sector</type>
+<update_domain>global</update_domain>
+<update_guid>43401746dd38a30040ad1349203e3da5</update_guid>
+<update_guid_history>43401746dd38a30040ad1349203e3da5:-712689643,fe87667822a963009510c917a08785d4:-712689643,f55562f0582123003272aebdb9cd2722:1892779743,43401746dd38a30040ad1349203e3da5:-712689643</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_255a7121db611b00d54b9c78db9619cc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Liquor Control and Licensing Branch</name><notes/><num_employees/><parent display_value="Justice Sector">a4905b46db38a3009d289236db96194a</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>255a7121db611b00d54b9c78db9619cc</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:08:25</sys_updated_on><theme/><u_code>LCLB</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>-554766260</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>c2fe5719dba9634050479eb6db961987</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a877c0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table/>
+<target_name>Liquor Control and Licensing Branch</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>4386138ed138a300b5fe1af6d667d00c</update_guid>
+<update_guid_history>4386138ed138a300b5fe1af6d667d00c:-554766260,4386138ed138a300b5fe1af6d667d00c:-554766260</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_a95a7121db611b00d54b9c78db9619b4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Emergency Management BC</name><notes/><num_employees/><parent display_value="Justice Sector">a4905b46db38a3009d289236db96194a</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>a95a7121db611b00d54b9c78db9619b4</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:07:52</sys_updated_on><theme/><u_code>EMBC</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>-975642285</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>c2fe5719dba9634050479eb6db96198a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a87710000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table/>
+<target_name>Emergency Management BC</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>0b66574e1438a300ce26cf0ed728fe97</update_guid>
+<update_guid_history>0b66574e1438a300ce26cf0ed728fe97:-975642285,0b66574e1438a300ce26cf0ed728fe97:-975642285</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_8c3f8b06db38a3009d289236db96194d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_sector</description><name>u_sector</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>MUNGIM</sys_created_by><sys_created_on>2018-09-28 21:36:18</sys_created_on><sys_id>8c3f8b06db38a3009d289236db96194d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_sector</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_8c3f8b06db38a3009d289236db96194d</sys_update_name><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 21:36:18</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1129561070</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>c2fe5719dba9634050479eb6db96198d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a86ce0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table>u_sector</table>
+<target_name>u_sector</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>cc3f8b06cb38a300667ecbb5cd5e154f</update_guid>
+<update_guid_history>cc3f8b06cb38a300667ecbb5cd5e154f:1129561070,cc3f8b06cb38a300667ecbb5cd5e154f:1129561070,c1a4e18428c9eb80ed4aad9bd86f526d:197457762,cc3f8b06cb38a300667ecbb5cd5e154f:1129561070,4c8ed8a6d574e38091d7efd3c6e1ffe4:197457762,cc3f8b06cb38a300667ecbb5cd5e154f:1129561070,afaadf0a8378a380206a16fcb6cb8c52:197457762,cc3f8b06cb38a300667ecbb5cd5e154f:1129561070</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_215a7121db611b00d54b9c78db9619b2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Destination BC Corporation</name><notes/><num_employees/><parent display_value="Economic Sector">4eef4b46db38a3009d289236db9619a1</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>215a7121db611b00d54b9c78db9619b2</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:07:11</sys_updated_on><theme/><u_code>DBC</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>-1941027383</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:54</sys_created_on>
+<sys_id>c6fe5719dba9634050479eb6db961986</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a876c0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:54</sys_updated_on>
+<table/>
+<target_name>Destination BC Corporation</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>2e469b4e0438a300d776920aa34a1695</update_guid>
+<update_guid_history>2e469b4e0438a300d776920aa34a1695:-1941027383,2e469b4e0438a300d776920aa34a1695:-1941027383,46469b4e1d38a30063330b5ae547bfa1:-1941027383</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_7d5ab121db611b00d54b9c78db96190f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Vital Statistics Agency</name><notes/><num_employees/><parent display_value="Health Sector">f0801786db38a3009d289236db961992</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:34</sys_created_on><sys_id>7d5ab121db611b00d54b9c78db96190f</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:11:15</sys_updated_on><theme/><u_code>VSA</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>1330003587</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>c6fe5719dba9634050479eb6db961989</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a87a00000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table/>
+<target_name>Vital Statistics Agency</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>7037978ede38a3008014d7b961a6d45f</update_guid>
+<update_guid_history>7037978ede38a3008014d7b961a6d45f:1330003587,7037978ede38a3008014d7b961a6d45f:1330003587</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_sector_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" extends="core_company" table="u_sector"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_sector&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;MUNGIM&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-09-28 21:36:19&lt;/sys_created_on&gt;&lt;sys_id&gt;883f8b06db38a3009d289236db96195e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_sector&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_sector_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;MUNGIM&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-09-28 21:36:19&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-417491511</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>c6fe5719dba9634050479eb6db96198c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a86f50000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table>u_sector</table>
+<target_name>Sector</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>183f8b062838a300826bf5ec0569e46d</update_guid>
+<update_guid_history>183f8b062838a300826bf5ec0569e46d:-417491511,183f8b062838a300826bf5ec0569e46d:-417491511,b0a4e1849ec9eb80a2a1d951bbb48034:656582013,183f8b062838a300826bf5ec0569e46d:-417491511,977e98a64a74e3809f74cc5de709eae8:656582013,183f8b062838a300826bf5ec0569e46d:-417491511,67aadf0a0478a38036d98ef54d67460e:656582013,183f8b062838a300826bf5ec0569e46d:-417491511</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_sector_dea01746db38a3009d289236db9619ab</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="u_sector"><u_sector action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Social Sector</name><notes/><num_employees/><parent/><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>u_sector</sys_class_name><sys_created_by>MUNGIM</sys_created_by><sys_created_on>2018-09-28 21:42:54</sys_created_on><sys_id>dea01746db38a3009d289236db9619ab</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 21:45:39</sys_updated_on><theme/><u_code>SECT006</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></u_sector></record_update>]]></payload>
+<payload_hash>-1680653640</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>c6fe5719dba9634050479eb6db96198f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a87230000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table/>
+<target_name>Social Sector</target_name>
+<type>Sector</type>
+<update_domain>global</update_domain>
+<update_guid>8e8197c6d538a300076ad5cb65cb80d8</update_guid>
+<update_guid_history>8e8197c6d538a300076ad5cb65cb80d8:-1680653640,b287667882a963000c404c2457fd7ceb:-1680653640,0375eaf06e212300e62840d333f235ae:-1304505742,8e8197c6d538a300076ad5cb65cb80d8:-1680653640</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_655a7121db611b00d54b9c78db9619f0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Ministry of Municipal Affairs and Housing</name><notes/><num_employees/><parent display_value="Economic Sector">4eef4b46db38a3009d289236db9619a1</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>655a7121db611b00d54b9c78db9619f0</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:05:26</sys_updated_on><theme/><u_code>MAH</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>-1491999213</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>cafe5719dba9634050479eb6db961988</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a87510000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table/>
+<target_name>Ministry of Municipal Affairs and Housing</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>5fd59b0e2238a300cce70e6559630b63</update_guid>
+<update_guid_history>5fd59b0e2238a300cce70e6559630b63:-1491999213,5fd59b0e2238a300cce70e6559630b63:-1491999213</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_ed5a7121db611b00d54b9c78db9619f2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Ministry of Public Safety and Solicitor General</name><notes/><num_employees/><parent display_value="Justice Sector">a4905b46db38a3009d289236db96194a</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>ed5a7121db611b00d54b9c78db9619f2</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:08:59</sys_updated_on><theme/><u_code>PSSG</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>583181838</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>cafe5719dba9634050479eb6db96198b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a87890000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table/>
+<target_name>Ministry of Public Safety and Solicitor General</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>73a6538e4438a3009ffcce56c1d89ff0</update_guid>
+<update_guid_history>73a6538e4438a3009ffcce56c1d89ff0:583181838,73a6538e4438a3009ffcce56c1d89ff0:583181838</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>u_sector_33901786db38a3009d289236db961909</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="u_sector"><u_sector action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Natural Resource Ministries Sector</name><notes/><num_employees/><parent/><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>u_sector</sys_class_name><sys_created_by>MUNGIM</sys_created_by><sys_created_on>2018-09-28 21:42:43</sys_created_on><sys_id>33901786db38a3009d289236db961909</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 21:45:44</sys_updated_on><theme/><u_code>SECT005</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></u_sector></record_update>]]></payload>
+<payload_hash>-1707315358</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>cafe5719dba9634050479eb6db96198e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a871c0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table/>
+<target_name>Natural Resource Ministries Sector</target_name>
+<type>Sector</type>
+<update_domain>global</update_domain>
+<update_guid>b0815bc6e138a3009087c522bd9cc7ec</update_guid>
+<update_guid_history>b0815bc6e138a3009087c522bd9cc7ec:-1707315358,2e8766781ea96300956d9986009362d0:-1707315358,3d752eb0dd2123003affba4c5cd30cd5:186054890,b0815bc6e138a3009087c522bd9cc7ec:-1707315358</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_295a7121db611b00d54b9c78db9619e4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Ministry of Environment and Climate Change Strategy</name><notes/><num_employees/><parent display_value="Natural Resource Ministries Sector">33901786db38a3009d289236db961909</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>295a7121db611b00d54b9c78db9619e4</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:04:22</sys_updated_on><theme/><u_code>ENV</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>-2075073579</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>cefe5719dba9634050479eb6db961987</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a87460000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table/>
+<target_name>Ministry of Environment and Climate Change Strategy</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>c8a59fcaa838a3003e133d6756495600</update_guid>
+<update_guid_history>c8a59fcaa838a3003e133d6756495600:-2075073579,c8a59fcaa838a3003e133d6756495600:-2075073579</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_e55a7121db611b00d54b9c78db9619e8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Ministry of Health</name><notes/><num_employees/><parent display_value="Health Sector">f0801786db38a3009d289236db961992</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>e55a7121db611b00d54b9c78db9619e8</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 22:09:47</sys_updated_on><theme/><u_code>HLTH</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>1015279189</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>cefe5719dba9634050479eb6db96198a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a87950000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table/>
+<target_name>Ministry of Health</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>83d6d78ef538a30092eb5192f75dde1d</update_guid>
+<update_guid_history>83d6d78ef538a30092eb5192f75dde1d:1015279189,83d6d78ef538a30092eb5192f75dde1d:1015279189</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_883f8b06db38a3009d289236db96194a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>MUNGIM</sys_created_by><sys_created_on>2018-09-28 21:36:18</sys_created_on><sys_id>883f8b06db38a3009d289236db96194a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_sector.u_sector_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_sector">c83f8b06db38a3009d289236db961946</sys_security_acl><sys_update_name>sys_security_acl_role_883f8b06db38a3009d289236db96194a</sys_update_name><sys_updated_by>MUNGIM</sys_updated_by><sys_updated_on>2018-09-28 21:36:18</sys_updated_on><sys_user_role display_value="u_sector_user" name="u_sector_user">f32f8b06db38a3009d289236db96193f</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1989022858</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 02 b-NOT FOR PROD">02fe5719dba9634050479eb6db961986</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-02 21:36:55</sys_created_on>
+<sys_id>cefe5719dba9634050479eb6db96198d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d58a86c60000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-02 21:36:55</sys_updated_on>
+<table>u_sector</table>
+<target_name>u_sector.u_sector_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>cc3f8b068a38a3000b37c36d2b0fef4c</update_guid>
+<update_guid_history>cc3f8b068a38a3000b37c36d2b0fef4c:1989022858,cc3f8b068a38a3000b37c36d2b0fef4c:1989022858,45a4e18463c9eb8050c01549178a5e4d:-1522238322,cc3f8b068a38a3000b37c36d2b0fef4c:1989022858,c88ed8a6ea74e3803a5c48c1ed5406f8:-1522238322,cc3f8b068a38a3000b37c36d2b0fef4c:1989022858,67aadf0adb78a380e3e972dc0c99c127:-1522238322,cc3f8b068a38a3000b37c36d2b0fef4c:1989022858</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
