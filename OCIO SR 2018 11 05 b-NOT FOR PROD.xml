@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2018-11-06 03:50:27">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Renamed update set to OCIO SR 2018 11 05 b-NOT FOR PROD from OCIO SR Assign Sector for IIO SB882
+Assign Justice Sector as parent in core_company table for the company Independent Investigations Office of BC</description>
+<inserted/>
+<name>OCIO SR 2018 11 05 b-NOT FOR PROD</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>3884cca2dbe9230050479eb6db961954</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-06 03:50:27</sys_created_on>
+<sys_id>cb3118aadbe9230050479eb6db9619db</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-06 03:50:27</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>core_company_2d5a7121db611b00d54b9c78db9619c1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company"><core_company action="INSERT_OR_UPDATE"><apple_icon/><banner_image/><banner_image_light/><banner_text/><city/><contact/><country>USA</country><customer>false</customer><discount/><fax_phone/><fiscal_year/><lat_long_error/><latitude/><longitude/><manufacturer>false</manufacturer><market_cap>0</market_cap><name>Independent Investigations Office of BC (Ministry of Justice)</name><notes/><num_employees/><parent display_value="Justice Sector">a4905b46db38a3009d289236db96194a</parent><phone/><primary>false</primary><profits>0</profits><publicly_traded>false</publicly_traded><rank_tier/><revenue_per_year>0</revenue_per_year><sso_source/><state/><stock_price/><stock_symbol/><street/><sys_class_name>core_company</sys_class_name><sys_created_by>ttanti</sys_created_by><sys_created_on>2018-04-18 12:44:33</sys_created_on><sys_id>2d5a7121db611b00d54b9c78db9619c1</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>JAJOSE</sys_updated_by><sys_updated_on>2018-10-04 21:23:02</sys_updated_on><theme/><u_code>IIO</u_code><vendor>false</vendor><vendor_manager/><vendor_type/><website/><zip/></core_company></record_update>]]></payload>
+<payload_hash>-586262983</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 05 b-NOT FOR PROD">cb3118aadbe9230050479eb6db9619db</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-06 03:50:27</sys_created_on>
+<sys_id>433118aadbe9230050479eb6db9619dc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166e6f1b6bb0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-06 03:50:27</sys_updated_on>
+<table/>
+<target_name>Independent Investigations Office of BC (Ministry of Justice)</target_name>
+<type>Company</type>
+<update_domain>global</update_domain>
+<update_guid>1f0fd3407409e7804653d50c4a0d634e</update_guid>
+<update_guid_history>1f0fd3407409e7804653d50c4a0d634e:-586262983,1f0fd3407409e7804653d50c4a0d634e:-586262983</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
