@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2018-11-07 20:41:01">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Merged following update sets:
+1. OCIO SR 2018 11 06 b MGIM
+   a. SB-1056: Updated HTML Content by adding &lt;a  href="mailto:cschelp@gov.bc.ca"&gt; on the NOTIF 01, 02, 04, 07, 08, 09.
+   b. SB-1057:  Updated the HTML Content to remove the extra vertical space on  NOTIF 01, 02, 07
+   c. SB-1058: Updated the HTML Content to add an extra space after  area code for Notif 01, 02, 04, 07, 08, 09
+   d. SB-1049:  Updated the Descriptions on the Notification requested: NOTIF 01, 02, 03, 04, 05, and Renamed the NOTIF 06
+
+2. OCIO SR SB 1054 ACL RITM Comments-v01
+   a. Rolled back  changes  implemented as part of JIRA  SB-817 and SB-1033 to provide users to enter comment from portal</description>
+<inserted/>
+<name>OCIO SR 2018 11 07 a</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>9bf1c1c7dbe52300fe199236db961972</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-07 20:41:00</sys_created_on>
+<sys_id>7f1205c7dbe52300fe199236db96194a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-07 20:41:00</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_913b8b1adbe56700fe199236db96199c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>MKURIAKO</sys_created_by><sys_created_on>2018-11-05 22:44:36</sys_created_on><sys_id>913b8b1adbe56700fe199236db96199c</sys_id><sys_mod_count>1</sys_mod_count><sys_name>sc_req_item.comments.itil</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="sc_req_item.comments">d31b0b1adbe56700fe199236db96196c</sys_security_acl><sys_update_name>sys_security_acl_role_913b8b1adbe56700fe199236db96199c</sys_update_name><sys_updated_by>MKURIAKO</sys_updated_by><sys_updated_on>2018-11-06 02:04:32</sys_updated_on><sys_user_role display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>578685841</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 07 a">7f1205c7dbe52300fe199236db96194a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-07 20:41:00</sys_created_on>
+<sys_id>0c2205c7dbe52300fe199236db96194d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166e6c3a25e0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-07 20:41:00</sys_updated_on>
+<table>sc_req_item.comments</table>
+<target_name>sc_req_item.comments.itil</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>2ff8b756a0a9670082634faaa6b49fa2</update_guid>
+<update_guid_history>2ff8b756a0a9670082634faaa6b49fa2:578685841,4f3b0f1a18e56700f754846be91b894c:578685841</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_b11a7106c0a8016613c6fa98d7e266a4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>false</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition table="sc_req_item">request.requested_for=javascript:gs.getUserID()^ORu_item_requested_for=javascript:gs.getUserID()^ORu_item_requested_by=javascript:gs.getUserID()^EQ<item endquery="false" field="request.requested_for" goto="false" newquery="false" operator="=" or="false" value="javascript:gs.getUserID()"/><item endquery="false" field="u_item_requested_for" goto="false" newquery="false" operator="=" or="true" value="javascript:gs.getUserID()"/><item endquery="false" field="u_item_requested_by" goto="false" newquery="false" operator="=" or="true" value="javascript:gs.getUserID()"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><description>end user can update their own sc_req_item records</description><name>sc_req_item</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>myla.jordan</sys_created_by><sys_created_on>2011-05-02 14:26:30</sys_created_on><sys_id>b11a7106c0a8016613c6fa98d7e266a4</sys_id><sys_mod_count>3</sys_mod_count><sys_name>sc_req_item</sys_name><sys_package display_value="High Security Settings" source="com.glide.high_security">119be83fdb710300ae0690f9db96194d</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_b11a7106c0a8016613c6fa98d7e266a4</sys_update_name><sys_updated_by>MKURIAKO</sys_updated_by><sys_updated_on>2018-11-07 17:13:00</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>716369023</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 07 a">7f1205c7dbe52300fe199236db96194a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-07 20:41:00</sys_created_on>
+<sys_id>331205c7dbe52300fe199236db96194d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166ef29b7c10000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-07 20:41:00</sys_updated_on>
+<table>sc_req_item</table>
+<target_name>sc_req_item</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>018250c3bea52300add0088222117ec7</update_guid>
+<update_guid_history>018250c3bea52300add0088222117ec7:716369023,679b724d49ed2340d6dd0e9378e1a7d9:1606996440,239b724d9ced234008386f2cdedfd4d7:1183206942</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_email_action_e052c2a6dbc0230066d6560868961971</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition&gt;&lt;![CDATA[// 06/14/18: This default condition evaluates if the person making the update/triggering this notification is has the bcgov_data_corrector role (granted by group: Access_Data_Correction)
+answer = new bcHelperUtil().isDataCorrector(current.sys_updated_by);]]&gt;&lt;/advanced_condition&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="IT Service Management" name="IT Service Management"&gt;b69d02137f232200ee2e108c3ffa9142&lt;/category&gt;&lt;collection&gt;sc_task&lt;/collection&gt;&lt;condition table="sc_task"&gt;assigned_toISNOTEMPTY^stateIN-5,1,2^EQ&lt;item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/&gt;&lt;item endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="-5,1,2"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description&gt;Notification to the catalog task 'assigned to' when there is a change to the request item or task: additional comments, work notes, or attachments; or where a new call record is linked to an existing request.&lt;/description&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;event_name&gt;SC-task_notification_assignee&lt;/event_name&gt;&lt;event_parm_1&gt;false&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;event&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p&gt;${assigned_to.first_name}, Service Request Item ${request_item.URI_REF} has been updated: ${short_description}&lt;/p&gt;
+&lt;p&gt;The last update is:&lt;/p&gt;
+&lt;p&gt;${event.parm1}&lt;/p&gt;
+&lt;p&gt;${mail_script:last_comment_or_worknote-SC}&lt;br /&gt; &lt;br /&gt; &lt;strong&gt;Updated on:&lt;/strong&gt; ${event.parm2}&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;BCGOV-SR-NOTIF03 Service Request Updated (Assigned To)&lt;/name&gt;&lt;omit_watermark&gt;true&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields&gt;assigned_to&lt;/recipient_fields&gt;&lt;recipient_groups/&gt;&lt;recipient_users/&gt;&lt;reply_to/&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;Service request item ${request_item.number} Has Been Updated&lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;NKUMAR&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-08-23 22:30:52&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e052c2a6dbc0230066d6560868961971&lt;/sys_id&gt;&lt;sys_mod_count&gt;19&lt;/sys_mod_count&gt;&lt;sys_name&gt;BCGOV-SR-NOTIF03 Service Request Updated (Assigned To)&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_e052c2a6dbc0230066d6560868961971&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;MUNGIM&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-11-07 18:27:32&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template/&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1706259637</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 07 a">7f1205c7dbe52300fe199236db96194a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-07 20:41:00</sys_created_on>
+<sys_id>371205c7dbe52300fe199236db96194c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166ef6df4490000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-07 20:41:00</sys_updated_on>
+<table>sc_task</table>
+<target_name>BCGOV-SR-NOTIF03 Service Request Updated (Assigned To)</target_name>
+<type>Notification</type>
+<update_domain>global</update_domain>
+<update_guid>3093280b82e52300e7c2c0b5069a56de</update_guid>
+<update_guid_history>3093280b82e52300e7c2c0b5069a56de:-1706259637,8592e0c746e523001506c07710758b1d:-487266143,906a72aa9361a7002c1bcbb6d62ee002:244295689,da43a6da51656700810d43ebc4cff2f5:-1864571494,8de41612be6567005b1fa848a89883b2:360674768,0f0dc4d6b19d6b00728889926cbc360f:378568215,335cc896b09d6b0011bf5c086e621807:205913046,0e76c012359d6b008635ac791181588d:1785096005,f07fa1c5a2e0e740ff4f620ab1a5b2ea:-939931000,adbbac078d18a3405b33bcece4d1aa88:-939931000,f37bec076618a3405f2566927eb8ac48:1758713782,e719e8836018a340e6c00f2a71c42258:1420229550,8ec8accfcfd4a34036857a70ae7951d1:740876558,9912fb1642d023006b679ba355318b0e:-1890981632,c19ba3128cd02300329c78ae242ba57b:1215950780,386b231274d023004a28087f38f90617:-1253725148,334ba312acd02300188a7f1cf1ab686e:85923832,3bf12e9a7b9c2340c108fa2e753044ff:-1847593378,3a49f5c93b182f00eda1193f3625717b:-1950241666,93e2c2a6c7c02300521e975a440b6142:-1847593378,b0d2c2a6e3c02300b865cd7e400ecba3:2116506384,d8720e665dc02300684d3497cff8f2a8:1401203290</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_email_action_9375c2e6dbc0230066d656086896197d</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition&gt;&lt;![CDATA[// 06/14/18: This default condition evaluates if the person making the update/triggering this notification is has the bcgov_data_corrector role (granted by group: Access_Data_Correction)
+answer = new bcHelperUtil().isDataCorrector(current.sys_updated_by);]]&gt;&lt;/advanced_condition&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="IT Service Management" name="IT Service Management"&gt;b69d02137f232200ee2e108c3ffa9142&lt;/category&gt;&lt;collection&gt;sc_task&lt;/collection&gt;&lt;condition table="sc_task"&gt;stateIN-5,1,2^assigned_toISNOTEMPTY^assigned_toVALCHANGES^EQ&lt;item endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="-5,1,2"/&gt;&lt;item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/&gt;&lt;item endquery="false" field="assigned_to" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description&gt;Notification to the catalog task 'assigned to' when the task is assigned to someone or the assigned to changes.&lt;/description&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;event_name&gt;approval.cancelled&lt;/event_name&gt;&lt;event_parm_1&gt;false&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;engine&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p&gt;${assigned_to.first_name}, Service Catalog Task Number: &lt;a title="${number}" href="/nav_to.do?uri=sc_task.do?sys_id=${sys_id}" target="_blank"&gt;${number}&lt;/a&gt; has been assigned to you.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Short Description:&lt;/strong&gt; ${short_description}&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;BCGOV-SR-NOTIF06 Service Request Task Assigned&lt;/name&gt;&lt;omit_watermark&gt;true&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields&gt;assigned_to&lt;/recipient_fields&gt;&lt;recipient_groups/&gt;&lt;recipient_users/&gt;&lt;reply_to/&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;Service Catalog Task ${number} has been assigned to you&lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;NKUMAR&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-08-23 22:44:44&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;9375c2e6dbc0230066d656086896197d&lt;/sys_id&gt;&lt;sys_mod_count&gt;31&lt;/sys_mod_count&gt;&lt;sys_name&gt;BCGOV-SR-NOTIF06 Service Request Task Assigned&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_9375c2e6dbc0230066d656086896197d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;MUNGIM&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-11-07 18:30:23&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template/&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-520874101</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 07 a">7f1205c7dbe52300fe199236db96194a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-07 20:41:00</sys_created_on>
+<sys_id>3b1205c7dbe52300fe199236db96194b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166ef708eb40000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-07 20:41:00</sys_updated_on>
+<table>sc_task</table>
+<target_name>BCGOV-SR-NOTIF06 Service Request Task Assigned</target_name>
+<type>Notification</type>
+<update_domain>global</update_domain>
+<update_guid>ea342c0bc2e523007d97686dc95041b7</update_guid>
+<update_guid_history>ea342c0bc2e523007d97686dc95041b7:-520874101,02116c47c3e52300b2e67d8f48f1773a:704833881,aa7a7aaa0a61a700f45d3c21372bfb27:68291925,faf4a29a6365670034e8b165089bce28:1846716796,d8475a9273656700651d519cdb49dfef:1228761953,41b80e9689256700acc208ba736db9d1:-1860230143,b6088e9604256700df12359840ad69a7:-1481828031,a64ca434701023007f1075341cc01a33:-767867696,b31b24b48010230096aa21778babefc6:-114036523,7ca2ac6c571423003dd1868850a58bb5:1418217333,31f0ff109a90eb00a1ab2361109ee88e:258228761,8ae0ffdccb50eb0047d223c18d28c359:-1706359499,6aefe7dc1950eb006d22f9eeb6c25487:258228761,8dafe3108c90eb0020d2ead1b237d3ae:1956290748,363f2bdc5e50eb008fc90463275d9572:1696949692,8e2f67dcda50eb00f4577c025121f4ed:-93400199,f81f67dc9a50eb00e4f905c45151ccf3:-1911172330,df19f38c5a58ab003c22c6b9fe051565:258228761,7253bb881058ab00730c77693fce8a5b:269302635,83e2fb889b58ab009d61d26e5ace802a:-1279626696,dac277881258ab0001701547843efd32:-131917445,62b277884b58ab00b9f3512b72ad0643:1978966496,9852bf48b158ab00b5ef9e332f7d7a32:1873043587,36323b08fe58ab008b6fc8ce0a060d65:674044393,ce913f48fc58ab00e5b9459443d39671:-1191620855,25517b08c358ab00efd30545e749ee5a:914652563,b22073082758ab00165d1e425818723f:-751081031,1700fbc48258ab00beb6809487831f2e:-646796097,0bdfebc47758ab0038f05fa0db86f52a:2031505375,cbbfa7c4f258ab00680f88ba4dd6bdb7:275001209,0506422ad9c02300e00ae9c7fa08445c:-151094846,ab954ae675c02300b237146a29893f73:-196996412</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_004b4f1adbe56700fe199236db9619a0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>MKURIAKO</sys_created_by><sys_created_on>2018-11-05 22:44:53</sys_created_on><sys_id>004b4f1adbe56700fe199236db9619a0</sys_id><sys_mod_count>1</sys_mod_count><sys_name>sc_req_item.itil</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="sc_req_item">ca0b871adbe56700fe199236db96192e</sys_security_acl><sys_update_name>sys_security_acl_role_004b4f1adbe56700fe199236db9619a0</sys_update_name><sys_updated_by>MKURIAKO</sys_updated_by><sys_updated_on>2018-11-06 02:04:08</sys_updated_on><sys_user_role display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1326801396</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 07 a">7f1205c7dbe52300fe199236db96194a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-07 20:41:00</sys_created_on>
+<sys_id>482205c7dbe52300fe199236db96194d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166e6c343550000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-07 20:41:00</sys_updated_on>
+<table>sc_req_item</table>
+<target_name>sc_req_item.itil</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>f9e83756d2a9670094ae2b9b1e5fdf89</update_guid>
+<update_guid_history>f9e83756d2a9670094ae2b9b1e5fdf89:-1326801396,cf4b8b1adbe567009dc1e21c0be92339:-1326801396</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_email_action_d0cb768adb996b0050479eb6db961976</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition&gt;&lt;![CDATA[// 06/14/18: This default condition evaluates if the person making the update/triggering this notification is has the bcgov_data_corrector role (granted by group: Access_Data_Correction)
+answer = new bcHelperUtil().isDataCorrector(current.sys_updated_by);]]&gt;&lt;/advanced_condition&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="IT Service Management" name="IT Service Management"&gt;b69d02137f232200ee2e108c3ffa9142&lt;/category&gt;&lt;collection&gt;sc_req_item&lt;/collection&gt;&lt;condition table="sc_req_item"&gt;state=4^cat_item.sc_catalogsLIKEbfbcbddcdb686740fe199236db9619d8^EQ&lt;item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="4"/&gt;&lt;item endquery="false" field="cat_item.sc_catalogs" goto="false" newquery="false" operator="LIKE" or="false" value="bfbcbddcdb686740fe199236db9619d8"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description&gt;Notification to the Requested by and/or the Requested for, as recorded on the Request Item. A notification is always sent to the requested by, regardless of whether or not they have selected the 'notify me' option. Note that we are only doing this for the Requested by. the Requested for will continue to only get the notification if they have asked for it. This notification is sent when a Request Item/Task state is changed to 'Closed Incomplete'. This happens when the Service request item is not fulfilled.&lt;/description&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;event_name&gt;SC_request.closed.notify_CSC&lt;/event_name&gt;&lt;event_parm_1&gt;true&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;event&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p&gt;${event.parm2}, Service Request Item ${number} has been Closed Incomplete: ${mail_script:callrecord.short_description}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Close notes:&lt;/strong&gt; ${close_notes}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Request Number:&lt;/strong&gt; ${request.number}&lt;br /&gt; &lt;strong&gt;Request Item Number:&lt;/strong&gt; ${number}&lt;br /&gt; &lt;strong&gt;Requested For:&lt;/strong&gt; ${u_item_requested_for.first_name} ${u_item_requested_for.last_name}&lt;br /&gt; &lt;strong&gt;Requested By:&lt;/strong&gt; ${u_item_requested_by.first_name} ${u_item_requested_by.last_name}&lt;/p&gt;
+&lt;p&gt;For updates on your Service Request please contact the Customer Service Centre at (250) 387-7000 option 3 or via email at &lt;a href="mailto:cschelp@gov.bc.ca"&gt;cschelp@gov.bc.ca&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Please do not reply, this is an auto-generated message.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;BCGOV-SR-NOTIF09 CSC Service Request Closed Incomplete (Requestor)&lt;/name&gt;&lt;omit_watermark&gt;true&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields/&gt;&lt;recipient_groups/&gt;&lt;recipient_users/&gt;&lt;reply_to/&gt;&lt;send_self&gt;false&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;Service Request Item ${number} Has Been Closed Incomplete&lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;NKUMAR&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-10-23 16:44:33&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d0cb768adb996b0050479eb6db961976&lt;/sys_id&gt;&lt;sys_mod_count&gt;17&lt;/sys_mod_count&gt;&lt;sys_name&gt;BCGOV-SR-NOTIF09 CSC Service Request Closed Incomplete (Requestor)&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_d0cb768adb996b0050479eb6db961976&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;MUNGIM&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-11-07 17:50:17&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template/&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1119807638</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 07 a">7f1205c7dbe52300fe199236db96194a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-07 20:41:00</sys_created_on>
+<sys_id>731205c7dbe52300fe199236db96194c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166ef4bd7db0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-07 20:41:00</sys_updated_on>
+<table>sc_req_item</table>
+<target_name>BCGOV-SR-NOTIF09 CSC Service Request Closed Incomplete (Requestor)</target_name>
+<type>Notification</type>
+<update_domain>global</update_domain>
+<update_guid>c30b94cffea523005267da7dcfd49f49</update_guid>
+<update_guid_history>c30b94cffea523005267da7dcfd49f49:1119807638,1127944b3da523007ec152207a3cf5e7:956217393,dd85cb9254e5670041c0810460f47045:1839943611,d917ea5ef3656700fce3bd570d1d5ed3:-160612073,26866e1e266567004e0d97b818a0dedc:1410839975,d8fd869a532567002e2d21d4ba71abc6:65338350,0cf28e22b89d6b000b25f289b6e1dc74:1936909233,27cd0cee19d5ab000fa7a13f1322a59c:-768092030,8d6c249a4fdd6b009962a253e8a0231c:1284315079,eb13dcd2eedd2b00ea73c0026f84797b:860056755,0aaacb46ccd96b00e0db0640c81e4afc:1344501615,aff9cf06a6d96b0007b1e51fa7faae5a:105459342,a8274b4237d96b00d02681cdeb21716e:-466139106,b083478e32996b00bfd3b42718bdbff0:1401277621,d6efbe0eb4996b005d8487f23a1723ea:1437389924,7adf724e2a996b0046c8a7691d25e2d1:-1114785378,445c368a42996b008493fcc763bfde40:-1605648962,ca2cba8afb996b00228db51fcac35601:-776049178</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_email_action_6698337ddbc0230066d656086896192b</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition&gt;&lt;![CDATA[// 06/14/18: This default condition evaluates if the person making the update/triggering this notification is has the bcgov_data_corrector role (granted by group: Access_Data_Correction)
+answer = new bcHelperUtil().isDataCorrector(current.sys_updated_by);]]&gt;&lt;/advanced_condition&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="IT Service Management" name="IT Service Management"&gt;b69d02137f232200ee2e108c3ffa9142&lt;/category&gt;&lt;collection&gt;sc_req_item&lt;/collection&gt;&lt;condition table="sc_req_item"&gt;state=1^cat_item.sc_catalogsLIKE4deda47edb1113003d1dd001cf9619b2^cat_item.sc_catalogsNOT LIKEbfbcbddcdb686740fe199236db9619d8^EQ&lt;item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/&gt;&lt;item endquery="false" field="cat_item.sc_catalogs" goto="false" newquery="false" operator="LIKE" or="false" value="4deda47edb1113003d1dd001cf9619b2"/&gt;&lt;item endquery="false" field="cat_item.sc_catalogs" goto="false" newquery="false" operator="NOT LIKE" or="false" value="bfbcbddcdb686740fe199236db9619d8"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description&gt;Notification to the Requested by and/or the Requested for, as recorded on the Request Item. A notification is sent to one or both of these people based on whether the 'notify' flag is checked on. This notification is generated when service request item is created from a catalog item in the OCIO Catalog.&amp;#13;
+&lt;/description&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;event_name&gt;OCIO_SR_sc_req_item.inserted.notify&lt;/event_name&gt;&lt;event_parm_1&gt;true&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;event&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p&gt;${event.parm2}, Service Request Item ${mail_script:URI_REF_SP} has been opened: ${cat_item}&lt;/p&gt;
+&lt;p&gt;${cat_item.short_description}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Request Number:&lt;/strong&gt; ${request.number}&lt;br /&gt; &lt;strong&gt;Request Item Number:&lt;/strong&gt; ${mail_script:URI_REF_SP}&lt;br /&gt; &lt;strong&gt;Requested For:&lt;/strong&gt; ${u_item_requested_for.first_name} ${u_item_requested_for.last_name}&lt;br /&gt; &lt;strong&gt;Requested By:&lt;/strong&gt; ${u_item_requested_by.first_name} ${u_item_requested_by.last_name}&lt;/p&gt;
+&lt;p&gt;To view updates on this service request please visit the &lt;a href="/mysc" target="_blank"&gt;Self-Serve Portal&lt;/a&gt;. Alternatively, you can contact the Customer Service Centre at (250) 387-7000 option 3 or via email at &lt;a href="mailto:cschelp@gov.bc.ca"&gt;cschelp@gov.bc.ca&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Please do not reply, this is an auto-generated message.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;BCGOV-SR-NOTIF01 Service Request Opened (Requestor)&lt;/name&gt;&lt;omit_watermark&gt;true&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields/&gt;&lt;recipient_groups/&gt;&lt;recipient_users/&gt;&lt;reply_to/&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;Service Request Item ${number} Has Been Opened&lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;NKUMAR&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-08-21 23:13:49&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;6698337ddbc0230066d656086896192b&lt;/sys_id&gt;&lt;sys_mod_count&gt;44&lt;/sys_mod_count&gt;&lt;sys_name&gt;BCGOV-SR-NOTIF01 Service Request Opened (Requestor)&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_6698337ddbc0230066d656086896192b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;MUNGIM&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-11-07 18:27:01&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template/&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-448651926</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 07 a">7f1205c7dbe52300fe199236db96194a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-07 20:41:00</sys_created_on>
+<sys_id>771205c7dbe52300fe199236db96194b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166ef6d79c40000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-07 20:41:00</sys_updated_on>
+<table>sc_req_item</table>
+<target_name>BCGOV-SR-NOTIF01 Service Request Opened (Requestor)</target_name>
+<type>Notification</type>
+<update_domain>global</update_domain>
+<update_guid>d973680bbce52300663bc2d63214da4b</update_guid>
+<update_guid_history>d973680bbce52300663bc2d63214da4b:-448651926,1352a8c754e52300a3f6eb0481a45481:1498864968,8b7950cf3ea52300f49febe92505a9ee:873894906,af6614c70ea52300ffe5440bc87bdd27:-400054955,05815c839ea52300c95ad3ed3b59d711:-1240607185,81844392cce5670063a90d2580a78aef:32853844,1fb1269ae8656700400ae4d7ac1397d4:2056825739,7369d29215656700cca40bd78352914c:1783053248,76d50e16dc256700db520f7beeba0082:1683623642,d96582169d2567000e59480029b98f74:1589390736,76a3fd52d3e1670009d81db07dded5a6:312049565,3cb0f19e21a16700238ba836ca2761e6:-462170171,c640f11a6ba167009e315e651b46b022:290556803,654b528571ad2340b1134b11535605e7:-497449530,324996452ead2340f703f0962b480e50:-1867039484,3e5fd54df6e9234090735184cc2c286e:-2131213699,a3d4d9055ce923403103d961b084b71e:-1585436964,4f7459c1b8e92340d0a3c1355a0af107:1429685402,0e60118150e92340a9f6f14286b39948:-1165770083,eebfcd81efe92340e2964f4c0818f0a6:761583377,59ae993853a12340971fba0c7316c729:260438666,c85b9d3424a12340047bcd243f44b951:373263161,7e5919f090a123402ca3f5b04b59158a:-142352667,aad27ddf5f49a300b610d65d77d9250a:1420968185,4ed1f9df5449a30097d795c132a3ca0d:1071069431,937f651fb249a30054390f787f782389:-256154955,1e5adf7abfc963001b1642dd8ad5ef09:210817274,fb07133a38c963001c1fd085cc353057:1071069431,f0670326f4416300ea11c5882e75aaae:1906732688,a4f87a786ad02300038db8c3aa367dbc:1071069431,81a7697008102f00da6a2561979aeb3a:-525170827,be372170ba102f0053ac3a22daa7864d:937937634,79f32c34501ceb00a708d23ef9efd17a:-525170827,fc9368340e1ceb00db5008ca201a14ec:937937634,f110286cad14230042fab19e700bf2f5:413118041,9cdf906ca5142300ae01b39b0da48f35:-958713403,6e5e1c2c871423001f50fd0d26697565:-1691741570,8cd95068011423006365c9c655157337:-525170827,7d5da71c6d50eb00164bf89a870a781e:-722423858,773d6f5c1450eb007b9ff23526eaf5e8:-1971833911,1b012354bc50eb00baf5ad63cbb0ed1c:-1766000608,64806f14a550eb00158cc4c00a908f42:111169913,c14027149450eb0024018aa1df85b703:-1766000608,e2ff97904750eb00fd3d85a13271430f:111169913,e6ba5f105e50eb000367bb6fce8166ae:-1766000608,de1a1710a750eb001b6f15aa30118c9d:111169913,7e493f7dfec02300dd3a934ff1c0d658:-1766000608,35193f3d1ec023002548d5f88102dda4:-174281765</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_15cb3a4ddbed234050479eb6db961906</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>false</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition table="sc_req_item.comments">u_item_requested_by=javascript:gs.getUserID()^ORu_item_requested_for=javascript:gs.getUserID()^active=true^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><description>Allow write for comments in sc_req_item, if the ACL condition (u_item_requested_by=javascript:gs.getUserID()^ORu_item_requested_for=javascript:gs.getUserID()^active=true^EQ) evaluates to true.</description><name>sc_req_item.comments</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>MKURIAKO</sys_created_by><sys_created_on>2018-11-02 00:25:53</sys_created_on><sys_id>15cb3a4ddbed234050479eb6db961906</sys_id><sys_mod_count>2</sys_mod_count><sys_name>sc_req_item.comments</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_15cb3a4ddbed234050479eb6db961906</sys_update_name><sys_updated_by>MKURIAKO</sys_updated_by><sys_updated_on>2018-11-07 17:12:34</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-308313110</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 07 a">7f1205c7dbe52300fe199236db96194a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-07 20:41:00</sys_created_on>
+<sys_id>7f1205c7dbe52300fe199236db96194c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166ef29514c0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-07 20:41:00</sys_updated_on>
+<table>sc_req_item.comments</table>
+<target_name>sc_req_item.comments</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>666254c34da52300071eb52bcfae1a58</update_guid>
+<update_guid_history>666254c34da52300071eb52bcfae1a58:-308313110,d1cc768d95ed23408241454d9b0c9e26:-1559114895,b30cfa4d9fed23409473f6c188ac5d71:958508798</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_d31b0b1adbe56700fe199236db96196c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;condition/&gt;&lt;description&gt;Service Managers can see thier sector tickets&lt;/description&gt;&lt;name&gt;sc_req_item.comments&lt;/name&gt;&lt;operation display_value="write"&gt;write&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[if(new bcHelperUtil_RITM().canRead(current)){
+	answer = true;
+} else {
+	answer = false;
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;MKURIAKO&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-11-05 22:44:05&lt;/sys_created_on&gt;&lt;sys_id&gt;d31b0b1adbe56700fe199236db96196c&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;sc_req_item.comments&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_d31b0b1adbe56700fe199236db96196c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;MKURIAKO&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-11-07 16:24:24&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+<payload_hash>37345332</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 07 a">7f1205c7dbe52300fe199236db96194a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-07 20:41:00</sys_created_on>
+<sys_id>842205c7dbe52300fe199236db96194d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166eefd3a560000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-07 20:41:00</sys_updated_on>
+<table>sc_req_item.comments</table>
+<target_name>sc_req_item.comments</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>55678c0b92652300ca4aa46b097cbdb6</update_guid>
+<update_guid_history>55678c0b92652300ca4aa46b097cbdb6:37345332,171b0b1ab2e5670021e578d2baf60c6f:-1932988147</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_email_action_66040ea6dbc0230066d6560868961929</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition&gt;&lt;![CDATA[// 06/14/18: This default condition evaluates if the person making the update/triggering this notification is has the bcgov_data_corrector role (granted by group: Access_Data_Correction)
+answer = new bcHelperUtil().isDataCorrector(current.sys_updated_by);]]&gt;&lt;/advanced_condition&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="IT Service Management" name="IT Service Management"&gt;b69d02137f232200ee2e108c3ffa9142&lt;/category&gt;&lt;collection&gt;sc_task&lt;/collection&gt;&lt;condition table="sc_task"&gt;assignment_groupISNOTEMPTY^stateIN-5,1,2^assigned_toISEMPTY^EQ&lt;item endquery="false" field="assignment_group" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/&gt;&lt;item endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="-5,1,2"/&gt;&lt;item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description&gt;Notification to the catalog task 'assigned to' when there is a change to the request item or task: additional comments, work notes, or attachments; or where a new call record is linked to an existing request. This is sent to the assignment group when there is no assigned to.&lt;/description&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;event_name&gt;SC-task_notification_assignee&lt;/event_name&gt;&lt;event_parm_1&gt;false&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;event&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p&gt;Service Request Item ${request_item.URI_REF} has been updated: ${short_description}&lt;/p&gt;
+&lt;p&gt;${mail_script:last_comment_or_worknote-SC}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Updated on:&lt;/strong&gt; ${request_item.sys_updated_on}&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;BCGOV-SR-NOTIF05 Service Request Updated (Assignment Group)&lt;/name&gt;&lt;omit_watermark&gt;true&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields&gt;assignment_group&lt;/recipient_fields&gt;&lt;recipient_groups/&gt;&lt;recipient_users/&gt;&lt;reply_to/&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;Service request item ${request_item.number} Has Been Updated&lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;NKUMAR&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-08-23 22:38:11&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;66040ea6dbc0230066d6560868961929&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_name&gt;BCGOV-SR-NOTIF05 Service Request Updated (Assignment Group)&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_66040ea6dbc0230066d6560868961929&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;MUNGIM&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-11-07 18:26:18&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template/&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>380753347</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 07 a">7f1205c7dbe52300fe199236db96194a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-07 20:41:00</sys_created_on>
+<sys_id>b31205c7dbe52300fe199236db96194b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166ef6cd24c0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-07 20:41:00</sys_updated_on>
+<table>sc_task</table>
+<target_name>BCGOV-SR-NOTIF05 Service Request Updated (Assignment Group)</target_name>
+<type>Notification</type>
+<update_domain>global</update_domain>
+<update_guid>b643e40b07e52300b91d6f99c4a55f0e</update_guid>
+<update_guid_history>b643e40b07e52300b91d6f99c4a55f0e:380753347,236a7aaa9961a7006591ea23a23b3223:-1885566066,c884aeda70656700401094036ad9ceca:838407391,cc575a923c656700dfab1f63a583a7fa:954503985,fe569692e06567000516323367d0cd15:1601332687,edb0771624d02300e255ef5036a130ce:-279848657,190077d243d02300093e2deb80b993d8:-121808974,c85c2b120ad02300e56090bd4ce3d233:-1007654325,d22ceb12c0d023002b3e885514792035:-1973003,0b82265e969c2340cc94b3b816005489:-1403437079,43373d8907182f00d92aa717b504ab87:636730557,dca406e6d5c02300ad3ac95fb304120d:1504133651,dca406e6d5c02300ad3ac95fb304120d:1504133651,631482a625c02300415e3358b573b7c9:-1444786874</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_email_action_ee53bb79dbc0230066d656086896193c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition&gt;&lt;![CDATA[// 06/14/18: This default condition evaluates if the person making the update/triggering this notification is has the bcgov_data_corrector role (granted by group: Access_Data_Correction)
+answer = new bcHelperUtil().isDataCorrector(current.sys_updated_by);]]&gt;&lt;/advanced_condition&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="IT Service Management" name="IT Service Management"&gt;b69d02137f232200ee2e108c3ffa9142&lt;/category&gt;&lt;collection&gt;sc_req_item&lt;/collection&gt;&lt;condition table="sc_req_item"&gt;state=3^cat_item.sc_catalogsNOT LIKEbfbcbddcdb686740fe199236db9619d8^cat_item.sc_catalogsLIKE4deda47edb1113003d1dd001cf9619b2^EQ&lt;item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/&gt;&lt;item endquery="false" field="cat_item.sc_catalogs" goto="false" newquery="false" operator="NOT LIKE" or="false" value="bfbcbddcdb686740fe199236db9619d8"/&gt;&lt;item endquery="false" field="cat_item.sc_catalogs" goto="false" newquery="false" operator="LIKE" or="false" value="4deda47edb1113003d1dd001cf9619b2"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description&gt;Notification to the Requested by and/or the Requested for, as recorded on the Request Item. A notification is sent to one or both of these people based on whether the 'notify' flag is checked on. This notification is for a service request item for a catalog item in the OCIO Catalog. It is generated when the state of the Request Item is changed to 'Closed Complete'.&lt;/description&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;event_name&gt;OCIO_SR_sc_req_item.closed.notify&lt;/event_name&gt;&lt;event_parm_1&gt;true&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;event&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p&gt;${event.parm2}, Service Request Item ${mail_script:URI_REF_SP} has been closed complete: ${cat_item}&lt;/p&gt;
+&lt;p&gt;${cat_item.short_description}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Request Number:&lt;/strong&gt; ${request.number}&lt;br /&gt; &lt;strong&gt;Request Item Number:&lt;/strong&gt; ${mail_script:URI_REF_SP}&lt;br /&gt; &lt;strong&gt;Requested For:&lt;/strong&gt; ${u_item_requested_for.first_name} ${u_item_requested_for.last_name}&lt;br /&gt; &lt;strong&gt;Requested By:&lt;/strong&gt; ${u_item_requested_by.first_name} ${u_item_requested_by.last_name}&lt;/p&gt;
+&lt;p&gt;To view updates on this service request please visit the &lt;a href="/mysc" target="_blank"&gt;Self-Serve Portal&lt;/a&gt;. Alternatively, you can contact the Customer Service Centre at (250) 387-7000 option 3 or via email at &lt;a href="mailto:cschelp@gov.bc.ca"&gt;cschelp@gov.bc.ca&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Please do not reply, this is an auto-generated message.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;BCGOV-SR-NOTIF02 Service Request Closed Complete (Requestor)&lt;/name&gt;&lt;omit_watermark&gt;true&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields/&gt;&lt;recipient_groups/&gt;&lt;recipient_users/&gt;&lt;reply_to/&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;Service Request Item ${number} Has Been Closed Complete&lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;NKUMAR&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-08-21 22:49:24&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ee53bb79dbc0230066d656086896193c&lt;/sys_id&gt;&lt;sys_mod_count&gt;24&lt;/sys_mod_count&gt;&lt;sys_name&gt;BCGOV-SR-NOTIF02 Service Request Closed Complete (Requestor)&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_ee53bb79dbc0230066d656086896193c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;MUNGIM&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-11-07 18:27:20&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template/&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1830462814</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 07 a">7f1205c7dbe52300fe199236db96194a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-07 20:41:00</sys_created_on>
+<sys_id>bb1205c7dbe52300fe199236db96194c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166ef6dc4ef0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-07 20:41:00</sys_updated_on>
+<table>sc_req_item</table>
+<target_name>BCGOV-SR-NOTIF02 Service Request Closed Complete (Requestor)</target_name>
+<type>Notification</type>
+<update_domain>global</update_domain>
+<update_guid>7d83280b7ee523009a569a2f7f8bb3c3</update_guid>
+<update_guid_history>7d83280b7ee523009a569a2f7f8bb3c3:-1830462814,fe72e8c759e52300c994eab46160a6b8:-1963749776,fcd914cf7ba5230049d681b22870756b:-1936498266,0b96dc0ba6a523002cdc6eb84b6053cb:-986081429,f115dc47c9a523002adad05fb2056c9f:521406509,afd45c47aaa52300fff295b3273186eb:1246263235,d6b4cf52e0e56700113a619b6ca2d49d:-702618621,2d82e29ab16567001d82a3d86766ad5d:471049937,1d991616cc656700f92d03ff26fe2805:1828224255,3229129284656700349777bdc82600d4:-1863628055,0515bd5289e16700777fe79796a27537:1087708935,93d0b99e04a16700ce47981efe25881a:809918305,9f4a1a4529ad234034516489dd9995ad:-96019393,0049d645e6ad23406a6cfd01f91de7a6:-1797692665,99275205b6ad23405ef65dc4d86d6519:-439190226,36f55e41bdad2340638ce85aecc20386:147035994,2fb59281acad23400b85633769612da6:416521970,b655de8d366d23404e71efec41772643:-898732038,fce11a0159ad2340b5b63b5eb459b18e:1556505489,62153d536089a3002a3c340f07bd4668:2094148203,c80a5c6803142300130cc7d4429a8a61:1749565357,4c04bbb91fc023005469793b488a5e7f:1991922848,75e3bb7966c0230071607f043f6eb741:1795353920,fcc37f79c5c02300e3beef19c747bc5a:132303670,dc8377b9d4c02300aff94f627cdd8dc8:1033244903</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_email_action_c9058ae4db116700fe199236db961904</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition&gt;&lt;![CDATA[// 06/14/18: This default condition evaluates if the person making the update/triggering this notification is has the bcgov_data_corrector role (granted by group: Access_Data_Correction)
+answer = new bcHelperUtil().isDataCorrector(current.sys_updated_by);]]&gt;&lt;/advanced_condition&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="IT Service Management" name="IT Service Management"&gt;b69d02137f232200ee2e108c3ffa9142&lt;/category&gt;&lt;collection&gt;sc_req_item&lt;/collection&gt;&lt;condition table="sc_req_item"&gt;state=1^cat_item.sc_catalogsLIKEbfbcbddcdb686740fe199236db9619d8^EQ&lt;item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/&gt;&lt;item endquery="false" field="cat_item.sc_catalogs" goto="false" newquery="false" operator="LIKE" or="false" value="bfbcbddcdb686740fe199236db9619d8"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description&gt;Notification to the Requested by and/or the Requested for, as recorded on the Request Item. A notification is sent to one or both of these people based on whether the 'notify' flag is checked on. This notification is sent when a Service Request Item is opened.&lt;/description&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;event_name&gt;SC_request.inserted.notify_CSC&lt;/event_name&gt;&lt;event_parm_1&gt;true&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;event&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p&gt;${event.parm2}, Service Request Item ${number} has been opened: ${mail_script:callrecord.short_description}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Request Number:&lt;/strong&gt; ${request.number}&lt;br /&gt; &lt;strong&gt;Request Item Number:&lt;/strong&gt; ${number}&lt;br /&gt; &lt;strong&gt;Requested For:&lt;/strong&gt; ${u_item_requested_for.first_name} ${u_item_requested_for.last_name}&lt;br /&gt; &lt;strong&gt;Requested By:&lt;/strong&gt; ${u_item_requested_by.first_name} ${u_item_requested_by.last_name}&lt;/p&gt;
+&lt;p&gt;For updates on your Service Request please contact the Customer Service Centre at (250) 387-7000 option 3 or via email at &lt;a href="mailto:cschelp@gov.bc.ca"&gt;cschelp@gov.bc.ca&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Please do not reply, this is an auto-generated message.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;BCGOV-SR-NOTIF07 CSC Service Request Opened (Requestor) &lt;/name&gt;&lt;omit_watermark&gt;true&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields/&gt;&lt;recipient_groups/&gt;&lt;recipient_users/&gt;&lt;reply_to/&gt;&lt;send_self&gt;false&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;Service Request Item ${number} Has Been Opened&lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;NKUMAR&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-10-18 20:55:01&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c9058ae4db116700fe199236db961904&lt;/sys_id&gt;&lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;&lt;sys_name&gt;BCGOV-SR-NOTIF07 CSC Service Request Opened (Requestor) &lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_c9058ae4db116700fe199236db961904&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;MUNGIM&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-11-07 17:49:07&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template/&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1315396077</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 07 a">7f1205c7dbe52300fe199236db96194a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-07 20:41:00</sys_created_on>
+<sys_id>bf1205c7dbe52300fe199236db96194b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166ef4ac9bb0000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-07 20:41:00</sys_updated_on>
+<table>sc_req_item</table>
+<target_name>BCGOV-SR-NOTIF07 CSC Service Request Opened (Requestor) </target_name>
+<type>Notification</type>
+<update_domain>global</update_domain>
+<update_guid>deca1ccf1da5230051d4d12b39cf4aba</update_guid>
+<update_guid_history>deca1ccf1da5230051d4d12b39cf4aba:1315396077,03f694872aa52300342d48039a630be0:73019826,cbb1d0c35ea52300a0e8f8e651404494:-218328264,3134c7523fe56700f3067ee419386024:-591134307,8ef30b5265e56700151b7385b0cb31fd:-218328264,7dd66a5e92656700e5e74c7502a7dff9:1712058204,59c66a1e866567009426d92cb4ac9cfc:246114236,3765ee9a84656700ac3b9870ecb770e5:1059316508,635d4a9a53256700140ef20b82033c64:-86856896,a9f0ff74575da700f5c06f6b3eda159d:-1516597535,f98f23b4425da700c5f714f7804ae2fd:1786743571,d8d50ee4d91167002ea43889454670f1:-324779871,8a854ee45a1167000ce4bb56c0afcbc6:903330904</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_ca0b871adbe56700fe199236db96192e</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;condition/&gt;&lt;description&gt;Service Managers can can edit their sector records&lt;/description&gt;&lt;name&gt;sc_req_item&lt;/name&gt;&lt;operation display_value="write"&gt;write&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[if(new bcHelperUtil_RITM().canRead(current)){
+	answer = true;
+} else {
+	answer = false;
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;MKURIAKO&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-11-05 22:43:43&lt;/sys_created_on&gt;&lt;sys_id&gt;ca0b871adbe56700fe199236db96192e&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;sc_req_item&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_ca0b871adbe56700fe199236db96192e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;MKURIAKO&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-11-07 16:24:11&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1481330768</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 07 a">7f1205c7dbe52300fe199236db96194a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-07 20:41:00</sys_created_on>
+<sys_id>c02205c7dbe52300fe199236db96194d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166eefd04750000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-07 20:41:00</sys_updated_on>
+<table>sc_req_item</table>
+<target_name>sc_req_item</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>bd5708c78c652300ad7e56f6745f0d8d</update_guid>
+<update_guid_history>bd5708c78c652300ad7e56f6745f0d8d:-1481330768,0308b7165aa96700bda78cba3be501b4:-458151369,c60b871ae9e56700ba716ef9d6cb2a31:-1680662667</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_email_action_e0f6c62adbc0230066d65608689619fb</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition&gt;&lt;![CDATA[// 06/14/18: This default condition evaluates if the person making the update/triggering this notification is has the bcgov_data_corrector role (granted by group: Access_Data_Correction)
+answer = new bcHelperUtil().isDataCorrector(current.sys_updated_by);]]&gt;&lt;/advanced_condition&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="IT Service Management" name="IT Service Management"&gt;b69d02137f232200ee2e108c3ffa9142&lt;/category&gt;&lt;collection&gt;sc_req_item&lt;/collection&gt;&lt;condition table="sc_req_item"&gt;state=4^cat_item.sc_catalogsLIKE4deda47edb1113003d1dd001cf9619b2^cat_item.sc_catalogsNOT LIKEbfbcbddcdb686740fe199236db9619d8^EQ&lt;item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="4"/&gt;&lt;item endquery="false" field="cat_item.sc_catalogs" goto="false" newquery="false" operator="LIKE" or="false" value="4deda47edb1113003d1dd001cf9619b2"/&gt;&lt;item endquery="false" field="cat_item.sc_catalogs" goto="false" newquery="false" operator="NOT LIKE" or="false" value="bfbcbddcdb686740fe199236db9619d8"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description&gt;Notification to the Requested by and/or the Requested for, as recorded on the Request Item. A notification is sent to one or both of these people based on whether the 'notify' flag is checked on. This notification is for a service request item for a catalog item in the OCIO Catalog. It is generated when the state of the Request Item is changed to 'Closed Incomplete'.&amp;#13;
+&lt;/description&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;event_name&gt;OCIO_SR_sc_req_item.closed.notify&lt;/event_name&gt;&lt;event_parm_1&gt;true&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;event&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p&gt;${event.parm2}, Service Request Item ${mail_script:URI_REF_SP} has been closed Incomplete: ${cat_item}&lt;/p&gt;
+&lt;p&gt;Close notes: ${close_notes}&lt;/p&gt;
+&lt;p&gt;${cat_item.short_description}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Request Number:&lt;/strong&gt; ${request.number}&lt;br /&gt; &lt;strong&gt;Request Item Number:&lt;/strong&gt; ${mail_script:URI_REF_SP}&lt;br /&gt; &lt;strong&gt;Requested For:&lt;/strong&gt; ${u_item_requested_for.first_name} ${u_item_requested_for.last_name}&lt;br /&gt; &lt;strong&gt;Requested By:&lt;/strong&gt; ${u_item_requested_by.first_name} ${u_item_requested_by.last_name}&lt;/p&gt;
+&lt;p&gt;To view updates on this service request please visit the &lt;a href="/mysc" target="_blank"&gt;Self-Serve Portal&lt;/a&gt;. Alternatively, you can contact the Customer Service Centre at (250) 387-7000 option 3 or via email at &lt;a href="mailto:cschelp@gov.bc.ca"&gt;cschelp@gov.bc.ca&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Please do not reply, this is an auto-generated message.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;BCGOV-SR-NOTIF04 Service Request Closed Incomplete (Requestor)&lt;/name&gt;&lt;omit_watermark&gt;true&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields/&gt;&lt;recipient_groups/&gt;&lt;recipient_users/&gt;&lt;reply_to/&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;Service Request Item ${number} Has Been Closed Incomplete&lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;NKUMAR&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-08-23 22:50:57&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e0f6c62adbc0230066d65608689619fb&lt;/sys_id&gt;&lt;sys_mod_count&gt;20&lt;/sys_mod_count&gt;&lt;sys_name&gt;BCGOV-SR-NOTIF04 Service Request Closed Incomplete (Requestor)&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_e0f6c62adbc0230066d65608689619fb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;MUNGIM&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-11-07 18:27:43&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template/&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-501111309</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 07 a">7f1205c7dbe52300fe199236db96194a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-07 20:41:00</sys_created_on>
+<sys_id>f71205c7dbe52300fe199236db96194c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166ef6e1e680000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-07 20:41:00</sys_updated_on>
+<table>sc_req_item</table>
+<target_name>BCGOV-SR-NOTIF04 Service Request Closed Incomplete (Requestor)</target_name>
+<type>Notification</type>
+<update_domain>global</update_domain>
+<update_guid>a793e80bdde52300959d809085104a92</update_guid>
+<update_guid_history>a793e80bdde52300959d809085104a92:-501111309,6aa26cc7bee523003701880efef964db:-424899185,1a4a58cfb2a523006da704d2e2c726e6:1801957511,55c6904bfea52300fe544a7aab0d01cd:-712823156,22054f528be56700afd65970d68878e2:622265110,b2e40792dde56700c006474f4a065295:652415931,aef36edaa965670076c53a31d0b5d404:-897983558,600a5616ea65670004f0ba28706b9cc1:354404863,b7671e524565670076d825813cf910e0:-699769259,ddabbdd63ae1670096d3102251694969:-756765922,e71a56454cad2340a78936aa9da58c26:-1186834236,2939964512ad23409ed930d4bf999d4a:-538530224,3af89245adad234048e623d3998d573d:1299685463,04e835174b89a300715b70f7b23dd3ad:-187384488,8d7a90a8d81423002c4375d4ec61f4aa:-302806054,33530af3d30c6b0055d5a0091e578b14:-512864341,0da206f3270c6b003b8bb1d39bba9c6a:-1727346120,d78eb533170c6b0080c2ece7169aa756:-2105820955,965bd5b331886b005c9fddffc4799433:1112672546,787a51b304886b005de7e02f4898180e:1060279922,b9a7022a17c02300a8f0875c4c7db6e4:1933323316,92070e2a21c0230094fbe4a7a7fd5b74:1917037619</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_email_action_beba922cdb516700fe199236db9619fa</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition&gt;&lt;![CDATA[// 06/14/18: This default condition evaluates if the person making the update/triggering this notification is has the bcgov_data_corrector role (granted by group: Access_Data_Correction)
+answer = new bcHelperUtil().isDataCorrector(current.sys_updated_by);]]&gt;&lt;/advanced_condition&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="IT Service Management" name="IT Service Management"&gt;b69d02137f232200ee2e108c3ffa9142&lt;/category&gt;&lt;collection&gt;sc_req_item&lt;/collection&gt;&lt;condition table="sc_req_item"&gt;state=3^cat_item.sc_catalogsLIKEbfbcbddcdb686740fe199236db9619d8^EQ&lt;item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/&gt;&lt;item endquery="false" field="cat_item.sc_catalogs" goto="false" newquery="false" operator="LIKE" or="false" value="bfbcbddcdb686740fe199236db9619d8"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description&gt;Notification to the Requested by and/or the Requested for, as recorded on the Request Item. A notification is sent to one or both of these people based on whether the 'notify' flag is checked on. This notification is sent when a Service Request Item state is changed to 'Closed Complete'. This happens when the service request item is fulfilled.&lt;/description&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;event_name&gt;SC_request.closed.notify_CSC&lt;/event_name&gt;&lt;event_parm_1&gt;true&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;event&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p&gt;${event.parm2}, Service Request Item ${number} has been Closed Complete: ${mail_script:callrecord.short_description}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Close notes:&lt;/strong&gt; ${close_notes}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Request Number:&lt;/strong&gt; ${request.number}&lt;br /&gt; &lt;strong&gt;Request Item Number:&lt;/strong&gt; ${number}&lt;br /&gt; &lt;strong&gt;Requested For:&lt;/strong&gt; ${u_item_requested_for.first_name} ${u_item_requested_for.last_name}&lt;br /&gt; &lt;strong&gt;Requested By:&lt;/strong&gt; ${u_item_requested_by.first_name} ${u_item_requested_by.last_name}&lt;/p&gt;
+&lt;p&gt;For updates on your Service Request please contact the Customer Service Centre at (250) 387-7000 option 3 or via email at &lt;a href="mailto:cschelp@gov.bc.ca"&gt;cschelp@gov.bc.ca&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Please do not reply, this is an auto-generated message.&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;BCGOV-SR-NOTIF08 CSC Service Request Closed Complete (Requestor) &lt;/name&gt;&lt;omit_watermark&gt;true&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields/&gt;&lt;recipient_groups/&gt;&lt;recipient_users/&gt;&lt;reply_to/&gt;&lt;send_self&gt;false&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;Service Request Item ${number} Has Been Closed Complete&lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;NKUMAR&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-10-18 22:29:12&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;beba922cdb516700fe199236db9619fa&lt;/sys_id&gt;&lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;&lt;sys_name&gt;BCGOV-SR-NOTIF08 CSC Service Request Closed Complete (Requestor) &lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_beba922cdb516700fe199236db9619fa&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;MUNGIM&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-11-07 17:49:44&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template/&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;100&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-335075982</payload_hash>
+<remote_update_set display_value="OCIO SR 2018 11 07 a">7f1205c7dbe52300fe199236db96194a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>JAJOSE</sys_created_by>
+<sys_created_on>2018-11-07 20:41:00</sys_created_on>
+<sys_id>fb1205c7dbe52300fe199236db96194b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166ef4b58640000001</sys_recorded_at>
+<sys_updated_by>JAJOSE</sys_updated_by>
+<sys_updated_on>2018-11-07 20:41:00</sys_updated_on>
+<table>sc_req_item</table>
+<target_name>BCGOV-SR-NOTIF08 CSC Service Request Closed Complete (Requestor) </target_name>
+<type>Notification</type>
+<update_domain>global</update_domain>
+<update_guid>83ea10032fe52300e0cf6c4a9f36dd45</update_guid>
+<update_guid_history>83ea10032fe52300e0cf6c4a9f36dd45:-335075982,c817940b1aa52300dd3582dc9d40eeb4:1379718925,c4758b9212e56700ce939217d7b7ce04:174833649,57f62e5e2a6567006fb0c79e8e90d8d1:-103131251,a3f5aeda7b656700cc3a3d35c18b5cd0:-1226651955,f29d8e9ae12567009db0c28a2f3dcae7:1463439797,017ca49aacdd6b007eba8f671a93b83d:-221657387,d53ccf86a2d96b0069e481d0bd49e406:-2125156543,ee96e3307d5da7007ef993a5fb438543:1478390434,f02f1ff8be1da700ca71c62173d867a3:-1247692077,35c597349d1da700ffb5951d62d985fd:-1275665710,874b122cdb51670069a793043c1bba69:-1247692077,f51bdae873516700a7585eb33a4fce50:-1765775178</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
